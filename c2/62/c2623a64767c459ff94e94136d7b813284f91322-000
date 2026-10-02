@@ -1,0 +1,175 @@
+{
+  "checkedAt": "2026-10-02T18:09:43.062Z",
+  "projectCount": 5,
+  "issues": [],
+  "louisiana": {
+    "indexId": "louisiana-bayou",
+    "projectId": "louisiana-bayou",
+    "name": "Louisiana Bayou",
+    "cloudFolder": "pages/ZenRayAssets/louisiana-bayou",
+    "locations": {
+      "tmp": [
+        {
+          "sourceId": "shorts",
+          "namespace": "tmp",
+          "localPath": "/Users/zenray/.claude/tmp/post-3components-zenray-houdini",
+          "cloudFolder": "pages/ZenRayAssets/louisiana-bayou/sources/tmp/shorts",
+          "include": null,
+          "exclude": [],
+          "optional": false,
+          "present": true,
+          "count": 16,
+          "bytes": 54220597
+        },
+        {
+          "sourceId": "workshop",
+          "namespace": "tmp",
+          "localPath": "/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana",
+          "cloudFolder": "pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop",
+          "include": null,
+          "exclude": [],
+          "optional": false,
+          "present": true,
+          "count": 142,
+          "bytes": 345631459
+        }
+      ],
+      "memory": [
+        {
+          "sourceId": "posts",
+          "namespace": "memory",
+          "localPath": "/Users/zenray/.claude/Memory1/SocialMedia/Posts/short-02-louisiana-bayou-hda",
+          "cloudFolder": "pages/ZenRayAssets/louisiana-bayou/sources/memory/posts",
+          "include": null,
+          "exclude": [],
+          "optional": false,
+          "present": true,
+          "count": 8,
+          "bytes": 29708
+        },
+        {
+          "sourceId": "project-notes",
+          "namespace": "memory",
+          "localPath": "/Users/zenray/.claude/Memory1/Projects/louisiana-bayou",
+          "cloudFolder": "pages/ZenRayAssets/louisiana-bayou/sources/memory/project-notes",
+          "include": null,
+          "exclude": [],
+          "optional": false,
+          "present": true,
+          "count": 1,
+          "bytes": 1664
+        }
+      ],
+      "houdini": [
+        {
+          "sourceId": "production",
+          "namespace": "houdini",
+          "localPath": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou",
+          "cloudFolder": "pages/ZenRayAssets/louisiana-bayou/sources/houdini/production",
+          "include": null,
+          "exclude": [],
+          "optional": false,
+          "present": true,
+          "count": 413,
+          "bytes": 736938476
+        },
+        {
+          "sourceId": "project-files",
+          "namespace": "houdini",
+          "localPath": "/Users/zenray/Create/Build/Productions/ZenRayHoudini",
+          "cloudFolder": "pages/ZenRayAssets/louisiana-bayou/sources/houdini/project-files",
+          "include": [
+            "LouisianaBayou.hip",
+            "LouisianaBayou.hiplc"
+          ],
+          "exclude": [],
+          "optional": false,
+          "present": true,
+          "count": 0,
+          "bytes": 0
+        }
+      ],
+      "unreal": [
+        {
+          "sourceId": "game-assets",
+          "namespace": "unreal",
+          "localPath": "/Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards",
+          "cloudFolder": "pages/ZenRayAssets/louisiana-bayou/sources/unreal/game-assets",
+          "include": [
+            "Content/LouisianaBayou",
+            "Content/__ExternalActors__/LouisianaBayou",
+            "Content/__ExternalObjects__/LouisianaBayou"
+          ],
+          "exclude": [],
+          "optional": false,
+          "present": true,
+          "count": 91,
+          "bytes": 204595380
+        }
+      ]
+    },
+    "dependencies": [
+      "zenray-shards-core"
+    ],
+    "dependencyNotes": [
+      "Houdini Engine plugin and shared Unreal assets are external dependencies."
+    ],
+    "context": {
+      "canonicalFeedbackPath": "/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md",
+      "feedback": {
+        "fileId": "project-notes:FEEDBACK.md",
+        "name": "FEEDBACK.md",
+        "localPath": "/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md",
+        "cloudPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/project-notes/FEEDBACK.md.file.json",
+        "expectedCloudPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/project-notes/FEEDBACK.md",
+        "status": "backed-up"
+      },
+      "memoryFiles": [
+        {
+          "fileId": "project-notes:FEEDBACK.md",
+          "name": "FEEDBACK.md",
+          "localPath": "/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md",
+          "cloudPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/project-notes/FEEDBACK.md.file.json",
+          "expectedCloudPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/project-notes/FEEDBACK.md",
+          "status": "backed-up"
+        },
+        {
+          "fileId": "posts:post_02_louisiana_bayou_hda.md",
+          "name": "post_02_louisiana_bayou_hda.md",
+          "localPath": "/Users/zenray/.claude/Memory1/SocialMedia/Posts/short-02-louisiana-bayou-hda/post_02_louisiana_bayou_hda.md",
+          "cloudPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/posts/post_02_louisiana_bayou_hda.md.file.json",
+          "expectedCloudPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/posts/post_02_louisiana_bayou_hda.md",
+          "status": "backed-up"
+        },
+        {
+          "fileId": "posts:POST.md",
+          "name": "POST.md",
+          "localPath": "/Users/zenray/.claude/Memory1/SocialMedia/Posts/short-02-louisiana-bayou-hda/POST.md",
+          "cloudPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/posts/POST.md.file.json",
+          "expectedCloudPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/posts/POST.md",
+          "status": "backed-up"
+        }
+      ],
+      "skills": [
+        "zenray-assets-v2",
+        "zenray-houdini",
+        "zrs"
+      ],
+      "files": {
+        "action": "status",
+        "projectId": "louisiana-bayou"
+      },
+      "history": {
+        "action": "history",
+        "projectId": "louisiana-bayou"
+      },
+      "snapshotPath": "pages/ZenRayAssets/louisiana-bayou/.workspace.json",
+      "contextPath": "pages/ZenRayAssets/louisiana-bayou/.context.md"
+    },
+    "coverage": {
+      "fileCount": 671,
+      "backedUpCount": 671,
+      "checkedAt": "2026-10-02T18:09:37.293Z"
+    }
+  }
+}
