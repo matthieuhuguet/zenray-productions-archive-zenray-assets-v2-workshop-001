@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-02T18:19:53.938Z",
+  "projectCount": 5,
+  "issues": [],
+  "mappingLocalPaths": false,
+  "registryBytes": 6877407,
+  "contexts": [
+    {
+      "id": "ceramic-tiles",
+      "bytes": 2632
+    },
+    {
+      "id": "japanese-environment",
+      "bytes": 2351
+    },
+    {
+      "id": "louisiana-bayou",
+      "bytes": 2891
+    },
+    {
+      "id": "zenray-assets-v2",
+      "bytes": 1615
+    },
+    {
+      "id": "zenray-shards-core",
+      "bytes": 1371
+    }
+  ]
+}
