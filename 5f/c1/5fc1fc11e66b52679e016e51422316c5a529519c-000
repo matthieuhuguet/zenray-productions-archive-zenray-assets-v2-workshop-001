@@ -1,0 +1,4 @@
+{"id":"77dc5884-5ac7-47fa-a10f-ec370cc3d8f8","projectId":"lifecycle-witness","type":"registered","title":"registered","detail":"Lifecycle verification","createdAt":"2026-10-02T13:11:34.103Z"}
+{"id":"f0aee4d7-279c-41f5-8fc7-89c062b4c44c","projectId":"lifecycle-witness","type":"restored","title":"restored","detail":"1 files independently verified","createdAt":"2026-10-02T13:11:35.249Z"}
+{"id":"2c4ae6cd-ffc6-440a-8846-66373309f360","projectId":"lifecycle-witness","type":"unloaded","title":"unloaded","detail":"1 managed copies released; 4096 allocated bytes removed; production sources retained","createdAt":"2026-10-02T13:11:36.125Z"}
+{"id":"a42ec1e5-3c1d-4948-bd04-bfacf5e342e8","projectId":"lifecycle-witness","type":"recovered","title":"recovered","detail":"1 released files recovered from their exact cloud versions","createdAt":"2026-10-02T13:11:36.848Z"}

@@ -1,0 +1,9 @@
+{
+  "runId": "0343c871-767d-4121-a8b5-07e09c64c34b",
+  "count": 1,
+  "sourceBytes": 70,
+  "removedAllocatedBytes": 4096,
+  "sha256": "dc07760a08c17d092947677d603a501322b9318c8405bbb8e328629158148a96",
+  "originalRetained": true,
+  "recoveryVerified": true
+}
