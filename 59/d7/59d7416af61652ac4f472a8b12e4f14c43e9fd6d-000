@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "lifecycle-witness",
+      "name": "Lifecycle verification",
+      "sources": [
+        {
+          "id": "workshop",
+          "namespace": "tmp",
+          "localPath": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2",
+          "include": [
+            "TrackingWitness.txt"
+          ],
+          "exclude": [],
+          "keep": false
+        }
+      ],
+      "folder": "pages/ZenRayAssets/lifecycle-witness",
+      "schemaVersion": 2
+    }
+  ]
+}

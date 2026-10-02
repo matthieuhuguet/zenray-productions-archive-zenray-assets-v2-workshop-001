@@ -1,0 +1,101 @@
+{
+  "backups": {
+    "workshop:TrackingWitness.txt": {
+      "id": "workshop:TrackingWitness.txt",
+      "sourceId": "workshop",
+      "relativePath": "TrackingWitness.txt",
+      "size": 70,
+      "sha256": "dc07760a08c17d092947677d603a501322b9318c8405bbb8e328629158148a96",
+      "changeToken": "16777230:169901488:70:1790943760296.8433:1790943760296.8433",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/TrackingWitness.txt.file.json",
+      "backedUpAt": "2026-10-02T12:35:17.841Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop",
+      "relativeManifest": "TrackingWitness.txt.file.json"
+    }
+  },
+  "restorations": {
+    "workshop:TrackingWitness.txt": {
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/LifecycleVerification/d3e239a2-a02a-4b51-9ce8-16613fc730ba/workspaces/lifecycle-witness/loads/recover/sources/tmp/workshop/TrackingWitness.txt",
+      "sha256": "dc07760a08c17d092947677d603a501322b9318c8405bbb8e328629158148a96",
+      "verifiedAt": "2026-10-02T13:05:47.625Z"
+    }
+  },
+  "watched": false,
+  "jobs": [],
+  "inventory": {
+    "checkedAt": "2026-10-02T13:05:46.453Z",
+    "sources": [
+      {
+        "id": "workshop",
+        "namespace": "tmp",
+        "localPath": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2",
+        "include": [
+          "TrackingWitness.txt"
+        ],
+        "exclude": [],
+        "keep": false,
+        "present": true,
+        "status": "present",
+        "count": 1,
+        "bytes": 70,
+        "checkedAt": "2026-10-02T13:05:46.453Z"
+      }
+    ],
+    "localFiles": [
+      {
+        "id": "workshop:TrackingWitness.txt",
+        "sourceId": "workshop",
+        "relativePath": "TrackingWitness.txt",
+        "localPath": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/TrackingWitness.txt",
+        "size": 70,
+        "mtimeMs": 1790943760296.8433,
+        "ctimeMs": 1790943760296.8433,
+        "changeToken": "16777230:169901488:70:1790943760296.8433:1790943760296.8433",
+        "sha256": "dc07760a08c17d092947677d603a501322b9318c8405bbb8e328629158148a96"
+      }
+    ],
+    "excluded": 0,
+    "issues": []
+  },
+  "workspacePath": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/LifecycleVerification/d3e239a2-a02a-4b51-9ce8-16613fc730ba/workspaces/lifecycle-witness/loads/recover",
+  "releases": [
+    {
+      "id": "unload",
+      "phase": "recovered",
+      "activePath": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/LifecycleVerification/d3e239a2-a02a-4b51-9ce8-16613fc730ba/workspaces/lifecycle-witness/loads/load",
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/LifecycleVerification/d3e239a2-a02a-4b51-9ce8-16613fc730ba/workspaces/lifecycle-witness/releases/unload",
+      "files": [
+        {
+          "id": "workshop:TrackingWitness.txt",
+          "sourceId": "workshop",
+          "relativePath": "sources/tmp/workshop/TrackingWitness.txt",
+          "size": 70,
+          "sha256": "dc07760a08c17d092947677d603a501322b9318c8405bbb8e328629158148a96",
+          "changeToken": "16777230:169901488:70:1790943760296.8433:1790943760296.8433",
+          "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/TrackingWitness.txt.file.json",
+          "backedUpAt": "2026-10-02T12:35:17.841Z",
+          "sourceFolder": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop",
+          "relativeManifest": "TrackingWitness.txt.file.json",
+          "backup": {
+            "id": "workshop:TrackingWitness.txt",
+            "sourceId": "workshop",
+            "relativePath": "TrackingWitness.txt",
+            "size": 70,
+            "sha256": "dc07760a08c17d092947677d603a501322b9318c8405bbb8e328629158148a96",
+            "changeToken": "16777230:169901488:70:1790943760296.8433:1790943760296.8433",
+            "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/TrackingWitness.txt.file.json",
+            "backedUpAt": "2026-10-02T12:35:17.841Z",
+            "sourceFolder": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop",
+            "relativeManifest": "TrackingWitness.txt.file.json"
+          }
+        }
+      ],
+      "count": 1,
+      "bytes": 70,
+      "allocatedBytes": 4096,
+      "createdAt": "2026-10-02T13:05:47.032Z",
+      "finishedAt": "2026-10-02T13:05:47.035Z",
+      "recoveredAt": "2026-10-02T13:05:47.625Z"
+    }
+  ]
+}
