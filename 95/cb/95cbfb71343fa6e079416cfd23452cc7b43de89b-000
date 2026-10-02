@@ -1,0 +1,12 @@
+{
+  "runId": "b690ead6-dbda-4ff2-93b6-61b729939473",
+  "count": 2,
+  "sourceBytes": 70,
+  "removedAllocatedBytes": 8192,
+  "sha256": "e7783aca5ed9c7f1c403e0f09ab1037aa2e68c24f9f7af01a377be53c8a6df1b",
+  "originalSha256": "dc07760a08c17d092947677d603a501322b9318c8405bbb8e328629158148a96",
+  "editedWorkingCopy": true,
+  "recoveredFiles": 2,
+  "originalRetained": true,
+  "recoveryVerified": true
+}
