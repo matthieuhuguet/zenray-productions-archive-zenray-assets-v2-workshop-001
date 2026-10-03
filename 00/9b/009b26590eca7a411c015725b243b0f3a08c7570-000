@@ -1,0 +1,197 @@
+{
+  "before": {
+    "beforePath": "/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+    "beforeLoadId": "9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+    "beforeFileCount": 21,
+    "selectedFileIds": [
+      "workshop:03_work/feedback-task.md",
+      "production:LouisianaBayou.hiplc"
+    ],
+    "request": {
+      "jobId": "9980c1b0-3a96-4939-a15e-c3352192c62f",
+      "job": {
+        "id": "9980c1b0-3a96-4939-a15e-c3352192c62f",
+        "projectId": "louisiana-bayou",
+        "type": "restore",
+        "state": "queued",
+        "createdAt": "2026-10-03T07:59:34.740Z",
+        "error": null
+      },
+      "state": "queued",
+      "checkedAt": "2026-10-03T07:59:34.741Z"
+    }
+  },
+  "after": {
+    "path": "/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+    "loadId": "9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+    "fileCount": 22,
+    "additionIds": [
+      "9980c1b0-3a96-4939-a15e-c3352192c62f"
+    ]
+  },
+  "job": {
+    "id": "9980c1b0-3a96-4939-a15e-c3352192c62f",
+    "projectId": "louisiana-bayou",
+    "type": "restore",
+    "state": "done",
+    "createdAt": "2026-10-03T07:59:34.740Z",
+    "error": null,
+    "startedAt": "2026-10-03T07:59:34.742Z",
+    "retainedCount": 1,
+    "loaded": [
+      {
+        "id": "workshop:03_work/feedback-task.md",
+        "path": "/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b/sources/tmp/workshop/03_work/feedback-task.md",
+        "sha256": "eedb6e78af77676cd297ee135118bc8df2779d84e7ab8fadc6343e1229d21b65",
+        "backup": {
+          "id": "workshop:03_work/feedback-task.md",
+          "sourceId": "workshop",
+          "relativePath": "03_work/feedback-task.md",
+          "size": 657,
+          "sha256": "eedb6e78af77676cd297ee135118bc8df2779d84e7ab8fadc6343e1229d21b65",
+          "changeToken": "16777230:165280904:657:1789841993189.9285:1789843902948.449",
+          "manifestPath": "pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop/03_work/feedback-task.md.file.json",
+          "backedUpAt": "2026-10-02T12:28:18.642Z",
+          "sourceFolder": "pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop",
+          "relativeManifest": "03_work/feedback-task.md.file.json"
+        }
+      }
+    ],
+    "progress": {
+      "zr": 1,
+      "ev": "restaure",
+      "rel": "03_work/feedback-task.md",
+      "cible": "/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/additions/9980c1b0-3a96-4939-a15e-c3352192c62f/sources/tmp/workshop/03_work/feedback-task.md",
+      "octets": 657,
+      "sha": "eedb6e78af77676cd297ee135118bc8df2779d84e7ab8fadc6343e1229d21b65"
+    },
+    "count": 1,
+    "finishedAt": "2026-10-03T07:59:36.837Z"
+  },
+  "repeatJob": {
+    "id": "6eb6512b-9c23-4d64-b8b3-3dc0757fdcd6",
+    "projectId": "louisiana-bayou",
+    "type": "restore",
+    "state": "done",
+    "createdAt": "2026-10-03T08:03:39.870Z",
+    "error": null,
+    "startedAt": "2026-10-03T08:03:39.872Z",
+    "retainedCount": 2,
+    "loaded": [],
+    "count": 0,
+    "finishedAt": "2026-10-03T08:03:40.350Z"
+  },
+  "fileChecks": [
+    {
+      "id": "production:LouisianaBayou.hiplc",
+      "sha256": "b119da2d42e3c06ee88d29ae2b47d33c7b3459cb9f86171088e5a5e475d278c8",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/CustomUVChecker_byValle_1K.png",
+      "sha256": "f86f7f9783f17435301e59ee9ff5a7075a858ff93c89b29baca7b7db83e00487",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_AO.jpg",
+      "sha256": "62ab5a53c8802c4f575879c577f64e899c30c72ad05e8f1249fa7101eb5f9c42",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_BaseColor.jpg",
+      "sha256": "ffc49cf84facb97b8e23eade4027732f4f37fb8b453cbc53f0a4138622aae03a",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Displacement.jpg",
+      "sha256": "d7ff8a48657bd430550fabc314c2a2799f9ed6501910dd1343af3e61fb9b16a2",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Normal.jpg",
+      "sha256": "4f9d98d857a8443e6f333635540c8e5f4b458186ebadcb19896978ba8077b080",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Roughness.jpg",
+      "sha256": "93a89cf67bd56dff3465b3c57c2142fe75fc4dd69eef55ccd802c48b1f7a481c",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_AO.jpg",
+      "sha256": "d536397215ea1fa9d30656f0b7a2ffbe39e658a3488721501b123360943f7693",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_BaseColor.jpg",
+      "sha256": "d08afbb3eb01ca9b9e0f17ed2ae34256858920153c02413756968ed8bf386f7b",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Displacement.jpg",
+      "sha256": "24581c5a009bf31bed871dc833f9f4cc5b15046153cea1d63a841dfdbb163ad8",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Normal.jpg",
+      "sha256": "5e1ecac1faa823aaa77d70dd3bdb31be92854bed53d3fde68f54998b68bc2e4a",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Roughness.jpg",
+      "sha256": "4f95c12a18232aab6e9b527a7fc668160c43b937c62b5686c778feeea282ae82",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_AO.jpg",
+      "sha256": "f9d6bae6d5872954a88b1e9af698adbe344aba7554c2cf5c62e5087b38706a81",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_BaseColor.jpg",
+      "sha256": "8c97123ee5c9e7708756f5145f54ae7c3e21fa6a9f1cff26eeb20a693f2cb4d1",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Normal.jpg",
+      "sha256": "eb84af05669b49ae0308de807c7b9324bc2c7987deb93523e33e257013be1e48",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Roughness.jpg",
+      "sha256": "9559c689f9b7b9271724a688c8c3f4c676406a379b702d51e32a635295e4d022",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_AO.jpg",
+      "sha256": "18cebe702146f47d947147d6c8c55ecea75c14d412583dfca671ca74d6294411",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_BaseColor.jpg",
+      "sha256": "d5b2118bc731fded35538e11617dbdb7eec25a99904e5e9cde11a1c505a61069",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Displacement.jpg",
+      "sha256": "e1e23d83f6883833a57975974222d68bc4fa1378ed2310e0d1ee793ddfc6b3d6",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Normal.jpg",
+      "sha256": "f3170fad511749687d8339f4a4f9d0d732ffeeea3837bd60ae806a932048d0ff",
+      "matchesArchive": true
+    },
+    {
+      "id": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Roughness.jpg",
+      "sha256": "72ab291b1e3c512325d4dfb70d8140d47a159c8f73ce701636c5ab128079c837",
+      "matchesArchive": true
+    },
+    {
+      "id": "workshop:03_work/feedback-task.md",
+      "sha256": "eedb6e78af77676cd297ee135118bc8df2779d84e7ab8fadc6343e1229d21b65",
+      "matchesArchive": true
+    }
+  ],
+  "preparationRetained": true
+}

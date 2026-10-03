@@ -1,0 +1,22 @@
+{
+  "beforePath": "/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+  "beforeLoadId": "9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+  "beforeFileCount": 21,
+  "selectedFileIds": [
+    "workshop:03_work/feedback-task.md",
+    "production:LouisianaBayou.hiplc"
+  ],
+  "request": {
+    "jobId": "9980c1b0-3a96-4939-a15e-c3352192c62f",
+    "job": {
+      "id": "9980c1b0-3a96-4939-a15e-c3352192c62f",
+      "projectId": "louisiana-bayou",
+      "type": "restore",
+      "state": "queued",
+      "createdAt": "2026-10-03T07:59:34.740Z",
+      "error": null
+    },
+    "state": "queued",
+    "checkedAt": "2026-10-03T07:59:34.741Z"
+  }
+}
