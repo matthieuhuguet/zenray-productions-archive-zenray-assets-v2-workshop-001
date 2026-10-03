@@ -1,0 +1,19 @@
+{
+  "deployment": "https://7a2f51cf.zenray-progress.pages.dev",
+  "production": "https://zenray-progress.pages.dev",
+  "htmlIdentical": true,
+  "files": [
+    {
+      "path": "assets/index-g72bP-Q2.js",
+      "sha256": "7e18d2597db135ea83af64616bb7ce43c61b7e416985ce9502b03f04f7174c89"
+    },
+    {
+      "path": "assets/index-Dr0sINCb.css",
+      "sha256": "8d1cb3994924154b1b8dc82e2be4649139d1d89d1ee00c31333fc71327a9884d"
+    },
+    {
+      "path": "assets/AssetsView-DmgmWKy3.js",
+      "sha256": "b14a463f255b26e409d8629daab7fc67656f368f52ca83c7a979a98b9df60af1"
+    }
+  ]
+}
