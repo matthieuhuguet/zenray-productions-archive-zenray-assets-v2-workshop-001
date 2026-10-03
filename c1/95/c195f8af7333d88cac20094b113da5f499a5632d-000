@@ -1,0 +1,302 @@
+{
+  "checkedAt": "2026-10-03T07:23:35.549375+00:00",
+  "projectId": "louisiana-bayou",
+  "loadId": "9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+  "checks": [
+    {
+      "fileId": "production:LouisianaBayou.hiplc",
+      "sha256": "b119da2d42e3c06ee88d29ae2b47d33c7b3459cb9f86171088e5a5e475d278c8",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/CustomUVChecker_byValle_1K.png",
+      "sha256": "f86f7f9783f17435301e59ee9ff5a7075a858ff93c89b29baca7b7db83e00487",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_AO.jpg",
+      "sha256": "62ab5a53c8802c4f575879c577f64e899c30c72ad05e8f1249fa7101eb5f9c42",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_BaseColor.jpg",
+      "sha256": "ffc49cf84facb97b8e23eade4027732f4f37fb8b453cbc53f0a4138622aae03a",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Displacement.jpg",
+      "sha256": "d7ff8a48657bd430550fabc314c2a2799f9ed6501910dd1343af3e61fb9b16a2",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Normal.jpg",
+      "sha256": "4f9d98d857a8443e6f333635540c8e5f4b458186ebadcb19896978ba8077b080",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Roughness.jpg",
+      "sha256": "93a89cf67bd56dff3465b3c57c2142fe75fc4dd69eef55ccd802c48b1f7a481c",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_AO.jpg",
+      "sha256": "d536397215ea1fa9d30656f0b7a2ffbe39e658a3488721501b123360943f7693",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_BaseColor.jpg",
+      "sha256": "d08afbb3eb01ca9b9e0f17ed2ae34256858920153c02413756968ed8bf386f7b",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Displacement.jpg",
+      "sha256": "24581c5a009bf31bed871dc833f9f4cc5b15046153cea1d63a841dfdbb163ad8",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Normal.jpg",
+      "sha256": "5e1ecac1faa823aaa77d70dd3bdb31be92854bed53d3fde68f54998b68bc2e4a",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Roughness.jpg",
+      "sha256": "4f95c12a18232aab6e9b527a7fc668160c43b937c62b5686c778feeea282ae82",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_AO.jpg",
+      "sha256": "f9d6bae6d5872954a88b1e9af698adbe344aba7554c2cf5c62e5087b38706a81",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_BaseColor.jpg",
+      "sha256": "8c97123ee5c9e7708756f5145f54ae7c3e21fa6a9f1cff26eeb20a693f2cb4d1",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Normal.jpg",
+      "sha256": "eb84af05669b49ae0308de807c7b9324bc2c7987deb93523e33e257013be1e48",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Roughness.jpg",
+      "sha256": "9559c689f9b7b9271724a688c8c3f4c676406a379b702d51e32a635295e4d022",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_AO.jpg",
+      "sha256": "18cebe702146f47d947147d6c8c55ecea75c14d412583dfca671ca74d6294411",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_BaseColor.jpg",
+      "sha256": "d5b2118bc731fded35538e11617dbdb7eec25a99904e5e9cde11a1c505a61069",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Displacement.jpg",
+      "sha256": "e1e23d83f6883833a57975974222d68bc4fa1378ed2310e0d1ee793ddfc6b3d6",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Normal.jpg",
+      "sha256": "f3170fad511749687d8339f4a4f9d0d732ffeeea3837bd60ae806a932048d0ff",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    },
+    {
+      "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Roughness.jpg",
+      "sha256": "72ab291b1e3c512325d4dfb70d8140d47a159c8f73ce701636c5ab128079c837",
+      "copyMatchesArchive": true,
+      "originalMatchesArchive": true
+    }
+  ],
+  "preparationReport": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-10-03T07:21:54.669300+00:00",
+    "sceneSha256": "b119da2d42e3c06ee88d29ae2b47d33c7b3459cb9f86171088e5a5e475d278c8",
+    "sceneOpened": true,
+    "resourceBytesVerified": 27,
+    "reboundInputs": [
+      {
+        "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_ao/filename",
+        "sha256": "62ab5a53c8802c4f575879c577f64e899c30c72ad05e8f1249fa7101eb5f9c42",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_basecolor/filename",
+        "sha256": "ffc49cf84facb97b8e23eade4027732f4f37fb8b453cbc53f0a4138622aae03a",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_displacement/filename",
+        "sha256": "d7ff8a48657bd430550fabc314c2a2799f9ed6501910dd1343af3e61fb9b16a2",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_normal/filename",
+        "sha256": "4f9d98d857a8443e6f333635540c8e5f4b458186ebadcb19896978ba8077b080",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_roughness/filename",
+        "sha256": "93a89cf67bd56dff3465b3c57c2142fe75fc4dd69eef55ccd802c48b1f7a481c",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/uv_checker_file/filename",
+        "sha256": "f86f7f9783f17435301e59ee9ff5a7075a858ff93c89b29baca7b7db83e00487",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WindowWood_04/quixel_ao/filename",
+        "sha256": "f9d6bae6d5872954a88b1e9af698adbe344aba7554c2cf5c62e5087b38706a81",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WindowWood_04/quixel_basecolor/filename",
+        "sha256": "8c97123ee5c9e7708756f5145f54ae7c3e21fa6a9f1cff26eeb20a693f2cb4d1",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WindowWood_04/quixel_normal/filename",
+        "sha256": "eb84af05669b49ae0308de807c7b9324bc2c7987deb93523e33e257013be1e48",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WindowWood_04/quixel_roughness/filename",
+        "sha256": "9559c689f9b7b9271724a688c8c3f4c676406a379b702d51e32a635295e4d022",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_ao/filename",
+        "sha256": "d536397215ea1fa9d30656f0b7a2ffbe39e658a3488721501b123360943f7693",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_basecolor/filename",
+        "sha256": "d08afbb3eb01ca9b9e0f17ed2ae34256858920153c02413756968ed8bf386f7b",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_displacement/filename",
+        "sha256": "24581c5a009bf31bed871dc833f9f4cc5b15046153cea1d63a841dfdbb163ad8",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_normal/filename",
+        "sha256": "5e1ecac1faa823aaa77d70dd3bdb31be92854bed53d3fde68f54998b68bc2e4a",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_roughness/filename",
+        "sha256": "4f95c12a18232aab6e9b527a7fc668160c43b937c62b5686c778feeea282ae82",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WornWood_02/quixel_ao/filename",
+        "sha256": "18cebe702146f47d947147d6c8c55ecea75c14d412583dfca671ca74d6294411",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WornWood_02/quixel_basecolor/filename",
+        "sha256": "d5b2118bc731fded35538e11617dbdb7eec25a99904e5e9cde11a1c505a61069",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WornWood_02/quixel_displacement/filename",
+        "sha256": "e1e23d83f6883833a57975974222d68bc4fa1378ed2310e0d1ee793ddfc6b3d6",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WornWood_02/quixel_normal/filename",
+        "sha256": "f3170fad511749687d8339f4a4f9d0d732ffeeea3837bd60ae806a932048d0ff",
+        "state": "rebound"
+      },
+      {
+        "parameterPath": "/obj/Cop_M_WornWood_02/quixel_roughness/filename",
+        "sha256": "72ab291b1e3c512325d4dfb70d8140d47a159c8f73ce701636c5ab128079c837",
+        "state": "rebound"
+      }
+    ],
+    "loadedLibraries": [
+      {
+        "sha256": "a4114a5a0ba3d625d447a005e0455746288292ace65686b25024afb8411d59d6",
+        "instancePaths": [
+          "/obj/Church"
+        ]
+      },
+      {
+        "sha256": "8e55e885f2ac22d0724c933c8f550eff3c7b2fd51adc49453d368b8adf101fb0",
+        "instancePaths": [
+          "/obj/FenceDev/picket_fence",
+          "/obj/Fence/run_west",
+          "/obj/Fence/run_east",
+          "/obj/Fence/run_west_return",
+          "/obj/Fence/run_east_return",
+          "/obj/Layout_ChurchYard/fence_loop"
+        ]
+      },
+      {
+        "sha256": "c8ed1e5945c7594a8a8168815b7846657b997f00079975ccff6ab1044853ab17",
+        "instancePaths": [
+          "/obj/Church/Component_Armature",
+          "/obj/Showcase_Church/Component_Armature"
+        ]
+      },
+      {
+        "sha256": "28c05ae95d9f4a4798ded2226c114a7c528e0560f927daac25bc2c5f187e7ed5",
+        "instancePaths": [
+          "/obj/Church/Component_Roof",
+          "/obj/Showcase_Roof/roof_instance",
+          "/obj/Showcase_Church/Component_Roof"
+        ]
+      },
+      {
+        "sha256": "612c384c553bf8f514e1d453a39d84d37918cf94a1185f24fa0562f212c97171",
+        "instancePaths": [
+          "/obj/Component_WindowA/Component_WindowA_Subnet"
+        ]
+      },
+      {
+        "sha256": "ea6f540938dab7d4134ff11b32b0be2b269e3a39dbc132f1d9a86b083c94dfaa",
+        "instancePaths": [
+          "/obj/Component_WindowB/Component_WindowB_Subnet"
+        ]
+      },
+      {
+        "sha256": "3e85bed633781c677f75fb18e8fa5c7c3af2c2bec84b23d303c8ea53c79c88ce",
+        "instancePaths": [
+          "/obj/Church/Component_WoodFacade",
+          "/obj/Showcase_Church/Component_WoodFacade"
+        ]
+      }
+    ],
+    "warnings": [],
+    "savedScene": false,
+    "portabilityVerified": false,
+    "processDiagnostics": "oplib:/Cop/fractalnoise?Cop/fractalnoise Warning(23): error binding handle sidefx_transform2d because it doesn't exist.\noplib:/Cop/fractalnoise?Cop/fractalnoise Warning(24): error binding handle sidefx_transform2d because it doesn't exist.\noplib:/Cop/worleynoise?Cop/worleynoise Warning(20): error binding handle sidefx_transform2d because it doesn't exist.\noplib:/Cop/worleynoise?Cop/worleynoise Warning(21): error binding handle sidefx_transform2d because it doesn't exist.\noplib:/Cop/curlnoise?Cop/curlnoise Warning(19): error binding handle sidefx_transform2d because it doesn't exist.\noplib:/Cop/curlnoise?Cop/curlnoise Warning(20): error binding handle sidefx_transform2d because it doesn't exist."
+  },
+  "unresolvedReferenceCount": 58,
+  "savedScene": false,
+  "portabilityVerified": false
+}

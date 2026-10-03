@@ -1,0 +1,13 @@
+{
+  "jobId": "83bed9de-9edd-4144-8d34-e960fb8c4cbe",
+  "job": {
+    "id": "83bed9de-9edd-4144-8d34-e960fb8c4cbe",
+    "projectId": "louisiana-bayou",
+    "type": "prepare-scene",
+    "state": "queued",
+    "createdAt": "2026-10-03T07:21:44.869Z",
+    "error": null
+  },
+  "state": "queued",
+  "checkedAt": "2026-10-03T07:21:44.869Z"
+}
