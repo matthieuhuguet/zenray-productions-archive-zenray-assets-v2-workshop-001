@@ -1,10 +1,12 @@
 {
-  "startedAt": "2026-10-03T19:57:11.347Z",
+  "startedAt": "2026-10-03T19:58:57.663Z",
   "paused": [
     "zenray-assets-v2",
     "zenray-dictate"
   ],
-  "restarted": false,
+  "restarted": true,
+  "beforePid": "91399",
+  "afterPid": "42585",
   "restored": [
     {
       "id": "zenray-assets-v2",
@@ -15,5 +17,5 @@
       "watched": true
     }
   ],
-  "finishedAt": "2026-10-03T19:57:52.484Z"
+  "finishedAt": "2026-10-03T19:59:18.170Z"
 }
