@@ -1,0 +1,24 @@
+# Cloud dependency publication audit (3 October 2026)
+
+## Cause measured from current code (3 October 2026)
+
+- AssetsService.publishProject(id) calls cloudPublisher only for snapshot(id,{cloud:true}). local-server supplies createAssetsCloudPublisher directly; no dependency publication coordinator exists in this wiring. (3 October 2026)
+- sceneReferenceContexts recomputes targets from all current service inventories/backups. Therefore local parent status changes immediately after a shared HDA changes or is archived. refreshContextIndex similarly refreshes all local entries. (3 October 2026)
+- AssetsCloudPublisher replaces only the supplied project snapshot in the registry, preserving all others verbatim, then builds the global index from those snapshots. It writes .workspace.json and .context.md only for the supplied project. Consequently preserved consumer sceneReferences remain stale in their workspace, registry snapshot and registry.index context. (3 October 2026)
+- Actual in-memory execution of the real publisher, without network or production mutation: publish parent whose HDA target status=pending, sha256=old; then publish library whose HDA status=backed-up, sha256=new. Writes after library are exactly pages/library/.workspace.json, pages/.zr-assets-workspaces.json and pages/library/.context.md. Parent workspace target and registry.index parent target both remain pending/old; library file is backed-up/new. This is a deterministic failing behavior proof, not an inference about a currently published real catalogue. (3 October 2026)
+- Existing tests prove local shared-resource refresh and publisher conflict/large-body preservation, but no test asserts cloud consumer refresh after publishing the shared library. No existing reverse publication or dependency invalidation helper was found in the inspected service, publisher and wiring. (3 October 2026)
+
+## Smallest correction reusing existing pieces (3 October 2026)
+
+- Expand publishProject to publish id and the consumers with an existing scene context whose derived scene.dependencies includes id. The mapper already provides the declared transitive dependency closure, so no additional graph cache, queue or copied ownership is necessary. Filter actual scene consumers to avoid rewriting every unrelated project. (3 October 2026)
+- Publish each fresh consumer snapshot directly through the existing serialized cloudPublisher, with its own history and publication timestamp/save. Do not recursively call publishProject for consumers, which would cause cycles or redundant cascades. Deduplicate by project identity. An error must reject and use the already-existing archive retry rather than report all consumers updated. (3 October 2026)
+- This refresh can reuse the last scene audit because HDA target state changes independently of the unchanged scene hash. No extra hython analysis or additional copies of HDA bytes are needed. Cloud status still reflects the current inventory evidence, never an invented execution-portability guarantee. (3 October 2026)
+- Meaningful integration test: register scene project with explicit HDA dependency, accept an audit, publish parent; mutate/verify HDA archive, publish only library; assert parent workspace, catalogue sceneReferences and global index target status/hash all refresh. Repeat with unrelated project and dependency cycle to prove no extra publication or recursion. Inject publisher failure to prove retryable error propagation. (3 October 2026)
+
+## Scope of local path diagnostics (3 October 2026)
+
+- New sceneReferences projection is clean by construction: mapper emits IDs, relative paths, whitelisted Houdini node paths, roles/statuses/hash/size and structured dependency diagnostics, not rawPath, canonicalPath, scenePath or raw warnings. Scene stale projection also contains no local path. Existing tests verify this projection. (3 October 2026)
+- Automatic analysis error details stay in sceneAuditErrors and sync.sceneAuditError, removed by cloud snapshot. The scene-audit-error event uses a constant useful message rather than errorText(error), so new hython stderr paths do not enter that event. (3 October 2026)
+- Broader historical metadata is not guaranteed path-free: cloud snapshot preserves sync.error and inventory.issues; publishProject removes event.sourcePath only, preserving detail. errorText redacts credential patterns, not local paths. Historical watcher/inventory/process events or authored feedback may therefore contain local paths. This existing scope must not be conflated with the new sanitized scene projection or a promise that the entire private project archive contains no local paths. No production catalogue was accessed in this read-only audit. (3 October 2026)
+
+- Deliverable written without changing code, skills, configuration, registries or commits. (3 October 2026)
