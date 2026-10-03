@@ -1,0 +1,2189 @@
+[
+  {
+    "scene": {
+      "schemaVersion": 1,
+      "projectId": "ceramic-tiles",
+      "sceneFileId": "production:CeramicTiles.hiplc",
+      "sceneSha256": "99ee00be3bc77d4dd16688351f4b54e919462ea002a596d51ba7348c161781da",
+      "checkedAt": "2026-10-03T02:20:57.876555+00:00",
+      "dependencies": [
+        "zenray-shards-core"
+      ],
+      "references": [
+        {
+          "referenceId": 0,
+          "parameterPath": "/mat/CeramicAd_green/occlusion_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_ao.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_ao.png",
+              "status": "backed-up",
+              "sha256": "83d3df56041537d51ae184f33ddfd0c0426d51db9c055e024517f4fba12c5dda",
+              "size": 1094360
+            }
+          ]
+        },
+        {
+          "referenceId": 1,
+          "parameterPath": "/mat/CeramicAd_green/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_basecolor_green.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_basecolor_green.png",
+              "status": "backed-up",
+              "sha256": "51833a3f18f7babf90cd4cb70d8cf3cb72f875c234d72af7131b901f5ade55fa",
+              "size": 10411794
+            }
+          ]
+        },
+        {
+          "referenceId": 2,
+          "parameterPath": "/mat/CeramicAd_green/dispTex_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_height.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_height.png",
+              "status": "backed-up",
+              "sha256": "d1db58ad6a604bebcd1f4fca802b653f9e38413cf66bfa1956cc8656c3acc6b1",
+              "size": 577823
+            }
+          ]
+        },
+        {
+          "referenceId": 3,
+          "parameterPath": "/mat/CeramicAd_green/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_normal.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_normal.png",
+              "status": "backed-up",
+              "sha256": "1c8075b383133a2a3c89494758c8f2e7ec993dbcc9047ac3598a2a3744ef02f3",
+              "size": 4928689
+            }
+          ]
+        },
+        {
+          "referenceId": 4,
+          "parameterPath": "/mat/CeramicAd_green/reflect_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_reflect.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_reflect.png",
+              "status": "backed-up",
+              "sha256": "90a0cfe4a0264df806e03612bb8488423467c9dcfdc357d0c9532748df2ddcfb",
+              "size": 332308
+            }
+          ]
+        },
+        {
+          "referenceId": 5,
+          "parameterPath": "/mat/CeramicAd_green/coatrough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_roughness.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_roughness.png",
+              "status": "backed-up",
+              "sha256": "92809305dbc9a63763a1f45a00f6699bf774f11498382d43d88dbd765d3e95a9",
+              "size": 1014234
+            }
+          ]
+        },
+        {
+          "referenceId": 6,
+          "parameterPath": "/mat/CeramicAd_multi/occlusion_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_ao.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_ao.png",
+              "status": "backed-up",
+              "sha256": "83d3df56041537d51ae184f33ddfd0c0426d51db9c055e024517f4fba12c5dda",
+              "size": 1094360
+            }
+          ]
+        },
+        {
+          "referenceId": 7,
+          "parameterPath": "/mat/CeramicAd_multi/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_basecolor_multi.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_basecolor_multi.png",
+              "status": "backed-up",
+              "sha256": "3aaa209ee2c6897bff7f3cff10a814f56a323a873f5064e4af1882ae0946f29e",
+              "size": 9167814
+            }
+          ]
+        },
+        {
+          "referenceId": 8,
+          "parameterPath": "/mat/CeramicAd_multi/dispTex_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_height.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_height.png",
+              "status": "backed-up",
+              "sha256": "d1db58ad6a604bebcd1f4fca802b653f9e38413cf66bfa1956cc8656c3acc6b1",
+              "size": 577823
+            }
+          ]
+        },
+        {
+          "referenceId": 9,
+          "parameterPath": "/mat/CeramicAd_multi/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_normal.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_normal.png",
+              "status": "backed-up",
+              "sha256": "1c8075b383133a2a3c89494758c8f2e7ec993dbcc9047ac3598a2a3744ef02f3",
+              "size": 4928689
+            }
+          ]
+        },
+        {
+          "referenceId": 10,
+          "parameterPath": "/mat/CeramicAd_multi/reflect_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_reflect.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_reflect.png",
+              "status": "backed-up",
+              "sha256": "90a0cfe4a0264df806e03612bb8488423467c9dcfdc357d0c9532748df2ddcfb",
+              "size": 332308
+            }
+          ]
+        },
+        {
+          "referenceId": 11,
+          "parameterPath": "/mat/CeramicAd_multi/rough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_roughness.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_roughness.png",
+              "status": "backed-up",
+              "sha256": "92809305dbc9a63763a1f45a00f6699bf774f11498382d43d88dbd765d3e95a9",
+              "size": 1014234
+            }
+          ]
+        },
+        {
+          "referenceId": 12,
+          "parameterPath": "/mat/CeramicAd_teal/occlusion_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_ao.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_ao.png",
+              "status": "backed-up",
+              "sha256": "83d3df56041537d51ae184f33ddfd0c0426d51db9c055e024517f4fba12c5dda",
+              "size": 1094360
+            }
+          ]
+        },
+        {
+          "referenceId": 13,
+          "parameterPath": "/mat/CeramicAd_teal/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_basecolor_teal.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_basecolor_teal.png",
+              "status": "backed-up",
+              "sha256": "18dd213a565eed92fe5107b932daca1a18396d1a9c6e5455c1b1748290476bc8",
+              "size": 8557045
+            }
+          ]
+        },
+        {
+          "referenceId": 14,
+          "parameterPath": "/mat/CeramicAd_teal/dispTex_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_height.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_height.png",
+              "status": "backed-up",
+              "sha256": "d1db58ad6a604bebcd1f4fca802b653f9e38413cf66bfa1956cc8656c3acc6b1",
+              "size": 577823
+            }
+          ]
+        },
+        {
+          "referenceId": 15,
+          "parameterPath": "/mat/CeramicAd_teal/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_normal.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_normal.png",
+              "status": "backed-up",
+              "sha256": "1c8075b383133a2a3c89494758c8f2e7ec993dbcc9047ac3598a2a3744ef02f3",
+              "size": 4928689
+            }
+          ]
+        },
+        {
+          "referenceId": 16,
+          "parameterPath": "/mat/CeramicAd_teal/reflect_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_reflect.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_reflect.png",
+              "status": "backed-up",
+              "sha256": "90a0cfe4a0264df806e03612bb8488423467c9dcfdc357d0c9532748df2ddcfb",
+              "size": 332308
+            }
+          ]
+        },
+        {
+          "referenceId": 17,
+          "parameterPath": "/mat/CeramicAd_teal/rough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_roughness.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_roughness.png",
+              "status": "backed-up",
+              "sha256": "92809305dbc9a63763a1f45a00f6699bf774f11498382d43d88dbd765d3e95a9",
+              "size": 1014234
+            }
+          ]
+        },
+        {
+          "referenceId": 18,
+          "parameterPath": "/mat/CeramicGreen_Material/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_basecolor.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_basecolor.png",
+              "status": "backed-up",
+              "sha256": "51833a3f18f7babf90cd4cb70d8cf3cb72f875c234d72af7131b901f5ade55fa",
+              "size": 10411794
+            }
+          ]
+        },
+        {
+          "referenceId": 19,
+          "parameterPath": "/mat/CeramicGreen_Material/occlusion_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_ao.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_ao.png",
+              "status": "backed-up",
+              "sha256": "83d3df56041537d51ae184f33ddfd0c0426d51db9c055e024517f4fba12c5dda",
+              "size": 1094360
+            }
+          ]
+        },
+        {
+          "referenceId": 20,
+          "parameterPath": "/mat/CeramicGreen_Material/dispTex_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_height.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_height.png",
+              "status": "backed-up",
+              "sha256": "d1db58ad6a604bebcd1f4fca802b653f9e38413cf66bfa1956cc8656c3acc6b1",
+              "size": 577823
+            }
+          ]
+        },
+        {
+          "referenceId": 21,
+          "parameterPath": "/mat/CeramicGreen_Material/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_normal.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_normal.png",
+              "status": "backed-up",
+              "sha256": "1c8075b383133a2a3c89494758c8f2e7ec993dbcc9047ac3598a2a3744ef02f3",
+              "size": 4928689
+            }
+          ]
+        },
+        {
+          "referenceId": 22,
+          "parameterPath": "/mat/CeramicGreen_Material/coat_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_reflect.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_reflect.png",
+              "status": "backed-up",
+              "sha256": "90a0cfe4a0264df806e03612bb8488423467c9dcfdc357d0c9532748df2ddcfb",
+              "size": 332308
+            }
+          ]
+        },
+        {
+          "referenceId": 23,
+          "parameterPath": "/mat/CeramicGreen_Material/coatrough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/CeramicGreen_V6_roughness.png",
+              "sourceId": "production",
+              "relativePath": "render/CeramicGreen_V6_roughness.png",
+              "status": "backed-up",
+              "sha256": "92809305dbc9a63763a1f45a00f6699bf774f11498382d43d88dbd765d3e95a9",
+              "size": 1014234
+            }
+          ]
+        },
+        {
+          "referenceId": 24,
+          "parameterPath": "/mat/CeramicTiles_01b/occlusion_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/01b_pillow_tiles/ao.png",
+              "sourceId": "production",
+              "relativePath": "maps/01b_pillow_tiles/ao.png",
+              "status": "backed-up",
+              "sha256": "f80389c5e1ee8a698193442f3bcf1bc7b00a2001186fd4ac595b35d92c1990db",
+              "size": 155007
+            }
+          ]
+        },
+        {
+          "referenceId": 25,
+          "parameterPath": "/mat/CeramicTiles_01b/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/01b_pillow_tiles/basecolor.png",
+              "sourceId": "production",
+              "relativePath": "maps/01b_pillow_tiles/basecolor.png",
+              "status": "backed-up",
+              "sha256": "3d65b53bf1f7b617ef270d6a2fd3f4a8816fbb8d8a2bed220b611c3d66f96976",
+              "size": 1540233
+            }
+          ]
+        },
+        {
+          "referenceId": 26,
+          "parameterPath": "/mat/CeramicTiles_01b/dispTex_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/01b_pillow_tiles/height.png",
+              "sourceId": "production",
+              "relativePath": "maps/01b_pillow_tiles/height.png",
+              "status": "backed-up",
+              "sha256": "a2885d8c6f760aa6af9c358c0628f4cbb36a7dea8e5d241141c9157b0e5283a4",
+              "size": 470277
+            }
+          ]
+        },
+        {
+          "referenceId": 27,
+          "parameterPath": "/mat/CeramicTiles_01b/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/01b_pillow_tiles/normal.png",
+              "sourceId": "production",
+              "relativePath": "maps/01b_pillow_tiles/normal.png",
+              "status": "backed-up",
+              "sha256": "ae51a37b10f20e9ca6c2cb167abd9bc4966e65c0bfda3d8cbde75c06a5a3cfc1",
+              "size": 1612180
+            }
+          ]
+        },
+        {
+          "referenceId": 28,
+          "parameterPath": "/mat/CeramicTiles_01b/reflect_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/01b_pillow_tiles/reflect.png",
+              "sourceId": "production",
+              "relativePath": "maps/01b_pillow_tiles/reflect.png",
+              "status": "backed-up",
+              "sha256": "fbd6c442c9c2d6965cad28818f9932610fb718c0332c782d48ee81287adb3550",
+              "size": 217348
+            }
+          ]
+        },
+        {
+          "referenceId": 29,
+          "parameterPath": "/mat/CeramicTiles_01b/rough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/01b_pillow_tiles/roughness.png",
+              "sourceId": "production",
+              "relativePath": "maps/01b_pillow_tiles/roughness.png",
+              "status": "backed-up",
+              "sha256": "98648253aa409dcb3c4c533a34022c1532ac8a3bf8137531772f4a0074f447da",
+              "size": 1298458
+            }
+          ]
+        },
+        {
+          "referenceId": 30,
+          "parameterPath": "/mat/CeramicTiles_02a/occlusion_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02a_serpentine_arcs/ao.png",
+              "sourceId": "production",
+              "relativePath": "maps/02a_serpentine_arcs/ao.png",
+              "status": "backed-up",
+              "sha256": "74b2e1f02c1af291c9f474ca38ec61898202d69ff6f316885e36a2ad4da61bc0",
+              "size": 174961
+            }
+          ]
+        },
+        {
+          "referenceId": 31,
+          "parameterPath": "/mat/CeramicTiles_02a/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02a_serpentine_arcs/basecolor.png",
+              "sourceId": "production",
+              "relativePath": "maps/02a_serpentine_arcs/basecolor.png",
+              "status": "backed-up",
+              "sha256": "b67b541b9c2e928e0e22d123c59fd3036bfcd27368e8b3fe2fb42e030bbf8edd",
+              "size": 1149457
+            }
+          ]
+        },
+        {
+          "referenceId": 32,
+          "parameterPath": "/mat/CeramicTiles_02a/dispTex_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02a_serpentine_arcs/height.png",
+              "sourceId": "production",
+              "relativePath": "maps/02a_serpentine_arcs/height.png",
+              "status": "backed-up",
+              "sha256": "17c51cfa823078d4633f0c902e6b84bfcd9a181e43fb656999823c42dbc5caa8",
+              "size": 255184
+            }
+          ]
+        },
+        {
+          "referenceId": 33,
+          "parameterPath": "/mat/CeramicTiles_02a/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02a_serpentine_arcs/normal.png",
+              "sourceId": "production",
+              "relativePath": "maps/02a_serpentine_arcs/normal.png",
+              "status": "backed-up",
+              "sha256": "7c8c5416ba9f54f20512de7be1fb4694a9132f0211fa12ce8a46741baf2ee8a1",
+              "size": 1624282
+            }
+          ]
+        },
+        {
+          "referenceId": 34,
+          "parameterPath": "/mat/CeramicTiles_02a/reflect_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02a_serpentine_arcs/reflect.png",
+              "sourceId": "production",
+              "relativePath": "maps/02a_serpentine_arcs/reflect.png",
+              "status": "backed-up",
+              "sha256": "c34670bae87ebd409ce4461d568e4190ce2d9e1614207ebeb033e5f6c9710844",
+              "size": 222041
+            }
+          ]
+        },
+        {
+          "referenceId": 35,
+          "parameterPath": "/mat/CeramicTiles_02a/rough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02a_serpentine_arcs/roughness.png",
+              "sourceId": "production",
+              "relativePath": "maps/02a_serpentine_arcs/roughness.png",
+              "status": "backed-up",
+              "sha256": "364aca8544676e293b178d0def8e5fd0388f75aa72ea1e89a70a61e0a5bcd5fe",
+              "size": 1235043
+            }
+          ]
+        },
+        {
+          "referenceId": 36,
+          "parameterPath": "/mat/CeramicTiles_02b/occlusion_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02b_terracotta_bowls/ao.png",
+              "sourceId": "production",
+              "relativePath": "maps/02b_terracotta_bowls/ao.png",
+              "status": "backed-up",
+              "sha256": "5619d142d78d7c3680fb13173fcd285da591350b0f92bed2e716a6df67e49b6f",
+              "size": 230969
+            }
+          ]
+        },
+        {
+          "referenceId": 37,
+          "parameterPath": "/mat/CeramicTiles_02b/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02b_terracotta_bowls/basecolor.png",
+              "sourceId": "production",
+              "relativePath": "maps/02b_terracotta_bowls/basecolor.png",
+              "status": "backed-up",
+              "sha256": "2d2a788426c13784eb288e286cbc6a92f7fe6561c0362485551d005861db7975",
+              "size": 1588293
+            }
+          ]
+        },
+        {
+          "referenceId": 38,
+          "parameterPath": "/mat/CeramicTiles_02b/dispTex_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02b_terracotta_bowls/height.png",
+              "sourceId": "production",
+              "relativePath": "maps/02b_terracotta_bowls/height.png",
+              "status": "backed-up",
+              "sha256": "2ee7f87fd7ee7c39a21dee54b592085ab77660e92d342177ee3c5a04fd72e37b",
+              "size": 348905
+            }
+          ]
+        },
+        {
+          "referenceId": 39,
+          "parameterPath": "/mat/CeramicTiles_02b/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02b_terracotta_bowls/normal.png",
+              "sourceId": "production",
+              "relativePath": "maps/02b_terracotta_bowls/normal.png",
+              "status": "backed-up",
+              "sha256": "c577527167dbb7d4c753aefd9d3f854bbbe84e20777d9e11407cae0fc667685b",
+              "size": 1748168
+            }
+          ]
+        },
+        {
+          "referenceId": 40,
+          "parameterPath": "/mat/CeramicTiles_02b/reflect_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02b_terracotta_bowls/reflect.png",
+              "sourceId": "production",
+              "relativePath": "maps/02b_terracotta_bowls/reflect.png",
+              "status": "backed-up",
+              "sha256": "90455c9234fb1fcb185adab8dd8bf93516cce40a08af1ce49c173d2ad8262a4a",
+              "size": 186323
+            }
+          ]
+        },
+        {
+          "referenceId": 41,
+          "parameterPath": "/mat/CeramicTiles_02b/rough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:maps/02b_terracotta_bowls/roughness.png",
+              "sourceId": "production",
+              "relativePath": "maps/02b_terracotta_bowls/roughness.png",
+              "status": "backed-up",
+              "sha256": "9491bce101237a23a2f293ba149d2255e8200ffe2a09879cec3ff65a65f0e105",
+              "size": 1318859
+            }
+          ]
+        },
+        {
+          "referenceId": 42,
+          "parameterPath": "/stage/rendergallerysource",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 43,
+          "parameterPath": "/stage/ad_cyc_imp_planes/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 44,
+          "parameterPath": "/stage/ad_cyc_imp_s3/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 45,
+          "parameterPath": "/stage/ad_cyc_imp_s4/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 46,
+          "parameterPath": "/stage/ad_cyc_imp_s5/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 47,
+          "parameterPath": "/stage/cg_imp_s3_0/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 48,
+          "parameterPath": "/stage/cg_imp_s3_1/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 49,
+          "parameterPath": "/stage/cg_imp_s3_2/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 50,
+          "parameterPath": "/stage/cg_imp_s4_0/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 51,
+          "parameterPath": "/stage/cg_imp_s4_1/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 52,
+          "parameterPath": "/stage/cg_imp_s4_2/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 53,
+          "parameterPath": "/stage/cg_imp_s5_0/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 54,
+          "parameterPath": "/stage/cg_imp_s5_1/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 55,
+          "parameterPath": "/stage/cg_imp_s5_2/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 56,
+          "parameterPath": "/stage/cg_plane/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 57,
+          "parameterPath": "/stage/cg_plane_01b/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 58,
+          "parameterPath": "/stage/cg_plane_02a/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 59,
+          "parameterPath": "/stage/cg_plane_02b/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 60,
+          "parameterPath": "/stage/cg_plane_g/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 61,
+          "parameterPath": "/stage/cg_plane_t/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 62,
+          "parameterPath": "/stage/cg_render/savetodirectory_directory",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 63,
+          "parameterPath": "/stage/cg_render/outputimage",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "ceramic-tiles",
+              "fileId": "production:render/frames/_colourset_green.png",
+              "sourceId": "production",
+              "relativePath": "render/frames/_colourset_green.png",
+              "status": "backed-up",
+              "sha256": "71a1c3dad7d85e3db23e776c4f2788805c96f59d35f5b00a90b73e468577da5c",
+              "size": 2431670
+            }
+          ]
+        },
+        {
+          "referenceId": 64,
+          "parameterPath": "/stage/cg_sphere/savepath",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        }
+      ],
+      "issues": [],
+      "portabilityVerified": false,
+      "state": "current"
+    },
+    "checkedAt": "2026-10-03T02:21:38.416Z"
+  },
+  {
+    "scene": {
+      "schemaVersion": 1,
+      "projectId": "louisiana-bayou",
+      "sceneFileId": "production:LouisianaBayou.hiplc",
+      "sceneSha256": "b119da2d42e3c06ee88d29ae2b47d33c7b3459cb9f86171088e5a5e475d278c8",
+      "checkedAt": "2026-10-03T02:21:04.883213+00:00",
+      "dependencies": [
+        "zenray-houdini-library",
+        "zenray-shards-core"
+      ],
+      "references": [
+        {
+          "referenceId": 0,
+          "parameterPath": null,
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "zenray-houdini-library",
+              "fileId": "skill-library:ZenRayChurchHero.hda",
+              "sourceId": "skill-library",
+              "relativePath": "ZenRayChurchHero.hda",
+              "status": "backed-up",
+              "sha256": "a4114a5a0ba3d625d447a005e0455746288292ace65686b25024afb8411d59d6",
+              "size": 96583
+            }
+          ]
+        },
+        {
+          "referenceId": 1,
+          "parameterPath": null,
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "zenray-houdini-library",
+              "fileId": "skill-library:zenray_picket_fence.hda",
+              "sourceId": "skill-library",
+              "relativePath": "zenray_picket_fence.hda",
+              "status": "backed-up",
+              "sha256": "8e55e885f2ac22d0724c933c8f550eff3c7b2fd51adc49453d368b8adf101fb0",
+              "size": 12298
+            }
+          ]
+        },
+        {
+          "referenceId": 2,
+          "parameterPath": null,
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "zenray-houdini-library",
+              "fileId": "memory-library:Component_Armature.hda",
+              "sourceId": "memory-library",
+              "relativePath": "Component_Armature.hda",
+              "status": "backed-up",
+              "sha256": "c8ed1e5945c7594a8a8168815b7846657b997f00079975ccff6ab1044853ab17",
+              "size": 11536
+            }
+          ]
+        },
+        {
+          "referenceId": 3,
+          "parameterPath": null,
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "zenray-houdini-library",
+              "fileId": "memory-library:Component_Roof.hda",
+              "sourceId": "memory-library",
+              "relativePath": "Component_Roof.hda",
+              "status": "backed-up",
+              "sha256": "28c05ae95d9f4a4798ded2226c114a7c528e0560f927daac25bc2c5f187e7ed5",
+              "size": 15193
+            }
+          ]
+        },
+        {
+          "referenceId": 4,
+          "parameterPath": null,
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "zenray-houdini-library",
+              "fileId": "memory-library:Component_WindowA.hda",
+              "sourceId": "memory-library",
+              "relativePath": "Component_WindowA.hda",
+              "status": "backed-up",
+              "sha256": "612c384c553bf8f514e1d453a39d84d37918cf94a1185f24fa0562f212c97171",
+              "size": 17210
+            }
+          ]
+        },
+        {
+          "referenceId": 5,
+          "parameterPath": null,
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "zenray-houdini-library",
+              "fileId": "memory-library:Component_WindowB.hda",
+              "sourceId": "memory-library",
+              "relativePath": "Component_WindowB.hda",
+              "status": "backed-up",
+              "sha256": "ea6f540938dab7d4134ff11b32b0be2b269e3a39dbc132f1d9a86b083c94dfaa",
+              "size": 13736
+            }
+          ]
+        },
+        {
+          "referenceId": 6,
+          "parameterPath": null,
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "zenray-houdini-library",
+              "fileId": "memory-library:Component_WoodFacade.hda",
+              "sourceId": "memory-library",
+              "relativePath": "Component_WoodFacade.hda",
+              "status": "backed-up",
+              "sha256": "3e85bed633781c677f75fb18e8fa5c7c3af2c2bec84b23d303c8ea53c79c88ce",
+              "size": 10529
+            }
+          ]
+        },
+        {
+          "referenceId": 7,
+          "parameterPath": "/mat/M_Ours_Full/basecolor_texture",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 8,
+          "parameterPath": "/mat/M_Ours_Full/baseNormal_texture",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 9,
+          "parameterPath": "/mat/M_Ref_Full/basecolor_texture",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 10,
+          "parameterPath": "/mat/M_Ref_Full/occlusion_texture",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 11,
+          "parameterPath": "/mat/M_Ref_Full/dispTex_texture",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 12,
+          "parameterPath": "/mat/M_Ref_Full/baseNormal_texture",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 13,
+          "parameterPath": "/mat/M_Ref_Full/rough_texture",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 14,
+          "parameterPath": "/obj/CMP_1_RefFull/read_height/filename",
+          "role": "input",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 15,
+          "parameterPath": "/obj/CMP_2_RefHeightOnly/read_height/filename",
+          "role": "input",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 16,
+          "parameterPath": "/obj/CMP_3_OurHeight/read_height/filename",
+          "role": "input",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 17,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_PeelingWhiteWood_01/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "ffc49cf84facb97b8e23eade4027732f4f37fb8b453cbc53f0a4138622aae03a",
+              "size": 2314390
+            }
+          ]
+        },
+        {
+          "referenceId": 18,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_PeelingWhiteWood_01/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "4f9d98d857a8443e6f333635540c8e5f4b458186ebadcb19896978ba8077b080",
+              "size": 2785896
+            }
+          ]
+        },
+        {
+          "referenceId": 19,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_PeelingWhiteWood_01/rough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "93a89cf67bd56dff3465b3c57c2142fe75fc4dd69eef55ccd802c48b1f7a481c",
+              "size": 1686980
+            }
+          ]
+        },
+        {
+          "referenceId": 20,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_WindowWood_04/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "8c97123ee5c9e7708756f5145f54ae7c3e21fa6a9f1cff26eeb20a693f2cb4d1",
+              "size": 2147692
+            }
+          ]
+        },
+        {
+          "referenceId": 21,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_WindowWood_04/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "eb84af05669b49ae0308de807c7b9324bc2c7987deb93523e33e257013be1e48",
+              "size": 3187318
+            }
+          ]
+        },
+        {
+          "referenceId": 22,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_WindowWood_04/rough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "9559c689f9b7b9271724a688c8c3f4c676406a379b702d51e32a635295e4d022",
+              "size": 821223
+            }
+          ]
+        },
+        {
+          "referenceId": 23,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_WoodShinglesRoof_03/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "d08afbb3eb01ca9b9e0f17ed2ae34256858920153c02413756968ed8bf386f7b",
+              "size": 4164371
+            }
+          ]
+        },
+        {
+          "referenceId": 24,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_WoodShinglesRoof_03/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "5e1ecac1faa823aaa77d70dd3bdb31be92854bed53d3fde68f54998b68bc2e4a",
+              "size": 7335234
+            }
+          ]
+        },
+        {
+          "referenceId": 25,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_WoodShinglesRoof_03/rough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "4f95c12a18232aab6e9b527a7fc668160c43b937c62b5686c778feeea282ae82",
+              "size": 1580368
+            }
+          ]
+        },
+        {
+          "referenceId": 26,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_WornWood_02/basecolor_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "d5b2118bc731fded35538e11617dbdb7eec25a99904e5e9cde11a1c505a61069",
+              "size": 4004787
+            }
+          ]
+        },
+        {
+          "referenceId": 27,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_WornWood_02/baseNormal_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "f3170fad511749687d8339f4a4f9d0d732ffeeea3837bd60ae806a932048d0ff",
+              "size": 6973574
+            }
+          ]
+        },
+        {
+          "referenceId": 28,
+          "parameterPath": "/obj/Church/materials_for_unreal/M_WornWood_02/rough_texture",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "72ab291b1e3c512325d4dfb70d8140d47a159c8f73ce701636c5ab128079c837",
+              "size": 3450903
+            }
+          ]
+        },
+        {
+          "referenceId": 29,
+          "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_ao/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_AO.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_AO.jpg",
+              "status": "backed-up",
+              "sha256": "62ab5a53c8802c4f575879c577f64e899c30c72ad05e8f1249fa7101eb5f9c42",
+              "size": 1837505
+            }
+          ]
+        },
+        {
+          "referenceId": 30,
+          "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_basecolor/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "ffc49cf84facb97b8e23eade4027732f4f37fb8b453cbc53f0a4138622aae03a",
+              "size": 2314390
+            }
+          ]
+        },
+        {
+          "referenceId": 31,
+          "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_displacement/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Displacement.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Displacement.jpg",
+              "status": "backed-up",
+              "sha256": "d7ff8a48657bd430550fabc314c2a2799f9ed6501910dd1343af3e61fb9b16a2",
+              "size": 1042530
+            }
+          ]
+        },
+        {
+          "referenceId": 32,
+          "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_normal/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "4f9d98d857a8443e6f333635540c8e5f4b458186ebadcb19896978ba8077b080",
+              "size": 2785896
+            }
+          ]
+        },
+        {
+          "referenceId": 33,
+          "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/quixel_roughness/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "93a89cf67bd56dff3465b3c57c2142fe75fc4dd69eef55ccd802c48b1f7a481c",
+              "size": 1686980
+            }
+          ]
+        },
+        {
+          "referenceId": 34,
+          "parameterPath": "/obj/Cop_M_PeelingWhiteWood_01/uv_checker_file/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/CustomUVChecker_byValle_1K.png",
+              "sourceId": "production",
+              "relativePath": "textures/CustomUVChecker_byValle_1K.png",
+              "status": "backed-up",
+              "sha256": "f86f7f9783f17435301e59ee9ff5a7075a858ff93c89b29baca7b7db83e00487",
+              "size": 105761
+            }
+          ]
+        },
+        {
+          "referenceId": 35,
+          "parameterPath": "/obj/Cop_M_WindowWood_04/quixel_ao/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_AO.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_AO.jpg",
+              "status": "backed-up",
+              "sha256": "f9d6bae6d5872954a88b1e9af698adbe344aba7554c2cf5c62e5087b38706a81",
+              "size": 1094800
+            }
+          ]
+        },
+        {
+          "referenceId": 36,
+          "parameterPath": "/obj/Cop_M_WindowWood_04/quixel_basecolor/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "8c97123ee5c9e7708756f5145f54ae7c3e21fa6a9f1cff26eeb20a693f2cb4d1",
+              "size": 2147692
+            }
+          ]
+        },
+        {
+          "referenceId": 37,
+          "parameterPath": "/obj/Cop_M_WindowWood_04/quixel_normal/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "eb84af05669b49ae0308de807c7b9324bc2c7987deb93523e33e257013be1e48",
+              "size": 3187318
+            }
+          ]
+        },
+        {
+          "referenceId": 38,
+          "parameterPath": "/obj/Cop_M_WindowWood_04/quixel_roughness/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "9559c689f9b7b9271724a688c8c3f4c676406a379b702d51e32a635295e4d022",
+              "size": 821223
+            }
+          ]
+        },
+        {
+          "referenceId": 39,
+          "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_ao/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_AO.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_AO.jpg",
+              "status": "backed-up",
+              "sha256": "d536397215ea1fa9d30656f0b7a2ffbe39e658a3488721501b123360943f7693",
+              "size": 2585743
+            }
+          ]
+        },
+        {
+          "referenceId": 40,
+          "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_basecolor/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "d08afbb3eb01ca9b9e0f17ed2ae34256858920153c02413756968ed8bf386f7b",
+              "size": 4164371
+            }
+          ]
+        },
+        {
+          "referenceId": 41,
+          "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_displacement/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Displacement.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Displacement.jpg",
+              "status": "backed-up",
+              "sha256": "24581c5a009bf31bed871dc833f9f4cc5b15046153cea1d63a841dfdbb163ad8",
+              "size": 806276
+            }
+          ]
+        },
+        {
+          "referenceId": 42,
+          "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_normal/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "5e1ecac1faa823aaa77d70dd3bdb31be92854bed53d3fde68f54998b68bc2e4a",
+              "size": 7335234
+            }
+          ]
+        },
+        {
+          "referenceId": 43,
+          "parameterPath": "/obj/Cop_M_WoodShinglesRoof_03/quixel_roughness/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "4f95c12a18232aab6e9b527a7fc668160c43b937c62b5686c778feeea282ae82",
+              "size": 1580368
+            }
+          ]
+        },
+        {
+          "referenceId": 44,
+          "parameterPath": "/obj/Cop_M_WornWood_02/quixel_ao/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_AO.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_AO.jpg",
+              "status": "backed-up",
+              "sha256": "18cebe702146f47d947147d6c8c55ecea75c14d412583dfca671ca74d6294411",
+              "size": 2070596
+            }
+          ]
+        },
+        {
+          "referenceId": 45,
+          "parameterPath": "/obj/Cop_M_WornWood_02/quixel_basecolor/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "d5b2118bc731fded35538e11617dbdb7eec25a99904e5e9cde11a1c505a61069",
+              "size": 4004787
+            }
+          ]
+        },
+        {
+          "referenceId": 46,
+          "parameterPath": "/obj/Cop_M_WornWood_02/quixel_displacement/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Displacement.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Displacement.jpg",
+              "status": "backed-up",
+              "sha256": "e1e23d83f6883833a57975974222d68bc4fa1378ed2310e0d1ee793ddfc6b3d6",
+              "size": 1043767
+            }
+          ]
+        },
+        {
+          "referenceId": 47,
+          "parameterPath": "/obj/Cop_M_WornWood_02/quixel_normal/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "f3170fad511749687d8339f4a4f9d0d732ffeeea3837bd60ae806a932048d0ff",
+              "size": 6973574
+            }
+          ]
+        },
+        {
+          "referenceId": 48,
+          "parameterPath": "/obj/Cop_M_WornWood_02/quixel_roughness/filename",
+          "role": "input",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "72ab291b1e3c512325d4dfb70d8140d47a159c8f73ce701636c5ab128079c837",
+              "size": 3450903
+            }
+          ]
+        },
+        {
+          "referenceId": 49,
+          "parameterPath": "/obj/FireEmblemFortune_sWave_UI/Cop_RefPerfect_Grayscale/REF_COMPARATOR/filename",
+          "role": "input",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 50,
+          "parameterPath": "/obj/lookdev_env/env_skymap",
+          "role": "unknown",
+          "type": "internal"
+        },
+        {
+          "referenceId": 51,
+          "parameterPath": "/obj/lookdev_sun/shadowmap_file",
+          "role": "unknown",
+          "type": "uri"
+        },
+        {
+          "referenceId": 52,
+          "parameterPath": "/out/karma_lookdev_qhd/savetodirectory",
+          "role": "unknown",
+          "type": "directory"
+        },
+        {
+          "referenceId": 53,
+          "parameterPath": "/out/karma_lookdev_qhd/lopnet/rendergallerysource",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 54,
+          "parameterPath": "/out/karma_lookdev_qhd/rop_usdrender/savetodirectory_directory",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 55,
+          "parameterPath": "/out/mantra_ipr/soho_program",
+          "role": "input",
+          "type": "relative"
+        },
+        {
+          "referenceId": 56,
+          "parameterPath": "/stage/rendergallerysource",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 57,
+          "parameterPath": "/stage/KARMA_Render/savetodirectory_directory",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 58,
+          "parameterPath": "/stage/KARMA_Render/outputimage",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 59,
+          "parameterPath": "/stage/import_church/savepath",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:usd/import_church.usd",
+              "sourceId": "production",
+              "relativePath": "usd/import_church.usd",
+              "status": "backed-up",
+              "sha256": "485b8b085ca92b7a01acbd4c437018fdf770d983a4aeec9459156c296f97d002",
+              "size": 1786960
+            }
+          ]
+        },
+        {
+          "referenceId": 60,
+          "parameterPath": "/stage/materials/M_PeelingWhiteWood_01_ao/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_AO.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_AO.jpg",
+              "status": "backed-up",
+              "sha256": "62ab5a53c8802c4f575879c577f64e899c30c72ad05e8f1249fa7101eb5f9c42",
+              "size": 1837505
+            }
+          ]
+        },
+        {
+          "referenceId": 61,
+          "parameterPath": "/stage/materials/M_PeelingWhiteWood_01_basecolor/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "ffc49cf84facb97b8e23eade4027732f4f37fb8b453cbc53f0a4138622aae03a",
+              "size": 2314390
+            }
+          ]
+        },
+        {
+          "referenceId": 62,
+          "parameterPath": "/stage/materials/M_PeelingWhiteWood_01_checker/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/CustomUVChecker_byValle_1K.png",
+              "sourceId": "production",
+              "relativePath": "textures/CustomUVChecker_byValle_1K.png",
+              "status": "backed-up",
+              "sha256": "f86f7f9783f17435301e59ee9ff5a7075a858ff93c89b29baca7b7db83e00487",
+              "size": 105761
+            }
+          ]
+        },
+        {
+          "referenceId": 63,
+          "parameterPath": "/stage/materials/M_PeelingWhiteWood_01_metallic/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/facade_white_wood_metallic.png",
+              "sourceId": "production",
+              "relativePath": "textures/facade_white_wood_metallic.png",
+              "status": "backed-up",
+              "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+              "size": 4145
+            }
+          ]
+        },
+        {
+          "referenceId": 64,
+          "parameterPath": "/stage/materials/M_PeelingWhiteWood_01_normal_tex/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "4f9d98d857a8443e6f333635540c8e5f4b458186ebadcb19896978ba8077b080",
+              "size": 2785896
+            }
+          ]
+        },
+        {
+          "referenceId": 65,
+          "parameterPath": "/stage/materials/M_PeelingWhiteWood_01_roughness/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "93a89cf67bd56dff3465b3c57c2142fe75fc4dd69eef55ccd802c48b1f7a481c",
+              "size": 1686980
+            }
+          ]
+        },
+        {
+          "referenceId": 66,
+          "parameterPath": "/stage/materials/M_PeelingWhiteWood_01_specular/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Specular.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Specular.jpg",
+              "status": "backed-up",
+              "sha256": "95cd1d2adb7aa476dbdc1cc9f43183cbc40005df97e461fc779144c17c0cbeda",
+              "size": 1204195
+            }
+          ]
+        },
+        {
+          "referenceId": 67,
+          "parameterPath": "/stage/materials/M_WindowWood_04_ao/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_AO.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_AO.jpg",
+              "status": "backed-up",
+              "sha256": "f9d6bae6d5872954a88b1e9af698adbe344aba7554c2cf5c62e5087b38706a81",
+              "size": 1094800
+            }
+          ]
+        },
+        {
+          "referenceId": 68,
+          "parameterPath": "/stage/materials/M_WindowWood_04_basecolor/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "8c97123ee5c9e7708756f5145f54ae7c3e21fa6a9f1cff26eeb20a693f2cb4d1",
+              "size": 2147692
+            }
+          ]
+        },
+        {
+          "referenceId": 69,
+          "parameterPath": "/stage/materials/M_WindowWood_04_layer1_height_tex/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/grain_wood_04_window.png",
+              "sourceId": "production",
+              "relativePath": "textures/grain_wood_04_window.png",
+              "status": "backed-up",
+              "sha256": "6b036b00761a4147591565336feea1c1203b7c0f4a38e56ddc8ca02ae9700f2f",
+              "size": 4453480
+            }
+          ]
+        },
+        {
+          "referenceId": 70,
+          "parameterPath": "/stage/materials/M_WindowWood_04_normal_tex/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "eb84af05669b49ae0308de807c7b9324bc2c7987deb93523e33e257013be1e48",
+              "size": 3187318
+            }
+          ]
+        },
+        {
+          "referenceId": 71,
+          "parameterPath": "/stage/materials/M_WindowWood_04_roughness/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "9559c689f9b7b9271724a688c8c3f4c676406a379b702d51e32a635295e4d022",
+              "size": 821223
+            }
+          ]
+        },
+        {
+          "referenceId": 72,
+          "parameterPath": "/stage/materials/M_WindowWood_04_specular/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Specular.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Specular.jpg",
+              "status": "backed-up",
+              "sha256": "a769ba64af731c044aac78809589df350311a2e9899c9ea0a959345312a45ea6",
+              "size": 793246
+            }
+          ]
+        },
+        {
+          "referenceId": 73,
+          "parameterPath": "/stage/materials/M_WoodShinglesRoof_03_ao/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_AO.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_AO.jpg",
+              "status": "backed-up",
+              "sha256": "d536397215ea1fa9d30656f0b7a2ffbe39e658a3488721501b123360943f7693",
+              "size": 2585743
+            }
+          ]
+        },
+        {
+          "referenceId": 74,
+          "parameterPath": "/stage/materials/M_WoodShinglesRoof_03_basecolor/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "d08afbb3eb01ca9b9e0f17ed2ae34256858920153c02413756968ed8bf386f7b",
+              "size": 4164371
+            }
+          ]
+        },
+        {
+          "referenceId": 75,
+          "parameterPath": "/stage/materials/M_WoodShinglesRoof_03_layer1_height_tex/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/grain_wood_03_shingles.png",
+              "sourceId": "production",
+              "relativePath": "textures/grain_wood_03_shingles.png",
+              "status": "backed-up",
+              "sha256": "341ca469085755a4561c4d36d49f693652e4cefb7f75d8816ec564fe191f6017",
+              "size": 4159643
+            }
+          ]
+        },
+        {
+          "referenceId": 76,
+          "parameterPath": "/stage/materials/M_WoodShinglesRoof_03_normal_tex/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "5e1ecac1faa823aaa77d70dd3bdb31be92854bed53d3fde68f54998b68bc2e4a",
+              "size": 7335234
+            }
+          ]
+        },
+        {
+          "referenceId": 77,
+          "parameterPath": "/stage/materials/M_WoodShinglesRoof_03_roughness/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "4f95c12a18232aab6e9b527a7fc668160c43b937c62b5686c778feeea282ae82",
+              "size": 1580368
+            }
+          ]
+        },
+        {
+          "referenceId": 78,
+          "parameterPath": "/stage/materials/M_WoodShinglesRoof_03_specular/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Specular.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Specular.jpg",
+              "status": "backed-up",
+              "sha256": "f07ae8ccf501deb6d3a93c1353fba59e38b4466cfe130e349579b58dc5acf2c1",
+              "size": 1821152
+            }
+          ]
+        },
+        {
+          "referenceId": 79,
+          "parameterPath": "/stage/materials/M_WornWood_02_ao/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_AO.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_AO.jpg",
+              "status": "backed-up",
+              "sha256": "18cebe702146f47d947147d6c8c55ecea75c14d412583dfca671ca74d6294411",
+              "size": 2070596
+            }
+          ]
+        },
+        {
+          "referenceId": 80,
+          "parameterPath": "/stage/materials/M_WornWood_02_basecolor/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_BaseColor.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_BaseColor.jpg",
+              "status": "backed-up",
+              "sha256": "d5b2118bc731fded35538e11617dbdb7eec25a99904e5e9cde11a1c505a61069",
+              "size": 4004787
+            }
+          ]
+        },
+        {
+          "referenceId": 81,
+          "parameterPath": "/stage/materials/M_WornWood_02_layer1_height_tex/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/grain_wood_02_worn.png",
+              "sourceId": "production",
+              "relativePath": "textures/grain_wood_02_worn.png",
+              "status": "backed-up",
+              "sha256": "9f1367eb3899b7c4c511da0464d4fb2191f0aeb69c93424e3429ac16eb5e65f2",
+              "size": 4053097
+            }
+          ]
+        },
+        {
+          "referenceId": 82,
+          "parameterPath": "/stage/materials/M_WornWood_02_normal_tex/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Normal.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Normal.jpg",
+              "status": "backed-up",
+              "sha256": "f3170fad511749687d8339f4a4f9d0d732ffeeea3837bd60ae806a932048d0ff",
+              "size": 6973574
+            }
+          ]
+        },
+        {
+          "referenceId": 83,
+          "parameterPath": "/stage/materials/M_WornWood_02_roughness/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Roughness.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Roughness.jpg",
+              "status": "backed-up",
+              "sha256": "72ab291b1e3c512325d4dfb70d8140d47a159c8f73ce701636c5ab128079c837",
+              "size": 3450903
+            }
+          ]
+        },
+        {
+          "referenceId": 84,
+          "parameterPath": "/stage/materials/M_WornWood_02_specular/file",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Specular.jpg",
+              "sourceId": "production",
+              "relativePath": "textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Specular.jpg",
+              "status": "backed-up",
+              "sha256": "cf95507cac5ae8b33aeacf2ee258107290385da1e4e212ee42a3189cf464521e",
+              "size": 1876783
+            }
+          ]
+        },
+        {
+          "referenceId": 85,
+          "parameterPath": "/stage/render_karma_xpu/savetodirectory_directory",
+          "role": "unknown",
+          "type": "unresolved",
+          "existsAtCurrentFrame": false
+        },
+        {
+          "referenceId": 86,
+          "parameterPath": "/stage/render_karma_xpu/outputimage",
+          "role": "unknown",
+          "type": "mapped",
+          "targets": [
+            {
+              "projectId": "louisiana-bayou",
+              "fileId": "production:captures/karma_xpu_church_34.png",
+              "sourceId": "production",
+              "relativePath": "captures/karma_xpu_church_34.png",
+              "status": "backed-up",
+              "sha256": "62d66b7ad8a0e43371de3c1d4e2cd88fcf156c0dea42dc20a7623af82e01d914",
+              "size": 1325702
+            }
+          ]
+        }
+      ],
+      "issues": [],
+      "portabilityVerified": false,
+      "state": "current"
+    },
+    "checkedAt": "2026-10-03T02:21:38.824Z"
+  }
+]
