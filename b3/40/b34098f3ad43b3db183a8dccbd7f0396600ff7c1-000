@@ -1,0 +1,413 @@
+{
+  "plan": {
+    "schemaVersion": 1,
+    "projectId": "louisiana-bayou",
+    "sceneFileId": "production:LouisianaBayou.hiplc",
+    "ready": false,
+    "scenePath": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/LouisianaBayou.hiplc",
+    "sceneRoot": null,
+    "sceneSha256": "b119da2d42e3c06ee88d29ae2b47d33c7b3459cb9f86171088e5a5e475d278c8",
+    "resources": [
+      {
+        "kind": "hda",
+        "projectId": "zenray-houdini-library",
+        "fileId": "skill-library:ZenRayChurchHero.hda",
+        "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library/ZenRayChurchHero.hda",
+        "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library",
+        "sha256": "a4114a5a0ba3d625d447a005e0455746288292ace65686b25024afb8411d59d6"
+      },
+      {
+        "kind": "hda",
+        "projectId": "zenray-houdini-library",
+        "fileId": "skill-library:zenray_picket_fence.hda",
+        "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library/zenray_picket_fence.hda",
+        "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library",
+        "sha256": "8e55e885f2ac22d0724c933c8f550eff3c7b2fd51adc49453d368b8adf101fb0"
+      },
+      {
+        "kind": "hda",
+        "projectId": "zenray-houdini-library",
+        "fileId": "memory-library:Component_Armature.hda",
+        "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_Armature.hda",
+        "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "sha256": "c8ed1e5945c7594a8a8168815b7846657b997f00079975ccff6ab1044853ab17"
+      },
+      {
+        "kind": "hda",
+        "projectId": "zenray-houdini-library",
+        "fileId": "memory-library:Component_Roof.hda",
+        "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_Roof.hda",
+        "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "sha256": "28c05ae95d9f4a4798ded2226c114a7c528e0560f927daac25bc2c5f187e7ed5"
+      },
+      {
+        "kind": "hda",
+        "projectId": "zenray-houdini-library",
+        "fileId": "memory-library:Component_WindowA.hda",
+        "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WindowA.hda",
+        "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "sha256": "612c384c553bf8f514e1d453a39d84d37918cf94a1185f24fa0562f212c97171"
+      },
+      {
+        "kind": "hda",
+        "projectId": "zenray-houdini-library",
+        "fileId": "memory-library:Component_WindowB.hda",
+        "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WindowB.hda",
+        "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "sha256": "ea6f540938dab7d4134ff11b32b0be2b269e3a39dbc132f1d9a86b083c94dfaa"
+      },
+      {
+        "kind": "hda",
+        "projectId": "zenray-houdini-library",
+        "fileId": "memory-library:Component_WoodFacade.hda",
+        "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WoodFacade.hda",
+        "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "sha256": "3e85bed633781c677f75fb18e8fa5c7c3af2c2bec84b23d303c8ea53c79c88ce"
+      }
+    ],
+    "loadRequirements": [
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:LouisianaBayou.hiplc",
+        "reason": "scene-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_AO.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_BaseColor.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Displacement.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Normal.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_flaked_wood_planks_2k_horizontal/Flaked_Wood_Planks_tg2ldb2bw_2K_Roughness.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/CustomUVChecker_byValle_1K.png",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_AO.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_BaseColor.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Normal.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_window_wood_04/Wooden_Planks_udmlceen_2K_Roughness.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_AO.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_BaseColor.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Displacement.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Normal.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_roof_shingles_03/Cracked_Wooden_Planks_ui2leaxlw_2K_Roughness.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_AO.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_BaseColor.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Displacement.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Normal.jpg",
+        "reason": "resource-copy-required"
+      },
+      {
+        "projectId": "louisiana-bayou",
+        "fileId": "production:textures/quixel_worn_wood_02/Boat_Deck_Planks_sl3gfdnp_2K_Roughness.jpg",
+        "reason": "resource-copy-required"
+      }
+    ],
+    "unresolvedReferences": [
+      {
+        "referenceId": 7,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 8,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 9,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 10,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 11,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 12,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 13,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 14,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 15,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 16,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 17,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 18,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 19,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 20,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 21,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 22,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 23,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 24,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 25,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 26,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 27,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 28,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 49,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 51,
+        "type": "uri"
+      },
+      {
+        "referenceId": 53,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 54,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 55,
+        "type": "relative"
+      },
+      {
+        "referenceId": 56,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 57,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 58,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 59,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 60,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 61,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 62,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 63,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 64,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 65,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 66,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 67,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 68,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 69,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 70,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 71,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 72,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 73,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 74,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 75,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 76,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 77,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 78,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 79,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 80,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 81,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 82,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 83,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 84,
+        "type": "mapped"
+      },
+      {
+        "referenceId": 85,
+        "type": "unresolved"
+      },
+      {
+        "referenceId": 86,
+        "type": "mapped"
+      }
+    ],
+    "completeReferenceCoverage": false,
+    "portabilityVerified": false
+  },
+  "checkedAt": "2026-10-03T07:06:31.746Z"
+}
