@@ -1,0 +1,10 @@
+# Explorer impact audit (3 October 2026)
+
+- GO for the explorer update: 159 tests pass across thirteen suites. (3 October 2026)
+- One registry remains authoritative. Individual Markdown is derived by the shared context builder, not a competing editable index. (3 October 2026)
+- Filter unknown dates and sizes honestly; zero bytes remain valid; descending sort leaves unknown values last. Composite filters and four-view selections are tested. (3 October 2026)
+- Checkpoints remain append-only and idempotent. A session bound to another project and redirected feedback are refused without changing existing bytes. (3 October 2026)
+- Codex and Claude provenance comes from bound native JSONL. Antigravity uses binary SQLite payloads without a verified decoder; Gemini/Antigravity checkpoints are explicitly labeled summaries. (3 October 2026)
+- Local writing is not cloud proof. Checkpoint response explicitly returns backupConfirmed=false and schedules the existing archive workflow. (3 October 2026)
+- Visual regression found: oversized fallback symbols obscured names. Preview bounds now constrain native thumbnail wrappers and symbols; the actual Ceramic Tiles page confirms readability. (3 October 2026)
+- Production build uses an isolated checkout of the validated Assets commit, excluding unrelated ongoing PostKit edits. Deployment HTTP and bundle verification remain the release gate. (3 October 2026)
