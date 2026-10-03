@@ -20,7 +20,7 @@
     }
   ],
   "repository": "/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress",
-  "next": "Preserve diverged production versions in the cloud automatically before continuing active-copy backup",
+  "next": "Show preserved versions clearly and distinguish original locations from active working copies",
   "activeAgentAudit": {
     "taskName": "/root/scene_dependency_mapping",
     "task": "Follow-up stopped by agent usage quota; implementation continues inline",
@@ -36,8 +36,8 @@
     ]
   },
   "activeWorkshopPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop",
-  "updatedAt": "2026-10-03T08:13:45.268866+00:00",
-  "currentCycle": "Original version divergence visibility and verified archive protection",
+  "updatedAt": "2026-10-03T08:38:07.351268+00:00",
+  "currentCycle": "Automatic original-version preservation verified on three real files; compact cloud registry published",
   "subagents": {
     "scene_dependency_mapping": {
       "id": "/root/scene_dependency_mapping",
@@ -46,5 +46,15 @@
       "transcriptNote": "Host does not expose an agent transcript path or UUID; canonical tool identity retained.",
       "deliverable": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/HoudiniPreparationContractAudit.md"
     }
+  },
+  "lastVerifiedJob": "65a33674-48dc-4994-a813-af48eff83919",
+  "lastVerification": {
+    "tests": 100,
+    "publisherAndViewTests": 96,
+    "build": true,
+    "preservedRealVersions": 3,
+    "originalHashesMatch": true,
+    "cloudRegistrySchema": 3,
+    "cloudProjects": 7
   }
 }
