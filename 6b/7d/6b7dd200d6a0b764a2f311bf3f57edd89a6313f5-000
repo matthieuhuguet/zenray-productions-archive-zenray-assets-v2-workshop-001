@@ -1,0 +1,47 @@
+{
+  "checkedAt": "3 October 2026",
+  "restoredHdaCount": 7,
+  "checks": [
+    {
+      "fileId": "memory-library:Component_Armature.hda",
+      "copyMatches": true,
+      "originalMatches": true
+    },
+    {
+      "fileId": "memory-library:Component_Roof.hda",
+      "copyMatches": true,
+      "originalMatches": true
+    },
+    {
+      "fileId": "memory-library:Component_WindowA.hda",
+      "copyMatches": true,
+      "originalMatches": true
+    },
+    {
+      "fileId": "memory-library:Component_WindowB.hda",
+      "copyMatches": true,
+      "originalMatches": true
+    },
+    {
+      "fileId": "memory-library:Component_WoodFacade.hda",
+      "copyMatches": true,
+      "originalMatches": true
+    },
+    {
+      "fileId": "skill-library:zenray_picket_fence.hda",
+      "copyMatches": true,
+      "originalMatches": true
+    },
+    {
+      "fileId": "skill-library:ZenRayChurchHero.hda",
+      "copyMatches": true,
+      "originalMatches": true
+    }
+  ],
+  "consumerReferenceTypes": [
+    "relocation-required"
+  ],
+  "consumerStatuses": [
+    "verified"
+  ]
+}
