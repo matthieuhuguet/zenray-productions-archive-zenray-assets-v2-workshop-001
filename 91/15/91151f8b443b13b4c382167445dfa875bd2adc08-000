@@ -1,0 +1,16 @@
+{
+  "date": "3 October 2026",
+  "testsPassed": 95,
+  "reactFilterRecheckPassed": 14,
+  "buildPassed": true,
+  "productionFilesEditedForTest": false,
+  "localDisposableFixtures": [
+    "origin diverged with unchanged loaded copy",
+    "identical origin bytes rewritten",
+    "other files archived despite divergence",
+    "both hashes preserved in context",
+    "cloud omits local paths",
+    "explicit archive and UNLOAD blocked"
+  ],
+  "automaticCloudResolutionImplemented": false
+}
