@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "scenePath": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/LouisianaBayou.hiplc",
+  "sceneRoot": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou",
+  "sceneSha256": "b119da2d42e3c06ee88d29ae2b47d33c7b3459cb9f86171088e5a5e475d278c8",
+  "resources": [
+    {
+      "kind": "hda",
+      "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_Armature.hda",
+      "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+      "sha256": "c8ed1e5945c7594a8a8168815b7846657b997f00079975ccff6ab1044853ab17"
+    },
+    {
+      "kind": "hda",
+      "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_Roof.hda",
+      "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+      "sha256": "28c05ae95d9f4a4798ded2226c114a7c528e0560f927daac25bc2c5f187e7ed5"
+    },
+    {
+      "kind": "hda",
+      "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WindowA.hda",
+      "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+      "sha256": "612c384c553bf8f514e1d453a39d84d37918cf94a1185f24fa0562f212c97171"
+    },
+    {
+      "kind": "hda",
+      "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WindowB.hda",
+      "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+      "sha256": "ea6f540938dab7d4134ff11b32b0be2b269e3a39dbc132f1d9a86b083c94dfaa"
+    },
+    {
+      "kind": "hda",
+      "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WoodFacade.hda",
+      "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+      "sha256": "3e85bed633781c677f75fb18e8fa5c7c3af2c2bec84b23d303c8ea53c79c88ce"
+    },
+    {
+      "kind": "hda",
+      "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library/zenray_picket_fence.hda",
+      "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+      "sha256": "8e55e885f2ac22d0724c933c8f550eff3c7b2fd51adc49453d368b8adf101fb0"
+    },
+    {
+      "kind": "hda",
+      "targetPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library/ZenRayChurchHero.hda",
+      "targetRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+      "sha256": "a4114a5a0ba3d625d447a005e0455746288292ace65686b25024afb8411d59d6"
+    }
+  ]
+}
