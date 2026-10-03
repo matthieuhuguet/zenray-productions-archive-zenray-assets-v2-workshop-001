@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-03T03:16:56.926780+00:00",
+  "projectId": "zenray-houdini-library",
+  "loadId": "9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+  "activeWorkshopExists": true,
+  "workspacePath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+  "activeWorkshopPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/tmp/workshop",
+  "verifiedRestoredHdaCount": 7,
+  "repair": "Existing partial LOAD resumed through canonical start without a session binding."
+}
