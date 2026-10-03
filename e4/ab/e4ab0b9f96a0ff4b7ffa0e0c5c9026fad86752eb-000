@@ -331,4 +331,4 @@ dist/assets/RefBoardHost-D9ogBC-o.js                            1,451.10 kB │ 
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-✓ built in 15.13s
+✓ built in 8.87s
