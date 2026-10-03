@@ -1,0 +1,71 @@
+{
+  "job": {
+    "id": "65a33674-48dc-4994-a813-af48eff83919",
+    "projectId": "zenray-assets-v2",
+    "type": "archive",
+    "state": "done",
+    "createdAt": "2026-10-03T08:26:56.937Z",
+    "error": null,
+    "startedAt": "2026-10-03T08:27:11.016Z",
+    "preservedVersions": [
+      {
+        "fileId": "workshop:AGENTS.md",
+        "versionId": "workshop:versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/AGENTS.md",
+        "sha256": "70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b",
+        "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/AGENTS.md.file.json"
+      },
+      {
+        "fileId": "workshop:CLAUDE.md",
+        "versionId": "workshop:versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/CLAUDE.md",
+        "sha256": "70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b",
+        "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/CLAUDE.md.file.json"
+      },
+      {
+        "fileId": "workshop:state.json",
+        "versionId": "workshop:versions/workshop/8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6/state.json",
+        "sha256": "8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6",
+        "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6/state.json.file.json"
+      }
+    ],
+    "sourceConflictCount": 0,
+    "progress": {
+      "zr": 1,
+      "ev": "done",
+      "chunked": 1,
+      "images": 0,
+      "videos": 0,
+      "media": 0,
+      "unchanged": 0,
+      "reused": 0,
+      "restored": 0,
+      "skipped": [],
+      "verifyKo": 0,
+      "sourceId": "workshop"
+    },
+    "count": 1,
+    "remainingCount": 0,
+    "finishedAt": "2026-10-03T08:30:01.468Z"
+  },
+  "checks": [
+    {
+      "fileId": "workshop:AGENTS.md",
+      "versionId": "workshop:versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/AGENTS.md",
+      "sha256": "70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b",
+      "originalAndVersionAndArchiveMatch": true
+    },
+    {
+      "fileId": "workshop:CLAUDE.md",
+      "versionId": "workshop:versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/CLAUDE.md",
+      "sha256": "70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b",
+      "originalAndVersionAndArchiveMatch": true
+    },
+    {
+      "fileId": "workshop:state.json",
+      "versionId": "workshop:versions/workshop/8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6/state.json",
+      "sha256": "8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6",
+      "originalAndVersionAndArchiveMatch": true
+    }
+  ],
+  "sourceConflictCount": 0,
+  "originFilesOverwritten": false
+}
