@@ -1,0 +1,52 @@
+# Scene dependency mapping audit (3 October 2026)
+
+Lecture seule des rapports HOM et des inventaires persistants ; seule cette preuve Markdown est creee dans l atelier actif. Heure UTC : 2026-10-03T02:02:55.665103+00:00. (3 October 2026)
+
+## Couverture exacte mesuree (3 October 2026)
+
+| Projet | References et chemins uniques | Couverture des fichiers presents (3 October 2026) |
+| --- | --- | --- |
+| ceramic-tiles | 65 references ; 43 occurrences mappes, 28 fichiers uniques. | 28/28 fichiers mappes ont meme SHA256 et changeToken dans backups ; 0 fichiers reguliers presents hors inventaire. (3 October 2026) |
+
+Inventaire ceramic-tiles checkedAt=2026-10-03T02:02:01.528Z ; scene SHA256=99ee00be3bc77d4dd16688351f4b54e919462ea002a596d51ba7348c161781da. Le catalogue sauvegarde est une preuve enregistree, pas une nouvelle restauration effectuee par cet audit. (3 October 2026)
+
+| louisiana-bayou | 87 references ; 59 occurrences mappes, 30 fichiers uniques. | 30/30 fichiers mappes ont meme SHA256 et changeToken dans backups ; 7 fichiers reguliers presents hors inventaire. (3 October 2026) |
+
+Inventaire louisiana-bayou checkedAt=2026-10-03T01:52:26.937Z ; scene SHA256=b119da2d42e3c06ee88d29ae2b47d33c7b3459cb9f86171088e5a5e475d278c8. Le catalogue sauvegarde est une preuve enregistree, pas une nouvelle restauration effectuee par cet audit. (3 October 2026)
+
+## Ressources presentes hors mapping (3 October 2026)
+
+Ceramic Tiles : aucune ressource reguliere presente hors mapping dans ce rapport. Louisiana Bayou : uniquement ces sept bibliotheques HDA. Aucune racine, source ou dependance n est ajoutee par cet audit. (3 October 2026)
+
+- `/Users/zenray/.claude/Memory1/Houdini/otls/Component_Armature.hda` : 11536 octets, hors inventaire louisiana-bayou. (3 October 2026)
+- `/Users/zenray/.claude/Memory1/Houdini/otls/Component_Roof.hda` : 15193 octets, hors inventaire louisiana-bayou. (3 October 2026)
+- `/Users/zenray/.claude/Memory1/Houdini/otls/Component_WindowA.hda` : 17210 octets, hors inventaire louisiana-bayou. (3 October 2026)
+- `/Users/zenray/.claude/Memory1/Houdini/otls/Component_WindowB.hda` : 13736 octets, hors inventaire louisiana-bayou. (3 October 2026)
+- `/Users/zenray/.claude/Memory1/Houdini/otls/Component_WoodFacade.hda` : 10529 octets, hors inventaire louisiana-bayou. (3 October 2026)
+- `/Users/zenray/.claude/skills/zenray-houdini/otls/ZenRayChurchHero.hda` : 96583 octets, hors inventaire louisiana-bayou. (3 October 2026)
+- `/Users/zenray/.claude/skills/zenray-houdini/otls/zenray_picket_fence.hda` : 12298 octets, hors inventaire louisiana-bayou. (3 October 2026)
+
+## Limites precises (3 October 2026)
+
+- Ceramic : les 65 references portent mode=unknown. Les 22 chemins absents sont 20 savepath USD, un rendergallery.db et un repertoire temporaire. Leur nom suggere une sortie, mais aucun verdict automatique input/output ne doit provenir du nom du parametre. (3 October 2026)
+- Louisiana : 59 occurrences correspondent a 30 fichiers uniques mappes, 7 aux HDA externes, 1 est interne op:, 20 restantes ne sont pas des fichiers reguliers presents. Les 20 restantes representent 19 chemins uniques ; un chemin est un repertoire temporaire present, pas une ressource fichier. (3 October 2026)
+- Louisiana : 62 references unknown et 25 input. Quatre occurrences input absentes concernent trois chemins sous Downloads (ref_height_square.jpg deux fois, T_RoofTiles_Height.png, tmp-layer/refPerfect1.png). Elles sont absentes a ces chemins ; ne pas substituer un fichier de meme nom trouve ailleurs. (3 October 2026)
+- Cinquieme input absent : soho_program=IFD.py. canonicalPath l ancre artificiellement dans le cwd ZenRayProgress. Un IFD.py existe reellement dans /Applications/Houdini/Current/Frameworks/Houdini.framework/Versions/Current/Resources/houdini/soho/python3.13/IFD.py. Sa resolution runtime reste a confirmer par le contexte Houdini, pas par un rapprochement de nom. (3 October 2026)
+- temp:lookdev_sun.rat est un schema Houdini, pas un chemin disque relatif ordinaire. canonicalPath ancre dans le cwd ne prouve pas une dependance externe manquante. Conserver une classe unresolved-uri jusqu a verification du resoluteur. (3 October 2026)
+- Aucun motif de sequence fichier dynamique dans ces deux preuves : Ceramic dynamic=0 ; Louisiana dynamic=1 uniquement pour une reference op: interne. Cela ne prouve ni toute la plage temporelle ni l absence de references construites par expressions ou code hors fileReferences. (3 October 2026)
+- Les bibliotheques HDA peuvent contenir d autres ressources ou code. Archiver leurs octets ne prouve pas la fermeture transitive des dependances ; la version de Houdini et les plugins restent aussi des conditions runtime. (3 October 2026)
+
+## Plus petit algorithme verifiable (3 October 2026)
+
+1. Verifier que sceneSha256 du rapport correspond a la scene inventoriee ; sinon marquer stale et refaire l audit avant rattachement. Conserver parameterPath/rawPath, checkedAt et l empreinte comme provenance locale. (3 October 2026)
+2. Construire une table realpath(localFile.localPath) -> liste de {projectId,fileId,sourceId,relativePath} depuis le projet et sa fermeture de dependances explicitement declarees. Inclure uniquement les fichiers reellement inventories, donc les perimetres include/exclude restent respectes. Ne pas inferer la couverture par simple appartenance a un dossier source. (3 October 2026)
+3. Pour une reference disque canonique exacte, classer zero correspondance comme outside-mapping si fichier regulier present, sinon unresolved ; une correspondance comme mapped ; plusieurs correspondances comme ambiguous avec tous les candidats. Ne jamais choisir le premier par hasard, ni utiliser basename, similarite ou SHA seul pour choisir un chemin. (3 October 2026)
+4. Les bibliotheques HDA partagees explicitement rattachees se resolvent dans l inventaire du projet de bibliotheque et deviennent des liens projectId/fileId. Le projet de scene conserve seulement le lien ; les octets de bibliotheque restent archives une fois. Le parent traite le rattachement et les racines autorisees. (3 October 2026)
+5. Comparer chaque cible mappee au backup courant par SHA256 et changeToken pour distinguer mapped-local de mapped-archived. Produire dans le cloud les identites, chemins relatifs, empreintes, roles et diagnostics admissibles, jamais les chemins absolus du Mac. (3 October 2026)
+6. Traiter independamment internal, explicit-output, unknown, unresolved-uri, relative-search-path et dynamic/sequence. Ne pas convertir unknown absent en input manquant ; ne pas convertir mapped-archived en portable. Une sequence exige sa plage explicite, la resolution HOM a chaque frame pertinente, puis la liste exacte des membres identifies et archives. (3 October 2026)
+7. Tests minimaux : correspondance exacte ; alias symlink ; racine connue avec fichier exclu ; deux cibles ambiguës ; HDA dans dependance declaree ; fichier present hors mapping ; fichier absent ; sortie explicite ; role inconnu ; URI temp: ; nom relatif IFD.py ; sequence dont une frame manque ; preuve scene perimee ; cloud sans chemins absolus. Le verdict portabilityVerified reste false sans LOAD isole et verificateur runtime. (3 October 2026)
+
+## Precision de resolution partagee avec le parent (3 October 2026)
+
+- Le rapport brut precedent inventait une racine cwd pour les references relatives et URI : cette racine n est pas une preuve Houdini. Le parent corrige l auditeur avec pathKind explicite ; canonicalPath et existsAtCurrentFrame ne seront definis que pour les chemins absolus de fichiers. Le present audit comptabilise les preuves anciennes sans valider cette interpretation fautive. (3 October 2026)
+- Le parent prepare deux racines otls precises, avec includes explicites et refus des symlinks. La comparaison par realpath sert seulement a rapprocher une reference et une entree deja admise ; elle ne doit pas contourner le refus de symlinks du registre/inventaire pour admettre de nouvelles sources. (3 October 2026)
