@@ -1,0 +1,15 @@
+{
+  "deployment": "https://8fc32ba2.zenray-progress.pages.dev",
+  "production": "https://zenray-progress.pages.dev",
+  "htmlIdentical": true,
+  "files": [
+    {
+      "path": "/assets/index-ClqkVS7i.js",
+      "sha256": "9b5b33439861f2d4760933ad005f23c896e7d8dbdd334194118d5b550ac0ac6f"
+    },
+    {
+      "path": "/assets/index-Dr0sINCb.css",
+      "sha256": "8d1cb3994924154b1b8dc82e2be4649139d1d89d1ee00c31333fc71327a9884d"
+    }
+  ]
+}
