@@ -1,0 +1,14 @@
+# Entree universelle des conversations (3 October 2026)
+
+- Domaine : architecture de capture et sauvegarde locale ; audit du passage obligatoire de chaque conversation par Assets. (3 October 2026)
+- Lecture litterale : tous les projets, fichiers de travail et discussions ont une identite Assets. Lecture inverse : une regle ignoree par un hote ne cree aucune sauvegarde. Lecture adjacente : attribution, confidentialite et couverture des formats natifs. Reformulation : une seule porte de demarrage, une collection distincte pour les discussions, des preuves par fichier. (3 October 2026)
+
+| Risque | Preuve | Verification |
+| --- | --- | --- |
+| Discussion ignoree sans liaison | AssetsFeedbackCapture.mjs ignore un transcript sans SessionBindings ni source locale correspondante. (3 October 2026) | BeginConversation sur la vraie session retourne sessionBound=true et watched=true ; ce routage exige son execution par l agent. (3 October 2026) |
+| Historique melange entre projets | Le registre SessionBindings.json porte un seul projet par session et replay repart de zero. (3 October 2026) | ConversationIdentity refuse une reaffectation implicite ; test rouge sur second projet. Segmentation automatique non implementee. (3 October 2026) |
+| Fausse capture Gemini | AssetsFeedbackCapture.mjs ne lit que .codex/sessions et .claude/projects ; aucun decodeur Gemini/Antigravity. (3 October 2026) | BeginConversation indique nativeCaptureSupported=false pour ces agents ; prompts manuels et checkpoint distingues de la conversation originale. (3 October 2026) |
+| Interface inondee | ProjectRail presentait tous les projets dans une liste unique. (3 October 2026) | Test React : discussion absente de Projets et presente apres clic Conversations. (3 October 2026) |
+| Fausse garantie de backup integral | BeginConversation initialise les sources ; le transfert et les exclusions restent propres au moteur Assets. (3 October 2026) | Sortie backupConfirmed=false ; aucun upload du disque entier ni des credentials ; la preuve cloud reste distincte. (3 October 2026) |
+
+- Verdict : GO pour le protocole global et la porte executee ; aucune garantie de capture native universelle ni de sauvegarde de fichiers hors mapping. 97 tests passent dans quatre suites ; doctrine globale 62 289 octets avant regeneration, sous la limite de 65 536. (3 October 2026)
