@@ -1,0 +1,71 @@
+{
+  "measuredAt": "2026-10-03T20:19:12.076Z",
+  "fileId": "production:render/archive_30s_order_v1/ceramic-tiles-ad-4096-24fps.mov",
+  "locations": {
+    "local": {
+      "path": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/CeramicTiles/render/archive_30s_order_v1/ceramic-tiles-ad-4096-24fps.mov",
+      "state": "Sur ce Mac",
+      "missing": null
+    },
+    "cloud": {
+      "path": "pages/ZenRayAssets/ceramic-tiles/sources/houdini/production/render/archive_30s_order_v1/ceramic-tiles-ad-4096-24fps.mov.file.json",
+      "state": "Sauvegardé",
+      "missing": null
+    }
+  },
+  "dictateDocuments": [
+    {
+      "fileId": "application:AGENTS.md",
+      "namespace": "tmp"
+    },
+    {
+      "fileId": "workshop:AGENTS.md",
+      "namespace": "tmp"
+    },
+    {
+      "fileId": "application:CLAUDE.md",
+      "namespace": "tmp"
+    },
+    {
+      "fileId": "workshop:CLAUDE.md",
+      "namespace": "tmp"
+    },
+    {
+      "fileId": "application:FEEDBACK.md",
+      "namespace": "tmp"
+    },
+    {
+      "fileId": "project-notes:FEEDBACK.md",
+      "namespace": "memory"
+    },
+    {
+      "fileId": "project-notes:Project1.md",
+      "namespace": "memory"
+    },
+    {
+      "fileId": "application:README.md",
+      "namespace": "tmp"
+    },
+    {
+      "fileId": "historical-post:2026-08-11-zenray-dictate-post.md",
+      "namespace": "memory"
+    },
+    {
+      "fileId": "application:docs/independent-composer-design.md",
+      "namespace": "tmp"
+    },
+    {
+      "fileId": "application:docs/patch-notes-v2.md",
+      "namespace": "tmp"
+    },
+    {
+      "fileId": "application:Scripts/README-Gemini.md",
+      "namespace": "tmp"
+    },
+    {
+      "fileId": "application:SPEC.md",
+      "namespace": "tmp"
+    }
+  ],
+  "visualInspection": "Blocked by integrated browser URL policy; not verified"
+}
