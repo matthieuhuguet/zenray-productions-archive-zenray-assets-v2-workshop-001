@@ -1,0 +1,19 @@
+{
+  "verifiedAt": "3 October 2026",
+  "deployment": "https://5c954257.zenray-progress.pages.dev",
+  "productionMatches": true,
+  "assets": [
+    {
+      "path": "/assets/index-MQ8tkssV.js",
+      "sha256": "703b02bd40d16df7396f637c4605efe1a3482f2fca79a1215d8cceeb92e49460"
+    },
+    {
+      "path": "/assets/index-Dr0sINCb.css",
+      "sha256": "8d1cb3994924154b1b8dc82e2be4649139d1d89d1ee00c31333fc71327a9884d"
+    },
+    {
+      "path": "/assets/AssetsView-BQsnkcqd.js",
+      "sha256": "03173b0fd2b5af46607cbc532dd76a717d04aa86d1e389ba0d454df4773b4f54"
+    }
+  ]
+}
