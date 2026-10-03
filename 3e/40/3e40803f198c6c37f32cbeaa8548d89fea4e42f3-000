@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-03T02:55:57.245Z",
+  "projectId": "louisiana-bayou",
+  "cloudSha": "55f90121af32fe038c4d428be33fa6a5d0b2573c",
+  "sceneCount": 2,
+  "libraryTargets": 12,
+  "libraryStatuses": [
+    "backed-up"
+  ],
+  "macPathInSceneContext": false,
+  "livePendingCountExported": false
+}

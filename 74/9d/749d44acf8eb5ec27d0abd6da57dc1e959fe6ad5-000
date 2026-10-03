@@ -1,0 +1,33 @@
+# LOAD scene portability audit (3 October 2026)
+
+## Three different proofs (3 October 2026)
+
+- restoreOriginal verifies a regular restored file by expected size and independent SHA256; restoreNow records its identity/path in Current.json and state.restorations. This proves identical archived bytes. (3 October 2026)
+- A scene reference targeting a verified restored texture or HDA proves that a resource is available at its new path only after that exact identity is resolved; it does not prove Houdini currently uses that copy. (3 October 2026)
+- Headless scene load, node availability and parameter resolution are a further proof. No render, cook, material equivalence, sequence completeness, plugin equivalence or playable Unreal execution is performed by this audit. portabilityVerified must remain false. (3 October 2026)
+
+## What prevents automatic portable opening now (3 October 2026)
+
+- restoreNow builds the project load plan, restores each project entry under loads/<job>/sources/<namespace>/<sourceId>, and does not traverse scene resource targets from other projects. Therefore selecting Louisiana does not itself load its shared HDA library project. (3 October 2026)
+- A byte-identical .hiplc still carries its original literal absolute paths. CeramicTilesSceneReferences.json has 43 present texture-reference occurrences, 28 unique mapped files, using /Users/zenray/Create/Build/Productions/ZenRayHoudini/CeramicTiles/maps or render. Restoring those files under AssetsWorkspaces does not change the parameters pointing to production. A successful opening on this Mac may silently use the originals. (3 October 2026)
+- LouisianaBayouSceneReferences.json has seven external HDA library paths: two under .claude/skills/zenray-houdini/otls and five under the historic Create/Build/Memory/Houdini/otls alias. Loading the library bytes elsewhere does not automatically install those new paths into the scene session. (3 October 2026)
+- Louisiana also has literal absolute textures under its production directory and four absent explicit input occurrences for three Downloads paths. The old missing paths cannot be repaired by choosing similarly named files. These remain blockers or unresolved context even after loading all currently mapped resources. (3 October 2026)
+- References expressed with $HIP may relocate when the loaded hip path changes, whereas literal production paths do not. The reports contain $HIP savepath/gallery parameters mostly of unknown role; do not mass-rewrite them or call missing output paths missing input resources. URI temp:, relative IFD.py, internal op: and dynamic references remain distinct. (3 October 2026)
+- Additional mapping gap: sceneReferenceContexts presently gives each combined file canonicalPath=file.localPath. After inventory overlays a LOAD copy for a source/fileId, the same identity moves to its AssetsWorkspaces path. An unchanged scene audit pointing at the original canonical path can lose its match, even though restored bytes and stable identity exist. Preserve original-reference identity and restored destination as separate fields in a local preparation plan, rather than claiming the active path equals the path Houdini reads. (3 October 2026)
+
+## First small testable increment (3 October 2026)
+
+- Build a Houdini LOAD preparation plan for one selected scene and its exact static mapped references. Inputs are the unchanged audit hash, origin project/source/file identities, and independently verified restoration records. Record identity -> active restored path locally; keep the cloud representation as identities and relative paths. Refuse ambiguous, stale, absent/unverified targets instead of falling back to originals. (3 October 2026)
+- Reuse existing cloud restoration for only the scene target files and explicitly declared HDA targets, resolving shared libraries through their own project identity. Reuse an already verified active shared-library copy; do not load or duplicate the entire Unreal host or entire skill to prepare a scene. A subset with unresolved resources stays explicitly partial. (3 October 2026)
+- In an isolated hython process, set manual update, install only the verified restored HDA paths for that session, load the restored scene, then rebind only static unambiguous known-input parameter paths to the verified restored targets in memory. Leave unknown roles, expressions, sequences and outputs unchanged and listed. No source save, no automatic save over the LOAD scene, and no render in this first increment. (3 October 2026)
+- Verify the rebound parameters resolve exactly inside admitted LOAD roots and that HDA instances use the restored library definitions. Report opened, reboundInputs, loadedLibraries and unresolved separately, with source and loaded scene SHA256 unchanged. Successful read-only preparation is not a complete scene execution or final portability verdict. (3 October 2026)
+- Minimal real HOM fixture: create a disposable scene with one explicit file input and one test HDA, archive/restore its bytes, hide its disposable original resource directory, then run preparation and verify input/HDA definitions resolve to copies. Break the restored target, mismatch SHA, introduce an ambiguous identity, then require clear failure. The production Ceramic/Louisiana scenes are not modified by this audit. (3 October 2026)
+- Scope limitation measured now: Ceramic uses mode=unknown for all 65 references, so this conservative first known-input increment does not claim to repair all its material textures. Louisiana has explicit input parameters; later role evidence can extend coverage without guessing from filenames. (3 October 2026)
+
+## Official HOM primitives checked (3 October 2026)
+
+- [hou.hipFile](https://www.sidefx.com/docs/houdini/hom/hou/hipFile.html) documents load and warnings, and separates setName in memory from saving. Loading alone does not relocate stored literal resource parameters. (3 October 2026)
+- [hou.hda](https://www.sidefx.com/docs/houdini/hom/hou/hda.html) documents installFile with change_oplibraries_file=False and force_use_assets for session definition choice; loadedFiles/definitionsInFile can verify library presence. Do not write a global OPlibraries configuration for this operation. (3 October 2026)
+- [hou.Parm](https://www.sidefx.com/docs/houdini/hom/hou/Parm.html) documents set and its follow_parm_reference behavior. Only a proven static direct parameter should be rebound; do not unexpectedly rewrite a referenced controller or destroy an expression. (3 October 2026)
+
+- Read-only audit completed; only this Markdown deliverable was written. No production load, render, save, source edit, code edit, registry mutation or commit. (3 October 2026)
