@@ -1,0 +1,7 @@
+# Scene reference mapper implementation (3 October 2026)
+
+- Pure module: src/lib/sceneReferenceMapping.js ; export mapSceneReferences({ projectId, sceneFileId, sceneSha256, audit, projects }). No filesystem reads, source edits, skill edits or commits. (3 October 2026)
+- Traverses only declared project dependencies using buildProjectMapping, with explicit missing/cycle issues. Matches exact canonical inventory paths and returns every ambiguous target identity. Source root admission and filename similarities never imply membership. (3 October 2026)
+- Unknown project or scene file and stale scene hash throw before mapping. Internal, output, dynamic, URI and relative references have distinct types; dynamic does not claim complete sequence coverage. Unknown absent roles remain unresolved. (3 October 2026)
+- Output strips absolute/raw/resolved/scene paths and admits only Houdini parameter paths under obj, mat, stage, out, shop, img or ch. Targets retain projectId, fileId, sourceId, relativePath, status, sha256 and size as inventory evidence. portabilityVerified stays false. (3 October 2026)
+- Verification: npx vitest run src/lib/sceneReferenceMapping.test.js completed on 3 October 2026 at 04:11 Europe/Paris: 8 tests pass. Cases cover exact match, shared HDA, unrelated project, exclusions, ambiguity, stale audit, unknown identities, URI/relative/output/sequence, dependency absence/cycle and cloud path sanitization. (3 October 2026)
