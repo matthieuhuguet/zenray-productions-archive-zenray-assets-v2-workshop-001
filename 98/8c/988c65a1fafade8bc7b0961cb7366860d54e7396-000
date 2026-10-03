@@ -1,0 +1,31 @@
+{
+  "id": "zenray-houdini-library",
+  "name": "Bibliothèque Houdini",
+  "category": "Bibliothèque",
+  "summary": "Définitions HDA partagées, archivées une seule fois et reliées aux scènes qui les utilisent.",
+  "sources": [
+    {
+      "id": "skill-library",
+      "namespace": "houdini",
+      "localPath": "/Users/zenray/.claude/skills/zenray-houdini/otls",
+      "include": [
+        "ZenRayChurchHero.hda",
+        "zenray_picket_fence.hda"
+      ],
+      "keep": true
+    },
+    {
+      "id": "memory-library",
+      "namespace": "houdini",
+      "localPath": "/Users/zenray/.claude/Memory1/Houdini/otls",
+      "include": [
+        "Component_Armature.hda",
+        "Component_Roof.hda",
+        "Component_WindowA.hda",
+        "Component_WindowB.hda",
+        "Component_WoodFacade.hda"
+      ],
+      "keep": true
+    }
+  ]
+}
