@@ -1,0 +1,11 @@
+{
+  "url": "https://47197fb2.zenray-progress.pages.dev",
+  "http": {
+    "deployment": 200,
+    "production": 200,
+    "bundle": 200
+  },
+  "bundleIdentical": true,
+  "tests": 23,
+  "realExample": "20 fichiers \u00b7 146,6 Mo"
+}
