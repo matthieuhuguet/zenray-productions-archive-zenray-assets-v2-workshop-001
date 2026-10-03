@@ -1,0 +1,28 @@
+{
+  "deployment": "https://23e1843d.zenray-progress.pages.dev",
+  "productionStatus": 200,
+  "publishedCssIdentical": true,
+  "geometry": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "top": 70,
+      "bottom": 858,
+      "joinX": 244,
+      "sidebarScroll": 340,
+      "contentScroll": 450
+    },
+    {
+      "viewport": [
+        1000,
+        650
+      ],
+      "top": 70,
+      "bottom": 608,
+      "joinX": 244
+    }
+  ],
+  "normalViewportRadius": "26px on all four main corners"
+}
