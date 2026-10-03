@@ -1,0 +1,13 @@
+{
+  "jobId": "9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+  "job": {
+    "id": "9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+    "projectId": "louisiana-bayou",
+    "type": "restore",
+    "state": "queued",
+    "createdAt": "2026-10-03T07:17:17.009Z",
+    "error": null
+  },
+  "state": "queued",
+  "checkedAt": "2026-10-03T07:17:17.009Z"
+}
