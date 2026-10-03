@@ -1,0 +1,238 @@
+{
+  "measuredAt": "2026-10-03T19:50:38.996Z",
+  "projectId": "ceramic-tiles",
+  "files": 4417,
+  "totalBytes": 51964050612,
+  "folders": [
+    {
+      "label": "render/final_ue_graded",
+      "bytes": 23673740992,
+      "percent": 45.55792074171571,
+      "count": 600
+    },
+    {
+      "label": "render/final_ue",
+      "bytes": 21182749752,
+      "percent": 40.76423893542335,
+      "count": 727
+    },
+    {
+      "label": "render",
+      "bytes": 1056374505,
+      "percent": 2.032894842797441,
+      "count": 34
+    },
+    {
+      "label": "render/final",
+      "bytes": 858696317,
+      "percent": 1.652481488426736,
+      "count": 30
+    },
+    {
+      "label": "render/frames",
+      "bytes": 524188578,
+      "percent": 1.0087523428724967,
+      "count": 136
+    },
+    {
+      "label": "render/archive_30s_order_v1",
+      "bytes": 461078497,
+      "percent": 0.8873028402707382,
+      "count": 2
+    },
+    {
+      "label": "render/archive_25s_ungraded",
+      "bytes": 378753133,
+      "percent": 0.7288753061766416,
+      "count": 2
+    },
+    {
+      "label": "render/maps_4096",
+      "bytes": 353824874,
+      "percent": 0.68090318178216,
+      "count": 14
+    },
+    {
+      "label": "render/archive_25s_graded_rise_first",
+      "bytes": 303354567,
+      "percent": 0.5837777529412741,
+      "count": 1
+    },
+    {
+      "label": "render/scratch",
+      "bytes": 212972717,
+      "percent": 0.40984625811833547,
+      "count": 71
+    }
+  ],
+  "types": [
+    {
+      "label": ".png",
+      "bytes": 49115622574,
+      "percent": 94.51846419889712,
+      "count": 3065
+    },
+    {
+      "label": ".mov",
+      "bytes": 1507970134,
+      "percent": 2.901948782360254,
+      "count": 7
+    },
+    {
+      "label": ".mp4",
+      "bytes": 563667646,
+      "percent": 1.0847261507936274,
+      "count": 5
+    },
+    {
+      "label": ".rat",
+      "bytes": 350805277,
+      "percent": 0.6750922471755674,
+      "count": 39
+    },
+    {
+      "label": ".uasset",
+      "bytes": 146479151,
+      "percent": 0.2818855521747447,
+      "count": 19
+    },
+    {
+      "label": ".hiplc",
+      "bytes": 115118885,
+      "percent": 0.22153562634975904,
+      "count": 41
+    },
+    {
+      "label": ".tif",
+      "bytes": 77739700,
+      "percent": 0.14960284867024523,
+      "count": 4
+    },
+    {
+      "label": ".jpg",
+      "bytes": 53250769,
+      "percent": 0.10247617030013217,
+      "count": 63
+    },
+    {
+      "label": ".npy",
+      "bytes": 16683152,
+      "percent": 0.0321051800302638,
+      "count": 472
+    },
+    {
+      "label": ".gif",
+      "bytes": 5498178,
+      "percent": 0.01058073405603664,
+      "count": 1
+    },
+    {
+      "label": ".fbx",
+      "bytes": 4694120,
+      "percent": 0.009033398945454789,
+      "count": 4
+    },
+    {
+      "label": ".hip",
+      "bytes": 2343279,
+      "percent": 0.004509423288604967,
+      "count": 1
+    },
+    {
+      "label": ".json",
+      "bytes": 1383553,
+      "percent": 0.0026625195374598023,
+      "count": 213
+    },
+    {
+      "label": ".py",
+      "bytes": 1084691,
+      "percent": 0.002087387313392989,
+      "count": 224
+    },
+    {
+      "label": ".md",
+      "bytes": 759094,
+      "percent": 0.0014608060593042053,
+      "count": 230
+    },
+    {
+      "label": ".webp",
+      "bytes": 482824,
+      "percent": 0.0009291500456827397,
+      "count": 2
+    },
+    {
+      "label": ".bmp",
+      "bytes": 201078,
+      "percent": 0.0003869559775110474,
+      "count": 1
+    },
+    {
+      "label": ".pyc",
+      "bytes": 101071,
+      "percent": 0.0001945017734561666,
+      "count": 5
+    },
+    {
+      "label": ".umap",
+      "bytes": 100486,
+      "percent": 0.00019337599516692583,
+      "count": 1
+    },
+    {
+      "label": ".csv",
+      "bytes": 26056,
+      "percent": 0.00005014235744351868,
+      "count": 2
+    },
+    {
+      "label": ".svg",
+      "bytes": 14578,
+      "percent": 0.00002805401008641447,
+      "count": 2
+    },
+    {
+      "label": ".log",
+      "bytes": 7066,
+      "percent": 0.000013597862208163305,
+      "count": 5
+    },
+    {
+      "label": "Sans extension",
+      "bytes": 5323,
+      "percent": 0.000010243620228425314,
+      "count": 1
+    },
+    {
+      "label": ".jsonl",
+      "bytes": 3325,
+      "percent": 0.0000063986543790182544,
+      "count": 1
+    },
+    {
+      "label": ".sh",
+      "bytes": 3072,
+      "percent": 0.000005911779324013256,
+      "count": 4
+    },
+    {
+      "label": ".out",
+      "bytes": 2214,
+      "percent": 0.000004260637833126741,
+      "count": 2
+    },
+    {
+      "label": ".txt",
+      "bytes": 2178,
+      "percent": 0.000004191359169173461,
+      "count": 2
+    },
+    {
+      "label": ".html",
+      "bytes": 1138,
+      "percent": 0.0000021899755438564732,
+      "count": 1
+    }
+  ]
+}
