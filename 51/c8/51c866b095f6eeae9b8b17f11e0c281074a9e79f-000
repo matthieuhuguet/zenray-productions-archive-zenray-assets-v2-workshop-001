@@ -1,0 +1,21 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:63581) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:63580) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:63579) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ConversationMirror.test.js (1 test) 12ms
+ ✓ scripts/Assets/ConversationCatalog.test.js (2 tests) 58ms
+(node:63582) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ConversationIdentity.test.js (3 tests) 2ms
+ ✓ scripts/AssetsService.test.js (72 tests) 1593ms
+
+ Test Files  4 passed (4)
+      Tests  78 passed (78)
+   Start at  10:01:12
+   Duration  1.87s (transform 75ms, setup 75ms, collect 170ms, tests 1.66s, environment 121ms, prepare 132ms)
+
