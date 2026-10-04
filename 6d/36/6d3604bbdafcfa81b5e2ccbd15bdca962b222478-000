@@ -1,0 +1,23 @@
+{
+  "availableVersions": 114,
+  "checked": [
+    {
+      "capturedAt": 1789397991.005804,
+      "sha256": "e5d7319d475cb1497c7558dd663981fc7638e9ea6f76d3308876ae123a9dfb54",
+      "total": 7464,
+      "cleared": 6670
+    },
+    {
+      "capturedAt": 1789404857.1095989,
+      "sha256": "7ed0926515834805e83ef98041e992968a314e493250486cf3742c496462ad54",
+      "total": 7727,
+      "cleared": 7007
+    },
+    {
+      "capturedAt": 1789501322.3292139,
+      "sha256": "e14604af0ea9896e8d7ad601b121b4f06f56eb90aa5a4b145c1a80e9cba9f2db",
+      "total": 7910,
+      "cleared": 7203
+    }
+  ]
+}

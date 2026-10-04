@@ -1,0 +1,22 @@
+{
+  "release": "https://a14731a9.zenray-progress.pages.dev",
+  "production": "https://zenray-progress.pages.dev",
+  "htmlIdentical": true,
+  "assets": [
+    {
+      "path": "/assets/AssetsView-B6vOFCLu.js",
+      "matches": true,
+      "sha256": "b816254bd83cae501b1b25d900b4207b996e5290e995fcd6471b3225524d664d"
+    },
+    {
+      "path": "/assets/index-Dr0sINCb.css",
+      "matches": true,
+      "sha256": "8d1cb3994924154b1b8dc82e2be4649139d1d89d1ee00c31333fc71327a9884d"
+    },
+    {
+      "path": "/assets/index-W5o4xwhO.js",
+      "matches": true,
+      "sha256": "c39f63dd389ca6e89fe881758766adfba7a5f1b959d3e9f2b23ba508cc67e927"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-04T08:09:47.919Z",
+  "total": 546,
+  "mirror": {
+    "staged": 38,
+    "error": null
+  },
+  "archivedCopies": [
+    {
+      "fileId": "workshop:conversations/codex/b690900cbcd6a015/bc0dad1e1c033019.jsonl",
+      "size": 975010,
+      "sha256": "31438e01411b5bf067cdf9c006f89e473b80624aab405a58de5901aae5eb7602",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/codex/b690900cbcd6a015/bc0dad1e1c033019.jsonl.file.json",
+      "status": "backed-up"
+    }
+  ],
+  "activeJobs": [
+    {
+      "id": "1ffdaed4-bab8-43b9-ac64-26812bd858d1",
+      "state": "running",
+      "error": null
+    },
+    {
+      "id": "82efcdee-8fd8-41e6-966e-49ac0f9163f8",
+      "state": "done",
+      "error": null
+    }
+  ]
+}
