@@ -1,0 +1,15 @@
+{
+  "startedAt": "2026-10-04T07:49:12.385Z",
+  "paused": [
+    "zenray-assets-v2",
+    "zenray-dictate"
+  ],
+  "restored": [
+    "zenray-assets-v2",
+    "zenray-dictate"
+  ],
+  "restarted": true,
+  "beforePid": 42585,
+  "afterPid": 45269,
+  "finishedAt": "2026-10-04T07:50:04.888Z"
+}

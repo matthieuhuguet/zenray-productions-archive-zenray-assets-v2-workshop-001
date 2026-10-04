@@ -1,55 +1,55 @@
 
  RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
 
-(node:22452) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37758) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22451) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37756) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22453) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37757) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22454) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37759) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
- ✓ scripts/AssetsWorkspaceLifecycle.test.js (2 tests) 2ms
+(node:37760) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/AssetsWorkspaceLifecycle.test.js (2 tests) 4ms
  ✓ scripts/AssetsCloudPublisher.test.js (7 tests) 20ms
- ✓ scripts/AssetsFeedbackCapture.test.js (3 tests) 139ms
-(node:22465) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+ ✓ scripts/Assets/ConversationCatalog.test.js (2 tests) 106ms
+ ✓ scripts/AssetsFeedbackCapture.test.js (3 tests) 197ms
+(node:37768) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22458) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37762) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22455) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37766) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22460) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37761) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22467) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37772) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22457) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37770) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22461) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37773) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22456) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37767) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22462) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37763) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:22464) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:37771) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
+(node:37764) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37765) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ConversationIdentity.test.js (3 tests) 2ms
  ✓ scripts/AssetsHistory.test.js (3 tests) 3ms
-(node:22459) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:22466) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:22463) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
-(Use `node --trace-warnings ...` to show where the warning was created)
- ✓ scripts/Assets/ConversationIdentity.test.js (3 tests) 3ms
- ✓ src/lib/assetsStorageBreakdown.test.js (2 tests) 6ms
+ ✓ src/lib/assetsStorageBreakdown.test.js (2 tests) 7ms
  ✓ src/lib/assetsFileLocations.test.js (3 tests) 2ms
  ✓ src/lib/assetsFileQuery.test.js (3 tests) 7ms
  ✓ src/lib/assetsWorkspaceViewModel.test.js (3 tests) 8ms
- ✓ src/lib/assetsProjects.test.js (22 tests) 8ms
+ ✓ src/lib/assetsProjects.test.js (22 tests) 10ms
  ✓ src/lib/projectContextIndex.test.js (7 tests) 14ms
- ✓ scripts/Assets/ConversationCatalog.test.js (2 tests) 16ms
- ✓ src/components/assets/FileLocations.test.jsx (1 test) 56ms
- ✓ src/components/assets/StorageBreakdown.test.jsx (1 test) 99ms
- ✓ scripts/Assets/SceneAuditRunner.test.js (11 tests) 604ms
+ ✓ src/components/assets/FileLocations.test.jsx (1 test) 60ms
+ ✓ src/components/assets/StorageBreakdown.test.jsx (1 test) 101ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js (11 tests) 641ms
 stderr | src/components/assets/ProjectWorkspace.test.jsx > keeps selection across icons, gallery and navigable source columns
 Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
 Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
@@ -60,12 +60,12 @@ Encountered two children with the same key, `locations`. Keys should be unique s
 Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
 Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
 
- ✓ src/components/assets/ProjectWorkspace.test.jsx (23 tests) 1300ms
-   ✓ shows aggregate bytes for filtered results, the displayed page and selection  371ms
- ✓ scripts/AssetsService.test.js (72 tests) 1596ms
+ ✓ src/components/assets/ProjectWorkspace.test.jsx (23 tests) 1332ms
+   ✓ shows aggregate bytes for filtered results, the displayed page and selection  368ms
+ ✓ scripts/AssetsService.test.js (72 tests) 1742ms
 
  Test Files  17 passed (17)
       Tests  168 passed (168)
-   Start at  09:35:33
-   Duration  1.96s (transform 400ms, setup 665ms, collect 909ms, tests 3.88s, environment 3.01s, prepare 791ms)
+   Start at  09:45:54
+   Duration  2.12s (transform 362ms, setup 780ms, collect 996ms, tests 4.26s, environment 3.04s, prepare 808ms)
 

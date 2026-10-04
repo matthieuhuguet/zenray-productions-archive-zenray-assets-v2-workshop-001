@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-04T07:50:42.325Z",
+  "total": 545,
+  "providers": {
+    "claude": 192,
+    "codex": 269,
+    "gemini": 84
+  },
+  "failures": [],
+  "readNativeGeminiMessages": 18,
+  "clearedMessages": 0,
+  "dictateDocuments": 13,
+  "nativeReadTimestamp": "2026-10-04T07:50:42.227Z",
+  "cloudBackupClaimed": false
+}
