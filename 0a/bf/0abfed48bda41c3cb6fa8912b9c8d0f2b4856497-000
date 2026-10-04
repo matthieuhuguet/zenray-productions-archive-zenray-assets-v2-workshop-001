@@ -1,0 +1,11 @@
+{
+  "previous": 67836,
+  "current": 27035,
+  "paused": [
+    "zenray-assets-v2",
+    "zenray-dictate"
+  ],
+  "checkedAt": "2026-10-04T08:26:59.294Z",
+  "transferIdleVerified": false,
+  "note": "The preliminary check used status instead of state; queue resumed after restart. No claim of an empty transfer queue is supported."
+}

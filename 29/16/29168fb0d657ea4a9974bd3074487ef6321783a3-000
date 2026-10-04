@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-04T08:33:38.133Z",
+  "proof": [
+    {
+      "provider": "claude",
+      "conversationId": "claude:5fd92a10-03f3-4126-89e0-4dfe033274bd",
+      "messages": 2,
+      "hasPrevious": true
+    },
+    {
+      "provider": "codex",
+      "conversationId": "codex:01a0fc34-0a94-7f11-a21d-325072a6edb2",
+      "messages": 0,
+      "hasPrevious": true
+    },
+    {
+      "provider": "gemini",
+      "conversationId": "gemini:46f51be7-b5c4-4620-bfe0-a01a99118a3e",
+      "messages": 18,
+      "hasPrevious": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-04T08:27:45.159Z",
+  "total": 546,
+  "counts": {
+    "claude": 193,
+    "codex": 269,
+    "gemini": 84
+  },
+  "mirror": {
+    "staged": 145,
+    "error": null
+  },
+  "verifiedCopies": 1,
+  "claudeMultipleSources": 192,
+  "claudeTranscriptMissing": 99,
+  "failures": []
+}

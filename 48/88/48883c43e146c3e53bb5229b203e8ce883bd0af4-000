@@ -1,0 +1,324 @@
+{
+  "checkedAt": "2026-10-04T08:28:31.415Z",
+  "archivedFiles": 44,
+  "files": [
+    {
+      "id": "workshop:AGENTS.md",
+      "size": 713,
+      "status": "backed-up",
+      "sha256": "629eb0983d0ca592f801b2bca7c3b54ea85cd803d1e926ff6d9619155705a629",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/AGENTS.md.file.json"
+    },
+    {
+      "id": "workshop:CLAUDE.md",
+      "size": 713,
+      "status": "backed-up",
+      "sha256": "629eb0983d0ca592f801b2bca7c3b54ea85cd803d1e926ff6d9619155705a629",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/CLAUDE.md.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/255e4254871168b6/298b9872c175daa2.jsonl",
+      "size": 263169965,
+      "status": "backed-up",
+      "sha256": "17b5369fddee5b84e0944c38fe9f0a413505cf3b59379e1b5b8043746a403046",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/255e4254871168b6/298b9872c175daa2.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/255e4254871168b6/7e0f9bc4abd25764.jsonl",
+      "size": 654473445,
+      "status": "backed-up",
+      "sha256": "104402c5832210db5adcb50ebc7e8d25170b9b19ba65e9f6ee8b0669aa7ca713",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/255e4254871168b6/7e0f9bc4abd25764.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/255e4254871168b6/Conversation.json",
+      "size": 3772,
+      "status": "backed-up",
+      "sha256": "da67222c544c5824ea58410c6d893c4286f6eabe151a37585d3c795f0264faf0",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/255e4254871168b6/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/3414d2e29e9ca48d/Conversation.json",
+      "size": 2986,
+      "status": "backed-up",
+      "sha256": "19c13f71a2c576703a924a1e41b600c3eaac96ddd1cb1788c52cc057489aeccd",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/3414d2e29e9ca48d/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/348aa8b6fc81ef65/Conversation.json",
+      "size": 3321,
+      "status": "backed-up",
+      "sha256": "c4af33f188284980232ce633c606904b1780e5cc3e3ef24b4e11e16eebcfc2c3",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/348aa8b6fc81ef65/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/348aa8b6fc81ef65/de190dfdeabd655a.jsonl",
+      "size": 6781282,
+      "status": "backed-up",
+      "sha256": "f48448a9d3fb65b244df78b040f5f675db7e99bfa5b5829f2fbb655cffcb0178",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/348aa8b6fc81ef65/de190dfdeabd655a.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/3f0f5146c17ff473/Conversation.json",
+      "size": 2980,
+      "status": "backed-up",
+      "sha256": "4d979c4425c2c586b56fe9806fe9daf4fc1ec8460482899bf8df7b6797f453d9",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/3f0f5146c17ff473/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/4ae13d144682bd75/a9ff8a0196a043ed.jsonl",
+      "size": 3210597,
+      "status": "backed-up",
+      "sha256": "9444a2192dffcd3dfb7cbb7501a135be041d623e9bde4d51a067d53a6211208c",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/4ae13d144682bd75/a9ff8a0196a043ed.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/4ae13d144682bd75/Conversation.json",
+      "size": 3306,
+      "status": "backed-up",
+      "sha256": "9b127e910854a415a47bc86b9d8e6dd8d3d3397a6275b31292e67ce3e641500b",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/4ae13d144682bd75/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/6241bb2040058183/6a139f9b27fed8a9.jsonl",
+      "size": 1020600,
+      "status": "backed-up",
+      "sha256": "16a67e8c189cf827d27c2714289ad28d3f2abe61c25c9619002968992d83e2dc",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/6241bb2040058183/6a139f9b27fed8a9.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/6241bb2040058183/Conversation.json",
+      "size": 3381,
+      "status": "backed-up",
+      "sha256": "5c5f7932552a4c2088aa3e848fc9e8c36aa7f3e50aed724e5c961c0a736aa83d",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/6241bb2040058183/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/700dc7165a07198a/79ad79d105d6aab6.jsonl",
+      "size": 1479912,
+      "status": "backed-up",
+      "sha256": "8c813840179b4e6d8b79b6edffc6d9f5d0d717b516622c1c7d10db8213620204",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/700dc7165a07198a/79ad79d105d6aab6.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/700dc7165a07198a/Conversation.json",
+      "size": 3340,
+      "status": "backed-up",
+      "sha256": "68f2bfa47988091e11a18652d04968157fe649465e7ca0286d7ec22262c0ab53",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/700dc7165a07198a/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/75b3402db21327e7/b902010063977b94.jsonl",
+      "size": 1785558,
+      "status": "backed-up",
+      "sha256": "fd8f33abf4d810581020d1e75d0119b5eaf9c45f1c513b12346d4789be5bf721",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/75b3402db21327e7/b902010063977b94.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/75b3402db21327e7/Conversation.json",
+      "size": 3323,
+      "status": "backed-up",
+      "sha256": "88c4ff945e1008971ef5c3d9d09da8c26e2d9b798a7b55f1bd56bba1f96bcc10",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/75b3402db21327e7/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/8455ef28dc91e596/08b0a668ae8ff39e.jsonl",
+      "size": 958026,
+      "status": "backed-up",
+      "sha256": "248d62363edfe466b8310ed8468ed36fb5690f31f39943cda770f004b2ae892e",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/8455ef28dc91e596/08b0a668ae8ff39e.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/8455ef28dc91e596/Conversation.json",
+      "size": 3296,
+      "status": "backed-up",
+      "sha256": "0db0bb5e3858b8ea2883082017eabf72add2a4793a7e7953005dcca9517fc8d4",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/8455ef28dc91e596/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/a389c361428f67a5/002cc13c644542e9.jsonl",
+      "size": 10771164,
+      "status": "backed-up",
+      "sha256": "59aa41ad77c808f080a450bdd95749614443513d4cb4685ad2b15bf2a8153191",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/a389c361428f67a5/002cc13c644542e9.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/a389c361428f67a5/292792710350aa20.jsonl",
+      "size": 19903412,
+      "status": "backed-up",
+      "sha256": "0288fc5bb6b24b84fcc29c3205185ae057b4bb82aec0174e981732de9822b0f1",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/a389c361428f67a5/292792710350aa20.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/a389c361428f67a5/Conversation.json",
+      "size": 3768,
+      "status": "backed-up",
+      "sha256": "95bcffab1cbc2863cdabc2b38f3ab1903ae9b6588602a27f9647ee83e73d1be5",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/a389c361428f67a5/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/bf15b33be409172d/84b99fd41650b748.jsonl",
+      "size": 2621935,
+      "status": "backed-up",
+      "sha256": "b338275ccdc4ca293d64bd687fb09593b64d9e1f6f5f4f7986c389f0628a5103",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/bf15b33be409172d/84b99fd41650b748.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/bf15b33be409172d/Conversation.json",
+      "size": 3325,
+      "status": "backed-up",
+      "sha256": "4019dc68cd06f5bb9a599d2cb29dfec3e7668ee08e328a2c89592ba1f64425d3",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/bf15b33be409172d/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/ceb42884ffe1f883/Conversation.json",
+      "size": 3309,
+      "status": "backed-up",
+      "sha256": "1379abfb7d2955ebf2882b244e5068e45ea4df81ae5e848a6af2250e1b241dfa",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/ceb42884ffe1f883/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/ceb42884ffe1f883/e10c2bbdf024cce4.jsonl",
+      "size": 113576852,
+      "status": "backed-up",
+      "sha256": "f860336cfb6d36ff813740e0310ddc73dd4d987ab7a9843a80811290eacfa9b5",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/ceb42884ffe1f883/e10c2bbdf024cce4.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/cf5329de4a9df5f7/43621a2c0ea6375a.jsonl",
+      "size": 1006837,
+      "status": "backed-up",
+      "sha256": "d0a19bd6772e0447576b58a975395612f5459ad3204a95f02e4bbb351ba2db29",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/cf5329de4a9df5f7/43621a2c0ea6375a.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/cf5329de4a9df5f7/b27b05309718109b.jsonl",
+      "size": 1006636,
+      "status": "backed-up",
+      "sha256": "67b0c9bfc4e6f18fc563719bdaa1d8393261e2c42e61ed55020e01e9f6ff471a",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/cf5329de4a9df5f7/b27b05309718109b.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/cf5329de4a9df5f7/Conversation.json",
+      "size": 3666,
+      "status": "backed-up",
+      "sha256": "0eab1d7cb89905be3354172c30a3e9651a5412af691cd59ab88c42152ab0c4d7",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/cf5329de4a9df5f7/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/d12d5035ec32af7c/545cbfc344e4c084.jsonl",
+      "size": 1592177,
+      "status": "backed-up",
+      "sha256": "566f0228ca353a0ad1b193ed7791407a56d0533c8eb29c1aee4cb9db9c85af59",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/d12d5035ec32af7c/545cbfc344e4c084.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/d12d5035ec32af7c/Conversation.json",
+      "size": 3316,
+      "status": "backed-up",
+      "sha256": "070a7f1746ea75b440a29b54eae757ee6bfcca03876fa4e36123be25250534e9",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/d12d5035ec32af7c/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/d3ac577f5ad45de7/9d27b7bc3c321caf.jsonl",
+      "size": 3785468,
+      "status": "backed-up",
+      "sha256": "ad5d7142f263645a5f50723f7287d2693e974dbddbb5c01d6f4938efe5c30c16",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/d3ac577f5ad45de7/9d27b7bc3c321caf.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/d3ac577f5ad45de7/Conversation.json",
+      "size": 3328,
+      "status": "backed-up",
+      "sha256": "30fa92cf1f66d7aea3db81330dd3d0b4d0961984b7ceeb390fb728d9cc94b609",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/d3ac577f5ad45de7/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/d5274799a7734f3f/41250f7dbdf28c59.jsonl",
+      "size": 1371489,
+      "status": "backed-up",
+      "sha256": "e750aed2d8759e8c612d96fe2d796e0ac1e07dc0c5e04ad75c793ee87e447dfb",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/d5274799a7734f3f/41250f7dbdf28c59.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/d5274799a7734f3f/Conversation.json",
+      "size": 3322,
+      "status": "backed-up",
+      "sha256": "1a7d458309850c04beafdb05d187781797455df886032eaa9effb981319dc1bd",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/d5274799a7734f3f/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/dac290569c4e7fb8/8164ae5311ab84d8.jsonl",
+      "size": 20108060,
+      "status": "backed-up",
+      "sha256": "b4e0d163d42fdc8ad692d35d59b22a1a84cdb6bd0a8060593c61ccd385e83874",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/dac290569c4e7fb8/8164ae5311ab84d8.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/dac290569c4e7fb8/a04e8d9db7b355f9.jsonl",
+      "size": 28362471,
+      "status": "backed-up",
+      "sha256": "d761bcfe41c4f64851944833258072f6549c7ed7fec50aef25bc1a2a52e8e796",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/dac290569c4e7fb8/a04e8d9db7b355f9.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/dac290569c4e7fb8/Conversation.json",
+      "size": 3653,
+      "status": "backed-up",
+      "sha256": "366893100ae5c2c97a93ffbb00bcde2cf320312056df5ddddf3dbd54dc4b46e8",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/dac290569c4e7fb8/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/dfca83fe91c9b109/1d9dbd0dcb724bc6.jsonl",
+      "size": 4339271,
+      "status": "backed-up",
+      "sha256": "f3681d8805af02bb0016f48ea3ca9293bf1513c2f10c459213489650058bf56e",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/dfca83fe91c9b109/1d9dbd0dcb724bc6.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/dfca83fe91c9b109/Conversation.json",
+      "size": 3324,
+      "status": "backed-up",
+      "sha256": "16fe5db571d264b64709ef5ba75d2d55b77d91d413165b6dda362f53f27d7822",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/dfca83fe91c9b109/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/ef671f43028a162f/Conversation.json",
+      "size": 3308,
+      "status": "backed-up",
+      "sha256": "6902ba2ab4b55f4e38c7ecccd4c53955785b2938f65f60b09ecb24178b1441de",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/ef671f43028a162f/Conversation.json.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/ef671f43028a162f/ee75f66f127092ad.jsonl",
+      "size": 18102187,
+      "status": "backed-up",
+      "sha256": "54b264e34eafc6842c62a2b0957b8476f44d4f1908db09ba226878e05a655af2",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/ef671f43028a162f/ee75f66f127092ad.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/claude/fac7684efa872bbf/60677c1522a67119.jsonl",
+      "size": 21401934,
+      "status": "backed-up",
+      "sha256": "ac00a66d35487e54f713eb8dde9ba8b198e0e8568420a0b68c2c0ae5e26016e3",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/claude/fac7684efa872bbf/60677c1522a67119.jsonl.file.json"
+    },
+    {
+      "id": "workshop:conversations/codex/b690900cbcd6a015/bc0dad1e1c033019.jsonl",
+      "size": 975010,
+      "status": "backed-up",
+      "sha256": "31438e01411b5bf067cdf9c006f89e473b80624aab405a58de5901aae5eb7602",
+      "cloudPath": "pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/conversations/codex/b690900cbcd6a015/bc0dad1e1c033019.jsonl.file.json"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "c61967d6-4041-4665-ae30-655bb7dec1d2",
+      "projectId": "agent-conversations",
+      "type": "archive",
+      "state": "queued",
+      "createdAt": "2026-10-04T08:26:58.420Z",
+      "error": null
+    }
+  ]
+}

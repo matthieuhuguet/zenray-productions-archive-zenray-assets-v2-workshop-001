@@ -1,0 +1,549 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:48348) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:48349) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ❯ src/components/assets/ConversationView.test.jsx (3 tests | 1 failed) 85ms
+   × opens original messages, renders safe Markdown and expands full user prompts 52ms
+     → Unable to find an element with the text: Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt (normalized from 'Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt '). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<section[39m
+      [33maria-label[39m=[32m"Conversation originale"[39m
+      [33mclass[39m=[32m"assets-conversation-view"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"assets-chat-header"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"assets-conversation-badge"[39m
+          [33mdata-provider[39m=[32m"claude"[39m
+        [36m>[39m
+          [36m<i[39m
+            [33maria-hidden[39m=[32m"true"[39m
+          [36m/>[39m
+          [0mClaude[0m
+        [36m</span>[39m
+        [36m<h2>[39m
+          [0mOriginal discussion[0m
+        [36m</h2>[39m
+        [36m<p>[39m
+          [0m · [0m
+          [0mActualisation automatique[0m
+        [36m</p>[39m
+      [36m</header>[39m
+      [36m<details[39m
+        [33mclass[39m=[32m"assets-chat-sources"[39m
+      [36m>[39m
+        [36m<summary>[39m
+          [0mEmplacements et sauvegarde[0m
+        [36m</summary>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"assets-location-path"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"assets-eyebrow"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"14"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"1.7"[39m
+              [33mstyle[39m=[32m"display: block; flex-shrink: 0; color: currentcolor;"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"14"[39m
+            [36m>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"10"[39m
+                [33mrx[39m=[32m"2.4"[39m
+                [33mwidth[39m=[32m"18"[39m
+                [33mx[39m=[32m"3"[39m
+                [33my[39m=[32m"7"[39m
+              [36m/>[39m
+              [36m<circle[39m
+                [33mcx[39m=[32m"17"[39m
+                [33mcy[39m=[32m"12"[39m
+                [33mfill[39m=[32m"currentColor"[39m
+                [33mr[39m=[32m"1.1"[39m
+                [33mstroke[39m=[32m"none"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M7 12h6"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mMac[0m
+            [36m<span>[39m
+              [0mTranscript original[0m
+            [36m</span>[39m
+          [36m</span>[39m
+          [36m<div>[39m
+            [36m<code[39m
+              [33mtitle[39m=[32m"/source/one.jsonl"[39m
+            [36m>[39m
+              [0m/source/one.jsonl[0m
+            [36m</code>[39m
+            [36m<span>[39m
+              [36m<button[39m
+                [33maria-label[39m=[32m"Copier Mac"[39m
+                [33mclass[39m=[32m"assets-icon-button"[39m
+                [33mtitle[39m=[32m"Copier le chemin"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"14"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"1.7"[39m
+                  [33mstyle[39m=[32m"display: block; flex-shrink: 0; color: currentcolor;"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"14"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M6.5 3.5h7l5 5v12a1 1 0 01-1 1H6.5a1 1 0 01-1-1v-16a1 1 0 011-1z"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M13 3.5V9h5"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+              [36m</button>[39m
+            [36m</span>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"assets-location-path"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"assets-eyebrow"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mfill[39m=[32m"currentColor"[39m
+              [33mheight[39m=[32m"14"[39m
+              [33mstroke[39m=[32m"none"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"1.7"[39m
+              [33mstyle[39m=[32m"display: block; flex-shrink: 0; color: currentcolor;"[39m
+              [33mviewBox[39m=[32m"0 0 37.793 28.0195"[39m
+              [33mwidth[39m=[32m"14"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M32.707 11.4961C35.6836 12.668 37.4414 15.3867 37.4414 18.4922C37.4414 22.5469 33.9609 25.7695 29.4961 25.7695L8.84766 25.7578C3.79688 25.7578 0 22.1602 0 17.7891C0 14.1445 2.14453 11.2031 5.50781 10.7344C5.55469 6.53906 9.58594 3.72656 13.2422 4.91016C14.9766 2.22656 17.8477 0 21.9609 0C28.0312 0 32.7891 4.83984 32.707 11.4961ZM15.0586 10.9453L15.0586 12.5859C14.2148 12.6445 13.793 13.1367 13.793 14.1094L13.793 19.5352C13.793 20.5781 14.2852 21.082 15.2461 21.082L22.2305 21.082C23.1797 21.082 23.6602 20.5781 23.6602 19.5352L23.6602 14.1094C23.6602 13.1367 23.2383 12.6445 22.4062 12.5859L22.4062 10.9453C22.4062 8.48438 20.918 6.84375 18.7266 6.84375C16.5469 6.84375 15.0586 8.48438 15.0586 10.9453ZM21.0586 10.8164L21.0586 12.5742L16.3828 12.5742L16.3828 10.8164C16.3828 9.19922 17.332 8.15625 18.7266 8.15625C20.1328 8.15625 21.0586 9.19922 21.0586 10.8164Z"[39m
+                [33mfill-opacity[39m=[32m"0.85"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mCloud[0m
+            [36m<span>[39m
+              [0mNon confirmé[0m
+            [36m</span>[39m
+          [36m</span>[39m
+          [36m<div>[39m
+            [36m<code>[39m
+              [0mSauvegarde de la conversation non confirmée[0m
+            [36m</code>[39m
+            [36m<span />[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</details>[39m
+      [36m<ol[39m
+        [33mclass[39m=[32m"assets-conversation-messages"[39m
+      [36m>[39m
+        [36m<li[39m
+          [33mclass[39m=[32m"assets-chat-message"[39m
+          [33mdata-role[39m=[32m"user"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-heading"[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0mVous[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-body"[39m
+            [33mdata-collapsed[39m=[32m"false"[39m
+          [36m>[39m
+            [36m<p>[39m
+              [0mActual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt [0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-actions"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mRéduire[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33maria-label[39m=[32m"Copier le message"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mCopier[0m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</li>[39m
+        [36m<li[39m
+          [33mclass[39m=[32m"assets-chat-message"[39m
+          [33mdata-role[39m=[32m"assistant"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-heading"[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0mClaude[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-body"[39m
+            [33mdata-collapsed[39m=[32m"false"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"assets-chat-markdown"[39m
+            [36m>[39m
+              [36m<h2>[39m
+                [0mResult[0m
+              [36m</h2>[39m
+              [0m
+[0m
+              [36m<ul>[39m
+                [0m
+[0m
+                [36m<li>[39m
+                  [0mActual answer[0m
+                [36m</li>[39m
+                [0m
+[0m
+              [36m</ul>[39m
+              [0m
+[0m
+              [36m<pre>[39m
+                [36m<code[39m
+                  [33mclass[39m=[32m"language-js"[39m
+                [36m>[39m
+                  [0mconst value = 1
+[0m
+                [36m</code>[39m
+              [36m</pre>[39m
+              [0m
+&lt;script&gt;alert(1)&lt;/script&gt;
+
+[0m
+              [36m<p>[39m
+                [0mbad[0m
+              [36m</p>[39m
+              [0m
+[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-actions"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33maria-label[39m=[32m"Copier le message"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mCopier[0m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</li>[39m
+      [36m</ol>[39m
+    [36m</section>[39m
+  [36m</div>[39m
+[36m</body>[39m
+   ✓ ignores older-page responses after selecting another conversation 17ms
+   ✓ retries a failed opening and labels missing originals without inventing messages 16ms
+stderr | src/components/assets/ProjectWorkspace.test.jsx > keeps selection across icons, gallery and navigable source columns
+Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+
+stderr | src/components/assets/ProjectWorkspace.test.jsx > keeps complete Mac and cloud paths in list, icons, gallery and source columns
+Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+
+ ✓ src/components/assets/ProjectWorkspace.test.jsx (23 tests) 1330ms
+   ✓ shows aggregate bytes for filtered results, the displayed page and selection  437ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/components/assets/ConversationView.test.jsx > opens original messages, renders safe Markdown and expands full user prompts
+TestingLibraryElementError: Unable to find an element with the text: Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt (normalized from 'Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt '). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<section[39m
+      [33maria-label[39m=[32m"Conversation originale"[39m
+      [33mclass[39m=[32m"assets-conversation-view"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"assets-chat-header"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"assets-conversation-badge"[39m
+          [33mdata-provider[39m=[32m"claude"[39m
+        [36m>[39m
+          [36m<i[39m
+            [33maria-hidden[39m=[32m"true"[39m
+          [36m/>[39m
+          [0mClaude[0m
+        [36m</span>[39m
+        [36m<h2>[39m
+          [0mOriginal discussion[0m
+        [36m</h2>[39m
+        [36m<p>[39m
+          [0m · [0m
+          [0mActualisation automatique[0m
+        [36m</p>[39m
+      [36m</header>[39m
+      [36m<details[39m
+        [33mclass[39m=[32m"assets-chat-sources"[39m
+      [36m>[39m
+        [36m<summary>[39m
+          [0mEmplacements et sauvegarde[0m
+        [36m</summary>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"assets-location-path"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"assets-eyebrow"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"14"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"1.7"[39m
+              [33mstyle[39m=[32m"display: block; flex-shrink: 0; color: currentcolor;"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"14"[39m
+            [36m>[39m
+              [36m<rect[39m
+                [33mheight[39m=[32m"10"[39m
+                [33mrx[39m=[32m"2.4"[39m
+                [33mwidth[39m=[32m"18"[39m
+                [33mx[39m=[32m"3"[39m
+                [33my[39m=[32m"7"[39m
+              [36m/>[39m
+              [36m<circle[39m
+                [33mcx[39m=[32m"17"[39m
+                [33mcy[39m=[32m"12"[39m
+                [33mfill[39m=[32m"currentColor"[39m
+                [33mr[39m=[32m"1.1"[39m
+                [33mstroke[39m=[32m"none"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M7 12h6"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mMac[0m
+            [36m<span>[39m
+              [0mTranscript original[0m
+            [36m</span>[39m
+          [36m</span>[39m
+          [36m<div>[39m
+            [36m<code[39m
+              [33mtitle[39m=[32m"/source/one.jsonl"[39m
+            [36m>[39m
+              [0m/source/one.jsonl[0m
+            [36m</code>[39m
+            [36m<span>[39m
+              [36m<button[39m
+                [33maria-label[39m=[32m"Copier Mac"[39m
+                [33mclass[39m=[32m"assets-icon-button"[39m
+                [33mtitle[39m=[32m"Copier le chemin"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"14"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"1.7"[39m
+                  [33mstyle[39m=[32m"display: block; flex-shrink: 0; color: currentcolor;"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"14"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M6.5 3.5h7l5 5v12a1 1 0 01-1 1H6.5a1 1 0 01-1-1v-16a1 1 0 011-1z"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M13 3.5V9h5"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+              [36m</button>[39m
+            [36m</span>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"assets-location-path"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"assets-eyebrow"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mfill[39m=[32m"currentColor"[39m
+              [33mheight[39m=[32m"14"[39m
+              [33mstroke[39m=[32m"none"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"1.7"[39m
+              [33mstyle[39m=[32m"display: block; flex-shrink: 0; color: currentcolor;"[39m
+              [33mviewBox[39m=[32m"0 0 37.793 28.0195"[39m
+              [33mwidth[39m=[32m"14"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M32.707 11.4961C35.6836 12.668 37.4414 15.3867 37.4414 18.4922C37.4414 22.5469 33.9609 25.7695 29.4961 25.7695L8.84766 25.7578C3.79688 25.7578 0 22.1602 0 17.7891C0 14.1445 2.14453 11.2031 5.50781 10.7344C5.55469 6.53906 9.58594 3.72656 13.2422 4.91016C14.9766 2.22656 17.8477 0 21.9609 0C28.0312 0 32.7891 4.83984 32.707 11.4961ZM15.0586 10.9453L15.0586 12.5859C14.2148 12.6445 13.793 13.1367 13.793 14.1094L13.793 19.5352C13.793 20.5781 14.2852 21.082 15.2461 21.082L22.2305 21.082C23.1797 21.082 23.6602 20.5781 23.6602 19.5352L23.6602 14.1094C23.6602 13.1367 23.2383 12.6445 22.4062 12.5859L22.4062 10.9453C22.4062 8.48438 20.918 6.84375 18.7266 6.84375C16.5469 6.84375 15.0586 8.48438 15.0586 10.9453ZM21.0586 10.8164L21.0586 12.5742L16.3828 12.5742L16.3828 10.8164C16.3828 9.19922 17.332 8.15625 18.7266 8.15625C20.1328 8.15625 21.0586 9.19922 21.0586 10.8164Z"[39m
+                [33mfill-opacity[39m=[32m"0.85"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mCloud[0m
+            [36m<span>[39m
+              [0mNon confirmé[0m
+            [36m</span>[39m
+          [36m</span>[39m
+          [36m<div>[39m
+            [36m<code>[39m
+              [0mSauvegarde de la conversation non confirmée[0m
+            [36m</code>[39m
+            [36m<span />[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</details>[39m
+      [36m<ol[39m
+        [33mclass[39m=[32m"assets-conversation-messages"[39m
+      [36m>[39m
+        [36m<li[39m
+          [33mclass[39m=[32m"assets-chat-message"[39m
+          [33mdata-role[39m=[32m"user"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-heading"[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0mVous[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-body"[39m
+            [33mdata-collapsed[39m=[32m"false"[39m
+          [36m>[39m
+            [36m<p>[39m
+              [0mActual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt Actual long prompt [0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-actions"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mRéduire[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33maria-label[39m=[32m"Copier le message"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mCopier[0m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</li>[39m
+        [36m<li[39m
+          [33mclass[39m=[32m"assets-chat-message"[39m
+          [33mdata-role[39m=[32m"assistant"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-heading"[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0mClaude[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-body"[39m
+            [33mdata-collapsed[39m=[32m"false"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"assets-chat-markdown"[39m
+            [36m>[39m
+              [36m<h2>[39m
+                [0mResult[0m
+              [36m</h2>[39m
+              [0m
+[0m
+              [36m<ul>[39m
+                [0m
+[0m
+                [36m<li>[39m
+                  [0mActual answer[0m
+                [36m</li>[39m
+                [0m
+[0m
+              [36m</ul>[39m
+              [0m
+[0m
+              [36m<pre>[39m
+                [36m<code[39m
+                  [33mclass[39m=[32m"language-js"[39m
+                [36m>[39m
+                  [0mconst value = 1
+[0m
+                [36m</code>[39m
+              [36m</pre>[39m
+              [0m
+&lt;script&gt;alert(1)&lt;/script&gt;
+
+[0m
+              [36m<p>[39m
+                [0mbad[0m
+              [36m</p>[39m
+              [0m
+[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"assets-chat-message-actions"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33maria-label[39m=[32m"Copier le message"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mCopier[0m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</li>[39m
+      [36m</ol>[39m
+    [36m</section>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/components/assets/ConversationView.test.jsx:20:17
+     18|   fireEvent.click(screen.getByText('Afficher tout le message'))
+     19|   expect(container.querySelector('[data-role="user"] [data-collapsed="…
+     20|   expect(screen.getByText(text)).toBeDefined()
+       |                 ^
+     21|   fireEvent.click(screen.getByText('Emplacements et sauvegarde'))
+     22|   expect(screen.getByText('/source/one.jsonl')).toBeDefined()
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  1 failed | 25 passed (26)
+   Start at  10:33:13
+   Duration  1.81s (transform 118ms, setup 41ms, collect 222ms, tests 1.41s, environment 245ms, prepare 72ms)
+
