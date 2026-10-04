@@ -1,0 +1,26 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:20550) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20549) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ConversationCatalog.test.js (2 tests) 10ms
+stderr | src/components/assets/ProjectWorkspace.test.jsx > keeps selection across icons, gallery and navigable source columns
+Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+
+stderr | src/components/assets/ProjectWorkspace.test.jsx > keeps complete Mac and cloud paths in list, icons, gallery and source columns
+Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+
+ ✓ src/components/assets/ProjectWorkspace.test.jsx (23 tests) 1306ms
+   ✓ shows aggregate bytes for filtered results, the displayed page and selection  480ms
+
+ Test Files  2 passed (2)
+      Tests  25 passed (25)
+   Start at  09:34:09
+   Duration  1.78s (transform 103ms, setup 41ms, collect 160ms, tests 1.32s, environment 246ms, prepare 64ms)
+

@@ -1,0 +1,13 @@
+{
+  "measuredAt": "2026-10-04T07:34:29.995Z",
+  "total": 544,
+  "providers": {
+    "claude": 192,
+    "codex": 268,
+    "gemini": 84
+  },
+  "readable": 361,
+  "desktopCardOnly": 99,
+  "failures": [],
+  "duplicateCopies": 2382
+}
