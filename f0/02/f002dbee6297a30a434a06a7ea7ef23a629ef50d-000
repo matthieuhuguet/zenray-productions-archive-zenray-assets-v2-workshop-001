@@ -25,5 +25,10 @@
   "correctedReader": {
     "visibleMessages": 4,
     "pagesRead": 6
+  },
+  "activeServiceReader": {
+    "visibleMessages": 4,
+    "pagesRead": 6,
+    "watchedCount": 17
   }
 }
