@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-05T11:27:03.043Z",
+  "linkedCount": 1,
+  "current": {
+    "id": "codex:01a0fc34-0a94-7f11-a21d-325072a6edb2",
+    "sessionId": "01a0fc34-0a94-7f11-a21d-325072a6edb2",
+    "projectId": "zenray-assets-v2",
+    "provider": "codex"
+  },
+  "hasLinkedSection": true,
+  "reader": {
+    "keys": [
+      "conversation",
+      "messages",
+      "nextBefore",
+      "unsupported",
+      "checkedAt"
+    ],
+    "messageCount": 0,
+    "conversationId": "codex:01a0fc34-0a94-7f11-a21d-325072a6edb2",
+    "visibleMessages": 0,
+    "pagesRead": 80
+  }
+}

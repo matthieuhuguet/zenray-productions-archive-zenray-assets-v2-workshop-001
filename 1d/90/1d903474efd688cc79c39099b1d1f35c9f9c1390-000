@@ -1,0 +1,25 @@
+{
+  "previousPid": "820",
+  "currentPid": "35756",
+  "idleBeforeRestart": true,
+  "restored": [
+    "ceramic-tiles",
+    "louisiana-bayou",
+    "japanese-environment",
+    "zenray-shards-core",
+    "zenray-assets-v2",
+    "zenray-houdini-library",
+    "zenray-progress",
+    "zenray-postkit",
+    "zenray-dictate",
+    "zenray-freelance",
+    "agent-conversations",
+    "control-resonant-crossover",
+    "conversation-claude-dd651e1477395f9ca214f8a6",
+    "control-brutalist-fountain",
+    "control-resonant-hub-assets",
+    "vegetation-assets-collection-01",
+    "conversation-codex-e37a471e98d4d9ae226a3725"
+  ],
+  "at": "2026-10-05T11:26:07.884Z"
+}
