@@ -1,0 +1,62 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:24334) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24337) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24335) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24336) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ❯ scripts/Assets/ConversationIdentity.test.js (3 tests | 1 failed) 6ms
+   × reuses a linked project without renaming it or changing its category 4ms
+     → expected { action: 'start', …(3) } to deeply equal { action: 'start', …(2) }
+   ✓ keeps the same standalone conversation across repeated starts 1ms
+   ✓ rejects missing host identities and implicit reassignment 0ms
+ ✓ src/lib/projectContextIndex.test.js (7 tests) 13ms
+stderr | src/components/assets/ProjectWorkspace.test.jsx > keeps selection across icons, gallery and navigable source columns
+Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+
+stderr | src/components/assets/ProjectWorkspace.test.jsx > keeps complete Mac and cloud paths in list, icons, gallery and source columns
+Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+
+ ✓ scripts/AssetsService.test.js (72 tests) 1839ms
+ ✓ src/components/assets/ProjectWorkspace.test.jsx (24 tests) 1551ms
+   ✓ shows aggregate bytes for filtered results, the displayed page and selection  485ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  scripts/Assets/ConversationIdentity.test.js > reuses a linked project without renaming it or changing its category
+AssertionError: expected { action: 'start', …(3) } to deeply equal { action: 'start', …(2) }
+
+- Expected
++ Received
+
+  {
+    "action": "start",
++   "agent": "codex",
+    "id": "ceramic-tiles",
+    "sessionId": "01a0fc34-0a94-7f11-a21d-325072a6edb2",
+  }
+
+ ❯ scripts/Assets/ConversationIdentity.test.js:6:94
+      4| const sessionId = '01a0fc34-0a94-7f11-a21d-325072a6edb2'
+      5| it('reuses a linked project without renaming it or changing its catego…
+      6|   expect(conversationStart({ agent: 'codex', sessionId }, { [sessionId…
+       |                                                                                              ^
+      7| })
+      8| it('keeps the same standalone conversation across repeated starts', ()…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 3 passed (4)
+      Tests  1 failed | 105 passed (106)
+   Start at  13:16:43
+   Duration  2.23s (transform 194ms, setup 116ms, collect 328ms, tests 3.41s, environment 755ms, prepare 155ms)
+
