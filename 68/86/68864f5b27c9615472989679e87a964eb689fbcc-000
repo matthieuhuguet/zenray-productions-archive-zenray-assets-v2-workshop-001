@@ -1,0 +1,15 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005
+
+(node:57674) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:57675) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/projectContextIndex.test.js (9 tests) 13ms
+ ✓ scripts/AssetsService.test.js (73 tests) 1590ms
+
+ Test Files  2 passed (2)
+      Tests  82 passed (82)
+   Start at  13:45:30
+   Duration  1.88s (transform 66ms, setup 34ms, collect 92ms, tests 1.60s, environment 119ms, prepare 59ms)
+

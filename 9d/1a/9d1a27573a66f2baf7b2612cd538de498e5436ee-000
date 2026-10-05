@@ -1,0 +1,15 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:54002) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:54003) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/projectContextIndex.test.js (9 tests) 11ms
+ ✓ scripts/AssetsService.test.js (73 tests) 1566ms
+
+ Test Files  2 passed (2)
+      Tests  82 passed (82)
+   Start at  13:42:07
+   Duration  1.89s (transform 71ms, setup 58ms, collect 90ms, tests 1.58s, environment 211ms, prepare 77ms)
+
