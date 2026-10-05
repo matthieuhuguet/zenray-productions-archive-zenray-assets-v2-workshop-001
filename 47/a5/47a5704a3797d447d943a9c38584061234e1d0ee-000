@@ -1,0 +1,114 @@
+{
+  "commit": "e58ef4a9",
+  "checks": [
+    {
+      "host": "https://4db19271.zenray-progress.pages.dev",
+      "file": "index.html",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://zenray-progress.pages.dev",
+      "file": "index.html",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://4db19271.zenray-progress.pages.dev",
+      "file": "assets/AssetsView-D1uBJZYc.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://zenray-progress.pages.dev",
+      "file": "assets/AssetsView-D1uBJZYc.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://4db19271.zenray-progress.pages.dev",
+      "file": "assets/AssetsView-JzN7-RSO.css",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://zenray-progress.pages.dev",
+      "file": "assets/AssetsView-JzN7-RSO.css",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://4db19271.zenray-progress.pages.dev",
+      "file": "assets/index-BSH8V-Hl.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://zenray-progress.pages.dev",
+      "file": "assets/index-BSH8V-Hl.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://4db19271.zenray-progress.pages.dev",
+      "file": "assets/index-CUxsIblL.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://zenray-progress.pages.dev",
+      "file": "assets/index-CUxsIblL.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://4db19271.zenray-progress.pages.dev",
+      "file": "assets/index-Cdw24Cjf.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://zenray-progress.pages.dev",
+      "file": "assets/index-Cdw24Cjf.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://4db19271.zenray-progress.pages.dev",
+      "file": "assets/index-Cmb43RxB.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://zenray-progress.pages.dev",
+      "file": "assets/index-Cmb43RxB.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://4db19271.zenray-progress.pages.dev",
+      "file": "assets/index-Dr0sINCb.css",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://zenray-progress.pages.dev",
+      "file": "assets/index-Dr0sINCb.css",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://4db19271.zenray-progress.pages.dev",
+      "file": "assets/index-DrqkZypM.js",
+      "status": 200,
+      "identical": true
+    },
+    {
+      "host": "https://zenray-progress.pages.dev",
+      "file": "assets/index-DrqkZypM.js",
+      "status": 200,
+      "identical": true
+    }
+  ],
+  "at": "2026-10-05T11:29:48.262Z"
+}

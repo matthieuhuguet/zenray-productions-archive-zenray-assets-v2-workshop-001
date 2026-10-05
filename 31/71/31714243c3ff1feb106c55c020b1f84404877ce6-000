@@ -1,0 +1,12 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005
+
+(node:43323) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ConversationCatalog.test.js (3 tests) 84ms
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  13:32:24
+   Duration  402ms (transform 22ms, setup 43ms, collect 20ms, tests 84ms, environment 0ms, prepare 48ms)
+

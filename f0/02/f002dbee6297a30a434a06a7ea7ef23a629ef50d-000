@@ -19,6 +19,11 @@
     "messageCount": 0,
     "conversationId": "codex:01a0fc34-0a94-7f11-a21d-325072a6edb2",
     "visibleMessages": 0,
-    "pagesRead": 80
+    "pagesRead": 1500,
+    "remaining": true
+  },
+  "correctedReader": {
+    "visibleMessages": 4,
+    "pagesRead": 6
   }
 }

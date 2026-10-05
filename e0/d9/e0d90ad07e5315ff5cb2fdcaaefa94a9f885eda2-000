@@ -1,25 +1,28 @@
 
  RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
 
-(node:25920) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:41316) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:25926) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:41315) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:25922) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+ ✓ scripts/Assets/ConversationCatalog.test.js (3 tests) 121ms
+(node:41322) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:25925) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:41319) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:25921) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:41317) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:25924) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:41321) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:25923) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(node:41318) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41320) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
 (Use `node --trace-warnings ...` to show where the warning was created)
  ✓ scripts/Assets/ConversationIdentity.test.js (3 tests) 2ms
- ✓ src/lib/projectContextIndex.test.js (7 tests) 16ms
+ ✓ src/lib/projectContextIndex.test.js (7 tests) 17ms
  ✓ src/components/assets/FileLocations.test.jsx (1 test) 59ms
- ✓ src/components/assets/ConversationView.test.jsx (3 tests) 95ms
- ✓ src/components/assets/StorageBreakdown.test.jsx (1 test) 101ms
+ ✓ src/components/assets/ConversationView.test.jsx (3 tests) 94ms
+ ✓ src/components/assets/StorageBreakdown.test.jsx (1 test) 99ms
 stderr | src/components/assets/ProjectWorkspace.test.jsx > keeps selection across icons, gallery and navigable source columns
 Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
 Encountered two children with the same key, `layouts`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
@@ -30,12 +33,12 @@ Encountered two children with the same key, `locations`. Keys should be unique s
 Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
 Encountered two children with the same key, `locations`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
 
- ✓ src/components/assets/ProjectWorkspace.test.jsx (24 tests) 1651ms
-   ✓ shows aggregate bytes for filtered results, the displayed page and selection  488ms
- ✓ scripts/AssetsService.test.js (73 tests) 1999ms
+ ✓ src/components/assets/ProjectWorkspace.test.jsx (24 tests) 1636ms
+   ✓ shows aggregate bytes for filtered results, the displayed page and selection  484ms
+ ✓ scripts/AssetsService.test.js (73 tests) 2211ms
 
- Test Files  7 passed (7)
-      Tests  112 passed (112)
-   Start at  13:17:53
-   Duration  2.42s (transform 329ms, setup 245ms, collect 782ms, tests 3.92s, environment 1.64s, prepare 280ms)
+ Test Files  8 passed (8)
+      Tests  115 passed (115)
+   Start at  13:30:48
+   Duration  2.64s (transform 361ms, setup 325ms, collect 816ms, tests 4.24s, environment 1.70s, prepare 333ms)
 
