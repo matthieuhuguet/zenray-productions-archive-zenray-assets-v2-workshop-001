@@ -4,22 +4,22 @@
 
 vite v5.4.21 building for production...
 transforming...
-✓ 2836 modules transformed.
+✓ 2808 modules transformed.
 rendering chunks...
 [plugin:vite:reporter] [plugin vite:reporter] 
-(!) /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/media/crypto.js is dynamically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/media/chunked.js, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/media/chunked.js but also statically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/capture/universalCapture.js, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/ImageNodeViewer.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/VideoPlayer2.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/search/searchIndexClient.js, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/search/thumbUrl.js, dynamic import will not move module into another chunk.
+(!) /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/media/crypto.js is dynamically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/media/chunked.js, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/media/chunked.js but also statically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/capture/universalCapture.js, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/ImageNodeViewer.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/VideoPlayer2.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/search/searchIndexClient.js, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/search/thumbUrl.js, dynamic import will not move module into another chunk.
 
 [plugin:vite:reporter] [plugin vite:reporter] 
-(!) /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/capture/shardNaming.js is dynamically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/media/chunked.js but also statically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/audio/audioManifest.js, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/capture/universalCapture.js, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/DriveDashboard.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/ImageNodeViewer.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/vidStream.js, dynamic import will not move module into another chunk.
+(!) /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/capture/shardNaming.js is dynamically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/media/chunked.js but also statically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/audio/audioManifest.js, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/capture/universalCapture.js, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/DriveDashboard.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/ImageNodeViewer.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/lib/vidStream.js, dynamic import will not move module into another chunk.
 
 [plugin:vite:reporter] [plugin vite:reporter] 
-(!) /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/config/chunkPolicy.js is dynamically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/media/chunked.js but also statically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/capture/universalCapture.js, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/config/guestUpload.js, dynamic import will not move module into another chunk.
+(!) /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/config/chunkPolicy.js is dynamically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/media/chunked.js but also statically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/capture/universalCapture.js, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/config/guestUpload.js, dynamic import will not move module into another chunk.
 
 [plugin:vite:reporter] [plugin vite:reporter] 
-(!) /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/fetchAsset.js is dynamically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/media/chunked.js but also statically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/AssetsView.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/DownloadsView.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/FileNodeViewer.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/ImageNodeViewer.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/QuickLookOverlay.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/VideoPlayer2.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/assets/AssetsWorkspaceView.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/bulkZip.js, dynamic import will not move module into another chunk.
+(!) /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/lib/fetchAsset.js is dynamically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/media/chunked.js but also statically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/AssetsView.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/DownloadsView.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/FileNodeViewer.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/ImageNodeViewer.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/QuickLookOverlay.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/VideoPlayer2.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/assets/AssetsWorkspaceView.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/lib/bulkZip.js, dynamic import will not move module into another chunk.
 
 [plugin:vite:reporter] [plugin vite:reporter] 
-(!) /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/ImageNodeViewer.jsx is dynamically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/create/UnifiedViewer.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/search/thumbUrl.js but also statically imported by /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/App.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/CreateDock.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/GalleryView.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/QuickLookOverlay.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/ShareImagePage.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/SharedFolderPage.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/Views.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/assets/AssetsWorkspaceView.jsx, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/bulkZip.js, /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/ref/resolveRef.js, dynamic import will not move module into another chunk.
+(!) /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/ImageNodeViewer.jsx is dynamically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/create/UnifiedViewer.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/search/thumbUrl.js but also statically imported by /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/App.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/CreateDock.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/GalleryView.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/QuickLookOverlay.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/ShareImagePage.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/SharedFolderPage.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/Views.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/components/assets/AssetsWorkspaceView.jsx, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/lib/bulkZip.js, /Users/zenray/Create/Build/AssetsReleaseChecks/ProjectConversations-20261005/src/ref/resolveRef.js, dynamic import will not move module into another chunk.
 
 computing gzip size...
 dist/assets/thumbWorker-Dd93F847.js                                 0.64 kB
@@ -29,7 +29,6 @@ dist/assets/Segmente-ID6XVAh0.css                                   1.73 kB │ 
 dist/assets/ProgressView-DQFb-rj5.css                               5.96 kB │ gzip:     1.60 kB
 dist/assets/ZenRayTimer-C3BlMBEv.css                                7.20 kB │ gzip:     1.80 kB
 dist/assets/ZenRayHoudini-BgfFPsdE.css                              7.49 kB │ gzip:     1.96 kB
-dist/assets/PostKitView-9BXyMLpe.css                               10.72 kB │ gzip:     2.44 kB
 dist/assets/ZenRayJapanese-DsTTQfNY.css                            14.06 kB │ gzip:     3.10 kB
 dist/assets/PlanBoard-BuOaitGD.css                                 38.10 kB │ gzip:     6.69 kB
 dist/assets/AssetsView-JzN7-RSO.css                                40.38 kB │ gzip:     7.23 kB
@@ -99,11 +98,11 @@ dist/assets/19-playlist-header-CQFR6j-H.js                          0.80 kB │ 
 dist/assets/47-player-fullscreen-CXDmwmwH.js                        0.80 kB │ gzip:     0.43 kB
 dist/assets/22-pullquote-txTceL-s.js                                0.81 kB │ gzip:     0.55 kB
 dist/assets/24-newsletter-C5qj-0_N.js                               0.81 kB │ gzip:     0.49 kB
-dist/assets/Segmente-Di_RkeEH.js                                    0.81 kB │ gzip:     0.45 kB
+dist/assets/Segmente-C-uizjiJ.js                                    0.81 kB │ gzip:     0.45 kB
 dist/assets/34-episode-row-DmjwDzui.js                              0.81 kB │ gzip:     0.41 kB
 dist/assets/10-kicker-CHwXQvv8.js                                   0.82 kB │ gzip:     0.56 kB
 dist/assets/18-artist-header-voWpqPcL.js                            0.82 kB │ gzip:     0.43 kB
-dist/assets/LanguageSwitcher-06sv1Yc4.js                            0.82 kB │ gzip:     0.55 kB
+dist/assets/LanguageSwitcher-BOfQvmTu.js                            0.82 kB │ gzip:     0.55 kB
 dist/assets/05-drawer-tools-BlZ238PF.js                             0.82 kB │ gzip:     0.50 kB
 dist/assets/06-drawer-subscribe-WZ7EoVpU.js                         0.82 kB │ gzip:     0.53 kB
 dist/assets/23-read-also-LQncuxKI.js                                0.84 kB │ gzip:     0.57 kB
@@ -201,7 +200,7 @@ dist/assets/08-drawer-sections-CdzCsErT.js                          1.42 kB │ 
 dist/assets/23-map-screen-D5btyNvb.js                               1.46 kB │ gzip:     0.82 kB
 dist/assets/19-article-open-L7p7n0K7.js                             1.47 kB │ gzip:     0.79 kB
 dist/assets/14-detail-panel-nNskMETl.js                             1.50 kB │ gzip:     0.84 kB
-dist/assets/SubtitleLayer-DLUVqPVV.js                               1.51 kB │ gzip:     0.82 kB
+dist/assets/SubtitleLayer-BTxRl__B.js                               1.51 kB │ gzip:     0.82 kB
 dist/assets/08-beats-BKHnZXD4.js                                    1.55 kB │ gzip:     0.88 kB
 dist/assets/19-article-open-BcEZhe8k.js                             1.58 kB │ gzip:     0.87 kB
 dist/assets/09-footer-prompts-2LZU7sXB.js                           1.59 kB │ gzip:     0.88 kB
@@ -214,7 +213,7 @@ dist/assets/25-footer-D5U1es_h.js                                   1.66 kB │ 
 dist/assets/25-footer-BmBfBDLM.js                                   1.67 kB │ gzip:     0.94 kB
 dist/assets/25-footer-BfyZhKX1.js                                   1.67 kB │ gzip:     0.94 kB
 dist/assets/T-09-1-1--spotify-client-xuPIGO7N.js                    1.67 kB │ gzip:     0.90 kB
-dist/assets/FloatingComposerController-D-j-wzDn-BUTfaBmv.js         1.72 kB │ gzip:     0.89 kB
+dist/assets/FloatingComposerController-D-j-wzDn-CIwLtKdu.js         1.72 kB │ gzip:     0.89 kB
 dist/assets/storageInfo-CzbQl9R8.js                                 1.74 kB │ gzip:     0.95 kB
 dist/assets/06-chapter-card-CFsF8HS6.js                             1.79 kB │ gzip:     1.03 kB
 dist/assets/01-title-screen-C6MEmVNw.js                             1.89 kB │ gzip:     1.08 kB
@@ -236,19 +235,19 @@ dist/assets/21-beats-DEungWVZ.js                                    2.35 kB │ 
 dist/assets/21-beats-QP5UM6WQ.js                                    2.35 kB │ gzip:     0.94 kB
 dist/assets/17-settings-list-PIzfNh0A.js                            2.50 kB │ gzip:     1.09 kB
 dist/assets/18-world-marker-DE7l-51g.js                             2.62 kB │ gzip:     1.31 kB
-dist/assets/ShareVideoPage-Bazotwcn.js                              2.64 kB │ gzip:     1.29 kB
-dist/assets/GmapsViewer-DkBQKhqH.js                                 2.66 kB │ gzip:     1.25 kB
+dist/assets/ShareVideoPage-s_s-cqKC.js                              2.64 kB │ gzip:     1.28 kB
+dist/assets/GmapsViewer-ktf6wDBY.js                                 2.66 kB │ gzip:     1.25 kB
 dist/assets/22-tables-COpDUanl.js                                   2.69 kB │ gzip:     1.18 kB
-dist/assets/progressDomains-CodNSljO.js                             2.80 kB │ gzip:     1.39 kB
+dist/assets/progressDomains-w-zLHe9N.js                             2.80 kB │ gzip:     1.38 kB
 dist/assets/31-hud-cluster-Dh923JY-.js                              3.02 kB │ gzip:     1.24 kB
 dist/assets/STLLoader-BOJeDAHd.js                                   3.03 kB │ gzip:     1.45 kB
 dist/assets/index-CUxsIblL.js                                       3.11 kB │ gzip:     1.26 kB
-dist/assets/EmbedNodeViewer-DE7_NGBU.js                             3.18 kB │ gzip:     1.52 kB
-dist/assets/ShareImagePage-CKmGKZLx.js                              3.25 kB │ gzip:     1.51 kB
+dist/assets/EmbedNodeViewer-Cp5rO5dM.js                             3.18 kB │ gzip:     1.52 kB
+dist/assets/ShareImagePage-Dz2_vbKf.js                              3.25 kB │ gzip:     1.51 kB
 dist/assets/20-prompts-DP-FW5-M.js                                  3.31 kB │ gzip:     1.20 kB
 dist/assets/11-screen-title-vZRqbdb0.js                             3.35 kB │ gzip:     1.72 kB
 dist/assets/26-radar-BtmnoYDu.js                                    3.82 kB │ gzip:     1.66 kB
-dist/assets/ZenRayHoudiniVocabulary-DtymBfWX.js                     3.87 kB │ gzip:     1.60 kB
+dist/assets/ZenRayHoudiniVocabulary-CiVZF2PX.js                     3.87 kB │ gzip:     1.60 kB
 dist/assets/component-registry-C5NVDqMU.js                          3.91 kB │ gzip:     0.94 kB
 dist/assets/component-registry-y6SqG5M-.js                          3.92 kB │ gzip:     0.94 kB
 dist/assets/component-registry-C1P3iAiS.js                          3.92 kB │ gzip:     0.93 kB
@@ -264,73 +263,72 @@ dist/assets/30-inventory-grids-DNx8jlkL.js                          4.71 kB │ 
 dist/assets/34-panels-extra-BWGcosPo.js                             4.96 kB │ gzip:     1.81 kB
 dist/assets/32-effects-C31Vcqa9.js                                  5.11 kB │ gzip:     2.23 kB
 dist/assets/21-cards-DnHa3l4e.js                                    5.11 kB │ gzip:     2.00 kB
-dist/assets/Gallery-BaYDKGRT.js                                     5.39 kB │ gzip:     2.53 kB
-dist/assets/FileNodeViewer-BvjmfvhT.js                              5.75 kB │ gzip:     2.38 kB
+dist/assets/Gallery-saKyD7lA.js                                     5.39 kB │ gzip:     2.53 kB
+dist/assets/FileNodeViewer-DXX5qi6M.js                              5.75 kB │ gzip:     2.38 kB
 dist/assets/component-registry-Cj9kcM1h.js                          5.80 kB │ gzip:     1.31 kB
-dist/assets/GoalsView-BQ023Y33.js                                   5.93 kB │ gzip:     2.85 kB
+dist/assets/GoalsView-DAfhWGWv.js                                   5.93 kB │ gzip:     2.85 kB
 dist/assets/29-edition-sheet-D6MoCCcq.js                            6.48 kB │ gzip:     2.39 kB
-dist/assets/LibFilePreview-DRsmQQ6_.js                              6.66 kB │ gzip:     2.70 kB
-dist/assets/IndexView-XiZHc1h7.js                                   6.89 kB │ gzip:     2.43 kB
-dist/assets/RefApp-BoalfevD.js                                      7.25 kB │ gzip:     2.58 kB
+dist/assets/LibFilePreview-DWmI_io_.js                              6.66 kB │ gzip:     2.70 kB
+dist/assets/IndexView-DG8ALUa8.js                                   6.89 kB │ gzip:     2.43 kB
+dist/assets/RefApp-C-Y2c0Mv.js                                      7.25 kB │ gzip:     2.58 kB
 dist/assets/sanitizeSvg-CpvoqzD4.js                                 7.53 kB │ gzip:     3.13 kB
-dist/assets/ZenRayTimer-BLgR1rSV.js                                 7.64 kB │ gzip:     3.29 kB
-dist/assets/StreamVideo-DpLoY_Fm.js                                 8.31 kB │ gzip:     3.31 kB
-dist/assets/DatabaseViews-BuZ9sqJP.js                               8.84 kB │ gzip:     3.12 kB
+dist/assets/ZenRayTimer-D9sQp0Sd.js                                 7.64 kB │ gzip:     3.29 kB
+dist/assets/StreamVideo-BGivlBJq.js                                 8.31 kB │ gzip:     3.31 kB
+dist/assets/DatabaseViews-BOQZlaA8.js                               8.84 kB │ gzip:     3.12 kB
 dist/assets/OBJLoader-BDwk0jKq.js                                   8.89 kB │ gzip:     2.98 kB
-dist/assets/Articles-m90nLff5.js                                   10.13 kB │ gzip:     3.89 kB
-dist/assets/Databases-BLWis6f4.js                                  10.58 kB │ gzip:     3.76 kB
+dist/assets/Articles-DBXl-v6Q.js                                   10.13 kB │ gzip:     3.89 kB
+dist/assets/Databases-BxinwTWb.js                                  10.58 kB │ gzip:     3.76 kB
 dist/assets/00-icons-TUrhhrgq.js                                   11.00 kB │ gzip:     4.17 kB
 dist/assets/component-registry-ChjYamKK.js                         11.39 kB │ gzip:     1.92 kB
-dist/assets/VideoPlayer-BKFnZw1U.js                                12.71 kB │ gzip:     5.07 kB
-dist/assets/ProgressView-C4ibxdQP.js                               13.71 kB │ gzip:     5.79 kB
-dist/assets/ZenRayJapanese-CKbayAQN.js                             14.03 kB │ gzip:     5.17 kB
-dist/assets/list-Cz9ZRg60.js                                       14.39 kB │ gzip:     5.78 kB
-dist/assets/MediaViewer-Bo09HiVu.js                                15.12 kB │ gzip:     5.44 kB
-dist/assets/StreamVideoMSE-D2-kx9tv.js                             15.21 kB │ gzip:     5.56 kB
-dist/assets/DownloadsView-CRFhg_dt.js                              15.22 kB │ gzip:     5.26 kB
+dist/assets/VideoPlayer-CLcadA5R.js                                12.71 kB │ gzip:     5.06 kB
+dist/assets/ProgressView-DJCQFj-T.js                               13.71 kB │ gzip:     5.79 kB
+dist/assets/ZenRayJapanese-DrTEUFPg.js                             14.03 kB │ gzip:     5.17 kB
+dist/assets/list-htjKTztZ.js                                       14.39 kB │ gzip:     5.78 kB
+dist/assets/MediaViewer-yymtY7EV.js                                15.12 kB │ gzip:     5.44 kB
+dist/assets/StreamVideoMSE-DK0z9xxJ.js                             15.21 kB │ gzip:     5.56 kB
+dist/assets/DownloadsView-Dy7aMktC.js                              15.22 kB │ gzip:     5.26 kB
 dist/assets/jassub-C5dM8Q3Z.js                                     15.61 kB │ gzip:     5.12 kB
-dist/assets/MeshStudio-D7crcSmM.js                                 19.01 kB │ gzip:     5.80 kB
+dist/assets/MeshStudio-B2nAiWBR.js                                 19.01 kB │ gzip:     5.80 kB
+dist/assets/FreelanceView-CaCU6Urf.js                              19.37 kB │ gzip:     6.23 kB
 dist/assets/OrbitControls-Xib5bW6U.js                              19.80 kB │ gzip:     4.48 kB
 dist/assets/04-dialogue-wheel-ChAbl4Ca.js                          19.94 kB │ gzip:     8.13 kB
-dist/assets/MaterialStudio-ATcowcd-.js                             20.08 kB │ gzip:     6.06 kB
-dist/assets/ZenRayHoudini-GdhZNe2N.js                              24.35 kB │ gzip:     9.15 kB
-dist/assets/DriveDashboard-DzlFJlKS.js                             25.89 kB │ gzip:     7.60 kB
-dist/assets/VideoPlayer2-BD_JIj5Y.js                               31.50 kB │ gzip:     9.38 kB
-dist/assets/GalleryView-BYELra4Z.js                                34.41 kB │ gzip:    10.60 kB
-dist/assets/PageEditorBN-CV1vaqfy.js                               35.44 kB │ gzip:    12.56 kB
-dist/assets/Shelf-BVRdRrN7.js                                      39.28 kB │ gzip:    12.34 kB
+dist/assets/MaterialStudio-D3quSfJF.js                             20.08 kB │ gzip:     6.06 kB
+dist/assets/ZenRayHoudini-CSF6RjlD.js                              24.35 kB │ gzip:     9.15 kB
+dist/assets/DriveDashboard-Bn7-XWnq.js                             25.89 kB │ gzip:     7.60 kB
+dist/assets/VideoPlayer2-DFqDI3-v.js                               31.50 kB │ gzip:     9.37 kB
+dist/assets/GalleryView-BUhnfSEs.js                                34.41 kB │ gzip:    10.60 kB
+dist/assets/PageEditorBN-tzBluQT2.js                               35.44 kB │ gzip:    12.55 kB
+dist/assets/Shelf-CK0R7jYI.js                                      39.28 kB │ gzip:    12.34 kB
 dist/assets/GLTFLoader-mcSsZ5Fm.js                                 45.61 kB │ gzip:    13.71 kB
-dist/assets/PlanBoard-RdFj5-f-.js                                  47.06 kB │ gzip:    15.22 kB
+dist/assets/PlanBoard-CyBPAfov.js                                  47.06 kB │ gzip:    15.22 kB
 dist/assets/FBXLoader-DbVIHn73.js                                  50.76 kB │ gzip:    16.93 kB
-dist/assets/SharedFolderPage-CG8Ad8No.js                           52.07 kB │ gzip:    17.85 kB
-dist/assets/DatabaseTable-BkAcVr-N.js                              56.53 kB │ gzip:    18.23 kB
-dist/assets/PostKitView-0taH8sqY.js                                63.42 kB │ gzip:    17.73 kB
-dist/assets/FreelanceView-D-32IMy8.js                              65.17 kB │ gzip:    20.46 kB
+dist/assets/SharedFolderPage-KtgOukTV.js                           52.07 kB │ gzip:    17.85 kB
+dist/assets/DatabaseTable-CSHBHfc4.js                              56.53 kB │ gzip:    18.23 kB
 dist/assets/module-DrROFPns.js                                     77.21 kB │ gzip:    27.58 kB
-dist/assets/UTIF-BODsvhHp.js                                       85.44 kB │ gzip:    30.11 kB
-dist/assets/AssetsView-B4FUpGYA.js                                115.91 kB │ gzip:    35.13 kB
+dist/assets/UTIF-D9HZptYa.js                                       85.44 kB │ gzip:    30.11 kB
+dist/assets/AssetsView-D1uBJZYc.js                                115.90 kB │ gzip:    35.13 kB
 dist/assets/T-01-1-2--une-de-rupture-D_vJRcTx.js                  299.10 kB │ gzip:   217.15 kB
-dist/assets/index-Qa8YJe2n.js                                     319.29 kB │ gzip:   100.97 kB
-dist/assets/index-DeBlQLXI.js                                     345.14 kB │ gzip:   106.68 kB
+dist/assets/index-DrqkZypM.js                                     319.29 kB │ gzip:   100.97 kB
+dist/assets/index-BSH8V-Hl.js                                     345.14 kB │ gzip:   106.68 kB
 dist/assets/T-01-1-5--tabloid-daccroche-C1HvyzXn.js               369.71 kB │ gzip:   269.46 kB
 dist/assets/native-B5Vb9Oiz.js                                    380.35 kB │ gzip:    82.33 kB
 dist/assets/T-01-1-1--une-nationale-du-matin-C2Zdp8eb.js          393.89 kB │ gzip:   288.36 kB
 dist/assets/xlsx-CWc3kuOC.js                                      428.99 kB │ gzip:   141.90 kB
 dist/assets/T-04-1-1--revelation-cinematique-Cj6Ljchd.js          460.57 kB │ gzip:   281.53 kB
-dist/assets/index-la96E9S5.js                                     495.13 kB │ gzip:   129.95 kB
+dist/assets/index-Cdw24Cjf.js                                     495.13 kB │ gzip:   129.95 kB
 dist/assets/hls-Bn6EWr6S.js                                       523.07 kB │ gzip:   161.77 kB
-dist/assets/blocknote-mantine-BAx7bKIY.js                         685.11 kB │ gzip:   203.68 kB
+dist/assets/blocknote-mantine-O5ky5dxb.js                         685.11 kB │ gzip:   203.68 kB
 dist/assets/three.module-DqCjWB92.js                              734.44 kB │ gzip:   188.36 kB
-dist/assets/dash.all.min-ByrHbBvG.js                              812.86 kB │ gzip:   237.03 kB
-dist/assets/MediaApp-fljqo7ha.js                                  841.88 kB │ gzip:   103.76 kB
+dist/assets/dash.all.min-DyfYmYvz.js                              812.86 kB │ gzip:   237.03 kB
+dist/assets/MediaApp-DbpuN75h.js                                  841.88 kB │ gzip:   103.75 kB
 dist/assets/T-01-1-3--quotidien-de-reference-sobre-CT3kfgyG.js    925.01 kB │ gzip:   687.95 kB
-dist/assets/index-DTAXn4t4.js                                   1,035.38 kB │ gzip:   332.66 kB
-dist/assets/heic2any-D1JutFcn.js                                1,352.84 kB │ gzip:   341.38 kB
+dist/assets/index-Cmb43RxB.js                                   1,034.66 kB │ gzip:   332.44 kB
+dist/assets/heic2any-DkQ-pMzp.js                                1,352.84 kB │ gzip:   341.38 kB
 dist/assets/T-01-1-4--quotidien-economique-saumon-BhzOrpsG.js   1,393.89 kB │ gzip: 1,044.84 kB
-dist/assets/RefBoardHost-CfauDaQx.js                            1,451.10 kB │ gzip:   435.57 kB
+dist/assets/RefBoardHost-C_7PDZxY.js                            1,451.10 kB │ gzip:   435.57 kB
 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-✓ built in 7.35s
+✓ built in 7.49s
