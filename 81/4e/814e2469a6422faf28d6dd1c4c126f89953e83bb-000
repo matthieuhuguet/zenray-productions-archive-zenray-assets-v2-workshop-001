@@ -1,0 +1,20 @@
+// 6 October 2026, 02:55: an isolated browser checks the production batch without touching the personal browser.
+import fs from 'node:fs';
+import {chromium} from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/@playwright/test/index.mjs';
+const text=fs.readFileSync('/Users/zenray/.claude/Memory1/AGENTS.md','utf8');
+const secret=text.split('\n').find(line=>line.includes('Mot de passe maître du drive ZenRayProgress'))?.match(/\b\d{6}\b/)?.[0];
+const browser=await chromium.launch({headless:true,executablePath:'/Users/zenray/Library/Caches/ms-playwright/chromium-1234/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing'});
+try {
+const page=await browser.newPage({viewport:{width:1600,height:1000}});
+const dark=process.argv.includes('--dark');
+if(dark) await page.route('**/api/state', async route=>{if(route.request().method()!=='GET') return route.abort(); await route.fulfill({json:{state:{steps:{},cards:[],theme:'dark',updatedAt:Date.now()},store:'isolated-theme-preview'}});});
+await page.addInitScript(secret=>{localStorage.setItem('zr:apiSecret',secret);localStorage.setItem('zr:view','freelance');},secret);
+await page.goto('https://zenray-progress.pages.dev/',{waitUntil:'domcontentloaded'});
+await page.getByText('Lot du jour',{exact:true}).waitFor({timeout:30000});
+await page.getByRole('button',{name:'Lettre',exact:true}).first().waitFor({timeout:30000});
+await page.screenshot({path:'/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/FreelanceDailyThree'+(dark?'Dark':'')+'.png',fullPage:false});
+const summary=await page.evaluate(()=>{const buttons=[...document.querySelectorAll('button')].filter(b=>b.textContent==='Lettre'); return {letters:buttons.length,colors:buttons.map(b=>getComputedStyle(b.parentElement).borderLeftColor),selected:[...document.querySelectorAll('button[aria-pressed="true"]')].map(b=>b.textContent)};});
+fs.writeFileSync('/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/FreelanceDailyThreeUi'+(dark?'Dark':'')+'.json',JSON.stringify(summary,null,2)+'\n');
+console.log(summary);
+if(summary.letters!==3 || new Set(summary.colors).size!==3 || !summary.selected.includes('3')) throw Error('Daily batch UI differs from the requested default');
+} finally {await browser.close();}
