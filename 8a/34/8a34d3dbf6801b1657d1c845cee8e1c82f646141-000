@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-06T02:03:07.531Z",
+  "ok": true,
+  "entry": "assets/index-khMHzVml.js",
+  "chunkName": "FreelanceView-DA2LdA5n.js",
+  "chunkHash": "43f47b561103af5c9e98e5541ca49d9cc0a7700e1f1ed8b3c84c4928d7349623",
+  "checks": [
+    {
+      "name": "api answers",
+      "ok": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "store holds at least 385 studios",
+      "ok": true,
+      "detail": "385 studios"
+    },
+    {
+      "name": "page entry found",
+      "ok": true,
+      "detail": "assets/index-khMHzVml.js"
+    },
+    {
+      "name": "freelance chunk found",
+      "ok": true,
+      "detail": "FreelanceView-DA2LdA5n.js"
+    },
+    {
+      "name": "page has \"Lot du jour\"",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "page has \"Mes recherches\"",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "page has \"Autres industries\"",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "additions": {
+    "defaultThree": true,
+    "allSizes": true,
+    "savedChoice": true,
+    "pastels": true,
+    "matchesBuild": true
+  }
+}
