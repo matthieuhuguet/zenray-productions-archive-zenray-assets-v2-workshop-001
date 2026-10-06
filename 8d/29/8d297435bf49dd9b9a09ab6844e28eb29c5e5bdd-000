@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "name": "api answers",
+      "ok": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "api returns the store (not an empty body)",
+      "ok": true,
+      "detail": "{\"markdown\":\"{\\\"v\\\":2,\\\"studios\\\":[{\\\"id\\\":\\\"a1785075913163\\\",\\\"name\\\":\\\"Myriam "
+    },
+    {
+      "name": "store holds at least 300 studios",
+      "ok": true,
+      "detail": "385 studios"
+    },
+    {
+      "name": "page entry found",
+      "ok": true,
+      "detail": "assets/index-COkK3QsY.js"
+    },
+    {
+      "name": "freelance chunk found",
+      "ok": true,
+      "detail": "FreelanceView-yQpPVyN3.js"
+    },
+    {
+      "name": "page has \"Lot du jour\"",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "page has \"Mes recherches\"",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "page has \"Autres industries\"",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

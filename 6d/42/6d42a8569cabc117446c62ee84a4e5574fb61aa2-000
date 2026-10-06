@@ -1,0 +1,25 @@
+# 6 October 2026, 02:47: apply only the requested batch changes on a fresh main checkout.
+from pathlib import Path
+base = Path('/Users/zenray/Create/Build/AssetsReleaseChecks/FreelanceDailyThree-20261006')
+source = Path('/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress')
+def replace_file(name, old, new):
+    target = base / name
+    text = target.read_text()
+    assert text.count(old) == 1, (name, old)
+    target.write_text(text.replace(old, new))
+replace_file('src/lib/freelanceBatch.js', 'export const BATCH = { sizes: [5, 8, 12], defaultSize: 8, perStudio: 2, minScore: 40 }', '// 6 October 2026, 02:47: a three-application batch leaves room for daily production.\nexport const BATCH = { sizes: [3, 5, 8, 12], defaultSize: 3, perStudio: 2, minScore: 40 }')
+replace_file('src/components/freelance/FreelanceBatch.jsx', "const SIZE_KEY = 'zr:freelance:batchSize'", "// 6 October 2026, 02:47: reset the former default once, then retain future explicit choices.\nconst SIZE_KEY = 'zr:freelance:batchSize:v2'")
+replace_file('src/components/freelance/FreelanceBatch.jsx', 'picked.map(({ studio, duplicates: repeats }) => {', 'picked.map(({ studio, duplicates: repeats }, index) => {\n          const pastel = P.batchPastels[index % P.batchPastels.length]')
+replace_file('src/components/freelance/FreelanceBatch.jsx', "border: `1px solid ${t.border}`, borderRadius: P.radius, padding: '8px 12px'", "border: `1px solid ${t.border}`, borderLeft: `3px solid ${pastel}`, background: `${pastel}25`, borderRadius: P.radius, padding: '8px 12px'")
+replace_file('src/components/freelance/ui.jsx', "import { DOT }", "import { DOT, FREELANCE_BATCH_PASTELS }")
+replace_file('src/components/freelance/ui.jsx', '  gap: 14,', '  gap: 14,\n  batchPastels: FREELANCE_BATCH_PASTELS,')
+target = base / 'src/config/colors.js'
+assert 'FREELANCE_BATCH_PASTELS' not in target.read_text()
+with target.open('a') as handle:
+    handle.write("\n// 6 October 2026, 02:47: proposed pastel accents for daily applications, independent of fit scores.\nexport const FREELANCE_BATCH_PASTELS = ['#C5DDEB', '#D9CDE8', '#C9DFC9']\n")
+name='src/components/freelance/FreelanceBatch.test.jsx'
+assert not (base/name).exists()
+(base/name).write_text((source/name).read_text())
+target=base/'docs/FREELANCE-ENGINE.md'
+with target.open('a') as handle:
+    handle.write('\n## 6 October 2026 : Lot quotidien de trois candidatures\n\n- Trois candidatures par defaut, avec choix 5, 8 et 12 conserves ; la preference v2 applique une fois le nouveau defaut puis retient le choix explicite. Le lot visible ne plafonne pas les candidatures journalieres et aucun envoi automatique ne se produit. (6 October 2026)\n- Chaque carte prend un accent bleu, lavande ou vert pastel, defini dans FREELANCE_BATCH_PASTELS de src/config/colors.js et reference par P.batchPastels. Le score, la selection pertinente et les boutons gardent leur logique. (6 October 2026)\n- Quinze tests couvrent le nouveau defaut malgre une ancienne preference huit, les trois couleurs, l ouverture de lettre, les choix et leur conservation, ainsi que la page complete. La publication exige main a jour, puis CheckProduction.mjs et une relecture dix minutes apres. (6 October 2026)\n')
