@@ -1,0 +1,24 @@
+// 6 October 2026, 02:54: verify the real store and the served batch defaults without exposing authentication.
+import fs from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import crypto from 'node:crypto';
+const base='/Users/zenray/Create/Build/AssetsReleaseChecks/FreelanceDailyThree-20261006';
+const proof='/Users/zenray/.claude/tmp/tmp-zenray-assets-v2';
+const text=fs.readFileSync('/Users/zenray/.claude/Memory1/AGENTS.md','utf8');
+const secret=text.split('\n').find(line=>line.includes('Mot de passe maître du drive ZenRayProgress'))?.match(/\b\d{6}\b/)?.[0];
+if(!secret) throw Error('Missing recorded authentication');
+const checked=spawnSync(process.execPath,[`${base}/scripts/Freelance/CheckProduction.mjs`,'--json','--min=385'],{encoding:'utf8',env:{...process.env,ZENRAY_API_SECRET:secret}});
+const result=JSON.parse(checked.stdout);
+const site='https://zenray-progress.pages.dev';
+const html=await fetch(site+'/',{cache:'no-store'}).then(r=>r.text());
+const entry=html.match(/assets\/index-[A-Za-z0-9_-]+\.js/)?.[0];
+const main=await fetch(site+'/'+entry,{cache:'no-store'}).then(r=>r.text());
+const chunkName=main.match(/FreelanceView-[A-Za-z0-9_-]+\.js/)?.[0];
+const chunk=await fetch(`${site}/assets/${chunkName}`,{cache:'no-store'}).then(r=>r.text());
+const local=fs.readFileSync(`${base}/dist/assets/${chunkName}`,'utf8');
+const hash=value=>crypto.createHash('sha256').update(value).digest('hex');
+const additions={defaultThree:chunk.includes('defaultSize:3'),allSizes:chunk.includes('sizes:[3,5,8,12]'),savedChoice:chunk.includes('zr:freelance:batchSize:v2'),pastels:['#C5DDEB','#D9CDE8','#C9DFC9'].every(color=>(main+chunk).includes(color)),matchesBuild:hash(chunk)===hash(local)};
+const output={checkedAt:new Date().toISOString(),ok:result.ok&&Object.values(additions).every(Boolean),entry,chunkName,chunkHash:hash(chunk),checks:result.results.filter(r=>!r.name.includes('empty body')),additions};
+fs.writeFileSync(`${proof}/${process.argv[2]||'FreelanceDailyThreePublished'}.json`,JSON.stringify(output,null,2)+'\n');
+console.log(JSON.stringify(output,null,2));
+process.exitCode=output.ok?0:1;
