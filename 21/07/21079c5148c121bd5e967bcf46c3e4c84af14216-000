@@ -1,0 +1,14 @@
+// 7 October 2026: reproduce FileHandle close behaviour of the Assets patterns (read-only, scratch file).
+import { open } from 'node:fs/promises'
+import { constants, createWriteStream } from 'node:fs'
+import { pipeline } from 'node:stream/promises'
+import { Writable } from 'node:stream'
+import { createHash } from 'node:crypto'
+const file = new URL('./sample.bin', import.meta.url).pathname
+const withTimeout = (p, ms) => Promise.race([p.then(() => 'closed'), new Promise(r => setTimeout(() => r('HANG'), ms))])
+const mode = process.argv[2]
+const d = await open(file, constants.O_RDONLY)
+if (mode === 'forawait') { const h = createHash('sha256'); for await (const c of d.createReadStream({ autoClose: false })) h.update(c) }
+if (mode === 'pipeline') { await pipeline(d.createReadStream({ autoClose: false }), new Writable({ write(c, e, cb) { cb() } })) }
+if (mode === 'pipeline-file') { await pipeline(d.createReadStream({ autoClose: false }), createWriteStream(file + '.copy-' + process.pid, { flags: 'wx' })) }
+console.log(mode, 'close ->', await withTimeout(d.close(), 1500))

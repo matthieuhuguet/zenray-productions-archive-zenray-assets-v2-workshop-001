@@ -1,0 +1,18 @@
+// 7 October 2026: read-only timing of ConversationCatalog.list() on the real disk.
+import { createConversationCatalog } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/ConversationCatalog.mjs'
+import { stat } from 'node:fs/promises'
+const stateDir = '/Users/zenray/Library/Application Support/ZenRayAssets'
+const fileToken = e => `${e.dev}:${e.ino}:${e.size}:${e.mtimeMs}:${e.ctimeMs}`
+const c = createConversationCatalog({ stateDir, fileToken })
+let t = performance.now(); const a = await c.list(); const cold = performance.now() - t
+console.log('cold ms', cold.toFixed(0), 'conversations', a.conversations.length, 'readable', a.conversations.filter(x=>x.readable).length, 'failures', a.failures.length, 'paths', a.conversations.reduce((s,x)=>s+x.originalPaths.length,0))
+await new Promise(r => setTimeout(r, 10500))
+const times=[]
+for (let i=0;i<3;i++){ t = performance.now(); await c.list(); times.push(performance.now()-t); await new Promise(r => setTimeout(r, 10100)) }
+console.log('warm ms', times.map(x=>x.toFixed(0)).join(','))
+// duplicate stat pass as in ConversationMirror.drain
+t = performance.now(); let n=0
+for (const item of a.conversations) for (const f of item.originalPaths) { await stat(f); n++; if (item.provider==='gemini') try{await stat(f+'-wal')}catch{} }
+console.log('mirror re-stat ms', (performance.now()-t).toFixed(0), 'stats', n)
+const big = a.conversations.filter(x=>x.bytes>1e8).map(x=>[x.id,(x.bytes/1e6).toFixed(0)+'MB',x.updatedAt]).slice(0,8); console.log(JSON.stringify(big))
+console.log('top3 by updatedAt', JSON.stringify(a.conversations.slice(0,3).map(x=>[x.id,(x.bytes/1e6).toFixed(1)+'MB',x.updatedAt])))

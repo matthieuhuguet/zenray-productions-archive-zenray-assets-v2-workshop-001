@@ -1,0 +1,25 @@
+// 7 October 2026: handlePreview pattern, client aborts BEFORE pipeline starts, then forced GC.
+import http from 'node:http'
+import { open } from 'node:fs/promises'
+import { constants } from 'node:fs'
+import { pipeline } from 'node:stream/promises'
+const file = new URL('./big.bin', import.meta.url).pathname
+const results = []
+process.on('uncaughtException', (e) => { results.push('UNCAUGHT:' + e.code); })
+const server = http.createServer(async (req, res) => {
+  let descriptor
+  try {
+    descriptor = await open(file, constants.O_RDONLY | constants.O_NOFOLLOW)
+    await new Promise(r => setTimeout(r, 200))
+    const m = await descriptor.stat(); res.setHeader('content-length', m.size)
+    await pipeline(descriptor.createReadStream({ autoClose: false }), res)
+    results.push('ok')
+  } catch (e) { results.push('err:' + e.code) }
+  finally { if (descriptor) results.push(await Promise.race([descriptor.close().then(() => 'closed'), new Promise(r => setTimeout(() => r('HANG'), 2000))])) }
+})
+server.listen(0, '127.0.0.1', async () => {
+  const port = server.address().port
+  for (let i = 0; i < 5; i++) { const req = http.get({ port, host: '127.0.0.1' }); req.on('error', () => {}); setTimeout(() => req.destroy(), 20) }
+  setTimeout(() => { globalThis.gc?.(); }, 3000)
+  setTimeout(() => { console.log(process.version, results.join(' ')); server.close(); process.exit(0) }, 5000)
+})

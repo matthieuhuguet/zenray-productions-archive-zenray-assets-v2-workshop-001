@@ -1,0 +1,17 @@
+// 7 October 2026: read-only timing of linkConversations against a scratch copy of the link cache.
+import { createConversationCatalog } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/ConversationCatalog.mjs'
+import { linkConversations } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/ConversationLinks.mjs'
+import { readFile } from 'node:fs/promises'
+const stateDir = new URL('./state', import.meta.url).pathname
+const fileToken = e => `${e.dev}:${e.ino}:${e.size}:${e.mtimeMs}:${e.ctimeMs}`
+const c = createConversationCatalog({ stateDir, fileToken })
+const index = JSON.parse(await readFile(stateDir + '/GlobalProjectIndex.json', 'utf8')), bindings = JSON.parse(await readFile(stateDir + '/SessionBindings.json', 'utf8'))
+let t = performance.now(); const gpi = JSON.parse(await readFile(stateDir + '/GlobalProjectIndex.json', 'utf8')); console.log('parse GlobalProjectIndex ms', (performance.now()-t).toFixed(0))
+for (let i = 0; i < 3; i++) {
+  const { conversations } = await c.list()
+  let reads = 0
+  t = performance.now()
+  const links = await linkConversations({ conversations, index, stateDir, bindings, readConversation: (id, b) => { reads++; return c.read(id, b) } })
+  console.log(`run ${i} linkConversations ms`, (performance.now() - t).toFixed(0), 'rows', links.rows.length, 'gemini page reads', reads)
+  await new Promise(r => setTimeout(r, 11000))
+}

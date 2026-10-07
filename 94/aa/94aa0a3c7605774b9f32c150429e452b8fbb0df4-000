@@ -1,0 +1,27 @@
+// 7 October 2026: stress the service's FileHandle patterns with forced GC to look for GC-closed handles.
+import { snapshotSourceFile, hashLocalFile } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+import { verifyWorkspaceTree } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsWorkspaceLifecycle.mjs'
+import { lstat, rm, mkdir, copyFile } from 'node:fs/promises'
+import { fileURLToPath } from 'node:url'
+import path from 'node:path'
+const errors = []
+process.on('uncaughtException', (e) => errors.push(e.code || e.message))
+const dir = path.dirname(fileURLToPath(import.meta.url))
+const src = path.join(dir, 'sample.bin')
+const meta = await lstat(src)
+const token = `${meta.dev}:${meta.ino}:${(await import('/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/lib/fingerprint-cache.mjs')).fileChangeToken({ size: meta.size, mtime: meta.mtimeMs, ctime: meta.ctimeMs })}`
+for (let i = 0; i < 100; i++) {
+  const dest = path.join(dir, 'snap', `c${i}.bin`)
+  const r = await snapshotSourceFile({ localPath: src, changeToken: token }, dest, dir)
+  await hashLocalFile(src, token)
+  // wrong token path: throws inside try
+  await hashLocalFile(src, 'bad').catch(() => {})
+  await snapshotSourceFile({ localPath: src, changeToken: 'bad' }, dest + '.x', dir).catch(() => {})
+  // destination exists -> wx EEXIST inside pipeline
+  await snapshotSourceFile({ localPath: src, changeToken: token }, dest, dir).catch(() => {})
+  globalThis.gc()
+  await new Promise(r => setImmediate(r))
+}
+await rm(path.join(dir, 'snap'), { recursive: true, force: true })
+globalThis.gc(); await new Promise(r => setTimeout(r, 500)); globalThis.gc()
+console.log(process.version, 'uncaught:', errors.length ? errors : 'none')

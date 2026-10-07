@@ -1,0 +1,17 @@
+// 7 October 2026: concurrent hashLocalFile on the real original PNG (read-only) with forced GC.
+import { hashLocalFile } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+import { fileChangeToken } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/lib/fingerprint-cache.mjs'
+import { lstat } from 'node:fs/promises'
+const errors = []
+process.on('uncaughtException', (e) => errors.push(e.code || e.message))
+const file = '/Users/zenray/.claude/tmp/tmp-houdini-september-2026/materials-copernicus-exercize/10-renders/lookdev_unreal_V6.png'
+const m = await lstat(file)
+const token = `${m.dev}:${m.ino}:${fileChangeToken({ size: m.size, mtime: m.mtimeMs, ctime: m.ctimeMs })}`
+let ok = 0, failed = 0
+for (let round = 0; round < 50; round++) {
+  const r = await Promise.allSettled(Array.from({ length: 20 }, () => hashLocalFile(file, token)))
+  ok += r.filter(x => x.status === 'fulfilled').length; failed += r.filter(x => x.status === 'rejected').length
+  globalThis.gc()
+}
+await new Promise(r => setTimeout(r, 300)); globalThis.gc()
+console.log(process.version, { ok, failed, uncaught: errors })

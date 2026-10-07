@@ -1,0 +1,305 @@
+{
+  "/Users/zenray/.codex/sessions/2026/08/17/rollout-2026-08-17T01-35-02-01a00b6d-39a6-72e0-8c79-406bb108ffb5.jsonl": {
+    "offset": 62791358,
+    "cwd": "/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress",
+    "sessionId": "01a00b6d-39a6-72e0-8c79-406bb108ffb5"
+  },
+  "/Users/zenray/.codex/sessions/2026/09/30/rollout-2026-09-30T17-25-08-01a0f2eb-677c-7660-8437-4bab519c9249.jsonl": {
+    "offset": 9396059,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a0f2eb-677c-7660-8437-4bab519c9249"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl": {
+    "offset": 118310043,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a0fc34-0a94-7f11-a21d-325072a6edb2"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-42-21-01a0fc35-3969-75a1-a20a-9f5fffb1ea38.jsonl": {
+    "offset": 1880554,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a0fc35-3969-75a1-a20a-9f5fffb1ea38"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-42-35-01a0fc35-6f78-7e40-a9f7-24a43aec4a76.jsonl": {
+    "offset": 2961084,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a0fc35-6f78-7e40-a9f7-24a43aec4a76"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-42-51-01a0fc35-adc1-75f0-9dd2-992cdac53e53.jsonl": {
+    "offset": 975010,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a0fc35-adc1-75f0-9dd2-992cdac53e53"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/20b28879-0c00-47e2-8e56-f2cd9a671404.jsonl": {
+    "offset": 263169965,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "20b28879-0c00-47e2-8e56-f2cd9a671404"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c.jsonl": {
+    "offset": 654473445,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "20b28879-0c00-47e2-8e56-f2cd9a671404"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b72636b1-7699-47eb-aedc-f039428ca295.jsonl": {
+    "offset": 18102187,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "b72636b1-7699-47eb-aedc-f039428ca295"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/d3ccf400-66ce-4853-9a74-f4cf88245060.jsonl": {
+    "offset": 588654,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "d3ccf400-66ce-4853-9a74-f4cf88245060"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/ee0a6edb-af5c-440a-a832-13607f27c7be.jsonl": {
+    "offset": 38019472,
+    "sessionId": "ee0a6edb-af5c-440a-a832-13607f27c7be"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/63cb7261-4402-48bb-91b9-2c77236ea4e9.jsonl": {
+    "offset": 3210597,
+    "sessionId": "63cb7261-4402-48bb-91b9-2c77236ea4e9"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/49007c79-a3af-4601-8cec-fd77bc841f6b.jsonl": {
+    "offset": 21401934,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "49007c79-a3af-4601-8cec-fd77bc841f6b"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/dbce3bc3-3df4-4de3-afd5-4a37d6421f19.jsonl": {
+    "offset": 939337,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "dbce3bc3-3df4-4de3-afd5-4a37d6421f19"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/4577005c-3eae-45c2-94be-0b3ad0a8f8a5.jsonl": {
+    "offset": 1711954,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "4577005c-3eae-45c2-94be-0b3ad0a8f8a5"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/fc8db1a0-91bd-41d9-afde-a4f11fc5ca59.jsonl": {
+    "offset": 448129,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "fc8db1a0-91bd-41d9-afde-a4f11fc5ca59"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-09-02-ab9be0/dc76a43d-1ca6-4434-9505-6eca949579e3.jsonl": {
+    "offset": 105202,
+    "cwd": "/Users/zenray/Library/Application Support/Claude/scratch-workspaces/a28d2458-e55b-4cf3-acec-322cb0778c40/e410da62-b0cb-4839-aece-40580ca951ac/scratch-2026-09-02-ab9be0",
+    "sessionId": "dc76a43d-1ca6-4434-9505-6eca949579e3"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-09-07-507cf8/ff27d8b0-b177-4094-bc2e-506a3aaff036.jsonl": {
+    "offset": 26769,
+    "cwd": "/Users/zenray/Library/Application Support/Claude/scratch-workspaces/a28d2458-e55b-4cf3-acec-322cb0778c40/e410da62-b0cb-4839-aece-40580ca951ac/scratch-2026-09-07-507cf8",
+    "sessionId": "ff27d8b0-b177-4094-bc2e-506a3aaff036"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d14e8f35-cea0-477b-9340-cae9bcefa792.jsonl": {
+    "offset": 3785468,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "d14e8f35-cea0-477b-9340-cae9bcefa792"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/4294dacf-4a04-45d3-bb76-69f697a1dd02.jsonl": {
+    "offset": 1592177,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "4294dacf-4a04-45d3-bb76-69f697a1dd02"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b5b19943-9423-4285-a94f-10692bd6f687.jsonl": {
+    "offset": 1785558,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "b5b19943-9423-4285-a94f-10692bd6f687"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Downloads/b2e39d6e-ef3c-4f45-b5cb-db4db77ba16c.jsonl": {
+    "offset": 892050,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "b2e39d6e-ef3c-4f45-b5cb-db4db77ba16c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0d9392a5-c9d3-4a8e-8670-59c99aa1267e.jsonl": {
+    "offset": 1479912,
+    "sessionId": "0d9392a5-c9d3-4a8e-8670-59c99aa1267e"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T04-00-11-01a0ff7d-85af-7ca3-9748-7de24e2c1855.jsonl": {
+    "offset": 1879110,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a0ff7d-85af-7ca3-9748-7de24e2c1855"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T09-05-46-01a10095-4b7f-7502-bd33-d3cfc21acd20.jsonl": {
+    "offset": 50511083,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a10095-4b7f-7502-bd33-d3cfc21acd20"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T10-29-46-01a100e2-32f9-7a43-8b5f-ef21c5f96d4d.jsonl": {
+    "offset": 5070086,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a100e2-32f9-7a43-8b5f-ef21c5f96d4d"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl": {
+    "offset": 6782202,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "00ffe75e-952c-45fc-88a9-6f1bb05adeb3"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/49007c79-a3af-4601-8cec-fd77bc841f6b.jsonl": {
+    "offset": 31163212,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "49007c79-a3af-4601-8cec-fd77bc841f6b"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl": {
+    "offset": 22009465,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a10202-a5c2-7942-9ec6-be571d28506f"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/49007c79-a3af-4601-8cec-fd77bc841f6b/subagents/agent-adcefc20bad9bfd2c.jsonl": {
+    "offset": 0,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "49007c79-a3af-4601-8cec-fd77bc841f6b"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl": {
+    "offset": 12967348,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "5fd92a10-03f3-4126-89e0-4dfe033274bd"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/04/rollout-2026-10-04T10-09-54-01a10095-4b7f-7502-bd33-d3cfc21acd20_01a105f6-5f44-7b93-b84c-fd357d9423d5.jsonl": {
+    "offset": 40108112,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a10095-4b7f-7502-bd33-d3cfc21acd20"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/33aff807-121b-4710-b47f-bd4f19e1c67e.jsonl": {
+    "offset": 5726760,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "33aff807-121b-4710-b47f-bd4f19e1c67e"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/9c41cdcf-08d1-4a4b-8704-9a0cf6372d1e.jsonl": {
+    "offset": 1915984,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "9c41cdcf-08d1-4a4b-8704-9a0cf6372d1e"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/05/rollout-2026-10-05T12-28-27-01a10b9b-9119-7483-81d0-f832130bd804.jsonl": {
+    "offset": 8826778,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a10b9b-9119-7483-81d0-f832130bd804"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/05/rollout-2026-10-05T13-23-53-01a10bce-5162-72a0-b738-4ec8574e1ddc.jsonl": {
+    "offset": 224429887,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a10bce-5162-72a0-b738-4ec8574e1ddc"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/06/rollout-2026-10-06T12-38-29-01a110cb-1d8a-7a82-b661-4ace652c8ac1.jsonl": {
+    "offset": 865662,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a110cb-1d8a-7a82-b661-4ace652c8ac1"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/06/rollout-2026-10-06T21-29-29-01a112b1-424c-7670-ba69-77176d2e7067.jsonl": {
+    "offset": 0,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a112b1-424c-7670-ba69-77176d2e7067"
+  },
+  "/Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T08-35-23-01a11512-e805-7982-9f7a-8283895cd8ee.jsonl": {
+    "offset": 2625474,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "01a11512-e805-7982-9f7a-8283895cd8ee"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-10-07-7bbd11/d955fbe0-b2a6-4fd7-a4d4-b73cb0f18add.jsonl": {
+    "offset": 0,
+    "cwd": "/Users/zenray/Library/Application Support/Claude/scratch-workspaces/a28d2458-e55b-4cf3-acec-322cb0778c40/e410da62-b0cb-4839-aece-40580ca951ac/scratch-2026-10-07-7bbd11",
+    "sessionId": "d955fbe0-b2a6-4fd7-a4d4-b73cb0f18add"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/db02b4a5-ed57-465f-9a21-424859e32e75.jsonl": {
+    "offset": 0,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "db02b4a5-ed57-465f-9a21-424859e32e75"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/31de3be6-4b58-4b16-89fe-eab7c6e76815.jsonl": {
+    "offset": 0,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "31de3be6-4b58-4b16-89fe-eab7c6e76815"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/6a795d1e-819f-4aa6-b7a9-cd54c6f97b4b.jsonl": {
+    "offset": 0,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "6a795d1e-819f-4aa6-b7a9-cd54c6f97b4b"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/b1420458-a3d4-4254-b90b-c14f48ad8062.jsonl": {
+    "offset": 0,
+    "cwd": "/Users/zenray/Create/Build/Memory",
+    "sessionId": "b1420458-a3d4-4254-b90b-c14f48ad8062"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/agent-a13e2a05a1459aa76.jsonl": {
+    "offset": 1216097,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/agent-a1cea3c488bde9b81.jsonl": {
+    "offset": 1159840,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/agent-a2fae35f034136a09.jsonl": {
+    "offset": 1229104,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/agent-a5f49788071dc2096.jsonl": {
+    "offset": 1142528,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/agent-aa6e8fcc1ab26feac.jsonl": {
+    "offset": 1041005,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/agent-abe0dc987b3ec6d88.jsonl": {
+    "offset": 1158005,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/agent-ae8ba0876fa2a8e35.jsonl": {
+    "offset": 1221577,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/journal.jsonl": {
+    "offset": 0
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/agent-a10959cf25fb34426.jsonl": {
+    "offset": 846531,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c/agent-a8c55de82128604e7.jsonl": {
+    "offset": 845995,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_88fadcd3-0cd/agent-aa81acf9d81a696a8.jsonl": {
+    "offset": 1469155,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_88fadcd3-0cd/journal.jsonl": {
+    "offset": 0
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_88fadcd3-0cd/agent-a587b6f482179645a.jsonl": {
+    "offset": 1251964,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_88fadcd3-0cd/agent-a78ecd62adcb1837e.jsonl": {
+    "offset": 1630661,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_88fadcd3-0cd/agent-a8c73cbdcdd1b8d49.jsonl": {
+    "offset": 1498140,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_88fadcd3-0cd/agent-ab1699642e0798d0d.jsonl": {
+    "offset": 1646516,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_88fadcd3-0cd/agent-acd38e2183df23335.jsonl": {
+    "offset": 1560978,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_88fadcd3-0cd/agent-af8f870ccb3586829.jsonl": {
+    "offset": 1540594,
+    "cwd": "/Users/zenray/.claude/Memory1",
+    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c"
+  }
+}

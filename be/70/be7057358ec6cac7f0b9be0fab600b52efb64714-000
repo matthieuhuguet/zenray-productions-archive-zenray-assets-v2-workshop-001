@@ -1,0 +1,28 @@
+// 7 October 2026: preview pattern when the file size differs from the advertised content-length (render rewritten mid-read).
+import http from 'node:http'
+import { open, writeFile, appendFile, truncate } from 'node:fs/promises'
+import { constants } from 'node:fs'
+import { pipeline } from 'node:stream/promises'
+const file = new URL('./grow.bin', import.meta.url).pathname
+const mode = process.argv[2]
+const results = []
+process.on('uncaughtException', (e) => { results.push('UNCAUGHT:' + (e.code || e.message)) })
+const server = http.createServer(async (req, res) => {
+  let descriptor
+  try {
+    await writeFile(file, Buffer.alloc(30_000_000, 1))
+    descriptor = await open(file, constants.O_RDONLY | constants.O_NOFOLLOW)
+    const m = await descriptor.stat(); res.setHeader('content-length', m.size)
+    if (mode === 'grow') await appendFile(file, Buffer.alloc(5_000_000, 2))
+    if (mode === 'shrink') await truncate(file, 1_000_000)
+    await pipeline(descriptor.createReadStream({ autoClose: false }), res)
+    results.push('ok')
+  } catch (e) { results.push('err:' + e.code) }
+  finally { if (descriptor) results.push(await Promise.race([descriptor.close().then(() => 'closed'), new Promise(r => setTimeout(() => r('HANG'), 2000))])) }
+})
+server.listen(0, '127.0.0.1', () => {
+  const port = server.address().port
+  const req = http.get({ port, host: '127.0.0.1' }, (r) => { r.resume(); r.on('error', () => {}) }); req.on('error', () => {})
+  setTimeout(() => { globalThis.gc?.() }, 3000)
+  setTimeout(() => { console.log(process.version, mode, results.join(' ')); process.exit(0) }, 6000)
+})

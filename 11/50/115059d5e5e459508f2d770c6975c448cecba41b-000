@@ -1,0 +1,10 @@
+// 7 October 2026: time a read-only scan of the vegetation sources (readdir + lstat only).
+import { scanSource } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+import { readFile } from 'node:fs/promises'
+const config = JSON.parse(await readFile('/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsConfig.json', 'utf8'))
+const registry = JSON.parse(await readFile('/Users/zenray/Library/Application Support/ZenRayAssets/Projects.json', 'utf8'))
+const project = registry.projects.find(p => p.id === 'vegetation-assets-collection-01') || config.projects.find(p => p.id === 'vegetation-assets-collection-01')
+const t = performance.now()
+const scans = await Promise.all(project.sources.map(s => scanSource(s, config).catch(e => ({ files: [], error: e.message }))))
+console.log('files', scans.reduce((n, s) => n + s.files.length, 0), 'ms', Math.round(performance.now() - t), scans.map(s => s.error).filter(Boolean))
+const t2 = performance.now(); const raw = await readFile('/Users/zenray/Library/Application Support/ZenRayAssets/Project-vegetation-assets-collection-01.json', 'utf8'); const st = JSON.parse(raw); const t3 = performance.now(); const out = JSON.stringify(st, null, 2); console.log('state MB', (raw.length/1e6).toFixed(1), 'parse ms', Math.round(t3 - t2), 'stringify ms', Math.round(performance.now() - t3))

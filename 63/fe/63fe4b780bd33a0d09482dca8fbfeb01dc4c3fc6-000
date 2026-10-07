@@ -1,0 +1,15 @@
+// 7 October 2026: cold linkConversations (cache invalidated, as after any marker change) on scratch state.
+import { createConversationCatalog } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/ConversationCatalog.mjs'
+import { linkConversations, projectMarkers, markersKey } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/ConversationLinks.mjs'
+import { readFile, rm } from 'node:fs/promises'
+const stateDir = new URL('./state', import.meta.url).pathname
+await rm(stateDir + '/ConversationLinks.json', { force: true })
+const c = createConversationCatalog({ stateDir, fileToken: e => `${e.ino}:${e.size}:${e.mtimeMs}` })
+const index = JSON.parse(await readFile(stateDir + '/GlobalProjectIndex.json', 'utf8')), bindings = JSON.parse(await readFile(stateDir + '/SessionBindings.json', 'utf8'))
+const markers = projectMarkers(index)
+console.log('markers', markers.length, 'projects in index', Object.keys(index.projects).length, 'key', markersKey(markers))
+const { conversations } = await c.list()
+const bytes = conversations.filter(x => x.readable).reduce((s, x) => s + x.bytes, 0)
+let reads = 0; const t = performance.now()
+const links = await linkConversations({ conversations, index, stateDir, bindings, readConversation: (id, b) => { reads++; return c.read(id, b) } })
+console.log('COLD linkConversations s', ((performance.now() - t) / 1000).toFixed(1), 'readable GB', (bytes / 1e9).toFixed(2), 'rows', links.rows.length, 'gemini page reads (python spawns)', reads)

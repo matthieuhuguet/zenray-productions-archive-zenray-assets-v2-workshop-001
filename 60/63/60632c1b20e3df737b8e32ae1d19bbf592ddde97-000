@@ -1,0 +1,27 @@
+// 7 October 2026: handlePreview pattern with a client that disconnects mid-transfer.
+import http from 'node:http'
+import { open } from 'node:fs/promises'
+import { constants } from 'node:fs'
+import { pipeline } from 'node:stream/promises'
+const file = new URL('./big.bin', import.meta.url).pathname
+const results = []
+const server = http.createServer(async (req, res) => {
+  let descriptor
+  try {
+    descriptor = await open(file, constants.O_RDONLY | constants.O_NOFOLLOW)
+    const m = await descriptor.stat(); res.setHeader('content-length', m.size)
+    await pipeline(descriptor.createReadStream({ autoClose: false }), res)
+    results.push('ok')
+  } catch (e) { results.push('err:' + e.code) }
+  finally {
+    if (descriptor) { const r = await Promise.race([descriptor.close().then(() => 'closed'), new Promise(r => setTimeout(() => r('HANG'), 2000))]); results.push(r) }
+  }
+})
+server.listen(0, '127.0.0.1', async () => {
+  const port = server.address().port
+  for (let i = 0; i < 5; i++) await new Promise((resolve) => {
+    const req = http.get({ port, host: '127.0.0.1' }, (res) => { let n = 0; res.on('data', (c) => { n += c.length; if (n > 200000) { req.destroy(); resolve() } }) })
+    req.on('error', () => resolve())
+  })
+  setTimeout(() => { console.log(process.version, results.join(' ')); server.close(); process.exit(0) }, 4000)
+})
