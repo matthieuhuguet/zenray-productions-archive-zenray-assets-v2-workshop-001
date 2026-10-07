@@ -1,0 +1,11 @@
+{
+  "date": "7 October 2026",
+  "task": "Audit performance, speed, code review and improvement of every aspect of ZenRay Assets V2 (read-only), adversarially verified",
+  "repoHead": "d910105e",
+  "workflowRunId": "wf_f3b6370c-c1c",
+  "taskId": "why7k6sam",
+  "transcriptDir": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/subagents/workflows/wf_f3b6370c-c1c",
+  "script": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/workflows/scripts/assets-v2-perf-audit-wf_f3b6370c-c1c.js",
+  "deliverables": "find-<dimension>.md per auditor, REPORT.md at the end",
+  "resume": "Workflow({scriptPath, resumeFromRunId}) returns cached agents"
+}

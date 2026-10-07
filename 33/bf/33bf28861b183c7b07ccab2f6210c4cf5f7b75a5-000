@@ -1,0 +1,152 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:27765) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27759) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27764) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27763) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27762) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27761) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/AssetsWorkspaceLifecycle.test.js > immutable archive recovery > selects an older version even when the current archive changed 2ms
+ ✓ scripts/AssetsWorkspaceLifecycle.test.js > immutable archive recovery > supports an unversioned manifest without substituting another file 0ms
+(node:27758) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27760) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ConversationLinks.test.js > builds markers from exact paths, ignores short ones and credits a shared path to every project 6ms
+ ✓ scripts/Assets/ConversationLinks.test.js > counts prompts, work and tool results of a Claude transcript, and resumes from the saved offset 5ms
+ ✓ scripts/Assets/ConversationLinks.test.js > classifies Codex user prompts and function calls 1ms
+ ✓ scripts/Assets/ConversationLinks.test.js > reads decoded Gemini pages across several windows and counts only the messages that cite the project 1ms
+ ✓ scripts/Assets/ConversationLinks.test.js > links conversations by evidence, rates it, caches it and only suggests unbound strong single-project rows 7ms
+ ✓ scripts/Assets/ConversationLinks.test.js > digests keep ONLY the messages that cite the project and say so 1ms
+ ✓ scripts/AssetsCloudPublisher.test.js > recovers a failed publication of pages/ZenRayAssets/tiles/.workspace.json without duplicating or losing project identities 14ms
+ ✓ scripts/AssetsCloudPublisher.test.js > recovers a failed publication of pages/.zr-assets-workspaces.json without duplicating or losing project identities 1ms
+ ✓ scripts/AssetsCloudPublisher.test.js > recovers a failed publication of pages/ZenRayAssets/tiles/.context.md without duplicating or losing project identities 1ms
+ ✓ scripts/AssetsCloudPublisher.test.js > retries a conflicting global mapping write and publishes a cloud-safe context 1ms
+ ✓ scripts/AssetsCloudPublisher.test.js > retains a large existing registry when GitHub omits its Contents body 1ms
+ ✓ scripts/AssetsCloudPublisher.test.js > refuses to replace an existing registry whose full body cannot be read 0ms
+ ✓ scripts/AssetsCloudPublisher.test.js > compacts a catalogue idempotently without losing identities, hashes or download metadata 0ms
+ ✓ scripts/Assets/ConversationIndexSync.test.js > lists a bound session before its transcript cites any project path, and the written files pass verification 9ms
+ ✓ scripts/Assets/ConversationIndexSync.test.js > turns RED on a broken index: a bound session removed from the JSON, a markdown from another scan 6ms
+ ✓ scripts/Assets/ConversationIndexSync.test.js > detects a stale index: new activity, a newly bound session, a deleted file; and stays quiet when fresh 12ms
+ ✓ scripts/Assets/ConversationIndexSync.test.js > reports an unwritable index as a visible error, keeps the project pending, and recovers 8ms
+ ✓ scripts/Assets/ConversationIndexSync.test.js > warns, without throwing, about a project with no memory folder and about a bound session without a readable transcript 6ms
+ ✓ scripts/Assets/ConversationMirror.test.js > copies progressively into one library without rebinding or overwriting original discussions 20ms
+ ✓ scripts/Assets/ConversationCatalog.test.js > indexes old Claude and Codex originals by activity, including unbound sessions without copying content 73ms
+ ✓ scripts/Assets/ConversationCatalog.test.js > deduplicates Claude account cards and reunites the actual CLI transcript 8ms
+ ✓ scripts/Assets/ConversationCatalog.test.js > advances past oversized records instead of repeating an empty page 10ms
+ ✓ scripts/Assets/ConversationCatalog.test.js > keeps the transcript file name as the identity of a resumed Claude session and its human card title 5ms
+ ✓ scripts/AssetsFeedbackCapture.test.js > continues capturing another session when a transcript is corrupt 45ms
+ ✓ scripts/AssetsFeedbackCapture.test.js > continues capturing another session when a transcript is shrunk 43ms
+(node:27767) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27768) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27766) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ConversationIdentity.test.js > reuses a linked project without renaming it or changing its category 1ms
+ ✓ scripts/Assets/ConversationIdentity.test.js > keeps the same standalone conversation across repeated starts 0ms
+ ✓ scripts/Assets/ConversationIdentity.test.js > rejects missing host identities and implicit reassignment 0ms
+ ✓ scripts/AssetsHistory.test.js > restores original transcript text from dated feedback quotes without duplicate source events 2ms
+ ✓ scripts/AssetsHistory.test.js > keeps unquoted legacy content and avoids fabricating a transcript provider 0ms
+ ✓ scripts/AssetsHistory.test.js > preserves the native sidechain identity and delegated order in the timeline 0ms
+ ✓ scripts/AssetsFeedbackCapture.test.js > captures a bound Claude sidechain as delegated work and preserves unread unbound prompts until binding 40ms
+ ✓ scripts/AssetsService.test.js > indexes a new local file while a cloud upload is blocked 29ms
+ ✓ scripts/AssetsService.test.js > verifies a scene audit, maps shared resources and refreshes their status without exporting local paths 33ms
+ ✓ scripts/AssetsService.test.js > refuses an audit with an old scene hash or an unknown scene file before saving its context 9ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > headless scene audit runner > runs separated arguments and reads actual JSON produced by a child executable 35ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > headless scene audit runner > reports child stderr and nonzero exit without claiming success 31ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > headless scene audit runner > terminates a stalled child with a bounded timeout 85ms
+ ✓ scripts/AssetsService.test.js > refreshes a known changed scene automatically while indexing other files during its analysis 119ms
+ ✓ scripts/Assets/ConversationIndexSync.test.js > coalesces a burst of requests into one run and runs again for a request that arrives during a run 354ms
+ ✓ scripts/Assets/ConversationIndexSync.test.js > completeWithBound adds only the missing bound sessions of that project 0ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > headless scene audit runner > aborts an active child independently of its timeout 52ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > headless scene audit runner > does not launch an already aborted queued request 1ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > headless scene audit runner > rejects invalid JSON and invalid evidence shapes 53ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > headless scene audit runner > serializes jobs, yields to the event loop and continues after failure 23ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > headless scene audit runner > rejects invalid configuration and relative scene paths 1ms
+ ✓ scripts/AssetsService.test.js > refuses an analysis overtaken by a save and retries without keeping an obsolete cloud error 159ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > isolated scene preparation runner > passes a JSON plan as a separate argument, retains stderr and removes both temporary files 30ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > isolated scene preparation runner > refuses saved-scene claims, wrong fingerprints and incomplete resource evidence 88ms
+ ✓ scripts/Assets/SceneAuditRunner.test.js > isolated scene preparation runner > queues preparation behind an active audit without launching another child 23ms
+ ✓ scripts/AssetsService.test.js > discovers new working scenes automatically while still inventorying excluded historical scenes 61ms
+ ✓ scripts/AssetsService.test.js > clears an automatic discovery failure when its unknown scene is removed 57ms
+ ✓ scripts/AssetsService.test.js > republishes audited consumers with current shared resource proof after a library archive 99ms
+ ✓ scripts/AssetsService.test.js > exports useful machine diagnostics without local paths and preserves authored feedback exactly 5ms
+ ✓ scripts/AssetsService.test.js > keeps origin-to-copy scene resource identity after verified LOAD without declaring runtime portability 33ms
+ ✓ scripts/AssetsService.test.js > reports current capture errors locally and clears them on recovery 4ms
+ ✓ scripts/AssetsService.test.js > creates the complete local setup for a new project 47ms
+ ✓ scripts/AssetsService.test.js > retains simultaneous session bindings 3945ms
+ ✓ scripts/AssetsService.test.js > preserves existing session bindings and skips replay when a conflicting project is requested 4460ms
+ ✓ scripts/AssetsService.test.js > prepares a project idempotently with canonical feedback and actual session binding 4398ms
+ ✓ scripts/AssetsService.test.js > refuses unsafe project initialization before touching another directory 3ms
+ ✓ scripts/AssetsService.test.js > project workspace evidence > inventories original bytes while excluding secrets and generated directories 2ms
+ ✓ scripts/AssetsService.test.js > project workspace evidence > refuses source escape and unsafe project IDs 1ms
+ ✓ scripts/AssetsService.test.js > project workspace evidence > scans an explicitly allowed library without permitting its parent or a whole unscoped root 2ms
+ ✓ scripts/AssetsService.test.js > project workspace evidence > copies a stable source and independently hashes the snapshot 3ms
+ ✓ scripts/AssetsService.test.js > project workspace evidence > requires cloud fingerprints for loading and independent restore proof for unloading 3ms
+ ✓ scripts/AssetsService.test.js > project workspace evidence > persists chronological events across service restarts 3ms
+ ✓ scripts/AssetsService.test.js > project workspace evidence > never assigns a shared Unreal working folder to one project by guessing 0ms
+ ✓ scripts/AssetsService.test.js > project workspace evidence > captures human prompts and final replies while excluding tool output and injected context 0ms
+ ✓ scripts/AssetsService.test.js > project workspace evidence > derives project history from the original dated sources 1ms
+ ✓ scripts/AssetsService.test.js > captures successful final iterations and excludes failed turns 0ms
+ ✓ scripts/AssetsService.test.js > routes new TMP files through watching, hashing, archive verification and indexing 18ms
+ ✓ scripts/AssetsService.test.js > prepares and recovers the active workshop when only a Houdini file is loaded 17ms
+ ✓ scripts/AssetsService.test.js > refuses a redirected workshop before creating directories outside the loaded copy 4ms
+ ✓ scripts/AssetsService.test.js > refuses an empty LOAD before activating a workspace or calling the cloud engine 4ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > reports divergent original bytes in the local and cloud context and retains both versions 15ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > does not report identical original bytes rewritten after LOAD as a version conflict 8ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > archives other new files while a diverged identity is retained 11ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > automatically archives both versions without overwriting production or the loaded copy 29ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > does not clear a conflict when the original changes again during version archival 14ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > refuses an edited preserved-version destination without overwriting it or clearing the conflict 8ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > reports absent legacy LOAD baselines without claiming which version changed first 7ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > keeps the original conflict and both local files when the version archive fails 11ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > frees managed copies and recovers exact bytes while retaining production sources 13ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > refuses a loaded file edited after its restore proof 7ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > retains extra unarchived files and refuses incomplete selections 8ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > does not release a workspace when its fresh cloud restore fails 8ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > recovers nested paths without duplicating their parent directories 14ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > retains changes made while the cloud recovery probe runs 8ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > refuses symbolic links inside the managed workspace 7ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > archives edits and new files from a loaded copy without replacing production sources 24ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > keeps the active workspace and its files when the same LOAD is repeated 7ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > adds archived files without replacing an edited scene or changing its active LOAD identity 13ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > leaves the active copy and its record untouched when a later cloud download fails 10ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > refuses adding an outdated archive over the identity of a changed production source 10ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > rolls back only newly published unchanged files when another destination appears during LOAD 13ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > retains user changes to a newly published file even if another addition then fails 11ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > unloads and recovers every added file through the same exact cloud versions 27ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > refuses a symbolic destination ancestor before publishing an added file outside the copy 11ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > does not assign an old hash to bytes edited after the additional LOAD commit 12ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > retains an edit between initial restore verification and workspace activation without calling it verified 14ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > refreshes file paths on unload and recovery and does not certify an edit made during recovery activation 14ms
+ ✓ scripts/AssetsService.test.js > managed workspace release and recovery > restores release metadata across service restarts 13ms
+ ✓ scripts/AssetsService.test.js > lets a queued action run between automatic backup batches 14ms
+ ✓ scripts/AssetsService.test.js > prioritizes an interactive action without interrupting the active writer 5ms
+ ✓ scripts/AssetsService.test.js > previews registered text with a bounded read while refusing binary content and unknown paths 4ms
+ ✓ scripts/AssetsService.test.js > runs local lifecycle jobs during an upload and serializes them per project 6ms
+ ✓ scripts/AssetsService.test.js > completes image previews and settles disconnected streams 207ms
+ ✓ scripts/AssetsService.test.js > keeps watcher errors per source instead of clearing the whole project on one recovery 3ms
+ ✓ scripts/AssetsService.test.js > preserves a source shared host identity in cloud snapshots and mappings 3ms
+ ✓ scripts/AssetsService.test.js > inventories files immediately after a source watcher reconnects 8ms
+ ✓ scripts/AssetsService.test.js > initializes linked production sources with the same canonical project setup 43ms
+ ✓ scripts/AssetsService.test.js > rejects a mismatched linked project identity before initializing directories 1ms
+ ✓ scripts/AssetsService.test.js > resumes the active loaded workshop without changing the canonical source identity 49ms
+ ✓ scripts/AssetsService.test.js > refuses a loaded workshop outside its managed project root before writing memory 3ms
+ ✓ scripts/AssetsService.test.js > opens the canonical workshop and reports an unavailable or redirected directory 7ms
+ ✓ scripts/AssetsService.test.js > commits one explicit turn checkpoint and rejects an unsafe canonical feedback 74ms
+ ✓ scripts/AssetsService.test.js > indexes the actual conversation agent in its project context immediately on binding 1507ms
+
+ Test Files  11 passed (11)
+      Tests  120 passed (120)
+   Start at  10:47:17
+   Duration  16.17s (transform 132ms, setup 595ms, collect 497ms, tests 16.92s, environment 652ms, prepare 487ms)
+
+npx vitest run scripts/Assets scripts/AssetsService.test.js       26.35s user 5.66s system 193% cpu 16.550 total
