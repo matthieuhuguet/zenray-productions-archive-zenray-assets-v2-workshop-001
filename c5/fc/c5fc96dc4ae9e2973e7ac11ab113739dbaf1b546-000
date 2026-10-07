@@ -1,0 +1,53 @@
+# ZenRayDictate (7 October 2026)
+
+Project ID: zenray-dictate. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/zenray-dictate/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/zenray-dictate/.workspace.json. (7 October 2026)
+
+## Linked conversations (7 October 2026)
+- codex: 01a10202-a5c2-7942-9ec6-be571d28506f, session 01a10202-a5c2-7942-9ec6-be571d28506f, reader codex:01a10202-a5c2-7942-9ec6-be571d28506f. (7 October 2026)
+- codex: 01a110cb-1d8a-7a82-b661-4ace652c8ac1, session 01a110cb-1d8a-7a82-b661-4ace652c8ac1, reader codex:01a110cb-1d8a-7a82-b661-4ace652c8ac1. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate. (7 October 2026)
+
+## tmp (7 October 2026)
+- application: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/application; include: ["Sources","Scripts","Tests","docs","Package.swift","README.md","SPEC.md","LICENSE","FEEDBACK.md","build.sh","make-certificate.sh","AppIcon.icns","AppIcon.svg","Entitlements.plist","state.json","ZenRayDictate.app","AGENTS.md","CLAUDE.md"]; exclude: []. (7 October 2026)
+- library: /Users/zenray/Library/Application Support/ZenRayDictate/Library; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/library; include: ["Library.json","Audio"]; exclude: []. (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-zenray-dictate; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/workshop; include: null; exclude: ["TransportResearch","GeminiPublicBundle.txt","GeminiPublicScripts.json","GeminiTransportModule7.txt","GeminiTransportModule37.txt","CloudVerification"]. (7 October 2026)
+
+## memory (7 October 2026)
+- historical-post: /Users/zenray/.claude/Memory1/Posts; cloud: pages/ZenRayAssets/zenray-dictate/sources/memory/historical-post; include: ["2026-08-11-zenray-dictate-post.md"]; exclude: []. (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/zenray-dictate; cloud: pages/ZenRayAssets/zenray-dictate/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+No source linked. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- historical-post:2026-08-11-zenray-dictate-post.md: /Users/zenray/.claude/Memory1/Posts/2026-08-11-zenray-dictate-post.md; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/zenray-dictate/FEEDBACK.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/zenray-dictate/Project1.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- application:AGENTS.md [tmp]: Mac: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/AGENTS.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/application/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-dictate/AGENTS.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- application:CLAUDE.md [tmp]: Mac: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/CLAUDE.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/application/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-dictate/CLAUDE.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- application:FEEDBACK.md [tmp]: Mac: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/FEEDBACK.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/application/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-dictate/FEEDBACK.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-dictate/Project1.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+- application:README.md [tmp]: Mac: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/README.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/application/README.md.file.json; status: backed-up. (7 October 2026)
+- historical-post:2026-08-11-zenray-dictate-post.md [memory]: Mac: /Users/zenray/.claude/Memory1/Posts/2026-08-11-zenray-dictate-post.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/memory/historical-post/2026-08-11-zenray-dictate-post.md.file.json; status: backed-up. (7 October 2026)
+- application:docs/independent-composer-design.md [tmp]: Mac: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/docs/independent-composer-design.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/application/docs/independent-composer-design.md.file.json; status: backed-up. (7 October 2026)
+- application:docs/patch-notes-v2.md [tmp]: Mac: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/docs/patch-notes-v2.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/application/docs/patch-notes-v2.md.file.json; status: backed-up. (7 October 2026)
+- workshop:FnListenerAudit.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-dictate/FnListenerAudit.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/workshop/FnListenerAudit.md.file.json; status: backed-up. (7 October 2026)
+- application:Scripts/README-Gemini.md [tmp]: Mac: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/Scripts/README-Gemini.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/application/Scripts/README-Gemini.md.file.json; status: backed-up. (7 October 2026)
+- application:SPEC.md [tmp]: Mac: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayDictate/SPEC.md; cloud: pages/ZenRayAssets/zenray-dictate/sources/tmp/application/SPEC.md.file.json; status: backed-up. (7 October 2026)
+
+Mapped files: 221; verified archive records: 151. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

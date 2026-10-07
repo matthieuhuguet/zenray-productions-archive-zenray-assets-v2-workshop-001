@@ -1,0 +1,36 @@
+# Bibliothèque Houdini (7 October 2026)
+
+Project ID: zenray-houdini-library. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/zenray-houdini-library/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context, zenray-houdini. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/zenray-houdini-library/.workspace.json. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/tmp/workshop. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-zenray-houdini-library; cloud: pages/ZenRayAssets/zenray-houdini-library/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/zenray-houdini-library; cloud: pages/ZenRayAssets/zenray-houdini-library/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+- memory-library: /Users/zenray/.claude/Memory1/Houdini/otls; cloud: pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library; include: ["Component_Armature.hda","Component_Roof.hda","Component_WindowA.hda","Component_WindowB.hda","Component_WoodFacade.hda"]; exclude: []. (7 October 2026)
+- skill-library: /Users/zenray/.claude/skills/zenray-houdini/otls; cloud: pages/ZenRayAssets/zenray-houdini-library/sources/houdini/skill-library; include: ["ZenRayChurchHero.hda","zenray_picket_fence.hda"]; exclude: []. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/zenray-houdini-library/FEEDBACK.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/zenray-houdini-library/Project1.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/tmp/workshop/AGENTS.md; cloud: pages/ZenRayAssets/zenray-houdini-library/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/tmp/workshop/CLAUDE.md; cloud: pages/ZenRayAssets/zenray-houdini-library/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-houdini-library/FEEDBACK.md; cloud: pages/ZenRayAssets/zenray-houdini-library/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-houdini-library/Project1.md; cloud: pages/ZenRayAssets/zenray-houdini-library/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+
+Mapped files: 12; verified archive records: 12. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

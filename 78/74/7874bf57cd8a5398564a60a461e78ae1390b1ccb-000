@@ -1,0 +1,11 @@
+// 7 October 2026: read-only sampling of how often the service rewrites its derived files.
+import { stat } from 'node:fs/promises'
+const dir = '/Users/zenray/Library/Application Support/ZenRayAssets'
+const files = ['GlobalProjectIndex.json', 'Project-vegetation-assets-collection-01.json', 'Project-agent-conversations.json', 'Project-zenray-assets-v2.json', 'ConversationMirror.json', 'contexts/ceramic-tiles.md']
+const seen = Object.fromEntries(files.map((f) => [f, new Set()]))
+const end = Date.now() + Number(process.argv[2] || 120) * 1000
+while (Date.now() < end) {
+  for (const f of files) { try { seen[f].add((await stat(`${dir}/${f}`)).mtimeMs) } catch {} }
+  await new Promise((r) => setTimeout(r, 250))
+}
+for (const f of files) console.log(f.padEnd(50), 'distinct mtimes over window:', seen[f].size - 1)

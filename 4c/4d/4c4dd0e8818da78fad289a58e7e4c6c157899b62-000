@@ -1,0 +1,58 @@
+# Louisiana Bayou (7 October 2026)
+
+Project ID: louisiana-bayou. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context, zenray-houdini, zrs. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/louisiana-bayou/.workspace.json. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b/sources/tmp/workshop. (7 October 2026)
+
+## Scene resource mapping (7 October 2026)
+- production:LouisianaBayou.hiplc: current; SHA256 b119da2d42e3c06ee88d29ae2b47d33c7b3459cb9f86171088e5a5e475d278c8; relocation-required: 56, unresolved: 19, internal: 1, uri: 1, relative: 1, mapped: 9. Runtime portability remains unverified. (7 October 2026)
+- Preparation for production:LouisianaBayou.hiplc: verified; 20 inputs, 7 libraries, 16 instances; 58 references outside this preparation. No scene was saved or rendered. Read resourceVersions in the snapshot for the exact checked hashes. (7 October 2026)
+- production:LouisianaBayou.hip: current; SHA256 045f717358c4475058768bf5bfb30026511f097539d551ca620df398edde1799; relocation-required: 5, relative: 1, unresolved: 1. Runtime portability remains unverified. (7 October 2026)
+Read sceneReferences in the project snapshot for exact resource projectId/fileId links. (7 October 2026)
+
+## tmp (7 October 2026)
+- shorts: /Users/zenray/.claude/tmp/post-3components-zenray-houdini; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/shorts; include: null; exclude: []. (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- posts: /Users/zenray/.claude/Memory1/SocialMedia/Posts/short-02-louisiana-bayou-hda; cloud: pages/ZenRayAssets/louisiana-bayou/sources/memory/posts; include: null; exclude: []. (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/louisiana-bayou; cloud: pages/ZenRayAssets/louisiana-bayou/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+- production: /Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou; cloud: pages/ZenRayAssets/louisiana-bayou/sources/houdini/production; include: null; exclude: []. (7 October 2026)
+- project-files: /Users/zenray/Create/Build/Productions/ZenRayHoudini; cloud: pages/ZenRayAssets/louisiana-bayou/sources/houdini/project-files; include: ["LouisianaBayou.hip","LouisianaBayou.hiplc"]; exclude: []. (7 October 2026)
+
+## unreal (7 October 2026)
+- game-assets: /Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards; cloud: pages/ZenRayAssets/louisiana-bayou/sources/unreal/game-assets; include: ["Content/LouisianaBayou","Content/__ExternalActors__/LouisianaBayou","Content/__ExternalObjects__/LouisianaBayou"]; exclude: []. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+- zenray-houdini-library: pages/ZenRayAssets/zenray-houdini-library/.workspace.json. Read this host separately; its files are shared. (7 October 2026)
+- zenray-shards-core: pages/ZenRayAssets/zenray-shards-core/.workspace.json. Read this host separately; its files are shared. (7 October 2026)
+- External dependency note: Houdini Engine plugin and shared Unreal assets are external dependencies.. (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md; status: backed-up. (7 October 2026)
+- posts:post_02_louisiana_bayou_hda.md: /Users/zenray/.claude/Memory1/SocialMedia/Posts/short-02-louisiana-bayou-hda/post_02_louisiana_bayou_hda.md; status: backed-up. (7 October 2026)
+- posts:POST.md: /Users/zenray/.claude/Memory1/SocialMedia/Posts/short-02-louisiana-bayou-hda/POST.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Project1.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/AGENTS.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/CLAUDE.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- production:FEEDBACK.md [houdini]: Mac: /Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/FEEDBACK.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/houdini/production/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- workshop:FEEDBACK.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/FEEDBACK.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Project1.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+- workshop:README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/README.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:03_work/feedback-stack.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/feedback-stack.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop/03_work/feedback-stack.md.file.json; status: backed-up. (7 October 2026)
+- workshop:03_work/feedback-task.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b/sources/tmp/workshop/03_work/feedback-task.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop/03_work/feedback-task.md.file.json; status: verified. (7 October 2026)
+- posts:post_02_louisiana_bayou_hda.md [memory]: Mac: /Users/zenray/.claude/Memory1/SocialMedia/Posts/short-02-louisiana-bayou-hda/post_02_louisiana_bayou_hda.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/memory/posts/post_02_louisiana_bayou_hda.md.file.json; status: backed-up. (7 October 2026)
+- shorts:post-3components-zenray-houdini.md [tmp]: Mac: /Users/zenray/.claude/tmp/post-3components-zenray-houdini/post-3components-zenray-houdini.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/shorts/post-3components-zenray-houdini.md.file.json; status: backed-up. (7 October 2026)
+- posts:POST.md [memory]: Mac: /Users/zenray/.claude/Memory1/SocialMedia/Posts/short-02-louisiana-bayou-hda/POST.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/memory/posts/POST.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Post/POST.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/Post/POST.md; cloud: pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop/Post/POST.md.file.json; status: backed-up. (7 October 2026)
+
+Mapped files: 675; verified archive records: 675. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

@@ -1,0 +1,68 @@
+# Vegatations Assets ZenRay Collection 01 (7 October 2026)
+
+Project ID: vegetation-assets-collection-01. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/vegetation-assets-collection-01/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context, zenray-houdini. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/vegetation-assets-collection-01/.workspace.json. (7 October 2026)
+
+## Linked conversations (7 October 2026)
+- Agent not indexed yet: 2562b086-836d-49c5-80c7-0c935a98513c, session 2562b086-836d-49c5-80c7-0c935a98513c, reader 2562b086-836d-49c5-80c7-0c935a98513c. (7 October 2026)
+- codex: 01a10bce-5162-72a0-b738-4ec8574e1ddc, session 01a10bce-5162-72a0-b738-4ec8574e1ddc, reader codex:01a10bce-5162-72a0-b738-4ec8574e1ddc. (7 October 2026)
+- gemini: 20a24469-7472-4b42-8c52-ab98fa8c2827, session 20a24469-7472-4b42-8c52-ab98fa8c2827, reader gemini:20a24469-7472-4b42-8c52-ab98fa8c2827. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01. (7 October 2026)
+
+## Scene resource mapping (7 October 2026)
+- production:hip/VegetationCollection01_backup_before_live.hiplc: current; SHA256 92343d202ed6d8eb3792d11380bb18fb86735e3ecb40789a1fa2ec2237acbd7e; unresolved: 1. Runtime portability remains unverified. (7 October 2026)
+- production:hip/VegetationCollection01.hiplc: current; SHA256 d4c8d55456243020f1f9e46550a83994101ed557c5fee75207d7f9247bae0a47; mapped: 10, unresolved: 4. Runtime portability remains unverified. (7 October 2026)
+Read sceneReferences in the project snapshot for exact resource projectId/fileId links. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/vegetation-assets-collection-01; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+- production: /Users/zenray/Create/Build/Productions/ZenRayHoudini/VegetationCollection01; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/houdini/production; include: null; exclude: []. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:ConversationIndex.md: /Users/zenray/.claude/Memory1/Projects/vegetation-assets-collection-01/ConversationIndex.md; status: pending. (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/vegetation-assets-collection-01/FEEDBACK.md; status: pending. (7 October 2026)
+- project-notes:Posts/6-October-2026-LilyShort/Post.md: /Users/zenray/.claude/Memory1/Projects/vegetation-assets-collection-01/Posts/6-October-2026-LilyShort/Post.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/vegetation-assets-collection-01/Project1.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/AGENTS.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/CLAUDE.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/vegetation-assets-collection-01/FEEDBACK.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/memory/project-notes/FEEDBACK.md.file.json; status: pending. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/vegetation-assets-collection-01/Project1.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+- workshop:renderers/cycles/source/lib/macos_arm64/materialx/libraries/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/renderers/cycles/source/lib/macos_arm64/materialx/libraries/README.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/renderers/cycles/source/lib/macos_arm64/materialx/libraries/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:renderers/cycles/source/lib/macos_arm64/materialx/resources/Materials/TestSuite/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/renderers/cycles/source/lib/macos_arm64/materialx/resources/Materials/TestSuite/README.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/renderers/cycles/source/lib/macos_arm64/materialx/resources/Materials/TestSuite/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:renderers/cycles/source/lib/macos_arm64/materialx/resources/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/renderers/cycles/source/lib/macos_arm64/materialx/resources/README.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/renderers/cycles/source/lib/macos_arm64/materialx/resources/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:renderers/cycles/source/lib/macos_arm64/python/lib/python3.13/site-packages/MaterialX/_scripts/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/renderers/cycles/source/lib/macos_arm64/python/lib/python3.13/site-packages/MaterialX/_scripts/README.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/renderers/cycles/source/lib/macos_arm64/python/lib/python3.13/site-packages/MaterialX/_scripts/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:renderers/cycles/source/lib/macos_arm64/python/lib/python3.13/site-packages/MaterialX/libraries/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/renderers/cycles/source/lib/macos_arm64/python/lib/python3.13/site-packages/MaterialX/libraries/README.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/renderers/cycles/source/lib/macos_arm64/python/lib/python3.13/site-packages/MaterialX/libraries/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:renderers/cycles/source/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/renderers/cycles/source/README.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/renderers/cycles/source/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:renderers/cycles/source/third_party/mikktspace/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/renderers/cycles/source/third_party/mikktspace/README.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/renderers/cycles/source/third_party/mikktspace/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:article/digests/claude-2562b086-since-2026-10-05.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/article/digests/claude-2562b086-since-2026-10-05.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/article/digests/claude-2562b086-since-2026-10-05.md.file.json; status: backed-up. (7 October 2026)
+- workshop:article/digests/claude-prompts-only.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/article/digests/claude-prompts-only.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/article/digests/claude-prompts-only.md.file.json; status: backed-up. (7 October 2026)
+- workshop:article/digests/claude-real-prompts.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/article/digests/claude-real-prompts.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/article/digests/claude-real-prompts.md.file.json; status: backed-up. (7 October 2026)
+- workshop:article/digests/codex-01a10bce.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/article/digests/codex-01a10bce.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/article/digests/codex-01a10bce.md.file.json; status: backed-up. (7 October 2026)
+- workshop:article/digests/gemini-20a24469.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/article/digests/gemini-20a24469.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/article/digests/gemini-20a24469.md.file.json; status: backed-up. (7 October 2026)
+- workshop:article/ImagesIndex.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/article/ImagesIndex.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/article/ImagesIndex.md.file.json; status: backed-up. (7 October 2026)
+- workshop:ArticleClaudeContext.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/ArticleClaudeContext.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/ArticleClaudeContext.md.file.json; status: backed-up. (7 October 2026)
+- workshop:audio/INDEX.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/audio/INDEX.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/audio/INDEX.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:ConversationIndex.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/vegetation-assets-collection-01/ConversationIndex.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/memory/project-notes/ConversationIndex.md.file.json; status: pending. (7 October 2026)
+- workshop:Index.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/Index.md; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/tmp/workshop/Index.md.file.json; status: backed-up. (7 October 2026)
+- production:maps/trim/petals/title-animation/02-connexions-croisees-cyan.md [houdini]: Mac: not available in this context; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/houdini/production/maps/trim/petals/title-animation/02-connexions-croisees-cyan.md.file.json; status: missing. (7 October 2026)
+- production:maps/trim/petals/title-animation/02-connexions-croisees-magenta.md [houdini]: Mac: not available in this context; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/houdini/production/maps/trim/petals/title-animation/02-connexions-croisees-magenta.md.file.json; status: missing. (7 October 2026)
+- production:maps/trim/petals/title-animation/02-connexions-croisees-turquoise.md [houdini]: Mac: not available in this context; cloud: pages/ZenRayAssets/vegetation-assets-collection-01/sources/houdini/production/maps/trim/petals/title-animation/02-connexions-croisees-turquoise.md.file.json; status: missing. (7 October 2026)
+Showing 24 of 85 documents; the complete list is context.documents in the global project index. (7 October 2026)
+
+Mapped files: 18423; verified archive records: 18240. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

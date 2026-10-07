@@ -1,0 +1,25 @@
+// 7 October 2026: time publishProject sub-steps without network writes.
+import { readFile } from 'node:fs/promises'
+import path from 'node:path'
+const REPO = '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress'
+const { AssetsService } = await import(`${REPO}/scripts/AssetsService.mjs`)
+const { compactRegistryProject } = await import(`${REPO}/scripts/AssetsCloudPublisher.mjs`)
+const { buildGlobalProjectIndex } = await import(`${REPO}/src/lib/projectContextIndex.js`)
+const config = JSON.parse(await readFile(`${REPO}/scripts/AssetsConfig.json`, 'utf8'))
+config.storage.stateDir = path.join(process.env.S, 'state'); config.sceneAudit = { ...config.sceneAudit, enabled: false }
+const svc = await new AssetsService(config, { getToken: async () => 'x' }).initialize()
+const t = async (label, fn) => { const a = performance.now(); const r = await fn(); console.log(label.padEnd(66), (performance.now() - a).toFixed(1), 'ms'); return r }
+const id = process.argv[2] || 'agent-conversations'
+await t(`publishProject consumer detection for ${id}`, () => [...svc.projects.keys()].filter((p) => p !== id && svc.sceneReferenceContexts(p).some((s) => s.dependencies?.includes(id))))
+await t(`request history ${id} (reads PROGRESS.md 3.4MB)`, () => svc.request('history', { projectId: id }))
+const snaps = await t('cloud snapshot of all 18 projects', () => [...svc.projects.keys()].map((p) => svc.snapshot(p, { cloud: true })))
+const compact = await t('compactRegistryProject all', () => snaps.map(compactRegistryProject))
+const reg = await t('buildGlobalProjectIndex cloud + JSON.stringify registry', () => JSON.stringify({ projects: compact, index: buildGlobalProjectIndex(compact, { cloud: true }) }))
+console.log('registry pages/.zr-assets-workspaces.json estimated bytes', reg.length, 'files', compact.reduce((s, p) => s + p.files.length, 0))
+for (const s of snaps) { const b = JSON.stringify(s).length; if (b > 1e6) console.log('  .workspace.json', s.id, (b / 1e6).toFixed(1), 'MB') }
+// O(n^2) patterns
+const veg = svc.state('vegetation-assets-collection-01'); const lf = veg.inventory.localFiles
+const ids = lf.map((f) => f.id)
+await t('archiveNow L634-635 pattern with fileIds = all 18k ids', () => { const req = lf.filter((f) => ids.includes(f.id)); return ids.some((fid) => !req.some((f) => f.id === fid)) })
+const pend = []; await t('archiveNow L677 pendingIndex Set rebuild x200 (batch)', () => { let p = []; for (let i = 0; i < 200; i++) p = [...new Set([...p, 'pages/x/' + i])]; return p })
+await svc.close()

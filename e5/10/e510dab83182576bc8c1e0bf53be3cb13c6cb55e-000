@@ -1,0 +1,3980 @@
+{
+ "schemaVersion": 1,
+ "scannedAt": "2026-10-07T11:45:39.744Z",
+ "markersKey": "1875add404b2a01d",
+ "files": {
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1034170623,
+   "mtimeMs": 1791373499701.5747,
+   "offset": 1034170623,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T15-44-50-01a10202-a5c2-7942-9ec6-be571d28506f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 22009465,
+   "mtimeMs": 1791368135851.269,
+   "offset": 22009465,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/05/rollout-2026-10-05T13-23-53-01a10bce-5162-72a0-b738-4ec8574e1ddc.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 224429887,
+   "mtimeMs": 1791366991543.3481,
+   "offset": 224429887,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T08-35-23-01a11512-e805-7982-9f7a-8283895cd8ee.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2625474,
+   "mtimeMs": 1791366261856.921,
+   "offset": 2625474,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 12967348,
+   "mtimeMs": 1791366246883.0425,
+   "offset": 12967348,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/9ef86ebe-668e-4d1f-b889-4af985f7a3fe.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 45133824,
+   "mtimeMs": 1791360421337.5137,
+   "offset": 45133824,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-10-07-7bbd11/d955fbe0-b2a6-4fd7-a4d4-b73cb0f18add.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1496709,
+   "mtimeMs": 1791366246880.9485,
+   "offset": 1496709,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/9066a166-6a5c-4027-ae3b-4e114a52a91e.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1765376,
+   "mtimeMs": 1791328071185.8386,
+   "offset": 1765376,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1687552,
+   "mtimeMs": 1791326576145.1755,
+   "offset": 1687552,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/a5e79e46-37f1-45ae-bfa0-f988bdae0c12.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 618496,
+   "mtimeMs": 1791318503506.0862,
+   "offset": 618496,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/ab21a4c5-7dac-43a9-b76e-bfd702643753.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1433600,
+   "mtimeMs": 1791318198974.9648,
+   "offset": 1433600,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/06/rollout-2026-10-06T21-29-29-01a112b1-424c-7670-ba69-77176d2e7067.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 523621,
+   "mtimeMs": 1791315028032.8472,
+   "offset": 523621,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/17/rollout-2026-08-17T01-35-02-01a00b6d-39a6-72e0-8c79-406bb108ffb5.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 62794378,
+   "mtimeMs": 1791301958447.2517,
+   "offset": 62794378,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/f281c538-5f4e-4ad7-83f8-f05356cc5624.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 626688,
+   "mtimeMs": 1791301669753.8225,
+   "offset": 626688,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/74db39cf-1fa0-4dd3-9e11-0227923c222d.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2260992,
+   "mtimeMs": 1791295251041.6394,
+   "offset": 2260992,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/827cefc4-dbe4-4bf6-bf3e-9f6e63cd2ab9.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1617920,
+   "mtimeMs": 1791295225683.191,
+   "offset": 1617920,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/06/rollout-2026-10-06T12-38-29-01a110cb-1d8a-7a82-b661-4ace652c8ac1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 865662,
+   "mtimeMs": 1791283238321.3276,
+   "offset": 865662,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 118310043,
+   "mtimeMs": 1791252221129.1594,
+   "offset": 118310043,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/20a24469-7472-4b42-8c52-ab98fa8c2827.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1904640,
+   "mtimeMs": 1791246579541.4836,
+   "offset": 1904640,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/8c359457-fb75-44b0-bca5-bc5fcf9ee51b.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 10227712,
+   "mtimeMs": 1791243947113.8298,
+   "offset": 10227712,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/05/rollout-2026-10-05T12-28-27-01a10b9b-9119-7483-81d0-f832130bd804.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 8826778,
+   "mtimeMs": 1791196742564.1174,
+   "offset": 8826778,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/614b02bf-db3f-41fb-a34d-c2a5b91456ec.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 8347648,
+   "mtimeMs": 1791138600582.5989,
+   "offset": 8347648,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/cd8040b5-53f8-4f05-8c12-0446f5ecf383.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 4071424,
+   "mtimeMs": 1791115675585.7883,
+   "offset": 4071424,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/8650ff01-823c-4f46-a9e4-ee9daa47ccba.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 35381248,
+   "mtimeMs": 1791115251190.6072,
+   "offset": 35381248,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T09-05-46-01a10095-4b7f-7502-bd33-d3cfc21acd20.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 50511083,
+   "mtimeMs": 1791101378424.3167,
+   "offset": 50511083,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/04/rollout-2026-10-04T10-09-54-01a10095-4b7f-7502-bd33-d3cfc21acd20_01a105f6-5f44-7b93-b84c-fd357d9423d5.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 40108112,
+   "mtimeMs": 1791115190356.9404,
+   "offset": 40108112,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/d0b167b1-b03d-4ac3-a191-817904d44987.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 35258368,
+   "mtimeMs": 1791114714534.1062,
+   "offset": 35258368,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/6bd01f9c-218d-4c7c-a3f7-2da0d29ced86.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2592768,
+   "mtimeMs": 1791114549359.352,
+   "offset": 2592768,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/d70d9864-f346-45f4-94d1-f8a907c03ece.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 25825280,
+   "mtimeMs": 1791110524533.3574,
+   "offset": 25825280,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/b7c1a68d-eeda-444d-a264-7ef31ecc218d.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 27459584,
+   "mtimeMs": 1791109385316.0737,
+   "offset": 27459584,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/46f51be7-b5c4-4620-bfe0-a01a99118a3e.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1720320,
+   "mtimeMs": 1791106134682.195,
+   "offset": 1720320,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/9c41cdcf-08d1-4a4b-8704-9a0cf6372d1e.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1915984,
+   "mtimeMs": 1791115190495.5679,
+   "offset": 1915984,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/33aff807-121b-4710-b47f-bd4f19e1c67e.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 5726760,
+   "mtimeMs": 1791115190495.0747,
+   "offset": 5726760,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b72636b1-7699-47eb-aedc-f039428ca295.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 18105633,
+   "mtimeMs": 1791115190494.46,
+   "offset": 18105633,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/49007c79-a3af-4601-8cec-fd77bc841f6b.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 31163995,
+   "mtimeMs": 1791115190494.5745,
+   "offset": 31163995,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/49007c79-a3af-4601-8cec-fd77bc841f6b.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 21401934,
+   "mtimeMs": 1790943443284,
+   "offset": 21401934,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ffe75e-952c-45fc-88a9-6f1bb05adeb3.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 6782202,
+   "mtimeMs": 1791115190495.1372,
+   "offset": 6782202,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T10-29-46-01a100e2-32f9-7a43-8b5f-ef21c5f96d4d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5070086,
+   "mtimeMs": 1791016754053.0261,
+   "offset": 5070086,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/03/rollout-2026-10-03T04-00-11-01a0ff7d-85af-7ca3-9748-7de24e2c1855.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1879110,
+   "mtimeMs": 1790997479124.2952,
+   "offset": 1879110,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0d9392a5-c9d3-4a8e-8670-59c99aa1267e.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1479912,
+   "mtimeMs": 1791011213308.506,
+   "offset": 1479912,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/b5b19943-9423-4285-a94f-10692bd6f687.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1785558,
+   "mtimeMs": 1791011213300.8755,
+   "offset": 1785558,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/4294dacf-4a04-45d3-bb76-69f697a1dd02.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1592177,
+   "mtimeMs": 1790980593513.2085,
+   "offset": 1592177,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/d14e8f35-cea0-477b-9340-cae9bcefa792.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 3785468,
+   "mtimeMs": 1790980593514.302,
+   "offset": 3785468,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/948005a4-6a7e-4006-951f-5ece1ff94bac.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 6111232,
+   "mtimeMs": 1790950616849.7378,
+   "offset": 6111232,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-42-35-01a0fc35-6f78-7e40-a9f7-24a43aec4a76.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2961084,
+   "mtimeMs": 1790938215656.0005,
+   "offset": 2961084,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-42-21-01a0fc35-3969-75a1-a20a-9f5fffb1ea38.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1880554,
+   "mtimeMs": 1790938212069.1926,
+   "offset": 1880554,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-42-51-01a0fc35-adc1-75f0-9dd2-992cdac53e53.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 975010,
+   "mtimeMs": 1790938210314.8245,
+   "offset": 975010,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/148e67b0-eec0-4f5a-927b-2034515e9795.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1331200,
+   "mtimeMs": 1790880894602.3125,
+   "offset": 1331200,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/30/rollout-2026-09-30T17-25-08-01a0f2eb-677c-7660-8437-4bab519c9249.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 9396059,
+   "mtimeMs": 1790859756315.9429,
+   "offset": 9396059,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/30/rollout-2026-09-30T20-07-33-01a0f380-174a-77b3-9865-32018aa0d5ab.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4948439,
+   "mtimeMs": 1790839253998.8018,
+   "offset": 4948439,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/01/rollout-2026-10-01T08-52-37-01a0f63c-8812-7712-a289-1b1bf79204d9.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1349079,
+   "mtimeMs": 1790838862587.9905,
+   "offset": 1349079,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/01/rollout-2026-10-01T08-52-57-01a0f63c-d63a-7532-9152-e3e1364c67fe.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2042619,
+   "mtimeMs": 1790838851141.455,
+   "offset": 2042619,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/10/01/rollout-2026-10-01T08-52-18-01a0f63c-3dcf-70a3-9711-f1ce92580716.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 912677,
+   "mtimeMs": 1790838399156.3845,
+   "offset": 912677,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7752e4d0-fc0d-49c0-9753-177b10e914a4.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 4339271,
+   "mtimeMs": 1790798235360.8518,
+   "offset": 4339271,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/c47e4664-2139-4ecb-913e-4d1462664230.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 8495104,
+   "mtimeMs": 1790225692805.6904,
+   "offset": 8495104,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/20b28879-0c00-47e2-8e56-f2cd9a671404.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 263169965,
+   "mtimeMs": 1790892560179,
+   "offset": 263169965,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/63cb7261-4402-48bb-91b9-2c77236ea4e9.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 3212051,
+   "mtimeMs": 1791196432918.72,
+   "offset": 3212051,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/92555ec4-5826-4459-850b-ffd4d252a5b4.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 958026,
+   "mtimeMs": 1790765700227,
+   "offset": 958026,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/20/rollout-2026-09-20T12-00-33-01a0be42-a333-7b22-9bb0-a30c017fc1b9.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 297865080,
+   "mtimeMs": 1789906102747.9255,
+   "offset": 297865080,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/20/rollout-2026-09-20T12-22-57-01a0be57-2727-7d32-b49f-009d4dc372e8.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 28622379,
+   "mtimeMs": 1789901823922.9534,
+   "offset": 28622379,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/443e78c5-fcb0-4a2e-8e2e-b6eaf976d36f.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 24518656,
+   "mtimeMs": 1789898221882.3098,
+   "offset": 24518656,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/9a87471e-1463-41d2-a491-898ba51f75ce.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 47792128,
+   "mtimeMs": 1789849839114.9055,
+   "offset": 47792128,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/ba8225a5-8c29-4998-ae10-4df55cd2f006.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2039808,
+   "mtimeMs": 1789849658511.1565,
+   "offset": 2039808,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/3e991ad4-4cc5-4e70-995d-c22c7311c9f6.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2428928,
+   "mtimeMs": 1789849641396.0698,
+   "offset": 2428928,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/fe09484e-be0e-4a50-b8e5-af331da3e24b.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 475136,
+   "mtimeMs": 1789849473803.2278,
+   "offset": 475136,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/19/rollout-2026-09-19T17-08-34-01a0ba36-4593-7112-93f8-623903f3846f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 16435011,
+   "mtimeMs": 1789847968827.7646,
+   "offset": 16435011,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/19/rollout-2026-09-19T17-45-52-01a0ba58-6cb8-7d30-a737-0623073d2dd6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 11245996,
+   "mtimeMs": 1789847368910.0723,
+   "offset": 11245996,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/18/rollout-2026-09-18T20-46-48-01a0b5d7-b7f0-7c23-8ca1-f513ce3d3c80.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 70322148,
+   "mtimeMs": 1789843999720.2227,
+   "offset": 70322148,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/6d551852-dd15-40dd-8580-416a44798e07.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 479232,
+   "mtimeMs": 1789841756127.3335,
+   "offset": 479232,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/1f14ab01-8199-4281-a3b0-8e98782d5f46.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1085440,
+   "mtimeMs": 1789828020371.8276,
+   "offset": 1085440,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/18/rollout-2026-09-18T23-38-37-01a0b675-0374-7c53-acc5-519ac6695853.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 264906,
+   "mtimeMs": 1789767555024.7056,
+   "offset": 264906,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/18/rollout-2026-09-18T18-19-45-01a0b551-1774-7402-b60f-d9529fa713f2.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 7969564,
+   "mtimeMs": 1789754001301.6292,
+   "offset": 7969564,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/5f7f3820-57f6-48ef-9068-d1da82c1fb4a.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 22462464,
+   "mtimeMs": 1789749878476.517,
+   "offset": 22462464,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/b7e499e6-936f-44ae-bdf2-f584ab16040b.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 15671296,
+   "mtimeMs": 1789747018983.1597,
+   "offset": 15671296,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/59a7294b-695e-4d61-8d4d-a51044a58033.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1507328,
+   "mtimeMs": 1789746851464.9539,
+   "offset": 1507328,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/18/rollout-2026-09-18T15-22-19-01a0b4ae-a38d-7860-9cc5-8243860367ba.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2375116,
+   "mtimeMs": 1789737839165.8735,
+   "offset": 2375116,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2e45bce7-6e52-48b7-b5d2-b49269170f28.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1020600,
+   "mtimeMs": 1790758611780,
+   "offset": 1020600,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/b4584954-be1d-4346-a9a2-9dd5a37bca81.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 376832,
+   "mtimeMs": 1789661438401.2349,
+   "offset": 376832,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/848acfbf-31b7-4a00-a374-b1f0d81cf6c0.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 3354624,
+   "mtimeMs": 1789659878622.952,
+   "offset": 3354624,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/90f9f456-d504-49ca-87ed-70c3c530407c.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1228800,
+   "mtimeMs": 1789659719216.309,
+   "offset": 1228800,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/541a911e-5492-4b6e-aefb-112602bd9c0d.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2142208,
+   "mtimeMs": 1789659215636.138,
+   "offset": 2142208,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/8d518385-d606-4ec7-9307-f775167b1d86.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1855488,
+   "mtimeMs": 1789659214635.2869,
+   "offset": 1855488,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/c9259de8-0302-474b-8a46-3d409e36b20a.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1499136,
+   "mtimeMs": 1789659081831.7937,
+   "offset": 1499136,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/c9177f46-cb16-4683-8520-6e26eb0e2af3.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2039808,
+   "mtimeMs": 1789658403020.3496,
+   "offset": 2039808,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/3f1e5bea-2f19-471a-a822-2f75f775b877.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1388544,
+   "mtimeMs": 1789655547024.6157,
+   "offset": 1388544,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/c8e276b9-4cfc-4ca7-8ba7-a3334c4ca3be.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 8146944,
+   "mtimeMs": 1789652933157.3408,
+   "offset": 8146944,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/16/rollout-2026-09-16T12-57-56-01a0a9dd-bb2a-7e32-b2ec-dbb65a2296b1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 70001631,
+   "mtimeMs": 1789642887555.8877,
+   "offset": 70001631,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/1cd2bf0a-3853-426a-8b4a-4852b413ad87.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 19431424,
+   "mtimeMs": 1789599384281.3584,
+   "offset": 19431424,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/16/rollout-2026-09-16T22-33-53-01a0abed-0a89-7de2-b0c7-dc0efb8eb61b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 80953797,
+   "mtimeMs": 1789595940516.361,
+   "offset": 80953797,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/785a7cce-3225-4802-a9c8-b5100fe6dca2.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 905216,
+   "mtimeMs": 1789581042223.3079,
+   "offset": 905216,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/af662c22-29eb-433a-971e-189453db857f.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 774144,
+   "mtimeMs": 1789581041481.1711,
+   "offset": 774144,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/4e82cfd4-5e49-40b3-bbe8-68e702efbe1d.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 5468160,
+   "mtimeMs": 1789580825987.9404,
+   "offset": 5468160,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/9b789701-af04-4799-ac6d-fd774f5f768f.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1371489,
+   "mtimeMs": 1790764367760,
+   "offset": 1371489,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude/60d4fc84-ff82-40eb-a470-9dd232cfd5ff.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 113576852,
+   "mtimeMs": 1790754626231,
+   "offset": 113576852,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/3e22a918-b7a6-4b1f-99ea-e50907f40d44.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 3629056,
+   "mtimeMs": 1789502760493.8723,
+   "offset": 3629056,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/12833046-e0f5-40f1-a1ba-6aa3cfd90206.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1617920,
+   "mtimeMs": 1789497670198.4443,
+   "offset": 1617920,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/15/rollout-2026-09-15T15-04-03-01a0a52a-d619-7d22-9686-fcc5413ad5d5.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 102555970,
+   "mtimeMs": 1789490551681.9236,
+   "offset": 102555970,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/cedba23c-1737-4321-bc40-f86e2d812ed4.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 130547712,
+   "mtimeMs": 1789485393548.0703,
+   "offset": 130547712,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5f649d7d-3f0b-4e40-9aeb-39c6fa2e2eab.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 28362471,
+   "mtimeMs": 1790712218568,
+   "offset": 28362471,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/5f649d7d-3f0b-4e40-9aeb-39c6fa2e2eab.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 20108060,
+   "mtimeMs": 1790848890466,
+   "offset": 20108060,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/15/rollout-2026-09-15T10-54-21-01a0a446-3c94-78b0-8392-7a9d9959730b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1072614,
+   "mtimeMs": 1789477339813.7837,
+   "offset": 1072614,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/4379cc48-b8b1-4af1-b58b-cb338781fa1b.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 2621935,
+   "mtimeMs": 1790758716451,
+   "offset": 2621935,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/15/rollout-2026-09-15T08-59-02-01a0a3dc-a964-76b3-b2d9-cc0618657481.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1472494,
+   "mtimeMs": 1789456039753.3293,
+   "offset": 1472494,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/14/rollout-2026-09-14T16-41-19-01a0a05d-88b8-79b0-ac38-c746f907276a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 9908230,
+   "mtimeMs": 1789403903875.951,
+   "offset": 9908230,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/55461b99-8ce8-4f43-89fc-f5eeef346752.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 339968,
+   "mtimeMs": 1789403751431.2156,
+   "offset": 339968,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/6702976d-da86-4aee-bcd9-8ad8f20ee534.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1593344,
+   "mtimeMs": 1789397098394.7766,
+   "offset": 1593344,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/014b2212-ebf2-4e89-8e8b-10894611a7d3.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 3092480,
+   "mtimeMs": 1789396934258.098,
+   "offset": 3092480,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/14/rollout-2026-09-14T12-20-03-01a09f6e-5429-73b1-9c25-75c9e5b13e4d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 13211611,
+   "mtimeMs": 1789388432981.5115,
+   "offset": 13211611,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/14/rollout-2026-09-14T00-16-20-01a09cd7-bf4d-7990-b851-c043c9f4766a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2929712,
+   "mtimeMs": 1789379911061.9404,
+   "offset": 2929712,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/13/rollout-2026-09-13T14-33-23-01a09ac2-0c5e-70d2-b30d-67fadac4fd9d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1551192,
+   "mtimeMs": 1789316745968.3025,
+   "offset": 1551192,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/13/rollout-2026-09-13T09-52-18-01a099c0-b68f-7d62-aef0-f74ccfcc0b4c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4955553,
+   "mtimeMs": 1789309720317.3638,
+   "offset": 4955553,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/2c2302e2-bacb-41dc-9e0e-de142ace6e93.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 13950976,
+   "mtimeMs": 1789303776382.1055,
+   "offset": 13950976,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/13/rollout-2026-09-13T13-27-42-01a09a85-e8ca-7a01-b484-28f12748ee9c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1910250,
+   "mtimeMs": 1789302791723.1455,
+   "offset": 1910250,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/13/rollout-2026-09-13T13-48-24-01a09a98-dd91-7532-a763-d30da7455f30.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1641858,
+   "mtimeMs": 1789302456294.6504,
+   "offset": 1641858,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/a2e082c0-fcb7-437c-8216-fc6abf460b27.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1212416,
+   "mtimeMs": 1789286794865.3445,
+   "offset": 1212416,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/10/rollout-2026-09-10T14-43-45-01a08b58-779f-7552-9c6e-9bced3673fa6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 157215427,
+   "mtimeMs": 1789235347133.4485,
+   "offset": 157215427,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/69c60e43-48e1-4f60-9974-99712fe1cd04.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 19903412,
+   "mtimeMs": 1790754526905,
+   "offset": 19903412,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/47be0dd6-e63e-4cf3-84c9-9f6ac0f10610.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2035712,
+   "mtimeMs": 1789219887735.752,
+   "offset": 2035712,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/c5a38274-09f5-4f0a-92d4-a5c2da55d24c.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2895872,
+   "mtimeMs": 1789218323236.4514,
+   "offset": 2895872,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/3871323d-5da2-4ac2-9e7a-1e1ffa4146fc.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1830912,
+   "mtimeMs": 1789218071653.5698,
+   "offset": 1830912,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/12/rollout-2026-09-12T14-15-51-01a0958b-a3af-75d0-b582-6caedf0f1cca.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1577984,
+   "mtimeMs": 1789215532098.544,
+   "offset": 1577984,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/12/rollout-2026-09-12T14-15-43-01a0958b-8361-7a73-87de-69e1c73557d9.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1366215,
+   "mtimeMs": 1789215436999.8643,
+   "offset": 1366215,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/12/rollout-2026-09-12T14-15-31-01a0958b-53a4-7192-aa52-f5ddc0a067ce.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2212465,
+   "mtimeMs": 1789215401408.1797,
+   "offset": 2212465,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/12/rollout-2026-09-12T14-13-26-01a09589-6cda-7153-9907-b0c62babdc31.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1218568,
+   "mtimeMs": 1789215394495.3906,
+   "offset": 1218568,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/18cef0c3-24c3-4275-a97b-86cadbe51623.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1806336,
+   "mtimeMs": 1789215154212.207,
+   "offset": 1806336,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/00ff909d-0944-4b0a-a1bf-0945fb85abfd.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1006837,
+   "mtimeMs": 1790712218568,
+   "offset": 1006837,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/00ff909d-0944-4b0a-a1bf-0945fb85abfd.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1006636,
+   "mtimeMs": 1790758716652,
+   "offset": 1006636,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/11/rollout-2026-09-11T08-18-49-01a08f1e-6536-7311-9141-c92dea8330e1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 106034355,
+   "mtimeMs": 1789203221117.6404,
+   "offset": 106034355,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/707cccd0-22f3-40b1-a92b-c4323494cf60.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 581632,
+   "mtimeMs": 1789160945737.1602,
+   "offset": 581632,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/4958183f-0155-4507-844b-2822817071f4.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 585728,
+   "mtimeMs": 1789160939187.6467,
+   "offset": 585728,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/d7560c23-993f-4bb4-b0b6-3a477e4a0dc5.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 532480,
+   "mtimeMs": 1789160934862.8237,
+   "offset": 532480,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/ea806b7f-6204-469f-a285-0c296a0a7473.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 602112,
+   "mtimeMs": 1789160554536.8726,
+   "offset": 602112,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/112cb746-50f0-4a99-a9be-7a6bd7f1b266.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 581632,
+   "mtimeMs": 1789160552866.588,
+   "offset": 581632,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/1b4aa97c-c234-4a1e-b636-3b89c06b0d41.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 544768,
+   "mtimeMs": 1789160552865.8918,
+   "offset": 544768,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/8cfccc43-ac3c-48e2-9b25-55169b2fd25e.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 684032,
+   "mtimeMs": 1789160126724.5293,
+   "offset": 684032,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/a9523191-9082-4699-b517-8589d9f3bcdf.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 561152,
+   "mtimeMs": 1789160123871.6738,
+   "offset": 561152,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/d6c4912e-d216-482e-b3b4-de46d111b7db.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 585728,
+   "mtimeMs": 1789160123870.7837,
+   "offset": 585728,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/2bb050f4-4256-44bb-8b80-c0692ee144d6.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 536576,
+   "mtimeMs": 1789159523631.4175,
+   "offset": 536576,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/2cedf6da-e6d5-412e-a3fd-fb06f6523905.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 536576,
+   "mtimeMs": 1789159519766.681,
+   "offset": 536576,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/2a94dfc7-06bf-4ad3-a10a-9eafd6426e27.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 602112,
+   "mtimeMs": 1789159519766.4954,
+   "offset": 602112,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/33eb6f3c-a216-45af-b6fa-47b43f0c38d8.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1929216,
+   "mtimeMs": 1789152915464.1965,
+   "offset": 1929216,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/11/rollout-2026-09-11T19-37-20-01a0918b-9935-7583-8ea1-bec4a5f96500.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2346394,
+   "mtimeMs": 1789149035253.455,
+   "offset": 2346394,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/ae5fc90d-958f-46ae-8145-9b788ea2ac55.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 745472,
+   "mtimeMs": 1789141719057.3977,
+   "offset": 745472,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/b6ad27bf-3bd7-4ce2-936c-23748c5332e6.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 593920,
+   "mtimeMs": 1789141702406.9338,
+   "offset": 593920,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/0dbfc479-48cc-480f-9441-65e2e449d653.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 569344,
+   "mtimeMs": 1789141637496.8247,
+   "offset": 569344,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/11/rollout-2026-09-11T11-58-39-01a08fe7-aa49-70c0-9db8-a7c90bc32c6c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 13344610,
+   "mtimeMs": 1789121821129.275,
+   "offset": 13344610,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/11/rollout-2026-09-11T12-17-07-01a08fe7-aa49-70c0-9db8-a7c90bc32c6c_01a08ff8-933f-7423-beef-4f2284d71e4c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 55042340,
+   "mtimeMs": 1789124345261.414,
+   "offset": 55042340,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/4b89de16-1ff0-4f43-92da-607350455d3b.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 487424,
+   "mtimeMs": 1789062108573.406,
+   "offset": 487424,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/03881ac3-cedb-4188-a34c-f379de877086.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 479232,
+   "mtimeMs": 1789062106474.185,
+   "offset": 479232,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/0895bf20-dbd0-4539-a9a5-a8d00348bec7.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 491520,
+   "mtimeMs": 1789062106473.9524,
+   "offset": 491520,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e36c4b39-bf68-4623-8fb6-c358d4f1a0e2.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1433046,
+   "mtimeMs": 1790712218568,
+   "offset": 1433046,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/e36c4b39-bf68-4623-8fb6-c358d4f1a0e2.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1432963,
+   "mtimeMs": 1790764830165,
+   "offset": 1432963,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/e1d4cd6e-7af7-422c-abd6-9933b4ba579e.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1544192,
+   "mtimeMs": 1789055384604.7615,
+   "offset": 1544192,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/10/rollout-2026-09-10T16-27-51-01a08bb7-c362-7571-bc18-5d7d8af5fe8d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3691051,
+   "mtimeMs": 1789050660688.1973,
+   "offset": 3691051,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/2b944a6c-5987-4478-94c6-dc705d254ff1.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1810432,
+   "mtimeMs": 1789049811073.7498,
+   "offset": 1810432,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/10/rollout-2026-09-10T15-09-31-01a08b70-0b9b-7f12-9a66-58399707946a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 739138,
+   "mtimeMs": 1789045951169.7456,
+   "offset": 739138,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/10/rollout-2026-09-10T14-44-27-01a08b59-18ab-7121-94cb-17eff3fd9c81.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1009455,
+   "mtimeMs": 1789045069729.309,
+   "offset": 1009455,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/09/rollout-2026-09-09T23-55-54-01a0882b-9ac2-7f41-8bcf-5f76b52f258b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 8135929,
+   "mtimeMs": 1789033338145.6716,
+   "offset": 8135929,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/7a6e6809-c24a-4fca-9e9e-a78a1252c4f1.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 821511,
+   "mtimeMs": 1790758612633,
+   "offset": 821511,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/b90978d9-0de7-496b-89b0-cabe4742149f.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 23535616,
+   "mtimeMs": 1789031390348.6619,
+   "offset": 23535616,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/10/rollout-2026-09-10T01-07-05-01a0886c-c7b3-7d93-b09a-cc4e0f31eba5.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3472507,
+   "mtimeMs": 1788995414716.0527,
+   "offset": 3472507,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/24dfe9b4-ffad-4b4f-bfef-cdac3b0faecd.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1941504,
+   "mtimeMs": 1788995357444.7815,
+   "offset": 1941504,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/09/rollout-2026-09-09T18-56-14-01a085cf-abec-7402-9bc5-67681d1d6755.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1766838,
+   "mtimeMs": 1788951481886.479,
+   "offset": 1766838,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/b940b74f-327b-43e8-af57-239fc7f30fa2.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 651264,
+   "mtimeMs": 1788778328521.6663,
+   "offset": 651264,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/5d7ba531-593a-488e-a942-0d878d0f85ee.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 327680,
+   "mtimeMs": 1788778322799.7883,
+   "offset": 327680,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/63521a75-c9b0-49df-9067-d1ebe00c1fd9.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1388544,
+   "mtimeMs": 1788777168289.1677,
+   "offset": 1388544,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/4fea42da-0458-4440-9907-6fe25f0180aa.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1433600,
+   "mtimeMs": 1788776380887.0527,
+   "offset": 1433600,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/f59af314-ebaf-4e35-ba84-c43397f1741e.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2904064,
+   "mtimeMs": 1788776111993.2708,
+   "offset": 2904064,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/817ce2b3-49da-4157-97ed-d40d9533b1e7.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2674688,
+   "mtimeMs": 1788772598500.7893,
+   "offset": 2674688,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/be64ca1e-d514-4c7b-9041-efa110462bd9.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 4767744,
+   "mtimeMs": 1788770509064.3816,
+   "offset": 4767744,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/be0a8093-c5df-4ea7-acbd-94d7d361b658.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 4018176,
+   "mtimeMs": 1788769267233.755,
+   "offset": 4018176,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/07/rollout-2026-09-07T15-56-53-01a07aa7-d159-79f1-9fa3-2d82854fd51b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 10372467,
+   "mtimeMs": 1788767907249.6177,
+   "offset": 10372467,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/fa12b402-2077-446e-bfcc-368b5c25efb4.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 409600,
+   "mtimeMs": 1788766706170.7446,
+   "offset": 409600,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/f98f2adf-e463-43de-8783-9c8e00b509dc.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2273280,
+   "mtimeMs": 1788764468430.9216,
+   "offset": 2273280,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/c37ef3ad-109d-495c-a43b-90cce3878cc5.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2891776,
+   "mtimeMs": 1788764425362.627,
+   "offset": 2891776,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/2b07b759-dad5-4053-af6d-10e036fe53df.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 395364485,
+   "mtimeMs": 1788761915947.4832,
+   "offset": 395364485,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-09-07-507cf8/ff27d8b0-b177-4094-bc2e-506a3aaff036.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 26769,
+   "mtimeMs": 1791011213291.6707,
+   "offset": 26769,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/e97b8277-4d5f-4e71-ae8c-0422a39af91f.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 16961536,
+   "mtimeMs": 1788597522230.4949,
+   "offset": 16961536,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/f88f461a-2793-4311-bb99-0f2307ae2c51.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 962560,
+   "mtimeMs": 1788593943971.9595,
+   "offset": 962560,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/9d0d5829-4b63-4820-971e-372f34316ccc.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 532480,
+   "mtimeMs": 1788593829266.8003,
+   "offset": 532480,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/4f58925b-aeee-4896-8f2c-ad1217aacdbe.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 372736,
+   "mtimeMs": 1788593829266.1746,
+   "offset": 372736,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/7f61e01c-325f-4829-aa1b-398db6423e90.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 28786688,
+   "mtimeMs": 1788542431545.5396,
+   "offset": 28786688,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/5e6b1d94-df4b-4497-9bdb-05e0f95b8200.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 6619136,
+   "mtimeMs": 1788539507998.362,
+   "offset": 6619136,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/3f1dcf82-f108-468f-a49d-6c7ead3b9fbf.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2023424,
+   "mtimeMs": 1788538049746.1882,
+   "offset": 2023424,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/5395e084-9789-42eb-a8db-0175eac8cf8e.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 1155072,
+   "mtimeMs": 1788536083462.4004,
+   "offset": 1155072,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/4c17d169-05fe-4fed-939a-5da09b252de3.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 2617344,
+   "mtimeMs": 1788535326924.1934,
+   "offset": 2617344,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/e3e22826-f0ad-4418-997d-3d2965b36636.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 270336,
+   "mtimeMs": 1788534537579.3389,
+   "offset": 270336,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.gemini/antigravity/conversations/abaf66eb-7b0e-4eb1-83fa-2df6f31619fd.db": {
+   "provider": "gemini",
+   "key": "1875add404b2a01d",
+   "size": 151552,
+   "mtimeMs": 1788534300556.8499,
+   "offset": 151552,
+   "rawHit": false,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/04/rollout-2026-09-04T00-05-00-01a067cd-44e7-7433-9fd7-4d11cfaa7d07.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 500655,
+   "mtimeMs": 1788447929611.0312,
+   "offset": 500655,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-09-03-7ad36e/6598e02c-a039-41e5-ac79-b2a83b7dfe95.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 288935,
+   "mtimeMs": 1790837876794,
+   "offset": 288935,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-09-03-f2acbc/04262f69-a4ef-4707-9aa8-ab7149c55184.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 2625396,
+   "mtimeMs": 1790712218568,
+   "offset": 2625396,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-b258faf7-57a9-48fb-bcd8-7bf1a66defa8-519c5f15-4988-4fd5-bcc5-d434338c78a8-scratch-2026-09-03-a8f5da/6e871102-75ea-46a3-9e3a-4cac52c2a909.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1993267,
+   "mtimeMs": 1790712218568,
+   "offset": 1993267,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/d1625f5d-ead7-46dd-82ce-0fd32749d6a9.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 36151657,
+   "mtimeMs": 1790764828497,
+   "offset": 36151657,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-b258faf7-57a9-48fb-bcd8-7bf1a66defa8-519c5f15-4988-4fd5-bcc5-d434338c78a8-scratch-2026-09-03-8cd292/8aaa2df7-d4de-474f-9a4c-5b515f4efce4.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 324280,
+   "mtimeMs": 1790712218568,
+   "offset": 324280,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/03/rollout-2026-09-03T12-50-20-01a06563-94a9-7400-b5e9-389f4cd7aa23.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 34235215,
+   "mtimeMs": 1788411666149.2395,
+   "offset": 34235215,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-09-02-ab9be0/dc76a43d-1ca6-4434-9505-6eca949579e3.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 105202,
+   "mtimeMs": 1790950048029,
+   "offset": 105202,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/01/rollout-2026-09-01T16-40-07-01a05be9-3e98-7780-b298-28a8df73b29e.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 43307930,
+   "mtimeMs": 1788364336203.8047,
+   "offset": 43307930,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/068e9161-445a-4e75-a52f-e12511b3ad70.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 39973573,
+   "mtimeMs": 1788363931089.6365,
+   "offset": 39973573,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/02/rollout-2026-09-02T02-04-49-01a05dee-3e9a-7571-962e-e0218a574afa.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5868067,
+   "mtimeMs": 1788359411637.5747,
+   "offset": 5868067,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/09/02/rollout-2026-09-02T19-44-33-01a061b8-72e8-73e3-9520-b53ca862bc77.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 705093,
+   "mtimeMs": 1788345943214.6797,
+   "offset": 705093,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/31/rollout-2026-08-31T17-15-10-01a056e2-f888-7613-b0bc-4d6677adc538.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 8675467,
+   "mtimeMs": 1788168852412.626,
+   "offset": 8675467,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/31/rollout-2026-08-31T18-01-57-01a0570d-ccf5-7122-9366-8726a3602cd2.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3177743,
+   "mtimeMs": 1788167484690.025,
+   "offset": 3177743,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/31/rollout-2026-08-31T02-45-40-01a053c6-eceb-7c93-8cbc-5e3c2dc6265a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3219689,
+   "mtimeMs": 1788112686436.9822,
+   "offset": 3219689,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/31/rollout-2026-08-31T00-06-26-01a05335-22e6-7421-be74-959fa3f8cac1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 793647,
+   "mtimeMs": 1788102681244.4607,
+   "offset": 793647,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/30/rollout-2026-08-30T19-56-31-01a05250-555a-75b2-aebb-b8f88dfb4f41.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 28325918,
+   "mtimeMs": 1788102304819.0422,
+   "offset": 28325918,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/93871f37-a20e-4146-b755-44cbb78282f7.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 123994,
+   "mtimeMs": 1790765584506,
+   "offset": 123994,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/30/rollout-2026-08-30T19-39-02-01a05240-5304-77d2-a608-33469e883538.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5325363,
+   "mtimeMs": 1788087340509.3062,
+   "offset": 5325363,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Downloads/b2e39d6e-ef3c-4f45-b5cb-db4db77ba16c.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 892050,
+   "mtimeMs": 1791011213290.2302,
+   "offset": 892050,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/b214360d-4916-4822-9de5-ca302691e948.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 692620,
+   "mtimeMs": 1790764829056,
+   "offset": 692620,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/29/rollout-2026-08-29T20-30-38-01a04d49-358d-7240-bc0a-0d6161d4ec1f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3982504,
+   "mtimeMs": 1788014286864.071,
+   "offset": 3982504,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/a80aa4ca-71ab-4e66-85ac-c1ac77923032.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 137776,
+   "mtimeMs": 1790764829216,
+   "offset": 137776,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/db02b4a5-ed57-465f-9a21-424859e32e75.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 979638,
+   "mtimeMs": 1791362548645,
+   "offset": 979638,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/28/rollout-2026-08-28T14-12-45-01a046c8-e361-7100-9771-f5590a7e3cc8.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 24509298,
+   "mtimeMs": 1787895556589.8535,
+   "offset": 24509298,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/654a586d-f6f5-4c41-91d4-7cd772cc064b.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 96860,
+   "mtimeMs": 1790754628606,
+   "offset": 96860,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/28/rollout-2026-08-28T13-54-41-01a046b8-5a32-7e53-a756-7e089c4bb3ee.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2974540,
+   "mtimeMs": 1787893778955.9153,
+   "offset": 2974540,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/28/rollout-2026-08-28T13-58-50-01a046bc-240a-7d93-80ef-3e41811df0e8.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 11752543,
+   "mtimeMs": 1787899709127.328,
+   "offset": 11752543,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/26/rollout-2026-08-26T20-18-33-01a03dcb-0f34-7913-ada4-cde4e76d2d0f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 171430050,
+   "mtimeMs": 1787854028075.0835,
+   "offset": 171430050,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/27/rollout-2026-08-27T21-54-53-01a04349-9d64-7b42-b3e7-6475e1f2a4ec.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1373338,
+   "mtimeMs": 1787835750936.5671,
+   "offset": 1373338,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/27/rollout-2026-08-27T00-26-37-01a03eae-2d49-79a0-9aa8-a80eb2dfe961.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 9911988,
+   "mtimeMs": 1787816686428.1592,
+   "offset": 9911988,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/846814fa-bdd6-4759-8e85-8140d1c6e221.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 296441,
+   "mtimeMs": 1790765586969,
+   "offset": 296441,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/26/rollout-2026-08-26T00-01-56-01a03971-3a64-7ce2-8d7d-9901b168fa25.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2802345,
+   "mtimeMs": 1787726260956.5938,
+   "offset": 2802345,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/26/rollout-2026-08-26T15-14-58-01a03cb5-1fc9-7882-bd70-489dce272420.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4845405,
+   "mtimeMs": 1787725734996.4956,
+   "offset": 4845405,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/ee0a6edb-af5c-440a-a832-13607f27c7be.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 38019472,
+   "mtimeMs": 1790927158932,
+   "offset": 38019472,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/20/rollout-2026-08-20T20-38-31-01a01ef7-318c-75a0-bf55-42d3131d036d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 92407382,
+   "mtimeMs": 1787409632173.342,
+   "offset": 92407382,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/22/rollout-2026-08-22T19-41-22-01a0290f-961e-7f81-bea4-67992ef8c861.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 7906650,
+   "mtimeMs": 1787396150237.6162,
+   "offset": 7906650,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/2b5c43ff-41ed-4687-b3b0-c26f72c0540c.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 27373,
+   "mtimeMs": 1790765586817,
+   "offset": 27373,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/dc51493d-b50a-4219-9a25-3e1f7df2d7a7.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 47953,
+   "mtimeMs": 1790765585227,
+   "offset": 47953,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/1393489a-77f2-4dd0-9c0e-85b7d7ef0ec1.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 8929544,
+   "mtimeMs": 1790765586479,
+   "offset": 8929544,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/4577005c-3eae-45c2-94be-0b3ad0a8f8a5.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1711954,
+   "mtimeMs": 1790950042892,
+   "offset": 1711954,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/fc8db1a0-91bd-41d9-afde-a4f11fc5ca59.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 448129,
+   "mtimeMs": 1790950043129,
+   "offset": 448129,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/dbce3bc3-3df4-4de3-afd5-4a37d6421f19.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 939337,
+   "mtimeMs": 1790943509765,
+   "offset": 939337,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/545b1129-5138-4cfb-81ca-0414eb8bfd2d.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 54427134,
+   "mtimeMs": 1790798829751,
+   "offset": 54427134,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/12/rollout-2026-08-12T17-25-19-019ff513-6ef0-74a0-bde6-db44eb4ff217.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 20265711,
+   "mtimeMs": 1786885597010.7156,
+   "offset": 20265711,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/f8efb731-7582-42bd-8ace-e385ce5a9fd1.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1383432,
+   "mtimeMs": 1790765861080,
+   "offset": 1383432,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/a232ac89-b149-40b9-a10f-39e2f3aabf66.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 210352,
+   "mtimeMs": 1790712218568,
+   "offset": 210352,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/311c2eba-91aa-44d6-93e9-d6d2e96bd19b.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 3588148,
+   "mtimeMs": 1790712218568,
+   "offset": 3588148,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/d1d9c7fa-7892-4a58-bba8-651cdbcd66b5.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 477284,
+   "mtimeMs": 1790712218568,
+   "offset": 477284,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/13/rollout-2026-08-13T23-53-14-019ffb9c-f345-7f63-9bd1-45ca5b63fb9a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3522575,
+   "mtimeMs": 1786633944039.3762,
+   "offset": 3522575,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/95c00b40-cc39-4a7e-9309-c73a5fbd9a47.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1675448,
+   "mtimeMs": 1790712218568,
+   "offset": 1675448,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/4b78f83e-6641-4f76-9ddd-2b893d240013.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 918015,
+   "mtimeMs": 1790712218568,
+   "offset": 918015,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/12/rollout-2026-08-12T14-26-06-019ff46f-5a4c-7ad2-82b8-a4a81080d31d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 27866633,
+   "mtimeMs": 1786604818387.363,
+   "offset": 27866633,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/a4006249-df3d-44d9-a913-b0ba4ea91a41.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 377265,
+   "mtimeMs": 1790712218568,
+   "offset": 377265,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/12/rollout-2026-08-12T19-13-31-019ff576-7d68-7340-a096-ef3cbb139025.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 770705,
+   "mtimeMs": 1786530375165.3032,
+   "offset": 770705,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/d610bc52-25c0-4a90-8395-04e234db3c3b.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 42100,
+   "mtimeMs": 1790712218568,
+   "offset": 42100,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/12/rollout-2026-08-12T02-28-53-019ff1de-ba79-7153-a7d4-34a16112245a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 345800,
+   "mtimeMs": 1786469375026.7207,
+   "offset": 345800,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/11/rollout-2026-08-11T18-49-15-019ff039-ec3e-7e01-965b-03640968e9f5.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3526474,
+   "mtimeMs": 1786446985694.5457,
+   "offset": 3526474,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/11/rollout-2026-08-11T18-36-53-019ff02e-9951-7d62-adb3-0b80a99face1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 10054690,
+   "mtimeMs": 1786441139089.6511,
+   "offset": 10054690,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/153c9806-db62-40a4-bf49-65583ca5a6fb.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 403456,
+   "mtimeMs": 1790712218568,
+   "offset": 403456,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/11/rollout-2026-08-11T00-28-31-019fec4a-2a26-7fb1-b46e-ffea93022814.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 658674,
+   "mtimeMs": 1786376191566.672,
+   "offset": 658674,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/11/rollout-2026-08-11T00-28-17-019fec49-f421-7432-8a97-04b99bbf9954.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 260445,
+   "mtimeMs": 1786375701517.406,
+   "offset": 260445,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/5cb1b4ad-c6a8-4cd8-8ac6-ff642e78a797.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 76829,
+   "mtimeMs": 1790712218568,
+   "offset": 76829,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/e3b338da-ab86-4243-90e2-fe8410b66d35.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1325808,
+   "mtimeMs": 1790798781250,
+   "offset": 1325808,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/912f7b28-ed91-490c-95c5-f9e53de3a2a6.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 358321,
+   "mtimeMs": 1790712218568,
+   "offset": 358321,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/617c4b16-5db3-4b8b-b7e9-2e296769f8ce.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 6645592,
+   "mtimeMs": 1790712218568,
+   "offset": 6645592,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/06/rollout-2026-08-06T03-30-50-019fd331-4931-7be3-b3a8-9e1ad16eb469.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 15919624,
+   "mtimeMs": 1785959278777.828,
+   "offset": 15919624,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/06/rollout-2026-08-06T01-12-45-019fd2b2-df8b-7e53-82fc-511af6fbe578.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 19895804,
+   "mtimeMs": 1785959190149.2112,
+   "offset": 19895804,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/08/06/rollout-2026-08-06T03-15-01-019fd322-cfcb-7853-807e-bfe42485ad4f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 396813,
+   "mtimeMs": 1785956433895.285,
+   "offset": 396813,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/11e0078e-7ac1-4e66-bafb-eba887ebf7d3.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 235118,
+   "mtimeMs": 1790712218568,
+   "offset": 235118,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/4d7c85c8-de5a-48bd-af30-1bf0bd2b590e.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 3516851,
+   "mtimeMs": 1790712218568,
+   "offset": 3516851,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/dd3dbff7-8101-4996-9a8f-e69e4841d77c.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 7998934,
+   "mtimeMs": 1790760436167,
+   "offset": 7998934,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/24532427-0b45-4cae-8118-8816b561bfea.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 202490180,
+   "mtimeMs": 1785920525519.3728,
+   "offset": 202490180,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/1ae528c1-dce5-4af4-bf4d-9787788ab3ec.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 682273,
+   "mtimeMs": 1790712218568,
+   "offset": 682273,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/acfcd647-d709-4b46-a4f5-cfe59cef659e.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 296589,
+   "mtimeMs": 1790758227561,
+   "offset": 296589,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/c3f40696-70c5-48f5-bb5d-943f9648b0e6.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 101056,
+   "mtimeMs": 1790712218568,
+   "offset": 101056,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/d3ccf400-66ce-4853-9a74-f4cf88245060.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 588654,
+   "mtimeMs": 1790878929979,
+   "offset": 588654,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/26/rollout-2026-07-26T19-11-28-019f9de8-80ff-77a2-bdce-849733fd7c96.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 21698179,
+   "mtimeMs": 1785524317103.9675,
+   "offset": 21698179,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/4d522b79-b850-48ce-9bd4-edbb3493a8cb.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 190765925,
+   "mtimeMs": 1790848891462,
+   "offset": 190765925,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray/ae328a77-db82-4f82-b74a-a950f5a8ae81.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 227468,
+   "mtimeMs": 1790712218568,
+   "offset": 227468,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/30/rollout-2026-07-30T19-22-06-019fb28b-add8-70c2-a1e9-9caee1425fd1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 8088546,
+   "mtimeMs": 1785439846390.4768,
+   "offset": 8088546,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/baa9ca9e-c0c1-4930-bae7-15743113a161.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 178026291,
+   "mtimeMs": 1790765584237,
+   "offset": 178026291,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/ed6e2ee9-2077-43f6-9c7a-4a10884b9470.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 407711,
+   "mtimeMs": 1790712218568,
+   "offset": 407711,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/95db2229-78fc-45b6-b90f-6a6447324cf3.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1193491,
+   "mtimeMs": 1790798829398,
+   "offset": 1193491,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/3e142c51-9eab-4b52-b2c4-8058ca9d7d5a.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 558674,
+   "mtimeMs": 1790712218568,
+   "offset": 558674,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/26/rollout-2026-07-26T18-21-28-019f9dba-ba23-79d3-a913-3700b9f1f7c7.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3598674,
+   "mtimeMs": 1785079055283.3828,
+   "offset": 3598674,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/26/rollout-2026-07-26T16-27-56-019f9d52-c8a1-7293-98db-c873a619f763.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 124884956,
+   "mtimeMs": 1785078672864.941,
+   "offset": 124884956,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/25/rollout-2026-07-25T09-57-36-019f96c7-1014-74f0-a99a-b26ec0dae571.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 136788056,
+   "mtimeMs": 1785078447587.906,
+   "offset": 136788056,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/27/rollout-2026-07-27T00-05-57-019f9ef6-1f24-7073-ab50-850fceac6510.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1780884,
+   "mtimeMs": 1785078447628.3438,
+   "offset": 1780884,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/27/rollout-2026-07-27T00-05-43-019f9ef5-e66e-76d1-abde-69d11aff28de.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1833703,
+   "mtimeMs": 1785078447943.7964,
+   "offset": 1833703,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/27/rollout-2026-07-27T00-05-34-019f9ef5-c2b0-7aa3-90be-48964f9764ec.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1901370,
+   "mtimeMs": 1785078447629.235,
+   "offset": 1901370,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/422d63ce-81f8-493a-bb66-a74a35d3c354.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 957351,
+   "mtimeMs": 1790712218568,
+   "offset": 957351,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/26/rollout-2026-07-26T20-38-03-019f9e37-c78e-71b0-b000-e9d4024f4a9e.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2869783,
+   "mtimeMs": 1785069213898.1057,
+   "offset": 2869783,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/26/rollout-2026-07-26T16-38-59-019f9d5c-e712-7290-b1ee-a46cd982fff9.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1609350,
+   "mtimeMs": 1785058127940.3967,
+   "offset": 1609350,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/26/rollout-2026-07-26T16-30-57-019f9d55-8d4e-7712-b939-fd297c5da049.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 436986,
+   "mtimeMs": 1785051448119.9534,
+   "offset": 436986,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/85a4f5d4-2455-4f40-ace7-61693dc5faa4.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 45471788,
+   "mtimeMs": 1790712218568,
+   "offset": 45471788,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/25/rollout-2026-07-25T10-55-11-019f96fb-cb09-7c20-8804-7c0b429b0550.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2438004,
+   "mtimeMs": 1784951759353.9204,
+   "offset": 2438004,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/25/rollout-2026-07-25T10-55-38-019f96fc-3519-7792-87c2-663ebe709fa2.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1745888,
+   "mtimeMs": 1784944582795.8296,
+   "offset": 1745888,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/25/rollout-2026-07-25T10-55-32-019f96fc-1ce5-7fa1-be4b-11a03de3136f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1746793,
+   "mtimeMs": 1784944565501.0398,
+   "offset": 1746793,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/25/rollout-2026-07-25T10-55-27-019f96fc-088a-77a2-8025-62f4c10055f3.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1747861,
+   "mtimeMs": 1784944561927.3164,
+   "offset": 1747861,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/25/rollout-2026-07-25T10-00-06-019f96c9-5da7-7bf0-98e4-a12f4f04fed1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1313589,
+   "mtimeMs": 1784943886497.2742,
+   "offset": 1313589,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/9ca977bf-b6d2-40ce-8c01-49bd2c17c25d.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 103018,
+   "mtimeMs": 1790712218568,
+   "offset": 103018,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/ea20f6f6-b82c-480d-b4e2-ee48367fc5aa.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 440592969,
+   "mtimeMs": 1790712218568,
+   "offset": 440592969,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/7b914046-5961-44f1-9959-5fb192015ad8.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 21693,
+   "mtimeMs": 1790712218568,
+   "offset": 21693,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/f5a1acd5-1b61-4269-82cb-4ac860820e55.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 37454,
+   "mtimeMs": 1790712218568,
+   "offset": 37454,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/8c394c67-8bec-4dea-bce1-f6fa9ece5688.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 77783,
+   "mtimeMs": 1790712218568,
+   "offset": 77783,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/19/rollout-2026-07-19T00-33-11-019f75dc-2caa-7f93-9bc4-d10b9a2431e3.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5576620,
+   "mtimeMs": 1784411683029.0981,
+   "offset": 5576620,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/19/rollout-2026-07-19T06-19-06-019f7718-df54-7273-b23e-7c6659573d6a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1815176,
+   "mtimeMs": 1784411669579.707,
+   "offset": 1815176,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T16-38-28-019f5543-67cb-7b20-9ce1-9b96621d6514.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 229902946,
+   "mtimeMs": 1784400891247.352,
+   "offset": 229902946,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/19/rollout-2026-07-19T03-36-53-019f7684-5b0b-7783-9bbb-ecc217eaef09.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 137060239,
+   "mtimeMs": 1784400514668.2573,
+   "offset": 137060239,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/19/rollout-2026-07-19T03-35-41-019f7683-421f-77f2-920a-c8150e21c6e9.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 136997575,
+   "mtimeMs": 1784400474605.757,
+   "offset": 136997575,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/19/rollout-2026-07-19T03-34-50-019f7682-7c31-7973-875b-d811a6bae7bb.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 136863817,
+   "mtimeMs": 1784400442146.752,
+   "offset": 136863817,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/19/rollout-2026-07-19T01-34-12-019f7614-0991-7b03-8994-658ee3532de8.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 807371,
+   "mtimeMs": 1784395829202.9097,
+   "offset": 807371,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/19/rollout-2026-07-19T01-35-57-019f7615-a1b7-79c3-9b41-f0166c89f101.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 513295,
+   "mtimeMs": 1784393061246.0579,
+   "offset": 513295,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/19/rollout-2026-07-19T01-29-38-019f760f-da3c-7be1-9b76-89fd15da52a6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 334922,
+   "mtimeMs": 1784392296298.1113,
+   "offset": 334922,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/1a27158e-ef25-44e6-9e2c-e707e09c67b8.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 344012893,
+   "mtimeMs": 1790712218568,
+   "offset": 344012893,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/34ecd968-e5c7-44b9-89d8-7b2f3e52b34c.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 48857,
+   "mtimeMs": 1790712218568,
+   "offset": 48857,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/18/rollout-2026-07-18T00-47-51-019f70c3-3cfe-7f73-b47d-a5f6c3512a9a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 214235,
+   "mtimeMs": 1784303277483.5002,
+   "offset": 214235,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/17/rollout-2026-07-17T01-18-51-019f6bb9-4581-76e2-b2d2-9d2ede4db1c4.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1344466,
+   "mtimeMs": 1784222074797.059,
+   "offset": 1344466,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T19-06-30-019f6a64-5edf-7912-a3e1-83fa1949eb6c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3747607,
+   "mtimeMs": 1784197100605.3286,
+   "offset": 3747607,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/57af5f7e-e64e-41d3-8ae3-101ceff2c9bc.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 236003,
+   "mtimeMs": 1790712218568,
+   "offset": 236003,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T03-49-19-019f671c-aa1d-7f43-9c88-4756c410ea65.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 404325,
+   "mtimeMs": 1784141635506.3357,
+   "offset": 404325,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T03-48-52-019f671c-410e-7d82-a97f-8578e22f946a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4668816,
+   "mtimeMs": 1784141826907.9465,
+   "offset": 4668816,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T03-48-24-019f671b-d106-7a12-b7c1-3b7c9e98777a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1307055,
+   "mtimeMs": 1784141824678.8958,
+   "offset": 1307055,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T03-26-26-019f6707-b470-7b51-a629-e9dd106a8fd3.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77915474,
+   "mtimeMs": 1784141118217.784,
+   "offset": 77915474,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T03-17-44-019f66ff-c03f-7a40-83bf-2e4e0f8759da.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77835607,
+   "mtimeMs": 1784140845533.6643,
+   "offset": 77835607,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T03-04-48-019f66f3-e669-7ba0-8bce-012068799309.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77748201,
+   "mtimeMs": 1784140496546.8003,
+   "offset": 77748201,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T03-03-36-019f66f2-cf3a-7a10-a41b-223b9a7c0bf0.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77621302,
+   "mtimeMs": 1784139576299.2441,
+   "offset": 77621302,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T03-02-57-019f66f2-34f5-7880-baa2-8fd8d328da93.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77545819,
+   "mtimeMs": 1784139308840.7932,
+   "offset": 77545819,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T02-39-01-019f66dc-4c6e-7040-b54a-683fc84b83a5.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77654254,
+   "mtimeMs": 1784138044210.421,
+   "offset": 77654254,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T02-38-10-019f66db-8696-7cc0-8329-e23a96208706.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77517000,
+   "mtimeMs": 1784137768109.3545,
+   "offset": 77517000,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T02-39-39-019f66dc-e0e1-7bd3-8f35-d42ecd82af9b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77459599,
+   "mtimeMs": 1784137557362.714,
+   "offset": 77459599,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T02-02-04-019f66ba-76d7-7a01-ae88-fa338facccb9.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77690620,
+   "mtimeMs": 1784136628905.1387,
+   "offset": 77690620,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T02-00-39-019f66b9-2e74-7ac0-9d50-372c2f0f5cb8.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 80905406,
+   "mtimeMs": 1784136505097.551,
+   "offset": 80905406,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T02-01-24-019f66b9-dd67-7d80-b0e2-797fe8954bac.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77519122,
+   "mtimeMs": 1784136161924.0264,
+   "offset": 77519122,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T17-59-48-019f6500-f063-7850-ad39-e6192444e70c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 774716,
+   "mtimeMs": 1784135827727.963,
+   "offset": 774716,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T01-14-50-019f668f-3ac8-7903-9bce-1e4416307172.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77585378,
+   "mtimeMs": 1784133197867.9866,
+   "offset": 77585378,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T01-14-09-019f668e-9ad7-70e1-928a-58d850713ced.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77156868,
+   "mtimeMs": 1784132952842.61,
+   "offset": 77156868,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/16/rollout-2026-07-16T01-13-15-019f668d-c8e1-7741-b921-6f76bcdd9040.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77139844,
+   "mtimeMs": 1784132775156.8293,
+   "offset": 77139844,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T14-34-06-019f6444-9ebf-7b02-9814-e23ecdccede2.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77270070,
+   "mtimeMs": 1784113876522.755,
+   "offset": 77270070,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T14-36-05-019f6446-7012-75f1-a20d-d5e08df9466b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77491905,
+   "mtimeMs": 1784113852571.8389,
+   "offset": 77491905,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T14-35-02-019f6445-780f-7200-94e9-a5802a15451a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 77307473,
+   "mtimeMs": 1784113484314.5325,
+   "offset": 77307473,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-31-57-019f5a63-cacd-7483-b857-12a4d2cc6775.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 115683952,
+   "mtimeMs": 1784052453067.2366,
+   "offset": 115683952,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T02-09-50-019f619b-396a-7420-a18d-bbd14bc368c4.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4856540,
+   "mtimeMs": 1784052311314.9055,
+   "offset": 4856540,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T00-36-22-019f6145-a844-7950-a4df-3eaf5e5e58d8.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 44733229,
+   "mtimeMs": 1784049703049.8196,
+   "offset": 44733229,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T01-54-38-019f618d-4fe0-7ad2-8a1a-022ca845d652.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1185032,
+   "mtimeMs": 1784048679171.658,
+   "offset": 1185032,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T01-53-05-019f618b-e227-7c21-a1f1-94005dde24b4.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1821242,
+   "mtimeMs": 1784048596079.5493,
+   "offset": 1821242,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T01-53-56-019f618c-aa56-7083-92d8-5f9817e5583d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1786614,
+   "mtimeMs": 1784048472803.529,
+   "offset": 1786614,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/15/rollout-2026-07-15T00-24-18-019f613a-99c4-7d61-bd3d-70cec9f9d8cd.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 23297531,
+   "mtimeMs": 1784043850463.6929,
+   "offset": 23297531,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T23-25-55-019f6105-25e5-77a2-8fe0-b6859eb465d6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 29938843,
+   "mtimeMs": 1784042620394.5056,
+   "offset": 29938843,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T23-16-05-019f60fc-252b-7242-b635-519c4addb505.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 12390385,
+   "mtimeMs": 1784038996176.4407,
+   "offset": 12390385,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T23-14-59-019f60fb-25a4-7ed1-bda7-22396207f5dd.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 9621004,
+   "mtimeMs": 1784038892853.0562,
+   "offset": 9621004,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T23-15-18-019f60fb-6ea6-77a2-985f-11d30d2056a1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 6429169,
+   "mtimeMs": 1784038754252.4102,
+   "offset": 6429169,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T23-08-15-019f60f4-fbf4-73c2-9d14-761de709a1ca.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 9878706,
+   "mtimeMs": 1784038551459.291,
+   "offset": 9878706,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T23-08-03-019f60f4-cbe7-71c3-bb9f-586747da9262.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 7340356,
+   "mtimeMs": 1784038288063.3286,
+   "offset": 7340356,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T23-07-52-019f60f4-a0b0-7333-820a-30f4e92868c2.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3572277,
+   "mtimeMs": 1784038224327.5754,
+   "offset": 3572277,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T22-42-59-019f60dd-d875-72d0-99af-63e8358e96ad.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 10262649,
+   "mtimeMs": 1784038024101.2998,
+   "offset": 10262649,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T22-42-33-019f60dd-7308-7373-a452-5da8bcf9e612.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4854661,
+   "mtimeMs": 1784037890318.4705,
+   "offset": 4854661,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T22-42-44-019f60dd-9ef3-7831-b9c6-0a60eeb9dc61.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 9026351,
+   "mtimeMs": 1784037878828.7283,
+   "offset": 9026351,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T22-35-05-019f60d6-9d67-7ed2-acfd-c8c09ab26a4e.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 11123273,
+   "mtimeMs": 1784037721625.8003,
+   "offset": 11123273,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/14/rollout-2026-07-14T21-06-06-019f6085-2496-7d22-ab76-d3a5488ce5aa.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 643395,
+   "mtimeMs": 1784032693458.177,
+   "offset": 643395,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T19-23-42-019f5b01-09ca-7061-89f2-d95d84138c2f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1534929,
+   "mtimeMs": 1783938377424.6765,
+   "offset": 1534929,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T19-18-04-019f5afb-e1d7-7592-8f3e-088ae1510a88.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 680458,
+   "mtimeMs": 1783938166637.0474,
+   "offset": 680458,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T19-16-06-019f5afa-132f-7081-87d9-1e8d1f2fe7ae.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 664642,
+   "mtimeMs": 1783937919706.2798,
+   "offset": 664642,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T19-12-40-019f5af6-efe8-70f1-9182-86e19efb4c0d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2527100,
+   "mtimeMs": 1783937768929.098,
+   "offset": 2527100,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T19-09-31-019f5af4-0d8b-7aa3-87a7-9f974fbe28b5.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 691602,
+   "mtimeMs": 1783937477813.2744,
+   "offset": 691602,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T19-00-03-019f5aeb-6247-7ad1-ac9f-723e8ada000d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 9719790,
+   "mtimeMs": 1783937225938.487,
+   "offset": 9719790,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-55-52-019f5ae7-8f1c-7b61-abf2-204ceb5188f0.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 686730,
+   "mtimeMs": 1783936742834.4531,
+   "offset": 686730,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-52-06-019f5ae4-1b74-7693-abcf-f80a811e1ea6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 6182837,
+   "mtimeMs": 1783936510148.7332,
+   "offset": 6182837,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-49-31-019f5ae1-bd32-7783-aa8c-a442e9c8e899.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 498258,
+   "mtimeMs": 1783936298591.9395,
+   "offset": 498258,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-42-33-019f5adb-5dd9-70e0-8597-537f2c9c91fa.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 10257559,
+   "mtimeMs": 1783936104515.0234,
+   "offset": 10257559,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-41-05-019f5ada-0419-7d60-bd0e-a41a58550474.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 179498,
+   "mtimeMs": 1783935679152.6794,
+   "offset": 179498,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-36-28-019f5ad5-ca26-71c3-b09f-a7a101244e43.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 8277588,
+   "mtimeMs": 1783935619659.4055,
+   "offset": 8277588,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-32-33-019f5ad2-3616-7fd0-bc39-e94ccfe57b3f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 905653,
+   "mtimeMs": 1783935300576.4468,
+   "offset": 905653,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-25-39-019f5acb-e428-7af0-94e7-edccf285f891.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 6253029,
+   "mtimeMs": 1783935071291.9126,
+   "offset": 6253029,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-24-16-019f5aca-9e8f-7d23-abb4-b42ebe8768a6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 658888,
+   "mtimeMs": 1783934693420.2847,
+   "offset": 658888,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-20-34-019f5ac7-3cd3-7d72-92e3-6c21b8af3c82.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 7250742,
+   "mtimeMs": 1783934574112.7488,
+   "offset": 7250742,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-13-53-019f5ac1-1d0e-78c2-b3b7-40e002d88e5d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 8719408,
+   "mtimeMs": 1783934337499.0203,
+   "offset": 8719408,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-08-55-019f5abc-90e7-7632-8298-2b1fc4b3e9bb.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4947702,
+   "mtimeMs": 1783933909065.2122,
+   "offset": 4947702,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T18-01-50-019f5ab6-16c7-7993-8e7d-0c485eb00d37.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 8009205,
+   "mtimeMs": 1783933585573.8289,
+   "offset": 8009205,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-57-18-019f5ab1-f15b-7230-a382-4261c868e823.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 100030,
+   "mtimeMs": 1783933095903.4907,
+   "offset": 100030,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-56-57-019f5ab1-9d6c-7830-9b25-37f9b934ff6f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5900477,
+   "mtimeMs": 1783933195218.935,
+   "offset": 5900477,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-55-04-019f5aaf-e317-7fc3-b989-aee8d0bb8261.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 371131,
+   "mtimeMs": 1783932974613.2673,
+   "offset": 371131,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-48-34-019f5aa9-f105-7cc1-8c56-17970aecc34b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3088657,
+   "mtimeMs": 1783932870193.681,
+   "offset": 3088657,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-46-25-019f5aa7-fa02-7ce0-ae0f-aa3a7d80d7c3.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 245298,
+   "mtimeMs": 1783932485133.2773,
+   "offset": 245298,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-40-23-019f5aa2-724d-7a21-8908-58211814c64c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5656710,
+   "mtimeMs": 1783932341743.443,
+   "offset": 5656710,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-38-22-019f5aa0-9885-7a73-a1d0-859363767eed.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 887209,
+   "mtimeMs": 1783931993555.2456,
+   "offset": 887209,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-34-26-019f5a9d-0095-7343-89b0-0ac6b5005168.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4917062,
+   "mtimeMs": 1783931840112.0085,
+   "offset": 4917062,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-30-06-019f5a99-08b5-7b80-a5ff-909b619dd30b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1992956,
+   "mtimeMs": 1783937724513.7102,
+   "offset": 1992956,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-26-25-019f5a95-a818-7863-95be-f33c2c25e67f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5569389,
+   "mtimeMs": 1783931325703.981,
+   "offset": 5569389,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-26-10-019f5a95-6e62-7b70-bc7a-e5d882d9d45d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4658858,
+   "mtimeMs": 1783931305199.7722,
+   "offset": 4658858,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-20-53-019f5a90-977f-7d13-abd5-02bcc4cd0195.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3645701,
+   "mtimeMs": 1783931146538.146,
+   "offset": 3645701,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-17-36-019f5a8d-9769-7980-ad01-629d1f4d073c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3232738,
+   "mtimeMs": 1783930764973.8894,
+   "offset": 3232738,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-14-52-019f5a8b-1666-7ca1-8e08-2e3f0ddfb5e4.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3371664,
+   "mtimeMs": 1783930633860.2588,
+   "offset": 3371664,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-14-40-019f5a8a-e804-7761-8092-ee1bf8721ee4.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5870001,
+   "mtimeMs": 1783930617230.103,
+   "offset": 5870001,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-14-28-019f5a8a-b9b9-7a10-abac-449046591043.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3439415,
+   "mtimeMs": 1783930598376.3318,
+   "offset": 3439415,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-11-35-019f5a88-1528-76b1-9e02-72d0359422b8.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3231714,
+   "mtimeMs": 1783930409366.458,
+   "offset": 3231714,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-11-19-019f5a87-d55c-73d0-87c3-1f29f9523f50.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4826442,
+   "mtimeMs": 1783930434279.5764,
+   "offset": 4826442,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-11-04-019f5a87-9d82-7c33-89dd-bb9918f08601.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4534719,
+   "mtimeMs": 1783930404642.3777,
+   "offset": 4534719,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-10-22-019f5a86-f6bf-7a31-b762-2a8e992a0555.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2815281,
+   "mtimeMs": 1783930247683.9463,
+   "offset": 2815281,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-05-43-019f5a82-b7a8-7640-9e1e-f74fb1db8cf1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 9924637,
+   "mtimeMs": 1783930192887.4692,
+   "offset": 9924637,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T17-05-30-019f5a82-81e1-74b0-a45e-bb15fe426aee.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3372631,
+   "mtimeMs": 1783930060083.1995,
+   "offset": 3372631,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-57-12-019f5a7a-ea70-7973-84f1-66e7b43034f2.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5595301,
+   "mtimeMs": 1783929664444.087,
+   "offset": 5595301,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-57-00-019f5a7a-ba4f-7ba0-badc-f5af6559299d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5470276,
+   "mtimeMs": 1783929624625.8271,
+   "offset": 5470276,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-59-48-019f5a7d-4bf9-7631-a116-6c8428c3c36c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2781258,
+   "mtimeMs": 1783929700275.6885,
+   "offset": 2781258,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-58-21-019f5a7b-f5f2-7741-a166-e92daaabde8a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2887348,
+   "mtimeMs": 1783929564441.8914,
+   "offset": 2887348,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T00-55-41-019f570a-9eb7-70f3-97cd-cce65bf10c00.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 20397984,
+   "mtimeMs": 1783929418982.9355,
+   "offset": 20397984,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-53-57-019f5a77-eef7-7ba0-aa4f-8bfda4421c26.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3197195,
+   "mtimeMs": 1783929343581.1196,
+   "offset": 3197195,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-50-46-019f5a75-0580-7141-a2dd-5a50130cb344.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3692288,
+   "mtimeMs": 1783929146786.3552,
+   "offset": 3692288,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-50-12-019f5a74-8081-7d30-9b07-e01a31bb6d95.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4795670,
+   "mtimeMs": 1783929109955.1199,
+   "offset": 4795670,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-48-59-019f5a73-6308-79f3-9c86-212930de0720.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3600613,
+   "mtimeMs": 1783929085664.2266,
+   "offset": 3600613,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-48-00-019f5a72-7bab-7062-ace8-ad94be668077.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3649775,
+   "mtimeMs": 1783929001188.9907,
+   "offset": 3649775,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-48-13-019f5a72-af3d-7d60-a216-4791c4f9cb19.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4654923,
+   "mtimeMs": 1783928981039.9924,
+   "offset": 4654923,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-45-05-019f5a6f-d2d4-7b81-ae12-944d510496e3.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5918825,
+   "mtimeMs": 1783928884444.8992,
+   "offset": 5918825,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-44-52-019f5a6f-9fba-7dd3-bc7d-e4881911e924.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3182491,
+   "mtimeMs": 1783928833752.9175,
+   "offset": 3182491,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-45-18-019f5a70-03a7-74c3-93ef-e42af6057a44.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3642365,
+   "mtimeMs": 1783928810221.2656,
+   "offset": 3642365,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T16-33-30-019f5a65-38da-7df3-9550-f311715cd0d6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 8717929,
+   "mtimeMs": 1783928650667.052,
+   "offset": 8717929,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T18-51-39-019f55bd-5755-73d0-ab7c-dfa8af703b20.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 170501036,
+   "mtimeMs": 1783927534066.8528,
+   "offset": 170501036,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T06-08-58-019f5829-6e3c-71e2-abff-a7479b2c56ef.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2724958,
+   "mtimeMs": 1783890580066.9937,
+   "offset": 2724958,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T06-04-36-019f5825-723b-7bc2-8892-816a70578a7b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 9882062,
+   "mtimeMs": 1783890396756.4866,
+   "offset": 9882062,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T06-04-37-019f5825-758a-7e20-81e7-4a669c68ce9d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1272845,
+   "mtimeMs": 1783890395714.242,
+   "offset": 1272845,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T06-03-32-019f5824-784e-72c3-898a-eb72fe07f97b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 10478696,
+   "mtimeMs": 1783890344737.2341,
+   "offset": 10478696,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T06-04-36-019f5825-6fb1-7ad0-a949-17d8da0ac34e.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 623617,
+   "mtimeMs": 1783890293927.6523,
+   "offset": 623617,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T06-03-33-019f5824-7b65-7e51-a925-307fa850b3ed.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 621776,
+   "mtimeMs": 1783890226872.1772,
+   "offset": 621776,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T05-40-57-019f580f-ca89-7e80-ab97-04f25e0e9348.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1309557,
+   "mtimeMs": 1783889169769.477,
+   "offset": 1309557,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T05-40-56-019f580f-c757-7130-b8e8-b453f981ccfe.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1311433,
+   "mtimeMs": 1783889166391.2158,
+   "offset": 1311433,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T05-40-58-019f580f-cccd-7d72-9314-101ff8ee6537.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1285019,
+   "mtimeMs": 1783889159465.6663,
+   "offset": 1285019,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/13/rollout-2026-07-13T04-00-50-019f57b4-20a4-7091-9421-1848c7fd80b0.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 2885184,
+   "mtimeMs": 1783882948420.9321,
+   "offset": 2885184,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T19-12-36-019f55d0-833c-7fb1-bd6b-66c66b4ad9be.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3846776,
+   "mtimeMs": 1783851543281.2498,
+   "offset": 3846776,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T19-12-37-019f55d0-86fd-7190-bbbb-593480c89540.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4206634,
+   "mtimeMs": 1783851508748.3018,
+   "offset": 4206634,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T19-12-28-019f55d0-651b-7ba0-9a48-efaebd8c73f4.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3470747,
+   "mtimeMs": 1783851446677.6418,
+   "offset": 3470747,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T18-42-10-019f55b4-a8c1-7461-842a-b2ccc7be53f6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 551220,
+   "mtimeMs": 1783849428550.0654,
+   "offset": 551220,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T16-20-18-019f5532-c5cd-7a93-9447-216db1befd7a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 494228,
+   "mtimeMs": 1783846523857.5784,
+   "offset": 494228,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T16-54-59-019f5552-87f6-7440-9faf-5ff85312d60d.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 360313,
+   "mtimeMs": 1783843167595.6753,
+   "offset": 360313,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T16-28-18-019f553a-16f6-72c1-b98e-2475dffaa894.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 463860,
+   "mtimeMs": 1783841758364.6794,
+   "offset": 463860,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T05-06-39-019f52ca-083a-7ce3-98e4-c008138a7ead.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1524414,
+   "mtimeMs": 1783803682704.305,
+   "offset": 1524414,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T05-28-49-019f52de-5144-7313-8462-25e1bb800c14.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 412123,
+   "mtimeMs": 1783801821602.1108,
+   "offset": 412123,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T05-28-56-019f52de-6ba3-7ec1-9291-d640e981ff61.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 444785,
+   "mtimeMs": 1783801798670.0813,
+   "offset": 444785,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/12/rollout-2026-07-12T05-28-52-019f52de-5e71-74d3-bd28-d51c57c0b7e3.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 470776,
+   "mtimeMs": 1783801794034.0999,
+   "offset": 470776,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/archived_sessions/rollout-2026-07-12T04-57-30-019f52c1-a6df-7282-b7db-09158ffb0a00.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 204802,
+   "mtimeMs": 1783800070208.9866,
+   "offset": 204802,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/6b5850df-ed76-4f8a-abbb-20924e727fbf.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 3385581,
+   "mtimeMs": 1790712218568,
+   "offset": 3385581,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/c1966084-8231-49ef-95a9-8b7b1089f24f.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 5047511,
+   "mtimeMs": 1790768641535,
+   "offset": 5047511,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/12274ad5-32d7-47cc-a6d0-0a86ac33e4ed.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 318099,
+   "mtimeMs": 1790712218568,
+   "offset": 318099,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/06/rollout-2026-07-06T02-14-49-019f3346-8c47-7a51-8dc9-d29883e5ca33.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 373663,
+   "mtimeMs": 1783275649094.3833,
+   "offset": 373663,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/ee7eedf5-c4db-4ffa-b0da-0fd95dbb0ba8.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 10771164,
+   "mtimeMs": 1790712218568,
+   "offset": 10771164,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/07/02/rollout-2026-07-02T04-20-44-019f1f20-643d-7e50-bd4e-ab75d91940e6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 685719,
+   "mtimeMs": 1782934522623.463,
+   "offset": 685719,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/000e9672-7039-4b69-89b9-37d3722140eb.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1926806,
+   "mtimeMs": 1790712218568,
+   "offset": 1926806,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/31de3be6-4b58-4b16-89fe-eab7c6e76815.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 2858435,
+   "mtimeMs": 1791362571590,
+   "offset": 2858435,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/290d8314-6c8c-472b-b948-bbbfc1e9bcca.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 5040439,
+   "mtimeMs": 1790712218568,
+   "offset": 5040439,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/06/21/rollout-2026-06-21T22-05-34-019eea49-543b-7442-99cf-d0974c985ce1.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 997536,
+   "mtimeMs": 1782053085532.4504,
+   "offset": 997536,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/6a795d1e-819f-4aa6-b7a9-cd54c6f97b4b.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 334788,
+   "mtimeMs": 1791362571431,
+   "offset": 334788,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/b1420458-a3d4-4254-b90b-c14f48ad8062.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 118671,
+   "mtimeMs": 1791362571273,
+   "offset": 118671,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/c7386478-8eab-410d-9278-641840c2c381.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 945706,
+   "mtimeMs": 1790712218568,
+   "offset": 945706,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/22/rollout-2026-05-22T09-16-11-019e4e8a-aae1-7483-a4a7-a6cf55cbbc60.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 631747,
+   "mtimeMs": 1781095187161.5193,
+   "offset": 631747,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/06/10/rollout-2026-06-10T14-26-44-019eb17f-d0e4-76d0-9de9-1acb807fe2e6.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 59226,
+   "mtimeMs": 1781094443064.685,
+   "offset": 59226,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/f467aa03-ba2e-4b5f-a0ac-56e59feb4fcb.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 203137,
+   "mtimeMs": 1790712218568,
+   "offset": 203137,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/ac6ab641-5815-4e7c-ac18-2f752a288b3e.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 11986465,
+   "mtimeMs": 1790712218568,
+   "offset": 11986465,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/3b0b9aa2-340f-49d4-babf-aa1c7a8c443d.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 839367,
+   "mtimeMs": 1790712218568,
+   "offset": 839367,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/06/01/rollout-2026-06-01T14-02-21-019e8310-4294-7d92-af86-8654847c1ae7.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 136991,
+   "mtimeMs": 1780354526927.6736,
+   "offset": 136991,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T13-40-38-019e7dd6-03a2-77d3-bf93-0d2deba28e16.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 21076502,
+   "mtimeMs": 1780267445089.7812,
+   "offset": 21076502,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T19-45-47-019e7f24-5381-7e51-9a25-8d68ec692a1c.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1015409,
+   "mtimeMs": 1780249810452.2312,
+   "offset": 1015409,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T19-45-53-019e7f24-6b34-78a2-964a-c4f9dcec90d7.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 812761,
+   "mtimeMs": 1780249705067.549,
+   "offset": 812761,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T18-23-52-019e7ed9-5372-7f71-b551-465d7e4de468.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 823090,
+   "mtimeMs": 1780244943631.2832,
+   "offset": 823090,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T18-23-47-019e7ed9-407c-7ae2-9288-29acc54f071e.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 528789,
+   "mtimeMs": 1780244812767.0417,
+   "offset": 528789,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T14-49-03-019e7e14-a773-7292-9087-2eaf4a5b2a28.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1065650,
+   "mtimeMs": 1780232188561.4492,
+   "offset": 1065650,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T14-48-59-019e7e14-967d-74e2-be62-132fbc5f4da7.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 873002,
+   "mtimeMs": 1780232052945.2039,
+   "offset": 873002,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T14-48-54-019e7e14-84e1-7c22-9ef4-0bade9ce2832.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 674010,
+   "mtimeMs": 1780231975921.2598,
+   "offset": 674010,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T14-48-49-019e7e14-70d0-7fd0-9d95-a17394e78f4b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 466490,
+   "mtimeMs": 1780231889214.245,
+   "offset": 466490,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T14-08-11-019e7def-3c08-7702-bee2-b5f767f07409.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 712095,
+   "mtimeMs": 1780229644214.8647,
+   "offset": 712095,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T14-08-17-019e7def-5419-7281-93ad-e74ba15d0ef3.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 513505,
+   "mtimeMs": 1780229610778.927,
+   "offset": 513505,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T14-08-04-019e7def-2111-73a3-87b9-3b05c7dc72cc.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 679884,
+   "mtimeMs": 1780229513200.7341,
+   "offset": 679884,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/31/rollout-2026-05-31T14-07-58-019e7def-09a1-71d3-a40f-aa640d9e66c5.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 427811,
+   "mtimeMs": 1780229459280.997,
+   "offset": 427811,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/30/rollout-2026-05-30T13-22-54-019e789f-6d45-7b52-b3e0-0395614bb8c7.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3421351,
+   "mtimeMs": 1780142970716.9995,
+   "offset": 3421351,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/30/rollout-2026-05-30T11-07-58-019e7823-e3d7-7133-957c-f0011c892a3e.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 5333532,
+   "mtimeMs": 1780132420358.2478,
+   "offset": 5333532,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/30/rollout-2026-05-30T00-03-51-019e75c3-dfee-7da1-a03d-08e94266da9b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 371525,
+   "mtimeMs": 1780092518115.1765,
+   "offset": 371525,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/29/rollout-2026-05-29T20-11-55-019e74ef-8928-7393-94c0-910a0b13162b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1862679,
+   "mtimeMs": 1780078936273.993,
+   "offset": 1862679,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/28/rollout-2026-05-28T22-45-42-019e7055-f7da-7d03-ae78-1d031abc9321.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 628455,
+   "mtimeMs": 1780002310152.41,
+   "offset": 628455,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/a796ff37-fef4-4db1-ac80-d93fced41c0c.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 873813,
+   "mtimeMs": 1790768641535,
+   "offset": 873813,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/28/rollout-2026-05-28T12-02-30-019e6e09-197c-7180-a30b-a33d8b72bc69.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 145065,
+   "mtimeMs": 1779962669564.8667,
+   "offset": 145065,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/28/rollout-2026-05-28T02-20-08-019e6bf3-ec15-7a02-be3f-4aead72c9703.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 409923,
+   "mtimeMs": 1779928331424.721,
+   "offset": 409923,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/27/rollout-2026-05-27T22-38-04-019e6b28-9f89-7f11-9643-83496ad441c8.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 4721626,
+   "mtimeMs": 1779918098708.898,
+   "offset": 4721626,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/d71f68d6-ae6b-401c-8c0f-bb7a4e62cdc2.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 27498,
+   "mtimeMs": 1790712218568,
+   "offset": 27498,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/8aec23a7-76db-4915-b0c9-586061589789.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 536098,
+   "mtimeMs": 1790712218568,
+   "offset": 536098,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/26/rollout-2026-05-26T20-52-55-019e65a1-fb59-7820-b669-98d64e1d16f0.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1233309,
+   "mtimeMs": 1779838665458.665,
+   "offset": 1233309,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/27/rollout-2026-05-27T01-27-03-019e669c-f8e5-7ff0-a93a-cb14a4c918c0.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 379836,
+   "mtimeMs": 1779838665457.6978,
+   "offset": 379836,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/27/rollout-2026-05-27T01-27-03-019e669c-f89e-7c30-aab9-9618c1fd487f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 359372,
+   "mtimeMs": 1779838638795.8804,
+   "offset": 359372,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/27/rollout-2026-05-27T01-27-03-019e669c-f856-7261-ad10-5dcc22dfac6f.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 292364,
+   "mtimeMs": 1779838536937.0403,
+   "offset": 292364,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/27/rollout-2026-05-27T01-27-03-019e669c-f81b-7f12-86b6-9fb14e94cc8a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 323873,
+   "mtimeMs": 1779838520057.9832,
+   "offset": 323873,
+   "hits": {}
+  },
+  "/Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory/64a2be31-6389-4261-9955-ab835d44691d.jsonl": {
+   "provider": "claude",
+   "key": "1875add404b2a01d",
+   "size": 1099101,
+   "mtimeMs": 1790712218568,
+   "offset": 1099101,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/26/rollout-2026-05-26T19-38-55-019e655e-3da1-79b2-b918-6da9173a4d53.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 161918,
+   "mtimeMs": 1779817319417.5022,
+   "offset": 161918,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/23/rollout-2026-05-23T18-33-52-019e55af-9a39-70e1-8341-d210f8284e2a.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 186152,
+   "mtimeMs": 1779555006773.1873,
+   "offset": 186152,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/23/rollout-2026-05-23T17-51-09-019e5588-8115-76f3-9b99-8edfc4b8803b.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 365630,
+   "mtimeMs": 1779551630140.1316,
+   "offset": 365630,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/23/rollout-2026-05-23T01-15-12-019e51f8-ad64-7060-a6b1-2d506a61bcc5.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 1855728,
+   "mtimeMs": 1779533140663.7659,
+   "offset": 1855728,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/22/rollout-2026-05-22T17-41-26-019e5059-3f08-7c50-9b7c-fca4201a55cb.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 3724860,
+   "mtimeMs": 1779468737738.9868,
+   "offset": 3724860,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/22/rollout-2026-05-22T12-21-47-019e4f34-9722-7f73-9c00-0f4623f563ea.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 840006,
+   "mtimeMs": 1779446993469.8167,
+   "offset": 840006,
+   "hits": {}
+  },
+  "/Users/zenray/.codex/sessions/2026/05/22/rollout-2026-05-22T09-16-11-019e4e8a-ab27-7190-85e6-76576bcb8313.jsonl": {
+   "provider": "codex",
+   "key": "1875add404b2a01d",
+   "size": 92706,
+   "mtimeMs": 1779434171243.204,
+   "offset": 92706,
+   "hits": {}
+  }
+ }
+}

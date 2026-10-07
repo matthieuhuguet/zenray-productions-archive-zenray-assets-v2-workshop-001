@@ -1,0 +1,35 @@
+# Conversations des agents (7 October 2026)
+
+Project ID: agent-conversations. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/agent-conversations/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/agent-conversations/.workspace.json. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/.claude/tmp/tmp-agent-conversations. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-agent-conversations; cloud: pages/ZenRayAssets/agent-conversations/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/agent-conversations; cloud: pages/ZenRayAssets/agent-conversations/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+No source linked. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/agent-conversations/FEEDBACK.md; status: local-only. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/agent-conversations/Project1.md; status: local-only. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-agent-conversations/AGENTS.md; cloud: pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-agent-conversations/CLAUDE.md; cloud: pages/ZenRayAssets/agent-conversations/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/agent-conversations/FEEDBACK.md; cloud: pages/ZenRayAssets/agent-conversations/sources/memory/project-notes/FEEDBACK.md (not yet archived); status: local-only. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/agent-conversations/Project1.md; cloud: pages/ZenRayAssets/agent-conversations/sources/memory/project-notes/Project1.md (not yet archived); status: local-only. (7 October 2026)
+
+Mapped files: 1063; verified archive records: 39. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

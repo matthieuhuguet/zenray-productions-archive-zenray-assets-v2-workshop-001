@@ -1,0 +1,48 @@
+# Control Resonant CrossOver (7 October 2026)
+
+Project ID: control-resonant-crossover. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/control-resonant-crossover/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/control-resonant-crossover/.workspace.json. (7 October 2026)
+
+## Linked conversations (7 October 2026)
+- Agent not indexed yet: 01a10095-4b7f-7502-bd33-d3cfc21acd20, session 01a10095-4b7f-7502-bd33-d3cfc21acd20, reader 01a10095-4b7f-7502-bd33-d3cfc21acd20. (7 October 2026)
+- Agent not indexed yet: 33aff807-121b-4710-b47f-bd4f19e1c67e, session 33aff807-121b-4710-b47f-bd4f19e1c67e, reader 33aff807-121b-4710-b47f-bd4f19e1c67e. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/control-resonant-crossover; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+No source linked. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:ConversationIndex.md: /Users/zenray/.claude/Memory1/Projects/control-resonant-crossover/ConversationIndex.md; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/control-resonant-crossover/FEEDBACK.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/control-resonant-crossover/Project1.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover/AGENTS.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover/CLAUDE.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/control-resonant-crossover/FEEDBACK.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/control-resonant-crossover/Project1.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+- workshop:ConversationArchive/ConversationSummary.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover/ConversationArchive/ConversationSummary.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop/ConversationArchive/ConversationSummary.md.file.json; status: backed-up. (7 October 2026)
+- workshop:ConversationArchive/ConversationTranscript.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover/ConversationArchive/ConversationTranscript.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop/ConversationArchive/ConversationTranscript.md.file.json; status: backed-up. (7 October 2026)
+- workshop:ConversationArchive/Scripts/SummaryTemplate.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover/ConversationArchive/Scripts/SummaryTemplate.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop/ConversationArchive/Scripts/SummaryTemplate.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:ConversationIndex.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/control-resonant-crossover/ConversationIndex.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/memory/project-notes/ConversationIndex.md.file.json; status: backed-up. (7 October 2026)
+- workshop:mgvf-5.2.1/CODEC-LICENCES.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover/mgvf-5.2.1/CODEC-LICENCES.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop/mgvf-5.2.1/CODEC-LICENCES.md.file.json; status: backed-up. (7 October 2026)
+- workshop:mgvf-5.2.1/ng3-THIRD-PARTY-LICENCES.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover/mgvf-5.2.1/ng3-THIRD-PARTY-LICENCES.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop/mgvf-5.2.1/ng3-THIRD-PARTY-LICENCES.md.file.json; status: backed-up. (7 October 2026)
+- workshop:OfflineShaderCompatibilityReport.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover/OfflineShaderCompatibilityReport.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop/OfflineShaderCompatibilityReport.md.file.json; status: backed-up. (7 October 2026)
+- workshop:RemainingWindowsInvestigation.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-crossover/RemainingWindowsInvestigation.md; cloud: pages/ZenRayAssets/control-resonant-crossover/sources/tmp/workshop/RemainingWindowsInvestigation.md.file.json; status: backed-up. (7 October 2026)
+
+Mapped files: 9003; verified archive records: 9003. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

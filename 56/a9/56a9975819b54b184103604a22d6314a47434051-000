@@ -1,0 +1,37 @@
+// 7 October 2026: read-only perf harness; state copied into scratch, real sources only scanned.
+import { readFile } from 'node:fs/promises'
+import path from 'node:path'
+const REPO = '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress'
+const { AssetsService, scanSource } = await import(`${REPO}/scripts/AssetsService.mjs`)
+const { combineWorkspaceFiles, workspaceSummary } = await import(`${REPO}/src/lib/projectWorkspace.js`)
+const { buildGlobalProjectIndex, buildProjectMapping } = await import(`${REPO}/src/lib/projectContextIndex.js`)
+const config = JSON.parse(await readFile(`${REPO}/scripts/AssetsConfig.json`, 'utf8'))
+config.storage.stateDir = path.join(process.env.S, 'state')
+config.storage.workspaceDir = config.storage.workspaceDir // read-only realpath checks only
+config.sceneAudit = { ...config.sceneAudit, enabled: false }
+const svc = await new AssetsService(config, { getToken: async () => 'x', runSceneAudit: null }).initialize()
+svc.runSceneAudit = null
+const t = async (label, fn, n = 1) => { const a = performance.now(); let r; for (let i = 0; i < n; i++) r = await fn(); const ms = (performance.now() - a) / n; console.log(label.padEnd(60), ms.toFixed(1), 'ms'); return r }
+const mode = process.argv[2]
+if (mode === 'snapshot') {
+  let total = 0
+  for (const id of svc.projects.keys()) { const a = performance.now(); svc.snapshot(id); const ms = performance.now() - a; total += ms; console.log(('snapshot ' + id).padEnd(60), ms.toFixed(1), 'ms') }
+  console.log('sum snapshot all'.padEnd(60), total.toFixed(1))
+  const veg = 'vegetation-assets-collection-01', st = svc.state(veg), pr = svc.project(veg)
+  const files = await t('combineWorkspaceFiles veg', () => combineWorkspaceFiles(pr, st.inventory.localFiles, st.backups, st.restorations), 5)
+  await t('workspaceSummary veg', () => workspaceSummary(files), 5)
+  await t('sceneReferenceContexts veg', () => svc.sceneReferenceContexts(veg), 3)
+  await t('sceneReferenceContexts ceramic', () => svc.sceneReferenceContexts('ceramic-tiles'), 3)
+  await t('snapshot veg cloud', () => svc.snapshot(veg, { cloud: true }), 3)
+  await t('refreshContextIndex (all projects, writes scratch)', () => svc.refreshContextIndex(), 3)
+  await t('save veg (atomicJson pretty 32MB to scratch)', () => svc.save(veg), 3)
+  await t('request list (all snapshots)', () => svc.request('list'), 2)
+  await t('request conversations', () => svc.request('conversations'), 2)
+}
+if (mode === 'scan') {
+  const id = process.argv[3]
+  for (const source of svc.project(id).sources) await t(`scanSource ${id}/${source.id}`, () => scanSource(source, config))
+  await t(`inventory ${id} (scan+save+refreshContextIndex+snapshot)`, () => svc.inventory(id))
+  await t(`inventory ${id} again (warm cache)`, () => svc.inventory(id))
+}
+await svc.close()

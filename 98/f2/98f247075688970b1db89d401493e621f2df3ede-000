@@ -1,0 +1,29 @@
+// 7 October 2026: read-only timing of the per-poll front-end pipeline with real snapshots (vegetation active).
+import { readFileSync, existsSync } from 'node:fs'
+const R = '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress'
+const { combineWorkspaceFiles } = await import(`${R}/src/lib/projectWorkspace.js`)
+const { mergeWorkspaceProjects } = await import(`${R}/src/lib/assetsWorkspaceViewModel.js`)
+const { queryAssetsFiles, FILE_QUERY_DEFAULTS, fileSizeLabel } = await import(`${R}/src/lib/assetsFileQuery.js`)
+const { storageBreakdown } = await import(`${R}/src/lib/assetsStorageBreakdown.js`)
+const { kindForName, extOf } = await import(`${R}/src/lib/fileKinds.js`)
+const { stripLeafExt } = await import(`${R}/src/create/node.js`)
+const D = process.argv[2], N = Number(process.argv[3] || 154000)
+const reg = JSON.parse(readFileSync(`${D}/Projects.json`, 'utf8'))
+const workspaces = reg.projects.filter((p) => existsSync(`${D}/Project-${p.id}.json`)).map((p) => { const s = JSON.parse(readFileSync(`${D}/Project-${p.id}.json`, 'utf8')); return { ...p, files: combineWorkspaceFiles(p, s.inventory?.localFiles || [], s.backups || {}, s.restorations || {}) } })
+// synthetic search index of N paths, one in ten under a project folder
+const folders = workspaces.map((w) => w.folder).filter(Boolean)
+const paths = Array.from({ length: N }, (_, i) => i % 10 === 0 && folders.length ? `${folders[i % folders.length]}/x/f${i}.img.json` : `pages/Other/d${i % 500}/f${i}.file.json`)
+const time = (label, fn, n = 5) => { fn(); const t = performance.now(); let r; for (let i = 0; i < n; i++) r = fn(); console.log(label.padEnd(44), ((performance.now() - t) / n).toFixed(1), 'ms'); return r }
+const projects = time('mergeWorkspaceProjects + projectId map', () => mergeWorkspaceProjects([], workspaces, paths, () => undefined).map((item) => { const files = item.files.map((f) => ({ ...f, projectId: item.id })); return { ...item, files } }))
+const veg = projects.find((p) => p.id === 'vegetation-assets-collection-01')
+const fileView = (file, index) => { const path = file.relativePath || file.path || file.contentPath || file.cloudPath || file.id || ''; const name = file.name || (file.relativePath ? path : stripLeafExt(path)).split('/').pop() || 'Fichier'; return { ...file, id: file.id || file.contentPath || `${path}:${index}`, name, relativePath: file.relativePath || name, kind: file.kind || kindForName(name), namespace: file.namespace || file.source || file.sourceId?.split(':')[0] || '', searchable: `${name} ${path} ${file.cloudPath || ''}`.toLocaleLowerCase('fr') } }
+const files = time('fileView x files', () => veg.files.map(fileView))
+time('queryAssetsFiles default (name sort)', () => queryAssetsFiles(files, { ...FILE_QUERY_DEFAULTS, search: '' }), 3)
+time('queryAssetsFiles search "tree"', () => queryAssetsFiles(files, { ...FILE_QUERY_DEFAULTS, search: 'tree' }), 3)
+const coll = new Intl.Collator('fr', { numeric: true, sensitivity: 'base' })
+time('reference: same sort with one Intl.Collator', () => [...files].sort((a, b) => coll.compare(a.name, b.name) || coll.compare(String(a.id), String(b.id))), 3)
+time('storageBreakdown folders', () => storageBreakdown(files, 'folders'))
+time('FileFilters two Sets', () => [[...new Set(files.map((f) => f.kind))].sort(), [...new Set(files.map((f) => extOf(f.name).toLowerCase() || 'none'))].sort()])
+time('selection reset Set(files.id)', () => new Set(files.map((f) => f.id)))
+time('render scalars (filter/reduce/some/fileSizeLabel x3)', () => { const sel = new Set(); files.filter((f) => sel.has(f.id)); files.reduce((t, f) => t + (Number(f.size) || 0), 0); files.some((f) => sel.has(f.id)); fileSizeLabel(files); fileSizeLabel(files); fileSizeLabel(files) })
+console.log('vegetation files', files.length, 'paths', paths.length, 'projects', projects.length)

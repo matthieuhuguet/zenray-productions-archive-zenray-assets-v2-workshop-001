@@ -1,0 +1,598 @@
+{
+  "backups": {
+    "skill-library:zenray_picket_fence.hda": {
+      "id": "skill-library:zenray_picket_fence.hda",
+      "sourceId": "skill-library",
+      "relativePath": "zenray_picket_fence.hda",
+      "size": 12298,
+      "sha256": "8e55e885f2ac22d0724c933c8f550eff3c7b2fd51adc49453d368b8adf101fb0",
+      "changeToken": "16777232:171274800:12298:1790996759374.764:1790996759377.1108",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/skill-library/zenray_picket_fence.hda.file.json",
+      "backedUpAt": "2026-10-05T08:12:11.061Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/skill-library",
+      "relativeManifest": "zenray_picket_fence.hda.file.json"
+    },
+    "skill-library:ZenRayChurchHero.hda": {
+      "id": "skill-library:ZenRayChurchHero.hda",
+      "sourceId": "skill-library",
+      "relativePath": "ZenRayChurchHero.hda",
+      "size": 96583,
+      "sha256": "a4114a5a0ba3d625d447a005e0455746288292ace65686b25024afb8411d59d6",
+      "changeToken": "16777232:171274805:96583:1790996760461.9788:1790996760463.574",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/skill-library/ZenRayChurchHero.hda.file.json",
+      "backedUpAt": "2026-10-05T08:12:11.061Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/skill-library",
+      "relativeManifest": "ZenRayChurchHero.hda.file.json"
+    },
+    "memory-library:Component_Armature.hda": {
+      "id": "memory-library:Component_Armature.hda",
+      "sourceId": "memory-library",
+      "relativePath": "Component_Armature.hda",
+      "size": 11536,
+      "sha256": "c8ed1e5945c7594a8a8168815b7846657b997f00079975ccff6ab1044853ab17",
+      "changeToken": "16777232:171274689:11536:1790996754676.48:1790996754679.4197",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library/Component_Armature.hda.file.json",
+      "backedUpAt": "2026-10-05T08:30:01.606Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library",
+      "relativeManifest": "Component_Armature.hda.file.json"
+    },
+    "memory-library:Component_Roof.hda": {
+      "id": "memory-library:Component_Roof.hda",
+      "sourceId": "memory-library",
+      "relativePath": "Component_Roof.hda",
+      "size": 15193,
+      "sha256": "28c05ae95d9f4a4798ded2226c114a7c528e0560f927daac25bc2c5f187e7ed5",
+      "changeToken": "16777232:171274731:15193:1790996755470.5125:1790996755473.097",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library/Component_Roof.hda.file.json",
+      "backedUpAt": "2026-10-05T08:30:01.606Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library",
+      "relativeManifest": "Component_Roof.hda.file.json"
+    },
+    "memory-library:Component_WindowA.hda": {
+      "id": "memory-library:Component_WindowA.hda",
+      "sourceId": "memory-library",
+      "relativePath": "Component_WindowA.hda",
+      "size": 17210,
+      "sha256": "612c384c553bf8f514e1d453a39d84d37918cf94a1185f24fa0562f212c97171",
+      "changeToken": "16777232:171274783:17210:1790996756305.365:1790996756308.4392",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library/Component_WindowA.hda.file.json",
+      "backedUpAt": "2026-10-05T08:30:01.606Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library",
+      "relativeManifest": "Component_WindowA.hda.file.json"
+    },
+    "memory-library:Component_WindowB.hda": {
+      "id": "memory-library:Component_WindowB.hda",
+      "sourceId": "memory-library",
+      "relativePath": "Component_WindowB.hda",
+      "size": 13736,
+      "sha256": "ea6f540938dab7d4134ff11b32b0be2b269e3a39dbc132f1d9a86b083c94dfaa",
+      "changeToken": "16777232:171274792:13736:1790996757321.3901:1790996757324.3647",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library/Component_WindowB.hda.file.json",
+      "backedUpAt": "2026-10-05T08:30:01.606Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library",
+      "relativeManifest": "Component_WindowB.hda.file.json"
+    },
+    "memory-library:Component_WoodFacade.hda": {
+      "id": "memory-library:Component_WoodFacade.hda",
+      "sourceId": "memory-library",
+      "relativePath": "Component_WoodFacade.hda",
+      "size": 10529,
+      "sha256": "3e85bed633781c677f75fb18e8fa5c7c3af2c2bec84b23d303c8ea53c79c88ce",
+      "changeToken": "16777232:171274795:10529:1790996758421.8154:1790996758424.8157",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library/Component_WoodFacade.hda.file.json",
+      "backedUpAt": "2026-10-05T08:30:01.606Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/houdini/memory-library",
+      "relativeManifest": "Component_WoodFacade.hda.file.json"
+    },
+    "workshop:AGENTS.md": {
+      "id": "workshop:AGENTS.md",
+      "sourceId": "workshop",
+      "relativePath": "AGENTS.md",
+      "size": 803,
+      "sha256": "51b4067945ebaf0b287df881997ba5f86d9b4489b4cb72f99daa2d4db76e8e53",
+      "changeToken": "16777232:171282428:803:1790997392565.1292:1790997392565.1292",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/tmp/workshop/AGENTS.md.file.json",
+      "backedUpAt": "2026-10-05T08:38:48.657Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/tmp/workshop",
+      "relativeManifest": "AGENTS.md.file.json"
+    },
+    "workshop:CLAUDE.md": {
+      "id": "workshop:CLAUDE.md",
+      "sourceId": "workshop",
+      "relativePath": "CLAUDE.md",
+      "size": 803,
+      "sha256": "51b4067945ebaf0b287df881997ba5f86d9b4489b4cb72f99daa2d4db76e8e53",
+      "changeToken": "16777232:171282427:803:1790997392564.829:1790997392564.829",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/tmp/workshop/CLAUDE.md.file.json",
+      "backedUpAt": "2026-10-05T08:38:48.657Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/tmp/workshop",
+      "relativeManifest": "CLAUDE.md.file.json"
+    },
+    "project-notes:FEEDBACK.md": {
+      "id": "project-notes:FEEDBACK.md",
+      "sourceId": "project-notes",
+      "relativePath": "FEEDBACK.md",
+      "size": 477,
+      "sha256": "1da1931e2a892abac9979817fa3faf0faa77349842d7d6515c2891d5a7474b46",
+      "changeToken": "16777232:171190947:477:1790993083794.341:1790993083794.341",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/memory/project-notes/FEEDBACK.md.file.json",
+      "backedUpAt": "2026-10-05T09:36:51.537Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/memory/project-notes",
+      "relativeManifest": "FEEDBACK.md.file.json"
+    },
+    "project-notes:Project.json": {
+      "id": "project-notes:Project.json",
+      "sourceId": "project-notes",
+      "relativePath": "Project.json",
+      "size": 671,
+      "sha256": "0de30c5115b59ef8ccd5d4255643f0bc954ff96d6411faab4aecdb8d97c07be2",
+      "changeToken": "16777232:171282426:671:1790997392563.9539:1790997392564.2583",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/memory/project-notes/Project.json.file.json",
+      "backedUpAt": "2026-10-05T09:36:51.537Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/memory/project-notes",
+      "relativeManifest": "Project.json.file.json"
+    },
+    "project-notes:Project1.md": {
+      "id": "project-notes:Project1.md",
+      "sourceId": "project-notes",
+      "relativePath": "Project1.md",
+      "size": 327,
+      "sha256": "ecb25cbb3835cf76309aa7bb4afcead8b50af010531066e0b37ee254eb297b30",
+      "changeToken": "16777232:171190946:327:1790993083738.637:1790993083738.637",
+      "manifestPath": "pages/ZenRayAssets/zenray-houdini-library/sources/memory/project-notes/Project1.md.file.json",
+      "backedUpAt": "2026-10-05T09:36:51.537Z",
+      "sourceFolder": "pages/ZenRayAssets/zenray-houdini-library/sources/memory/project-notes",
+      "relativeManifest": "Project1.md.file.json"
+    }
+  },
+  "restorations": {
+    "memory-library:Component_Armature.hda": {
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_Armature.hda",
+      "sha256": "c8ed1e5945c7594a8a8168815b7846657b997f00079975ccff6ab1044853ab17",
+      "changeToken": "16777230:171274689:11536:1790996754676.48:1790996754679.4197",
+      "verifiedAt": "2026-10-03T03:06:00.469Z"
+    },
+    "memory-library:Component_Roof.hda": {
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_Roof.hda",
+      "sha256": "28c05ae95d9f4a4798ded2226c114a7c528e0560f927daac25bc2c5f187e7ed5",
+      "changeToken": "16777230:171274731:15193:1790996755470.5125:1790996755473.097",
+      "verifiedAt": "2026-10-03T03:06:00.469Z"
+    },
+    "memory-library:Component_WindowA.hda": {
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WindowA.hda",
+      "sha256": "612c384c553bf8f514e1d453a39d84d37918cf94a1185f24fa0562f212c97171",
+      "changeToken": "16777230:171274783:17210:1790996756305.365:1790996756308.4392",
+      "verifiedAt": "2026-10-03T03:06:00.469Z"
+    },
+    "memory-library:Component_WindowB.hda": {
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WindowB.hda",
+      "sha256": "ea6f540938dab7d4134ff11b32b0be2b269e3a39dbc132f1d9a86b083c94dfaa",
+      "changeToken": "16777230:171274792:13736:1790996757321.3901:1790996757324.3647",
+      "verifiedAt": "2026-10-03T03:06:00.469Z"
+    },
+    "memory-library:Component_WoodFacade.hda": {
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WoodFacade.hda",
+      "sha256": "3e85bed633781c677f75fb18e8fa5c7c3af2c2bec84b23d303c8ea53c79c88ce",
+      "changeToken": "16777230:171274795:10529:1790996758421.8154:1790996758424.8157",
+      "verifiedAt": "2026-10-03T03:06:00.469Z"
+    },
+    "skill-library:zenray_picket_fence.hda": {
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library/zenray_picket_fence.hda",
+      "sha256": "8e55e885f2ac22d0724c933c8f550eff3c7b2fd51adc49453d368b8adf101fb0",
+      "changeToken": "16777230:171274800:12298:1790996759374.764:1790996759377.1108",
+      "verifiedAt": "2026-10-03T03:06:00.469Z"
+    },
+    "skill-library:ZenRayChurchHero.hda": {
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library/ZenRayChurchHero.hda",
+      "sha256": "a4114a5a0ba3d625d447a005e0455746288292ace65686b25024afb8411d59d6",
+      "changeToken": "16777230:171274805:96583:1790996760461.9788:1790996760463.574",
+      "verifiedAt": "2026-10-03T03:06:00.469Z"
+    }
+  },
+  "watched": true,
+  "jobs": [
+    "5efc4821-8a27-4846-9d18-0ce9346f83d8",
+    "9ec24b6d-b12e-4c3d-9db7-9dda6c076149",
+    "35625daa-a21a-400a-8383-e31f8c515577",
+    "213d9ae2-469a-4ad0-953d-d7db2e86bdc2",
+    "612681a5-2ac5-47da-b64b-fd124848bbd5",
+    "ff742b9a-3701-442b-8fd9-d420ddc6a985",
+    "14874ed0-c193-4904-a110-9e834c2188e5",
+    "f4c9cadf-b0ec-4057-bbf3-9c97259ae4fe",
+    "6ec7d9bc-f5ea-4d4c-9809-2a11991c6f95",
+    "565b8716-1b4f-4668-8c5d-62b6f114bbb8",
+    "9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+    "cff16d38-21cf-4218-bc9c-7e54010dd4e4",
+    "3d2c90fe-4d51-48f6-8f98-8772a59ff291",
+    "41accdb0-130d-4df1-95c6-d2276da99184",
+    "0c199faf-40e2-41f8-b219-d799479e08bd",
+    "fbc41460-5755-4ff6-b5a6-d0595681d472",
+    "145a90fe-339a-446f-bd70-4c2ca898acfc",
+    "152ff671-bde5-49f5-aab4-7f791c1c43e2",
+    "345d9abd-1621-472c-99ad-d584a6334e69",
+    "b8ffca74-43d5-4d7d-9483-838875f0e305",
+    "894a5fcf-6658-4019-9033-3009b1eff08b",
+    "4d8090c9-6661-4624-8fe8-30bd37cac5e6",
+    "5e5e2c1c-e31d-47b5-aa0b-8506d4990451",
+    "983d4b47-fd0d-429a-8963-8d165583c5d7",
+    "754a62d8-8c02-4c09-af23-3f0f9eea5ba7",
+    "5234ab3b-697f-4cb2-b65f-6556b4e3d20f",
+    "e06e9664-cc6c-4ce0-89ba-5acf08276753",
+    "3e7f67c7-6642-4bcc-83a9-dffb6b332c8e",
+    "2af35df0-4aeb-4f63-b6cf-9ed5bb1688a9",
+    "511bdbca-0a5d-49db-8211-ac0e84dbb35a",
+    "d433e9be-34d3-4711-9fd2-2b3b07195df9",
+    "cb7f125f-3e38-49be-86b8-28f0355d6185",
+    "b7f203c4-ceda-4294-a2e4-1e552b1e324d",
+    "0a96de3c-c50e-4424-8cc2-45d129f9613c",
+    "ca6fd7b5-00a1-4ef5-a608-429a6c272149",
+    "9a80c794-29ea-4bcb-8b1a-998b69ad7105",
+    "b2dbfa32-c44c-4dac-8b6b-3dfb13fe236d",
+    "880adc6e-e576-4880-9c7b-c9ca5feb872b",
+    "20bbfff0-822b-437e-a86e-fb1135ffcbfb",
+    "b92de5aa-1ab6-4a8a-9fbf-9bfa705952b6",
+    "6228695d-0620-4ffa-8928-87c391c20135",
+    "89dc2f0f-d5c5-41e7-98c6-15f7caae81b0",
+    "92d7c51f-48de-4ce8-9460-f04879a6604a",
+    "4ad1b297-7bc7-411e-b49c-77420ac25c8a",
+    "7bc0e459-e035-4fa8-ac64-55145797a590",
+    "c03350fb-cd49-4c5b-ada5-4510d59b6034",
+    "a7e68d7e-5ad1-4c0e-9745-e68e79abd40c",
+    "b6f278b0-2705-4313-841d-e67edcf4692e",
+    "0794f510-c034-4ce2-9017-df5263dede01",
+    "213beba6-f1ee-435c-ab6a-45722d57d7cc",
+    "6e1705f3-fa1c-45f3-a194-9bbfcd0a8795",
+    "888b81ec-396b-4e8e-9a3d-2143fe8ef35d",
+    "24477755-0ca0-4278-8586-34aa49ad4b85",
+    "7f7f7841-dc98-4240-9955-3a5dd6b543c4",
+    "575a6525-8e44-419f-a877-fc9d21b9548d",
+    "ab726a39-f024-41c4-b1da-fd723614b043",
+    "113a17b4-be12-494c-b7f9-be33f1f577f2",
+    "563b1d0b-f470-45f5-812f-db4e613d3c4d",
+    "fa7666da-a99f-40b9-88d2-207f2fd20911"
+  ],
+  "inventory": {
+    "checkedAt": "2026-10-07T08:32:23.292Z",
+    "sources": [
+      {
+        "id": "skill-library",
+        "namespace": "houdini",
+        "localPath": "/Users/zenray/.claude/skills/zenray-houdini/otls",
+        "include": [
+          "ZenRayChurchHero.hda",
+          "zenray_picket_fence.hda"
+        ],
+        "keep": true,
+        "exclude": [],
+        "present": true,
+        "status": "present",
+        "count": 2,
+        "bytes": 108881,
+        "checkedAt": "2026-10-07T08:32:23.291Z"
+      },
+      {
+        "id": "memory-library",
+        "namespace": "houdini",
+        "localPath": "/Users/zenray/.claude/Memory1/Houdini/otls",
+        "include": [
+          "Component_Armature.hda",
+          "Component_Roof.hda",
+          "Component_WindowA.hda",
+          "Component_WindowB.hda",
+          "Component_WoodFacade.hda"
+        ],
+        "keep": true,
+        "exclude": [],
+        "present": true,
+        "status": "present",
+        "count": 5,
+        "bytes": 68204,
+        "checkedAt": "2026-10-07T08:32:23.291Z"
+      },
+      {
+        "id": "workshop",
+        "namespace": "tmp",
+        "localPath": "/Users/zenray/.claude/tmp/tmp-zenray-houdini-library",
+        "exclude": [],
+        "keep": false,
+        "present": true,
+        "status": "present",
+        "count": 2,
+        "bytes": 1450,
+        "checkedAt": "2026-10-07T08:32:23.291Z"
+      },
+      {
+        "id": "project-notes",
+        "namespace": "memory",
+        "localPath": "/Users/zenray/.claude/Memory1/Projects/zenray-houdini-library",
+        "keep": true,
+        "exclude": [],
+        "present": true,
+        "status": "present",
+        "count": 3,
+        "bytes": 1475,
+        "checkedAt": "2026-10-07T08:32:23.291Z"
+      }
+    ],
+    "localFiles": [
+      {
+        "id": "skill-library:zenray_picket_fence.hda",
+        "sourceId": "skill-library",
+        "relativePath": "zenray_picket_fence.hda",
+        "localPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library/zenray_picket_fence.hda",
+        "size": 12298,
+        "mtimeMs": 1790996759374.764,
+        "ctimeMs": 1790996759377.1108,
+        "changeToken": "16777232:171274800:12298:1790996759374.764:1790996759377.1108",
+        "workingRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library",
+        "loadedCopy": true,
+        "sourceConflict": null,
+        "sha256": "8e55e885f2ac22d0724c933c8f550eff3c7b2fd51adc49453d368b8adf101fb0",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "skill-library:ZenRayChurchHero.hda",
+        "sourceId": "skill-library",
+        "relativePath": "ZenRayChurchHero.hda",
+        "localPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library/ZenRayChurchHero.hda",
+        "size": 96583,
+        "mtimeMs": 1790996760461.9788,
+        "ctimeMs": 1790996760463.574,
+        "changeToken": "16777232:171274805:96583:1790996760461.9788:1790996760463.574",
+        "workingRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/skill-library",
+        "loadedCopy": true,
+        "sourceConflict": null,
+        "sha256": "a4114a5a0ba3d625d447a005e0455746288292ace65686b25024afb8411d59d6",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "memory-library:Component_Armature.hda",
+        "sourceId": "memory-library",
+        "relativePath": "Component_Armature.hda",
+        "localPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_Armature.hda",
+        "size": 11536,
+        "mtimeMs": 1790996754676.48,
+        "ctimeMs": 1790996754679.4197,
+        "changeToken": "16777232:171274689:11536:1790996754676.48:1790996754679.4197",
+        "workingRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "loadedCopy": true,
+        "sourceConflict": null,
+        "sha256": "c8ed1e5945c7594a8a8168815b7846657b997f00079975ccff6ab1044853ab17",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "memory-library:Component_Roof.hda",
+        "sourceId": "memory-library",
+        "relativePath": "Component_Roof.hda",
+        "localPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_Roof.hda",
+        "size": 15193,
+        "mtimeMs": 1790996755470.5125,
+        "ctimeMs": 1790996755473.097,
+        "changeToken": "16777232:171274731:15193:1790996755470.5125:1790996755473.097",
+        "workingRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "loadedCopy": true,
+        "sourceConflict": null,
+        "sha256": "28c05ae95d9f4a4798ded2226c114a7c528e0560f927daac25bc2c5f187e7ed5",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "memory-library:Component_WindowA.hda",
+        "sourceId": "memory-library",
+        "relativePath": "Component_WindowA.hda",
+        "localPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WindowA.hda",
+        "size": 17210,
+        "mtimeMs": 1790996756305.365,
+        "ctimeMs": 1790996756308.4392,
+        "changeToken": "16777232:171274783:17210:1790996756305.365:1790996756308.4392",
+        "workingRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "loadedCopy": true,
+        "sourceConflict": null,
+        "sha256": "612c384c553bf8f514e1d453a39d84d37918cf94a1185f24fa0562f212c97171",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "memory-library:Component_WindowB.hda",
+        "sourceId": "memory-library",
+        "relativePath": "Component_WindowB.hda",
+        "localPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WindowB.hda",
+        "size": 13736,
+        "mtimeMs": 1790996757321.3901,
+        "ctimeMs": 1790996757324.3647,
+        "changeToken": "16777232:171274792:13736:1790996757321.3901:1790996757324.3647",
+        "workingRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "loadedCopy": true,
+        "sourceConflict": null,
+        "sha256": "ea6f540938dab7d4134ff11b32b0be2b269e3a39dbc132f1d9a86b083c94dfaa",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "memory-library:Component_WoodFacade.hda",
+        "sourceId": "memory-library",
+        "relativePath": "Component_WoodFacade.hda",
+        "localPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library/Component_WoodFacade.hda",
+        "size": 10529,
+        "mtimeMs": 1790996758421.8154,
+        "ctimeMs": 1790996758424.8157,
+        "changeToken": "16777232:171274795:10529:1790996758421.8154:1790996758424.8157",
+        "workingRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/houdini/memory-library",
+        "loadedCopy": true,
+        "sourceConflict": null,
+        "sha256": "3e85bed633781c677f75fb18e8fa5c7c3af2c2bec84b23d303c8ea53c79c88ce",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "workshop:AGENTS.md",
+        "sourceId": "workshop",
+        "relativePath": "AGENTS.md",
+        "localPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/tmp/workshop/AGENTS.md",
+        "size": 803,
+        "mtimeMs": 1790997392565.1292,
+        "ctimeMs": 1790997392565.1292,
+        "changeToken": "16777232:171282428:803:1790997392565.1292:1790997392565.1292",
+        "workingRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/tmp/workshop",
+        "loadedCopy": true,
+        "sourceConflict": null,
+        "sha256": "51b4067945ebaf0b287df881997ba5f86d9b4489b4cb72f99daa2d4db76e8e53",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "workshop:CLAUDE.md",
+        "sourceId": "workshop",
+        "relativePath": "CLAUDE.md",
+        "localPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/tmp/workshop/CLAUDE.md",
+        "size": 803,
+        "mtimeMs": 1790997392564.829,
+        "ctimeMs": 1790997392564.829,
+        "changeToken": "16777232:171282427:803:1790997392564.829:1790997392564.829",
+        "workingRoot": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59/sources/tmp/workshop",
+        "loadedCopy": true,
+        "sourceConflict": null,
+        "sha256": "51b4067945ebaf0b287df881997ba5f86d9b4489b4cb72f99daa2d4db76e8e53",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "project-notes:FEEDBACK.md",
+        "sourceId": "project-notes",
+        "relativePath": "FEEDBACK.md",
+        "localPath": "/Users/zenray/.claude/Memory1/Projects/zenray-houdini-library/FEEDBACK.md",
+        "size": 477,
+        "mtimeMs": 1790993083794.341,
+        "ctimeMs": 1790993083794.341,
+        "changeToken": "16777232:171190947:477:1790993083794.341:1790993083794.341",
+        "sha256": "1da1931e2a892abac9979817fa3faf0faa77349842d7d6515c2891d5a7474b46",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "project-notes:Project.json",
+        "sourceId": "project-notes",
+        "relativePath": "Project.json",
+        "localPath": "/Users/zenray/.claude/Memory1/Projects/zenray-houdini-library/Project.json",
+        "size": 671,
+        "mtimeMs": 1790997392563.9539,
+        "ctimeMs": 1790997392564.2583,
+        "changeToken": "16777232:171282426:671:1790997392563.9539:1790997392564.2583",
+        "sha256": "0de30c5115b59ef8ccd5d4255643f0bc954ff96d6411faab4aecdb8d97c07be2",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      },
+      {
+        "id": "project-notes:Project1.md",
+        "sourceId": "project-notes",
+        "relativePath": "Project1.md",
+        "localPath": "/Users/zenray/.claude/Memory1/Projects/zenray-houdini-library/Project1.md",
+        "size": 327,
+        "mtimeMs": 1790993083738.637,
+        "ctimeMs": 1790993083738.637,
+        "changeToken": "16777232:171190946:327:1790993083738.637:1790993083738.637",
+        "sha256": "ecb25cbb3835cf76309aa7bb4afcead8b50af010531066e0b37ee254eb297b30",
+        "olderLocal": false,
+        "preservedOriginalVersion": null
+      }
+    ],
+    "excluded": 0,
+    "issues": []
+  },
+  "syncState": null,
+  "error": null,
+  "pendingIndex": [],
+  "publishedAt": "2026-10-07T08:33:07.879Z",
+  "productionBaselines": {
+    "skill-library:zenray_picket_fence.hda": {
+      "changeToken": "16777230:157202506:12298:1789487887992.6233:1789487887992.6233",
+      "sha256": "8e55e885f2ac22d0724c933c8f550eff3c7b2fd51adc49453d368b8adf101fb0"
+    },
+    "skill-library:ZenRayChurchHero.hda": {
+      "changeToken": "16777230:164305022:96583:1789837997502.5837:1789837997502.5837",
+      "sha256": "a4114a5a0ba3d625d447a005e0455746288292ace65686b25024afb8411d59d6"
+    },
+    "memory-library:Component_Armature.hda": {
+      "changeToken": "16777230:126930010:11536:1789838043296.7705:1789838043296.7705",
+      "sha256": "c8ed1e5945c7594a8a8168815b7846657b997f00079975ccff6ab1044853ab17"
+    },
+    "memory-library:Component_Roof.hda": {
+      "changeToken": "16777230:132770393:15193:1789838043329.0542:1789838043329.0542",
+      "sha256": "28c05ae95d9f4a4798ded2226c114a7c528e0560f927daac25bc2c5f187e7ed5"
+    },
+    "memory-library:Component_WindowA.hda": {
+      "changeToken": "16777230:132850366:17210:1789216401711.4946:1789216401711.4946",
+      "sha256": "612c384c553bf8f514e1d453a39d84d37918cf94a1185f24fa0562f212c97171"
+    },
+    "memory-library:Component_WindowB.hda": {
+      "changeToken": "16777230:132853776:13736:1789155740857.0781:1789155740857.0781",
+      "sha256": "ea6f540938dab7d4134ff11b32b0be2b269e3a39dbc132f1d9a86b083c94dfaa"
+    },
+    "memory-library:Component_WoodFacade.hda": {
+      "changeToken": "16777230:126936792:10529:1789384277956.268:1789384277956.268",
+      "sha256": "3e85bed633781c677f75fb18e8fa5c7c3af2c2bec84b23d303c8ea53c79c88ce"
+    },
+    "workshop:AGENTS.md": {
+      "changeToken": "16777230:171190945:725:1790993083738.4546:1790993083738.4546",
+      "sha256": "b8840f2615e6aba3f461139f35ae144f1cbb22447a2d41e9fff189437c66ee72"
+    },
+    "workshop:CLAUDE.md": {
+      "changeToken": "16777230:171190944:725:1790993083738.2563:1790993083738.2563",
+      "sha256": "b8840f2615e6aba3f461139f35ae144f1cbb22447a2d41e9fff189437c66ee72"
+    },
+    "project-notes:FEEDBACK.md": {
+      "changeToken": "16777230:171190947:477:1790993083794.341:1790993083794.341",
+      "sha256": "1da1931e2a892abac9979817fa3faf0faa77349842d7d6515c2891d5a7474b46"
+    },
+    "project-notes:Project.json": {
+      "changeToken": "16777230:171190943:593:1790993083737.7446:1790993083737.913",
+      "sha256": "86b97ab51e470c8d19df8ef5389268d928bbb3932f1d0fe5cc8ba943ec85f3ab"
+    },
+    "project-notes:Project1.md": {
+      "changeToken": "16777230:171190946:327:1790993083738.637:1790993083738.637",
+      "sha256": "ecb25cbb3835cf76309aa7bb4afcead8b50af010531066e0b37ee254eb297b30"
+    }
+  },
+  "workspacePath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+  "comparisonHashes": {
+    "/Users/zenray/.claude/skills/zenray-houdini/otls/zenray_picket_fence.hda": {
+      "changeToken": "16777232:157202506:12298:1789487887992.6233:1789487887992.6233",
+      "sha256": "8e55e885f2ac22d0724c933c8f550eff3c7b2fd51adc49453d368b8adf101fb0"
+    },
+    "/Users/zenray/.claude/skills/zenray-houdini/otls/ZenRayChurchHero.hda": {
+      "changeToken": "16777232:164305022:96583:1789837997502.5837:1789837997502.5837",
+      "sha256": "a4114a5a0ba3d625d447a005e0455746288292ace65686b25024afb8411d59d6"
+    },
+    "/Users/zenray/.claude/Memory1/Houdini/otls/Component_Armature.hda": {
+      "changeToken": "16777232:126930010:11536:1789838043296.7705:1789838043296.7705",
+      "sha256": "c8ed1e5945c7594a8a8168815b7846657b997f00079975ccff6ab1044853ab17"
+    },
+    "/Users/zenray/.claude/Memory1/Houdini/otls/Component_Roof.hda": {
+      "changeToken": "16777232:132770393:15193:1789838043329.0542:1789838043329.0542",
+      "sha256": "28c05ae95d9f4a4798ded2226c114a7c528e0560f927daac25bc2c5f187e7ed5"
+    },
+    "/Users/zenray/.claude/Memory1/Houdini/otls/Component_WindowA.hda": {
+      "changeToken": "16777232:132850366:17210:1789216401711.4946:1789216401711.4946",
+      "sha256": "612c384c553bf8f514e1d453a39d84d37918cf94a1185f24fa0562f212c97171"
+    },
+    "/Users/zenray/.claude/Memory1/Houdini/otls/Component_WindowB.hda": {
+      "changeToken": "16777232:132853776:13736:1789155740857.0781:1789155740857.0781",
+      "sha256": "ea6f540938dab7d4134ff11b32b0be2b269e3a39dbc132f1d9a86b083c94dfaa"
+    },
+    "/Users/zenray/.claude/Memory1/Houdini/otls/Component_WoodFacade.hda": {
+      "changeToken": "16777232:126936792:10529:1789384277956.268:1789384277956.268",
+      "sha256": "3e85bed633781c677f75fb18e8fa5c7c3af2c2bec84b23d303c8ea53c79c88ce"
+    },
+    "/Users/zenray/.claude/tmp/tmp-zenray-houdini-library/AGENTS.md": {
+      "changeToken": "16777232:171190945:725:1790993083738.4546:1790993083738.4546",
+      "sha256": "b8840f2615e6aba3f461139f35ae144f1cbb22447a2d41e9fff189437c66ee72"
+    },
+    "/Users/zenray/.claude/tmp/tmp-zenray-houdini-library/CLAUDE.md": {
+      "changeToken": "16777232:171190944:725:1790993083738.2563:1790993083738.2563",
+      "sha256": "b8840f2615e6aba3f461139f35ae144f1cbb22447a2d41e9fff189437c66ee72"
+    }
+  }
+}

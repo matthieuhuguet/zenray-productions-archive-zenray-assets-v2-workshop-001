@@ -1,0 +1,28 @@
+// 7 October 2026: payload sizes of the polled bridge actions, and a breakdown of sceneReferenceContexts.
+import { readFile } from 'node:fs/promises'
+import path from 'node:path'
+const REPO = '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress'
+const { AssetsService } = await import(`${REPO}/scripts/AssetsService.mjs`)
+const { combineWorkspaceFiles } = await import(`${REPO}/src/lib/projectWorkspace.js`)
+const { mapSceneReferences } = await import(`${REPO}/src/lib/sceneReferenceMapping.js`)
+const config = JSON.parse(await readFile(`${REPO}/scripts/AssetsConfig.json`, 'utf8'))
+config.storage.stateDir = path.join(process.env.S, 'state'); config.sceneAudit = { ...config.sceneAudit, enabled: false }
+const svc = await new AssetsService(config, { getToken: async () => 'x' }).initialize()
+const t = async (label, fn) => { const a = performance.now(); const r = await fn(); console.log(label.padEnd(66), (performance.now() - a).toFixed(1), 'ms'); return r }
+const veg = 'vegetation-assets-collection-01'
+const st = await t('request status veg (snapshot)', () => svc.request('status', { projectId: veg }))
+const body = await t('JSON.stringify status veg response', () => JSON.stringify(st))
+console.log('status veg response bytes', body.length)
+const list = await t('request list', () => svc.request('list'))
+const lb = await t('JSON.stringify list response', () => JSON.stringify(list))
+console.log('list response bytes', lb.length)
+const conv = await t('request conversations', () => svc.request('conversations'))
+console.log('conversations count', conv.conversations.length, 'bytes', JSON.stringify(conv).length)
+// breakdown
+const projects = await t('sceneReferenceContexts step1: combineWorkspaceFiles all 18 projects', () => [...svc.projects.values()].map((project) => ({ ...project, files: combineWorkspaceFiles(project, svc.state(project.id).inventory?.localFiles || [], svc.state(project.id).backups, svc.state(project.id).restorations).map((file) => ({ ...file, canonicalPath: file.present ? file.localPath : null, originCanonicalPath: file.loadedCopy ? path.join(project.sources.find((s) => s.id === file.sourceId).localPath, file.relativePath) : null })) })))
+console.log('total files across projects', projects.reduce((s, p) => s + p.files.length, 0))
+const audits = Object.entries(svc.state('ceramic-tiles').sceneAudits || {})
+await t(`mapSceneReferences x${audits.length} ceramic audits`, () => audits.map(([sceneFileId, entry]) => { try { return mapSceneReferences({ projectId: 'ceramic-tiles', sceneFileId, sceneSha256: entry.audit.sceneSha256, audit: entry.audit, projects }) } catch (e) { return e.message } }))
+let withAudits = 0; for (const id of svc.projects.keys()) if (Object.keys(svc.state(id).sceneAudits || {}).length) withAudits++
+console.log('projects with sceneAudits', withAudits)
+await svc.close()

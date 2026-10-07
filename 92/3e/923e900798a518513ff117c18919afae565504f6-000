@@ -1,0 +1,47 @@
+# Control Resonant Hub Assets (7 October 2026)
+
+Project ID: control-resonant-hub-assets. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/control-resonant-hub-assets/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/control-resonant-hub-assets/.workspace.json. (7 October 2026)
+
+## Linked conversations (7 October 2026)
+- Agent not indexed yet: d0b167b1-b03d-4ac3-a191-817904d44987, session d0b167b1-b03d-4ac3-a191-817904d44987, reader d0b167b1-b03d-4ac3-a191-817904d44987. (7 October 2026)
+- Agent not indexed yet: 8650ff01-823c-4f46-a9e4-ee9daa47ccba, session 8650ff01-823c-4f46-a9e4-ee9daa47ccba, reader 8650ff01-823c-4f46-a9e4-ee9daa47ccba. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/.claude/tmp/tmp-control-resonant-hub-assets. (7 October 2026)
+
+## Scene resource mapping (7 October 2026)
+- workshop:hip/Control_Brutalist_Fountain_v001.hip: current; SHA256 67abbd920d9301cba3f28cae8e662d1f2f3bae4c5f482fb0002e8ff7eb65cc10; mapped: 1, unresolved: 1. Runtime portability remains unverified. (7 October 2026)
+- workshop:hip/Control_Brutalist_Fountain_v001.hiplc: current; SHA256 75e2c66e14aa37e215d051e8ba72317b27a4bde26c3213d8470515192cea4c40; unresolved: 1. Runtime portability remains unverified. (7 October 2026)
+Read sceneReferences in the project snapshot for exact resource projectId/fileId links. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-control-resonant-hub-assets; cloud: pages/ZenRayAssets/control-resonant-hub-assets/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/control-resonant-hub-assets; cloud: pages/ZenRayAssets/control-resonant-hub-assets/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+No source linked. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:ConversationIndex.md: /Users/zenray/.claude/Memory1/Projects/control-resonant-hub-assets/ConversationIndex.md; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/control-resonant-hub-assets/FEEDBACK.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/control-resonant-hub-assets/Project1.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-hub-assets/AGENTS.md; cloud: pages/ZenRayAssets/control-resonant-hub-assets/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-hub-assets/CLAUDE.md; cloud: pages/ZenRayAssets/control-resonant-hub-assets/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/control-resonant-hub-assets/FEEDBACK.md; cloud: pages/ZenRayAssets/control-resonant-hub-assets/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/control-resonant-hub-assets/Project1.md; cloud: pages/ZenRayAssets/control-resonant-hub-assets/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:ConversationIndex.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/control-resonant-hub-assets/ConversationIndex.md; cloud: pages/ZenRayAssets/control-resonant-hub-assets/sources/memory/project-notes/ConversationIndex.md.file.json; status: backed-up. (7 October 2026)
+- workshop:ref/ASSET_MANIFEST.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-control-resonant-hub-assets/ref/ASSET_MANIFEST.md; cloud: pages/ZenRayAssets/control-resonant-hub-assets/sources/tmp/workshop/ref/ASSET_MANIFEST.md.file.json; status: backed-up. (7 October 2026)
+
+Mapped files: 61; verified archive records: 61. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

@@ -1,0 +1,54 @@
+# Environnement japonais (7 October 2026)
+
+Project ID: japanese-environment. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/japanese-environment/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context, zenray-houdini, zrs. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/japanese-environment/.workspace.json. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-ModelingJapan1. (7 October 2026)
+
+## Scene resource mapping (7 October 2026)
+- production:ModelingJapan_01.hip: current; SHA256 0cd4a5be69259bd70c0fa062c877731fc055c63af12c2ab44d69d5e42f214c8d; mapped: 1, unresolved: 1. Runtime portability remains unverified. (7 October 2026)
+- production:ModelingJapan_01.hiplc: current; SHA256 51cc358da422da2273aea3cd9eaeecd98797e3b0e5eb606ff2b490752a485770; mapped: 1, unresolved: 1. Runtime portability remains unverified. (7 October 2026)
+Read sceneReferences in the project snapshot for exact resource projectId/fileId links. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-ModelingJapan1; cloud: pages/ZenRayAssets/japanese-environment/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- posts: /Users/zenray/.claude/Memory1/SocialMedia/Posts/short-01-modeling-japan; cloud: pages/ZenRayAssets/japanese-environment/sources/memory/posts; include: null; exclude: []. (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/japanese-environment; cloud: pages/ZenRayAssets/japanese-environment/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+- production: /Users/zenray/Create/Build/Productions/ZenRayHoudini/ModelingJapan_01; cloud: pages/ZenRayAssets/japanese-environment/sources/houdini/production; include: null; exclude: []. (7 October 2026)
+
+## unreal (7 October 2026)
+- game-assets: /Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards/Content/ModelingJapan_01; cloud: pages/ZenRayAssets/japanese-environment/sources/unreal/game-assets; include: null; exclude: []. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+- zenray-shards-core: pages/ZenRayAssets/zenray-shards-core/.workspace.json. Read this host separately; its files are shared. (7 October 2026)
+- External dependency note: Houdini 22 and Houdini Engine are external dependencies; no matching Unreal environment folder has yet been found.. (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/japanese-environment/FEEDBACK.md; status: backed-up. (7 October 2026)
+- posts:post_01_modeling_japan.md: /Users/zenray/.claude/Memory1/SocialMedia/Posts/short-01-modeling-japan/post_01_modeling_japan.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- production:FEEDBACK.md [houdini]: Mac: /Users/zenray/Create/Build/Productions/ZenRayHoudini/ModelingJapan_01/FEEDBACK.md; cloud: pages/ZenRayAssets/japanese-environment/sources/houdini/production/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/japanese-environment/FEEDBACK.md; cloud: pages/ZenRayAssets/japanese-environment/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- workshop:gemini-components/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-ModelingJapan1/gemini-components/README.md; cloud: pages/ZenRayAssets/japanese-environment/sources/tmp/workshop/gemini-components/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:short-01-modeling-japan/Post/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-ModelingJapan1/short-01-modeling-japan/Post/README.md; cloud: pages/ZenRayAssets/japanese-environment/sources/tmp/workshop/short-01-modeling-japan/Post/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:short-01-modeling-japan/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-ModelingJapan1/short-01-modeling-japan/README.md; cloud: pages/ZenRayAssets/japanese-environment/sources/tmp/workshop/short-01-modeling-japan/README.md.file.json; status: backed-up. (7 October 2026)
+- production:breakdowns/09_Roof_breakdown.md [houdini]: Mac: /Users/zenray/Create/Build/Productions/ZenRayHoudini/ModelingJapan_01/breakdowns/09_Roof_breakdown.md; cloud: pages/ZenRayAssets/japanese-environment/sources/houdini/production/breakdowns/09_Roof_breakdown.md.file.json; status: backed-up. (7 October 2026)
+- production:breakdowns/10_Entrance_breakdown.md [houdini]: Mac: /Users/zenray/Create/Build/Productions/ZenRayHoudini/ModelingJapan_01/breakdowns/10_Entrance_breakdown.md; cloud: pages/ZenRayAssets/japanese-environment/sources/houdini/production/breakdowns/10_Entrance_breakdown.md.file.json; status: backed-up. (7 October 2026)
+- production:breakdowns/11_ShrinePlatform_breakdown.md [houdini]: Mac: /Users/zenray/Create/Build/Productions/ZenRayHoudini/ModelingJapan_01/breakdowns/11_ShrinePlatform_breakdown.md; cloud: pages/ZenRayAssets/japanese-environment/sources/houdini/production/breakdowns/11_ShrinePlatform_breakdown.md.file.json; status: backed-up. (7 October 2026)
+- production:breakdowns/12_Torii_breakdown.md [houdini]: Mac: /Users/zenray/Create/Build/Productions/ZenRayHoudini/ModelingJapan_01/breakdowns/12_Torii_breakdown.md; cloud: pages/ZenRayAssets/japanese-environment/sources/houdini/production/breakdowns/12_Torii_breakdown.md.file.json; status: backed-up. (7 October 2026)
+- production:breakdowns/13_SceneProxies_breakdown.md [houdini]: Mac: /Users/zenray/Create/Build/Productions/ZenRayHoudini/ModelingJapan_01/breakdowns/13_SceneProxies_breakdown.md; cloud: pages/ZenRayAssets/japanese-environment/sources/houdini/production/breakdowns/13_SceneProxies_breakdown.md.file.json; status: backed-up. (7 October 2026)
+- production:breakdowns/14_StoneLantern_breakdown.md [houdini]: Mac: /Users/zenray/Create/Build/Productions/ZenRayHoudini/ModelingJapan_01/breakdowns/14_StoneLantern_breakdown.md; cloud: pages/ZenRayAssets/japanese-environment/sources/houdini/production/breakdowns/14_StoneLantern_breakdown.md.file.json; status: backed-up. (7 October 2026)
+- workshop:components-breakdown/PromptsN01N16.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-ModelingJapan1/components-breakdown/PromptsN01N16.md; cloud: pages/ZenRayAssets/japanese-environment/sources/tmp/workshop/components-breakdown/PromptsN01N16.md.file.json; status: backed-up. (7 October 2026)
+- production:FEEDBACK_tmp.md [houdini]: Mac: /Users/zenray/Create/Build/Productions/ZenRayHoudini/ModelingJapan_01/FEEDBACK_tmp.md; cloud: pages/ZenRayAssets/japanese-environment/sources/houdini/production/FEEDBACK_tmp.md.file.json; status: backed-up. (7 October 2026)
+- posts:post_01_modeling_japan.md [memory]: Mac: /Users/zenray/.claude/Memory1/SocialMedia/Posts/short-01-modeling-japan/post_01_modeling_japan.md; cloud: pages/ZenRayAssets/japanese-environment/sources/memory/posts/post_01_modeling_japan.md.file.json; status: backed-up. (7 October 2026)
+- workshop:short-01-modeling-japan/04_plan/short_01_plan.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-ModelingJapan1/short-01-modeling-japan/04_plan/short_01_plan.md; cloud: pages/ZenRayAssets/japanese-environment/sources/tmp/workshop/short-01-modeling-japan/04_plan/short_01_plan.md.file.json; status: backed-up. (7 October 2026)
+
+Mapped files: 222; verified archive records: 222. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

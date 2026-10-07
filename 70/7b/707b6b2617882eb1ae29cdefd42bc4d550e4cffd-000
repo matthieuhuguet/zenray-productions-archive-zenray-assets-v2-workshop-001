@@ -1,0 +1,60 @@
+# ToDo3D (7 October 2026)
+
+Project ID: conversation-codex-e37a471e98d4d9ae226a3725. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/conversation-codex-e37a471e98d4d9ae226a3725/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/.workspace.json. (7 October 2026)
+
+## Linked conversations (7 October 2026)
+- Agent not indexed yet: 01a10b9b-9119-7483-81d0-f832130bd804, session 01a10b9b-9119-7483-81d0-f832130bd804, reader 01a10b9b-9119-7483-81d0-f832130bd804. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/conversation-codex-e37a471e98d4d9ae226a3725; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+No source linked. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:ConversationIndex.md: /Users/zenray/.claude/Memory1/Projects/conversation-codex-e37a471e98d4d9ae226a3725/ConversationIndex.md; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/conversation-codex-e37a471e98d4d9ae226a3725/FEEDBACK.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/conversation-codex-e37a471e98d4d9ae226a3725/Project1.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/AGENTS.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/CLAUDE.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/conversation-codex-e37a471e98d4d9ae226a3725/FEEDBACK.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/conversation-codex-e37a471e98d4d9ae226a3725/Project1.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/CLAUDE.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/Cloud/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/Cloud/README.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/Cloud/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/zenraymedia/_source-matthieu/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/zenraymedia/_source-matthieu/README.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/zenraymedia/_source-matthieu/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/zenraymedia/ateliers/T-01-1-1--LeMonde/reference/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/zenraymedia/ateliers/T-01-1-1--LeMonde/reference/README.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/zenraymedia/ateliers/T-01-1-1--LeMonde/reference/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/zenraymedia/audits/2026-08-06/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/zenraymedia/audits/2026-08-06/README.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/zenraymedia/audits/2026-08-06/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/zenraymedia/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/zenraymedia/README.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/zenraymedia/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/README.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/src/zenraymedia/themes/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/src/zenraymedia/themes/README.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/src/zenraymedia/themes/README.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/src/zenraymedia/themes/T-01-1-1--une-nationale-du-matin/README.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/src/zenraymedia/themes/T-01-1-1--une-nationale-du-matin/README.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/src/zenraymedia/themes/T-01-1-1--une-nationale-du-matin/README.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:ConversationIndex.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/conversation-codex-e37a471e98d4d9ae226a3725/ConversationIndex.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/memory/project-notes/ConversationIndex.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/Cloud/PLAN.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/Cloud/PLAN.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/Cloud/PLAN.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/accents/RECENSEMENT.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/accents/RECENSEMENT.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/accents/RECENSEMENT.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/ARCHITECTURE-MEDIA.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/ARCHITECTURE-MEDIA.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/ARCHITECTURE-MEDIA.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/ARCHITECTURE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/ARCHITECTURE.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/ARCHITECTURE.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/articles/plan.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/articles/plan.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/articles/plan.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/AssetsWorkspace.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/AssetsWorkspace.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/AssetsWorkspace.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/audio-widget-implementation.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/audio-widget-implementation.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/audio-widget-implementation.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/AUDIT-2026-06-03.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/AUDIT-2026-06-03.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/AUDIT-2026-06-03.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/AUDIT-2026-06-06-review-needed.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/AUDIT-2026-06-06-review-needed.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/AUDIT-2026-06-06-review-needed.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Release/docs/AUDIT-2026-06-06-todo.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/docs/AUDIT-2026-06-06-todo.md; cloud: pages/ZenRayAssets/conversation-codex-e37a471e98d4d9ae226a3725/sources/tmp/workshop/Release/docs/AUDIT-2026-06-06-todo.md.file.json; status: backed-up. (7 October 2026)
+Showing 24 of 515 documents; the complete list is context.documents in the global project index. (7 October 2026)
+
+Mapped files: 8098; verified archive records: 8098. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

@@ -1,0 +1,31 @@
+# ZenRayShards (7 October 2026)
+
+Project ID: zenray-shards-core. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/zenray-shards-core/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context, zrs. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/zenray-shards-core/.workspace.json. (7 October 2026)
+
+## tmp (7 October 2026)
+No source linked. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/zenray-shards-core; cloud: pages/ZenRayAssets/zenray-shards-core/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+No source linked. (7 October 2026)
+
+## unreal (7 October 2026)
+- unreal-host: /Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards; cloud: pages/ZenRayAssets/zenray-shards-core/sources/unreal/unreal-host; include: ["ZenRayShards.uproject","Config","Plugins"]; exclude: []. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/zenray-shards-core/FEEDBACK.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-shards-core/FEEDBACK.md; cloud: pages/ZenRayAssets/zenray-shards-core/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- unreal-host:Plugins/UnrealEngine/README.md [unreal]: Mac: /Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards/Plugins/UnrealEngine/README.md; cloud: pages/ZenRayAssets/zenray-shards-core/sources/unreal/unreal-host/Plugins/UnrealEngine/README.md.file.json; status: backed-up. (7 October 2026)
+- unreal-host:Plugins/UnrealEngine/LICENSE.md [unreal]: Mac: /Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards/Plugins/UnrealEngine/LICENSE.md; cloud: pages/ZenRayAssets/zenray-shards-core/sources/unreal/unreal-host/Plugins/UnrealEngine/LICENSE.md.file.json; status: backed-up. (7 October 2026)
+
+Mapped files: 948; verified archive records: 948. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

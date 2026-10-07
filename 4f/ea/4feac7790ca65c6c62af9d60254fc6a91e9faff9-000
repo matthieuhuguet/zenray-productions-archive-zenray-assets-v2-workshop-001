@@ -1,0 +1,21 @@
+// 7 October 2026: read-only estimate of the 'status' payload for one project, using the real pure helpers.
+import { readFileSync } from 'node:fs'
+import { combineWorkspaceFiles, workspaceSummary } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js'
+import { buildProjectMapping } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectContextIndex.js'
+const dir = process.argv[2], id = process.argv[3]
+const registry = JSON.parse(readFileSync(`${dir}/Projects.json`, 'utf8'))
+const project = registry.projects.find((p) => p.id === id)
+let t = performance.now()
+const state = JSON.parse(readFileSync(`${dir}/Project-${id}.json`, 'utf8'))
+const tParse = performance.now() - t
+t = performance.now()
+const files = combineWorkspaceFiles(project, state.inventory.localFiles, state.backups, state.restorations)
+const tCombine = performance.now() - t
+const summary = workspaceSummary(files, { state: 'idle', checkedAt: state.inventory.checkedAt })
+const result = { ...project, checkedAt: state.inventory.checkedAt, sources: state.inventory.sources, files, inventory: { count: summary.count }, sync: summary, jobs: [], sceneReferences: [], events: [] }
+t = performance.now()
+const mapping = buildProjectMapping(result)
+const tMap = performance.now() - t
+const body = JSON.stringify({ project: { ...result, mapping }, checkedAt: new Date().toISOString() })
+t = performance.now(); JSON.parse(body); const tClientParse = performance.now() - t
+console.log(JSON.stringify({ id, files: files.length, filesBytes: JSON.stringify(files).length, mappingBytes: JSON.stringify(mapping).length, statusBytesNoEvents: body.length, msParseState: +tParse.toFixed(1), msCombine: +tCombine.toFixed(1), msMapping: +tMap.toFixed(1), msJsonParseBody: +tClientParse.toFixed(1) }))

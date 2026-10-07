@@ -1,0 +1,40 @@
+# Lectures relationnel (7 October 2026)
+
+Project ID: conversation-claude-dd651e1477395f9ca214f8a6. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/conversation-claude-dd651e1477395f9ca214f8a6/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/conversation-claude-dd651e1477395f9ca214f8a6/.workspace.json. (7 October 2026)
+
+## Linked conversations (7 October 2026)
+- Agent not indexed yet: 9c41cdcf-08d1-4a4b-8704-9a0cf6372d1e, session 9c41cdcf-08d1-4a4b-8704-9a0cf6372d1e, reader 9c41cdcf-08d1-4a4b-8704-9a0cf6372d1e. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/.claude/tmp/tmp-conversation-claude-dd651e1477395f9ca214f8a6. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-conversation-claude-dd651e1477395f9ca214f8a6; cloud: pages/ZenRayAssets/conversation-claude-dd651e1477395f9ca214f8a6/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/conversation-claude-dd651e1477395f9ca214f8a6; cloud: pages/ZenRayAssets/conversation-claude-dd651e1477395f9ca214f8a6/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+No source linked. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:ConversationIndex.md: /Users/zenray/.claude/Memory1/Projects/conversation-claude-dd651e1477395f9ca214f8a6/ConversationIndex.md; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/conversation-claude-dd651e1477395f9ca214f8a6/FEEDBACK.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/conversation-claude-dd651e1477395f9ca214f8a6/Project1.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-claude-dd651e1477395f9ca214f8a6/AGENTS.md; cloud: pages/ZenRayAssets/conversation-claude-dd651e1477395f9ca214f8a6/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-conversation-claude-dd651e1477395f9ca214f8a6/CLAUDE.md; cloud: pages/ZenRayAssets/conversation-claude-dd651e1477395f9ca214f8a6/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/conversation-claude-dd651e1477395f9ca214f8a6/FEEDBACK.md; cloud: pages/ZenRayAssets/conversation-claude-dd651e1477395f9ca214f8a6/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/conversation-claude-dd651e1477395f9ca214f8a6/Project1.md; cloud: pages/ZenRayAssets/conversation-claude-dd651e1477395f9ca214f8a6/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:ConversationIndex.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/conversation-claude-dd651e1477395f9ca214f8a6/ConversationIndex.md; cloud: pages/ZenRayAssets/conversation-claude-dd651e1477395f9ca214f8a6/sources/memory/project-notes/ConversationIndex.md.file.json; status: backed-up. (7 October 2026)
+
+Mapped files: 7; verified archive records: 7. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

@@ -1,0 +1,40 @@
+# ZenRayProgress (7 October 2026)
+
+Project ID: zenray-progress. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/zenray-progress/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/zenray-progress/.workspace.json. (7 October 2026)
+
+## Linked conversations (7 October 2026)
+- Agent not indexed yet: 01a100e2-32f9-7a43-8b5f-ef21c5f96d4d, session 01a100e2-32f9-7a43-8b5f-ef21c5f96d4d, reader 01a100e2-32f9-7a43-8b5f-ef21c5f96d4d. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/.claude/tmp/tmp-zenray-progress. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-zenray-progress; cloud: pages/ZenRayAssets/zenray-progress/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/zenray-progress; cloud: pages/ZenRayAssets/zenray-progress/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+No source linked. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:ConversationIndex.md: /Users/zenray/.claude/Memory1/Projects/zenray-progress/ConversationIndex.md; status: pending. (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/zenray-progress/FEEDBACK.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/zenray-progress/Project1.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-progress/AGENTS.md; cloud: pages/ZenRayAssets/zenray-progress/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-progress/CLAUDE.md; cloud: pages/ZenRayAssets/zenray-progress/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-progress/FEEDBACK.md; cloud: pages/ZenRayAssets/zenray-progress/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-progress/Project1.md; cloud: pages/ZenRayAssets/zenray-progress/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:ConversationIndex.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-progress/ConversationIndex.md; cloud: pages/ZenRayAssets/zenray-progress/sources/memory/project-notes/ConversationIndex.md.file.json; status: pending. (7 October 2026)
+
+Mapped files: 8; verified archive records: 6. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)

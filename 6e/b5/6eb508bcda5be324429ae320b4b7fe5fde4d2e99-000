@@ -1,0 +1,66 @@
+# ZenRay Assets V2 (7 October 2026)
+
+Project ID: zenray-assets-v2. (7 October 2026)
+Read canonical feedback first: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/FEEDBACK.md. (7 October 2026)
+Skills: zenray-assets-v2, zenrayprogress-context. (7 October 2026)
+Files and archive proofs: pages/ZenRayAssets/zenray-assets-v2/.workspace.json. (7 October 2026)
+
+## Linked conversations (7 October 2026)
+- codex: 01a0fc34-0a94-7f11-a21d-325072a6edb2, session 01a0fc34-0a94-7f11-a21d-325072a6edb2, reader codex:01a0fc34-0a94-7f11-a21d-325072a6edb2. (7 October 2026)
+
+Write new project files in this workshop: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop. (7 October 2026)
+
+## Preserved original versions (7 October 2026)
+- workshop:AGENTS.md: original version workshop:versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/AGENTS.md, SHA256 70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b, verified archive pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/AGENTS.md.file.json. Active copy remains the main working identity. (7 October 2026)
+- workshop:CLAUDE.md: original version workshop:versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/CLAUDE.md, SHA256 70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b, verified archive pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/CLAUDE.md.file.json. Active copy remains the main working identity. (7 October 2026)
+- workshop:state.json: original version workshop:versions/workshop/8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6/state.json, SHA256 8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6, verified archive pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6/state.json.file.json. Active copy remains the main working identity. (7 October 2026)
+
+## tmp (7 October 2026)
+- workshop: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop; include: null; exclude: []. (7 October 2026)
+
+## memory (7 October 2026)
+- project-notes: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/memory/project-notes; include: null; exclude: []. (7 October 2026)
+
+## houdini (7 October 2026)
+No source linked. (7 October 2026)
+
+## unreal (7 October 2026)
+No source linked. (7 October 2026)
+
+## Shared dependencies (7 October 2026)
+
+## Memory entry points (7 October 2026)
+- project-notes:ConversationIndex.md: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/ConversationIndex.md; status: pending. (7 October 2026)
+- project-notes:FEEDBACK.md: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/FEEDBACK.md; status: backed-up. (7 October 2026)
+- project-notes:Project1.md: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/Project1.md; status: backed-up. (7 October 2026)
+- project-notes:ZenRayAssetsV2.md: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/ZenRayAssetsV2.md; status: backed-up. (7 October 2026)
+
+## Project documents across all sources (7 October 2026)
+These are pointers to the original documents, not inferred knowledge or conversation summaries. Read the relevant files before making project decisions. (7 October 2026)
+- workshop:AGENTS.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/AGENTS.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CLAUDE.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/CLAUDE.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:FEEDBACK.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/FEEDBACK.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/memory/project-notes/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- workshop:FEEDBACK.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/FEEDBACK.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/FEEDBACK.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:Project1.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/Project1.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/memory/project-notes/Project1.md.file.json; status: backed-up. (7 October 2026)
+- workshop:versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/AGENTS.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/AGENTS.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/AGENTS.md.file.json; status: backed-up. (7 October 2026)
+- workshop:versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/CLAUDE.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/CLAUDE.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b/CLAUDE.md.file.json; status: backed-up. (7 October 2026)
+- workshop:ArchitectureMaturityAudit.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/ArchitectureMaturityAudit.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/ArchitectureMaturityAudit.md.file.json; status: backed-up. (7 October 2026)
+- workshop:CloudDependencyPublicationAudit.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/CloudDependencyPublicationAudit.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/CloudDependencyPublicationAudit.md.file.json; status: backed-up. (7 October 2026)
+- workshop:ConversationContext.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/ConversationContext.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/ConversationContext.md.file.json; status: backed-up. (7 October 2026)
+- project-notes:ConversationIndex.md [memory]: Mac: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/ConversationIndex.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/memory/project-notes/ConversationIndex.md.file.json; status: pending. (7 October 2026)
+- workshop:ExplorerImpactAudit.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/ExplorerImpactAudit.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/ExplorerImpactAudit.md.file.json; status: backed-up. (7 October 2026)
+- workshop:HoudiniPreparationContractAudit.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/HoudiniPreparationContractAudit.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/HoudiniPreparationContractAudit.md.file.json; status: backed-up. (7 October 2026)
+- workshop:Index.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/Index.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/Index.md.file.json; status: backed-up. (7 October 2026)
+- workshop:LoadScenePortabilityAudit.md [tmp]: Mac: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/LoadScenePortabilityAudit.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/LoadScenePortabilityAudit.md.file.json; status: backed-up. (7 October 2026)
+- workshop:perf-audit-7-October-2026/scratch-hotpaths/state/contexts/agent-conversations.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/agent-conversations.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/agent-conversations.md (not yet archived); status: local-only. (7 October 2026)
+- workshop:perf-audit-7-October-2026/scratch-hotpaths/state/contexts/ceramic-tiles.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/ceramic-tiles.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/ceramic-tiles.md (not yet archived); status: local-only. (7 October 2026)
+- workshop:perf-audit-7-October-2026/scratch-hotpaths/state/contexts/control-brutalist-fountain.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/control-brutalist-fountain.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/control-brutalist-fountain.md (not yet archived); status: local-only. (7 October 2026)
+- workshop:perf-audit-7-October-2026/scratch-hotpaths/state/contexts/control-resonant-crossover.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/control-resonant-crossover.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/control-resonant-crossover.md (not yet archived); status: local-only. (7 October 2026)
+- workshop:perf-audit-7-October-2026/scratch-hotpaths/state/contexts/control-resonant-hub-assets.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/control-resonant-hub-assets.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/control-resonant-hub-assets.md (not yet archived); status: local-only. (7 October 2026)
+- workshop:perf-audit-7-October-2026/scratch-hotpaths/state/contexts/conversation-claude-dd651e1477395f9ca214f8a6.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/conversation-claude-dd651e1477395f9ca214f8a6.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/conversation-claude-dd651e1477395f9ca214f8a6.md (not yet archived); status: local-only. (7 October 2026)
+- workshop:perf-audit-7-October-2026/scratch-hotpaths/state/contexts/conversation-codex-30e1d83bcd3b1a59297d5d27.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/conversation-codex-30e1d83bcd3b1a59297d5d27.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/conversation-codex-30e1d83bcd3b1a59297d5d27.md (not yet archived); status: local-only. (7 October 2026)
+- workshop:perf-audit-7-October-2026/scratch-hotpaths/state/contexts/conversation-codex-e37a471e98d4d9ae226a3725.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/conversation-codex-e37a471e98d4d9ae226a3725.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/conversation-codex-e37a471e98d4d9ae226a3725.md (not yet archived); status: local-only. (7 October 2026)
+- workshop:perf-audit-7-October-2026/scratch-hotpaths/state/contexts/japanese-environment.md [tmp]: Mac: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/japanese-environment.md; cloud: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/perf-audit-7-October-2026/scratch-hotpaths/state/contexts/japanese-environment.md (not yet archived); status: local-only. (7 October 2026)
+Showing 24 of 60 documents; the complete list is context.documents in the global project index. (7 October 2026)
+
+Mapped files: 479; verified archive records: 223. Local inventory does not prove cloud backup or runnable scene dependencies. (7 October 2026)
