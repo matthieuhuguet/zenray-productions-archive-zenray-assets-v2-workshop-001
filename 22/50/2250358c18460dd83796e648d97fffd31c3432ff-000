@@ -1,0 +1,81 @@
+# ZenRay Assets V2 : state persistence and IO audit (7 October 2026)
+
+Auditor dimension: state-persistence-io. Read-only. Repo HEAD d910105e (the running service, started about 10:31 CEST, runs HEAD; the working tree has uncommitted edits to AssetsService.mjs from another session, so line numbers below are HEAD line numbers, extracted with `git show HEAD:scripts/AssetsService.mjs`). (7 October 2026)
+
+Scratch folder with every script and copy used: `/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-state-io/` (sample-mtimes.mjs, parse.mjs, bench-index.mjs, bench-parts.mjs, bench-registry.mjs, fsync.mjs, statecopy/ = rsync copy of the state folder without locks, staging, indexes). (7 October 2026)
+
+## Measurements (7 October 2026)
+
+| What | Command | Result |
+|---|---|---|
+| Live rewrite rate of state files, 240 s, stat every 200 ms | `node sample-mtimes.mjs 240` | GlobalProjectIndex.json 107 rewrites (236.5 MB), each of the 18 contexts/*.md 107 rewrites, Project-agent-conversations.json 57 (43.6 MB), Project-zenray-assets-v2.json 38 (18.5 MB), TranscriptCursors.json 50, ConversationMirror.json 24 (11.1 MB), Project-vegetation-assets-collection-01.json 6 (194.9 MB). Total 563.9 MB written in 4 min (about 141 MB/min, about 200 GB/day if sustained while agents are active). |
+| Service process | `ps -axo pid,pcpu,rss,etime,time` | PID 79664, RSS 2.18 GB, 52 min CPU in 3 h 19 min (26 % of a core on average), 5 samples 2 s apart: 0.1 / 87 / 112 / 80 / 177 %. |
+| JSON cost, 32.5 MB vegetation state | `node parse.mjs veg.json ...` | parse 35 ms, stringify pretty 33 ms (pretty = 32.5 MB, compact = 28.5 MB, +14 %), write+rename 5 ms. Top keys compact: backups 16.6 MB, inventory 11.9 MB. 14 MB files: parse 14 to 15 ms, stringify 13 ms. GlobalProjectIndex 2.2 MB: parse 2 ms. |
+| refreshContextIndex and snapshot, on a copy of the state | `node bench-index.mjs inventory` | snapshot(vegetation) 211 to 239 ms; snapshot(all 18) 885 to 998 ms; refreshContextIndex() 890 to 932 ms; save(vegetation) 43 to 47 ms; inventory(vegetation) including scan, save and refresh 1544 to 1564 ms; scanSource alone 336 to 375 ms. |
+| Where snapshot time goes | `node bench-parts.mjs` | sceneReferenceContexts 852 ms of the total, combineWorkspaceFiles 146 ms, buildProjectMapping 8 ms. Five projects with sceneAudits (ceramic-tiles 21 audits 245 ms, vegetation 176 ms, louisiana 163 ms, hub-assets 136 ms, japanese 132 ms) each rebuild the files of all 18 projects (43,771 files). |
+| Per-entry footprint, vegetation | node one-liner on veg.json | 18,423 backups at 901 B each, 18,243 inventory.localFiles at 654 B each; backups repeat sourceFolder (3 distinct values) and manifestPath = sourceFolder + relativeManifest. |
+| Cloud registry built by publishProject | `node bench-registry.mjs` | compact registry pages/.zr-assets-workspaces.json = 35.87 MB (43,771 files of all projects plus index), vegetation .workspace.json = 26.31 MB, cloud snapshots of all projects 968 ms. |
+| fsync cost | `node fsync.mjs` | fsync'd atomic write of the 28.5 MB compact state 15.7 ms (excluding stringify); hot fields only (watched, syncState, error, jobs, publishedAt, pendingIndex, restorations) = 3,252 bytes, 4.1 ms with fsync; one appended backup line (520 B) with fsync 3.9 ms. |
+| Events.jsonl | node one-liner on a copy | 11,539 lines, 3.17 MB, 2 to 7 October (600 KB/day average, 3,301 lines on 4 October); full parse 7 ms; 850 identical `agent-conversations` "Asset engine failed ... ref" error lines. |
+| PROGRESS.md parse per publish (history) | node one-liner | 3.4 MB, progressEvents 48 ms per call. |
+| Orphan staging | `du -sh staging/*` | staging/4b2606ea... 346 MB from 2 October, never removed. |
+
+## Findings (7 October 2026)
+
+### F1. HIGH, measured: every inventory of any project re-snapshots all 18 projects and rewrites the 2.2 MB global index plus 18 context files, with no coalescing (7 October 2026)
+
+- Code: `scripts/AssetsService.mjs:351` (inventory ends with `await this.refreshContextIndex()`), `:357-375` (refreshContextIndex chains one full run per call on `contextIndexQueue`; it never merges pending calls), `:361` (snapshot of every project), `:365-370` (18 markdown files rewritten unconditionally although their content only carries the day, not a timestamp), `:378-382` (sceneReferenceContexts rebuilds combineWorkspaceFiles for ALL projects for each audited project), `:1112` (a read-only `context` or `global-index` request also triggers the full refresh and its writes). (7 October 2026)
+- Trigger: any inventory, which the watcher schedules on every file event (`:964`, `:973-981`), plus scene-context, prepare-scene and bind-session. (7 October 2026)
+- Cost, measured: 107 refreshes in 240 s (27/min), 890 to 932 ms each of mostly synchronous CPU on the single event loop, so about 96 s of CPU in 240 s, consistent with the 26 % average and the 87 to 177 % peaks of PID 79664; 236.5 MB of GlobalProjectIndex writes plus 20 MB of context markdown in 4 min. Every bridge request waits behind it. (7 October 2026)
+- Fix: (a) single-flight with a dirty flag and a trailing debounce (for example 5 s quiet, 30 s max wait), so N inventories in a burst cost one refresh; (b) memoize each project's snapshot and mapping by a per-project generation counter bumped in save(), and memoize the shared `projects[].files` array used by sceneReferenceContexts by the tuple of generations, so a refresh recomputes only the changed project and the audited projects that depend on it; (c) write GlobalProjectIndex and each contexts/<id>.md only when their bytes change (the code already does exactly this for FileMap.md in the working tree); (d) answer `context` and `global-index` reads from the in-memory index. Expected gain: refresh count bounded at 12/min or less and each refresh about 20 to 60 ms instead of 900 ms (estimated from bench-parts: 8 ms mapping plus one project's combine), so more than 95 % less CPU and roughly 98 % fewer index bytes written. (7 October 2026)
+
+### F2. HIGH, measured: save(id) rewrites the whole multi-MB project state many times per operation (7 October 2026)
+
+- Code: `scripts/AssetsService.mjs:38-43` (atomicJson stringifies the full object, pretty-printed, and rewrites it), `:279-284` (save writes the entire state for any field change). Saves per automatic archive pass with autoBatchLimit 1: `:517` job start, `:350` inventory, `:568` indexPending (when pending), `:679` after the batch, `:568` indexPending again, `:350` final inventory (`:687`), `:578` publishProject, `:528` job finally. That is about 8 full rewrites per 200-file batch; a pass that archives nothing still does 5 (`:517`, `:350`, `:350`, `:578`, `:528`). (7 October 2026)
+- Cost, measured: vegetation state = 32.5 MB, 43 to 47 ms per save of which about 33 ms is a synchronous stringify blocking the loop; 8 saves = about 260 MB of writes per 200-file batch, so archiving 18,238 files at 200 per batch rewrites about 24 GB of state (estimated by multiplication). Observed live: 6 vegetation rewrites = 194.9 MB in 4 min, 57 rewrites of agent-conversations in 4 min. (7 October 2026)
+- Fix: split hot and cold state (design below): hot fields in a 3 KB file, backups as an append-only log, inventory kept in memory and checkpointed at most every few minutes; and drop the pretty-print (14 % of bytes). Expected gain: per save 4 ms with fsync and 3 KB instead of 43 ms and 32.5 MB; per batch about 104 KB appended (200 lines of 520 B) instead of 260 MB, about 2,500 times fewer bytes. (7 October 2026)
+
+### F3. HIGH, measured chain: file events in watched sources trigger full rescans at about 1 s granularity, and the service's own writes feed that loop (7 October 2026)
+
+- Code: `Cloud/electron/watcher.ts:52-55` receives the changed relative path but calls `onChange(id)` without it; `scripts/AssetsService.mjs:964` maps it to scheduleInventory, `:973-981` uses a leading 1 s timer (`inventoryDebounceMs` 1000 in AssetsConfig.json) and has no single-flight, so a 1.5 s vegetation inventory can overlap the next one. The feedback capture appends every transcript turn to the project FEEDBACK.md (`scripts/AssetsFeedbackCapture.mjs:65-69, 104`), which sits in the watched `project-notes` source; the conversation mirror writes copies into the watched agent-conversations workshop and then calls inventory itself (`scripts/Assets/ConversationMirror.mjs:55-67`, refresh every 10 s per CONVERSATION_SETTINGS.refreshMs). (7 October 2026)
+- Cost, measured: in 240 s, 57 agent-conversations rewrites and 38 zenray-assets-v2 rewrites (the projects receiving the transcripts of the agents active at that moment), each followed by a 0.9 s refresh (F1); for vegetation one inventory is 1.55 s CPU and 32.5 MB written. (7 October 2026)
+- Fix: pass the path from the watcher and update only the changed entries (lstat of that path, keep the rest of the inventory), keep a full scan only for the periodic sweep and reconnection; trailing debounce (for example 5 s quiet, 30 s max) with one inventory in flight per project; mark files written by the service itself (FEEDBACK.md append, mirror copies) as expected changes so they update one entry instead of a rescan. Expected gain: an agent turn costs one lstat and a 3 KB hot save instead of a 0.35 s scan, a 32.5 MB save and a 0.9 s refresh (estimated). (7 October 2026)
+
+### F4. MEDIUM-HIGH, measured sizes: every automatic archive pass republishes the 36 MB cloud registry and the 26 MB vegetation workspace document, even when nothing was archived (7 October 2026)
+
+- Code: `scripts/AssetsService.mjs:688` calls publishProject unconditionally after the loop; `:573-579` publishes the project and every consumer; `scripts/AssetsCloudPublisher.mjs:45-52` rewrites `<folder>/.workspace.json`, the shared `pages/.zr-assets-workspaces.json` (every project with every file, plus a full index) and `.context.md` on each call; `:16-37` reads the large registry blob by the Git blobs API first. History for each publish re-reads and parses PROGRESS.md (48 ms, `scripts/AssetsHistory.mjs:44-46`). (7 October 2026)
+- Cost: registry 35.87 MB and vegetation .workspace.json 26.31 MB measured by `bench-registry.mjs`; one read and one write per document per pass, so roughly 120 MB of GitHub traffic per pass (estimated). The recurring "Server Error" on the registry save is plausibly linked to this size (estimated, not reproduced, no network write performed). (7 October 2026)
+- Fix: skip publish when the cloud snapshot digest equals the last published digest (store the digest in hot state); keep the shared registry to identities and counts only (files already live in each project's .workspace.json); publish at most every publishIntervalMs also at the end of a pass. Expected gain: no cloud write for no-op passes; registry document from 36 MB to well under 1 MB (estimated from 43,771 compact file rows being the bulk). (7 October 2026)
+
+### F5. MEDIUM, estimated: one corrupt or truncated state file erases all local backup proofs on the next save (7 October 2026)
+
+- Code: `scripts/AssetsService.mjs:38-43` writes and renames without fsync; `:252-253` on an unreadable file starts from `{ backups: {}, restorations: {} }` and only sets an error string; the next save (`:279`) overwrites the unreadable original. (7 October 2026)
+- Cost: for vegetation, 18,423 backup proofs lost, every file looks pending, and the automatic writer re-archives 10.4 GB (estimated from the code path; not reproduced). The archive engine index `indexes/<id>/<source>.json` (fiches with rel, sha, taille, manifeste, 8.6 MB for vegetation) already holds the same facts and is never used to rebuild them. (7 October 2026)
+- Fix: fsync before rename (measured 15.7 ms for 28.5 MB, 4 ms for the hot file); keep the previous generation as `.bak`; on unreadable state, quarantine the file, mark the project read-only, and rebuild `backups` from the engine indexes instead of saving an empty state. (7 October 2026)
+
+### F6. LOW, measured: small state files rewritten unconditionally on timers (7 October 2026)
+
+- Code: `scripts/AssetsFeedbackCapture.mjs:119` rewrites TranscriptCursors.json at the end of every 5 s drain even when no cursor moved (50 writes in 240 s measured, 12.5/min); `scripts/Assets/ConversationMirror.mjs:65` rewrites the whole ConversationMirror.json (461 KB) per staged conversation (24 writes, 11.1 MB in 240 s). (7 October 2026)
+- Fix: write only when a cursor or entry changed (compare a serialized digest), and store mirror entries as one small file per conversation or an append log. Gain: about 2.8 MB/min less, near zero idle writes. (7 October 2026)
+
+### F7. LOW, measured: Events.jsonl grows without bound and is read whole at startup to keep 80 events (7 October 2026)
+
+- Code: `scripts/AssetsService.mjs:286-291` appendFileSync per event; `:238` reads and parses the entire file then keeps `maxEvents` 80 globally for all 18 projects. (7 October 2026)
+- Cost: 3.17 MB and 11,539 lines after 5 days (600 KB/day), 850 identical retry error lines from agent-conversations; startup parse 7 ms today, linear growth. (7 October 2026)
+- Fix: read only the tail (last 256 KB), rotate by month or size, and collapse identical consecutive error events into a counter. (7 October 2026)
+
+### F8. LOW, measured: crashed jobs leave staging copies forever (7 October 2026)
+
+- Code: `scripts/AssetsService.mjs:643` stages under `staging/<jobId>` and removes it only in the same job's finally (`:691`); initialize never sweeps the folder. (7 October 2026)
+- Cost: `staging/4b2606ea-c162-4969-87ad-d0a46eda166f` = 346 MB from 2 October. (7 October 2026)
+- Fix: at initialize, delete every staging/<id> and versions/<id> (jobs are in-memory, so none can be live at startup). (7 October 2026)
+
+## Proposed storage design (7 October 2026)
+
+1. `Project-<id>.hot.json`, about 3 KB: watched, syncState, error, jobs, publishedAt, lastPublishedDigest, pendingIndex, workspacePath, releases, restorations, productionBaselines, sceneAudits. Written by save() with fsync, compact JSON, write-if-changed. (7 October 2026)
+2. `Project-<id>.backups.jsonl`: one line per new backup proof (fileId, size, sha256, changeToken, manifest relative path, backedUpAt; sourceFolder stored once per source in the hot file). Appended after each verified batch with fsync; compacted into a snapshot file when it holds more than 2x live entries. Can be rebuilt from `indexes/<id>/<source>.json` if lost. (7 October 2026)
+3. Inventory: in memory only, keyed by fileId, updated incrementally from watcher paths; checkpointed compactly at most every 5 min and at close, so startup does not need a rescan; a missing checkpoint costs one scan (0.35 s for vegetation). (7 October 2026)
+4. Derived index: per-project memoized snapshots by generation, one coalesced refresh at most every 5 s, write-if-changed for GlobalProjectIndex.json and contexts/*.md. (7 October 2026)
+5. Cloud: publish on digest change only; registry without file lists. (7 October 2026)
+
+Expected effect on the 240 s window measured above (estimated): from 563.9 MB written to a few MB, from about 96 s of refresh CPU to a few seconds, and startup parse of state from about 80 ms (35 + 15 + 14 + 7 ms for the big files) to a few ms plus the backups log. RSS (2.18 GB measured) would also fall because the pretty JSON strings and duplicated per-file objects no longer need to be produced every second (estimated). (7 October 2026)

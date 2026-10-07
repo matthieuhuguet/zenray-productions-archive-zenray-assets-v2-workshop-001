@@ -1,0 +1,13 @@
+// 7 October 2026: read-only bridge payload measurement (status, cloud-snapshot); never prints secrets.
+import { readFile } from 'node:fs/promises'
+const root = '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress'
+const secret = process.env.ZENRAY_API_SECRET ?? (await readFile(`${root}/.env.local`, 'utf8')).match(/^\s*ZENRAY_API_SECRET\s*=\s*(.*?)\s*$/m)?.[1]?.replace(/^["']|["']$/g, '')
+const call = async (body) => { const t = performance.now(); const r = await fetch('http://127.0.0.1:3100/api/assets-workspace', { method: 'POST', headers: { 'content-type': 'application/json', 'x-zr-assets-client': '2', ...(secret ? { 'x-zr-auth': secret } : {}) }, body: JSON.stringify(body) }); const text = await r.text(); return { ms: Math.round(performance.now() - t), bytes: text.length, text } }
+const ids = process.argv.slice(2)
+for (const id of ids) {
+  const s = await call({ action: 'status', projectId: id })
+  let files = 0, events = 0, mapping = 0
+  try { const j = JSON.parse(s.text); files = j.project?.files?.length; events = j.project?.events?.length; mapping = JSON.stringify(j.project?.mapping || {}).length } catch {}
+  const c = await call({ action: 'cloud-snapshot', projectId: id })
+  console.log(JSON.stringify({ id, statusMs: s.ms, statusBytes: s.bytes, files, events, mappingBytes: mapping, cloudSnapshotMs: c.ms, cloudSnapshotBytes: c.bytes }))
+}

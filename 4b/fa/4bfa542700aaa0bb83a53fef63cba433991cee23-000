@@ -1,0 +1,174 @@
+# ZenRay Assets V2, front-end performance audit (7 October 2026)
+
+Repo HEAD d910105e (main). Strictly read-only: state files copied into
+`scratch-frontend/`, no bridge call, no service restart. Every timing below is a node 26 run
+on this Mac (M5 Max) over the real copied state; browser numbers are ESTIMATED to be of the same
+order (V8 in both cases). Scripts used: `scratch-frontend/snapshot-size.mjs`,
+`scratch-frontend/pipeline-timing.mjs`, plus the inline `node -e` commands quoted per finding.
+Baseline: `npx vitest run src/components/assets/` = 4 files, 29 tests green (7 October 2026).
+
+## Measured payloads of the calls the page makes (7 October 2026)
+
+| Call (who triggers it) | Bytes | How measured |
+|---|---|---|
+| `status` vegetation-assets-collection-01 (every 6 s, and every 1.5 s during a job) | 31,794,094 (18,423 files, about 1.72 KB per file) | snapshot-size.mjs with real `combineWorkspaceFiles` + `buildProjectMapping` |
+| `status` control-resonant-crossover | 13,932,130 (9,003 files) | same |
+| `status` conversation-codex-e37a... | 15.23 MB (8,098 files) | same |
+| `list` (mount, every refresh, reconnect loop every 15 s) | 64.3 MB (15 projects, 38,165 files) | sum of all snapshots |
+| `inventory` (each project selection, each refresh) | 31.8 MB response + 31 MB state rewrite + global index rebuild | same snapshot, service code read |
+| `conversations` (every 10 s while connected) | 1,002,999 (572 items, 1,753 B each) | real `createConversationCatalog().list()` on a copy of SessionBindings |
+| `conversation` read (every 10 s while a chat is open) | 2 to 57 KB, 3 to 7 ms | real `catalog.read` on the 3 largest transcripts |
+
+Per-file weight comes from five copies of the same path: manifestPath 3.33 MB, contentPath 3.31,
+cloudPath 3.28, expectedCloudPath 3.24, localPath 2.91, relativeManifest 2.06, relativePath 1.80,
+id 1.79, sourceFolder 1.66, changeToken 1.44, sha256 1.40 (MB summed over the 18,423 files).
+
+Server cost of one vegetation `status`: 94 ms (combine + mapping + stringify), client
+`JSON.parse` 27 to 34 ms.
+
+## Healthy, not a finding (7 October 2026)
+
+- Bundle: `dist/assets/AssetsView-CLuu2q6j.js` 116,415 B (35,180 B gzip), CSS 40,376 B (7,256 gzip);
+  MaterialStudio, MeshStudio and three.js are separate lazy chunks.
+- List view paginates at PAGE_SIZE 100 (ProjectWorkspace.jsx:65, 254-256); icons and gallery views
+  receive `displayed` (100), so the DOM never holds 18,000 rows.
+- `TextThumb` in the legacy view is gated by `useInView` and cached (AssetsView.jsx:208-241).
+
+## Findings
+
+### F1. HIGH. The 6-second status poll downloads the whole 31.8 MB project every time
+- Code: `src/components/assets/AssetsWorkspaceView.jsx:152-156` (`setInterval(bridge.status, 1500*4)`),
+  served by `scripts/AssetsService.mjs:1335` -> `snapshot()` 434-465 which ships every file plus `mapping`.
+- Trigger: any project open while the Mac bridge is connected, forever.
+- MEASURED: 31,794,094 bytes per poll for vegetation; 94 ms service CPU; 27 to 34 ms parse in the
+  page; 5.3 MB/s sustained. Command: `node scratch-frontend/snapshot-size.mjs scratch-frontend vegetation-assets-collection-01`.
+- Fix: split `status` into a light reply (`sync`, `jobs`, `workspace`, `inventory.count`, plus a
+  `filesRevision` counter bumped by inventory/archive/restore) and fetch `files` only when the
+  revision differs (or a delta since revision). Strip server-only fields from the client copy
+  (manifestPath, relativeManifest, expectedCloudPath, sourceFolder, changeToken, ctimeMs): the cloud
+  snapshot at AssetsService.mjs:466-471 already proves a trimmed shape is acceptable to the UI.
+
+### F2. HIGH. A running job polls the same 31.8 MB status every 1.5 s
+- Code: `AssetsWorkspaceView.jsx:186-195` (`while` loop, `bridge.status` then `setTimeout(SETTINGS.pollMs)`),
+  on top of the 6 s interval of F1.
+- Trigger: every archive, restore, unload, recover, prepare-scene launched from the page. A
+  vegetation archive can last minutes to an hour (jobTimeoutMs 3,600,000).
+- MEASURED basis: 31.8 MB and 94 ms per call (F1) => about 21 MB/s and about 6 % of one service
+  core during the whole job, plus a 27 ms parse and a full re-render pipeline (F3) every 1.5 s in
+  the page. Impact during the job ESTIMATED from those measured unit costs.
+- Fix: a `job` action returning only `{ id, state, progress, count, error }` for `response.jobId`,
+  polled at 1.5 s; refresh files once on `done`.
+
+### F3. HIGH. Each status reply rebuilds every project and re-sorts 18,423 files with a slow comparator
+- Code: `AssetsWorkspaceView.jsx:154` replaces the `local` array even when nothing changed ->
+  `projects` memo 146-149 recomputes `mergeWorkspaceProjects` for all projects and spreads
+  `{...file, projectId}` over 38,165 files -> `ProjectWorkspace.jsx:239` `files` memo (fileView) ->
+  248-251 `visible` = `queryAssetsFiles` -> `src/lib/assetsFileQuery.js:44-50` sorts with
+  `String.localeCompare(b, 'fr', { numeric, sensitivity })`, which builds an Intl collator per call;
+  plus `StorageBreakdown` 12, `FileFilters` 8-9 recompute.
+- MEASURED (pipeline-timing.mjs, 154,000 index paths, vegetation active):
+  mergeWorkspaceProjects 81.7 ms; fileView 9.2 ms; queryAssetsFiles default name sort 336.4 ms
+  (same sort with one hoisted `Intl.Collator`: 20.2 ms); storageBreakdown 8.9 ms; FileFilters 4.0 ms.
+  Total about 440 ms of main-thread work every 6 s (every 1.5 s during a job). Sort by kind 173 ms.
+- Fix: (a) hoist `const collator = new Intl.Collator('fr', { numeric: true, sensitivity: 'base' })`
+  in assetsFileQuery.js and use `collator.compare` (17x faster, same order); (b) in the status
+  handler keep the previous object when `checkedAt` and the files revision are unchanged, so no memo
+  invalidates; (c) see F4 for the index scan.
+
+### F4. MEDIUM. mergeWorkspaceProjects scans the whole search index once per project on every recompute
+- Code: `src/lib/assetsWorkspaceViewModel.js:9` and 24/28 call `projectPaths(folder, paths)`,
+  `src/lib/assetsProjects.js:91-95` = `paths.filter(startsWith)` over the full index for each
+  workspace and each linked legacy collection.
+- MEASURED: merge = 14.4 ms with an empty index, 81.7 ms at 154,000 paths, 172.5 ms at 400,000
+  (`node scratch-frontend/pipeline-timing.mjs scratch-frontend <N>`), i.e. about 67 ms of pure
+  index scanning per recompute, growing linearly with the drive.
+- Fix: build `Map<folder, path[]>` once per `paths` reference (WeakMap cache keyed by the array, or
+  one pass grouping by the `pages/ZenRayAssets/<project>/` prefix) and let `cloudWorkspaceFiles`
+  look it up; status polls then never touch the index.
+
+### F5. MEDIUM. File search matches every file on common letters and costs 324 ms per keystroke
+- Code: `src/lib/assetsFileQuery.js:34` builds the haystack from name + relativePath + localPath +
+  cloudPath + expectedCloudPath and lowercases it per file per keystroke; `ProjectWorkspace.jsx:79`
+  already precomputes `file.searchable` but nothing reads it; no debounce on the input (342).
+- MEASURED (vegetation, 18,423 files): "a" matches 18,423 files (every local path contains
+  `/Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/`), 324 ms; "pl" 1,099 matches,
+  47 ms; "plant" 0 matches, 15 ms. So "tmp", "zenray", "vegetation", "a", "e" filter nothing.
+- Fix: search `file.searchable` built from name + relativePath (paths relative to the source,
+  not the absolute root), and wrap the query in `useDeferredValue` (or a 150 ms debounce); with F3a
+  the full-match case drops to about 20 ms.
+
+### F6. MEDIUM. Viewing a project triggers a full disk inventory and two whole-registry payloads
+- Code: `AssetsWorkspaceView.jsx:159-167` calls `bridge.inventory(workspace.id)` on every project
+  selection and on every `refreshKey` bump; `refresh()` 117-137 calls `bridge.list()` on mount,
+  after every finished job (192), on watch toggle (235), on link (254) and on the Retry button.
+  `AssetsService.mjs:294-354` inventory rescans all sources, rewrites the state file, rebuilds the
+  global context index, schedules scene audits and returns the full snapshot; `list` 1321-1325
+  returns every project's full snapshot.
+- MEASURED: list = 64.3 MB (all 15 projects, 38,165 files); inventory reply 31.8 MB plus a 31 MB
+  state rewrite (Project-vegetation...json is 32,487,495 bytes) and the 2.1 MB GlobalProjectIndex.
+  Opening the vegetation page therefore moves about 96 MB of JSON before the first status poll.
+  Rescan duration not measured (would mutate state): ESTIMATED seconds for 18,243 files.
+- Fix: the page must not cause writes. Use `status` on selection (the watcher already keeps the
+  inventory current), make `list` return summaries (id, name, category, cover, sync, counts) without
+  `files`, and keep `inventory` behind the explicit "Actualiser les états" button only.
+
+### F7. MEDIUM. One transient status failure disconnects the page and starts a 64 MB reconnect loop
+- Code: `AssetsWorkspaceView.jsx:154` `.catch(() => setConnected(false))`; 139-143 then calls
+  `bridge.list()` every 15 s until it answers; 144 swaps conversations to the cloud copy; the status
+  `setInterval` has no in-flight guard while each request may take up to 30 s (projectBridge.js:5).
+- Trigger: a single slow or failed poll (service busy hashing or archiving, the 30 s timeout, a
+  browser connection limit), exactly the case where the service is under load.
+- MEASURED unit cost: each reconnect attempt that succeeds returns 64.3 MB; ESTIMATED impact: up to
+  5 overlapping 31.8 MB status requests while the service is slow, then a UI flip to cloud-only
+  data and a 64 MB reload. This is the "transient failure treated as definitive" pattern.
+- Fix: chain polls with `setTimeout` after completion (never overlap), require 3 consecutive
+  failures before `connected = false`, and reconnect with a tiny `ping` action, then fetch
+  summaries (F6).
+
+### F8. MEDIUM. Local image thumbnails load eagerly and stream the original file into a 44 px cell
+- Code: `AssetsWorkspaceView.jsx:40-49` `LocalThumbnail` posts `preview-url` on mount, no
+  visibility gate; used by `renderThumbnail` 250 for every row, tile, rail miniature and cover;
+  `AssetsService.mjs:1386-1418` `handlePreview` streams the original bytes.
+- Trigger: icons or gallery view, Images filter, rail with 15 project covers.
+- MEASURED: vegetation holds 2,811 local images, median 0.71 MB, p90 6.40 MB, max 30.4 MB,
+  6.77 GB total; one page of 100 images (Images filter, name order) = 78.3 MB to download and decode
+  for 44 to 280 px thumbnails, plus 100 eager POSTs competing with the 32 MB polls.
+- Fix: gate with the existing `useInView` (src/media/useImageThumb.js, already used by TextThumb)
+  and add `size` to the preview endpoint, served from a thumbnail cache keyed by sha256
+  (`sips -Z 256` or the same AVIF CRF 25 pipeline), so each tile costs tens of KB.
+
+### F9. MEDIUM. The 10-second conversation poll re-renders the whole workspace even when nothing changed
+- Code: `AssetsWorkspaceView.jsx:99-111` always `setConversations(result.conversations)` (new
+  array); `readConversation` 98 also maps the array; `ConversationView.jsx:37` polls every 10 s and
+  `ConversationMessage` 16 re-runs `safeMarkedParse` on every message each render; ProjectWorkspace
+  is not memoized and receives inline callbacks, so the rail re-sorts 572 items with `Date.parse`
+  (118) and FileFilters/columns recompute.
+- MEASURED: 1,002,999 bytes per poll (572 conversations, 1,753 B each with localPath,
+  originalPaths, transcriptPaths), cold catalog scan 612 ms; re-render costs measured in F3/F10.
+  The poll runs even when the Conversations shelf is closed.
+- Fix: poll only while the conversation shelf or a conversation is visible; skip `setState` when
+  `result.checkedAt` and the item count/signatures are unchanged; trim paths from the list (they
+  are only needed in the reader); memoize message HTML with `useMemo` on `message.text`.
+
+### F10. LOW. Columns view recomputes its folder tree from all files on every render
+- Code: `src/components/assets/FilePresentations.jsx:33-50`, receiving `visible` (all 18,423) from
+  `ProjectWorkspace.jsx:348`; `pathParts` re-splits each path several times per render.
+- MEASURED: 39.0 ms per render at trail depth 4 (inline `node -e` over the vegetation copy);
+  paid on every selection click, every status poll and every conversation poll.
+- Fix: `useMemo` a prefix tree (`Map<prefix, entries>`) keyed on `files`, and compute `pathParts`
+  once per file.
+
+### F11. LOW. Each refresh rebuilds the 154,000-path index array, invalidating every consumer
+- Code: `src/search/searchIndexClient.js:107-123`, `applyLocalOverlay` creates a new Set and a new
+  `paths` array on every `loadSearchIndex()`, called by `refresh()` (AssetsWorkspaceView.jsx:121).
+- MEASURED: 12.8 ms per rebuild at 154,000 paths; the new reference re-triggers F4 (about 67 ms)
+  and, per the comment at searchIndexClient.js:218-226, forces the global search to renormalize
+  the whole index (NFD) on its next keystroke. That last cost is ESTIMATED, not measured here.
+- Fix: return the previous `rec.paths` when `localAdds`/`localRemoves` are empty or unchanged
+  since the last overlay (keep a version counter).
+
+## Priority order (7 October 2026)
+
+F1 + F2 (light status and job polling) remove almost all bandwidth; F3a (hoisted collator) is a
+one-line change worth about 316 ms per poll and per keystroke; F6 stops a read-only page from
+writing 31 MB state files; F7 then F8.

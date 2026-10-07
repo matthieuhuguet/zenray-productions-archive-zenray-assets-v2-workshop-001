@@ -1,0 +1,99 @@
+# ZenRay Assets V2 : service hot paths (7 October 2026)
+
+Dimension: service-hot-paths. Repo HEAD d910105e (main). Strictly read-only audit: state copied to scratch, real sources only scanned, no bridge mutation. (7 October 2026)
+
+## How it was measured (7 October 2026)
+
+- Harnesses in `/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/perf-audit-7-October-2026/scratch-hotpaths/` (`harness.mjs`, `harness2.mjs`, `harness3.mjs`, `sample-mtime.mjs`). They instantiate the real `AssetsService` class with `stateDir` pointed at a scratch copy of the state files (sceneAudit disabled, fake token, no cloud publisher), then time the real methods. Command form: `cd scratch-hotpaths && S=$PWD node harness.mjs snapshot`, `node harness.mjs scan vegetation-assets-collection-01`, `node harness2.mjs agent-conversations`, `node harness3.mjs`. (7 October 2026)
+- Live trigger frequency: `node sample-mtime.mjs 180` stats (read-only) the derived files written by the running service every 250 ms for 180 s. (7 October 2026)
+- Real sizes on 7 October 2026: 18 projects, 43,622 files in all inventories, vegetation 18,243 files, agent-conversations 1,063 files (103 backed up), 5 projects carry sceneAudits. (7 October 2026)
+- Side effect to know (7 October 2026): the audit folder lives inside the watched workshop of project `zenray-assets-v2` (`/Users/zenray/.claude/tmp/tmp-zenray-assets-v2`, `exclude: []`). The running service inventoried 305 `perf-audit-7-October-2026/*` files and queued them for cloud archive. I deleted my 96 MB copy of the state files (`scratch-hotpaths/state`) after measuring; other auditors' scratch folders (for example `scratch-cloud/ceramic.json`) are still there and will be archived unless excluded. (7 October 2026)
+
+## Measured costs (7 October 2026)
+
+| Operation | Cost | Date |
+|---|---|---|
+| `snapshot(id)` for projects with sceneAudits (ceramic, veg, louisiana, japanese, hub) | 150 to 240 ms each, all synchronous | 7 October 2026 |
+| Sum of `snapshot()` over 18 projects | 995 ms | 7 October 2026 |
+| `refreshContextIndex()` | 880 ms (sync part ≈ all of it) | 7 October 2026 |
+| `inventory(vegetation)` | 1,546 to 1,707 ms (scan 590 ms, rest = global index) | 7 October 2026 |
+| `inventory(agent-conversations)` (1,063 files) | 951 to 984 ms, of which scan 46 ms | 7 October 2026 |
+| `publishProject` consumer detection | 753 ms | 7 October 2026 |
+| `request('list')` | 871 to 892 ms, response 73.1 MB | 7 October 2026 |
+| `request('status', veg)` | 240 ms + 36 ms stringify, response 31.8 MB | 7 October 2026 |
+| `request('conversations')` | 234 to 429 ms, 572 conversations, 1.0 MB | 7 October 2026 |
+| Cloud registry `pages/.zr-assets-workspaces.json` rebuilt per publish | ≈35.8 MB (43,622 files), `.workspace.json` veg 26.3 MB | 7 October 2026 |
+| `index.fiches.find` with `normalize` × 200 (veg workshop index, 15,117 fiches) | 464 ms per batch | 7 October 2026 |
+| `fileIds.includes` filter at 18k ids | 1,289 ms | 7 October 2026 |
+| Live: `GlobalProjectIndex.json` + `contexts/*.md` rewrites | 67 in 180 s (one per 2.7 s) | 7 October 2026 |
+| Live: `Project-agent-conversations.json` rewrites | 32 in 180 s | 7 October 2026 |
+| Events today (11.8 h): archive jobs done / engine batches / job errors | 126 / 86 / 41 | 7 October 2026 |
+
+## Findings, most severe first (7 October 2026)
+
+### 1. Every inventory of any project rebuilds the whole global index synchronously (critical, measured) (7 October 2026)
+
+- Where: `scripts/AssetsService.mjs:351` calls `refreshContextIndex()` (357-375), which runs `buildGlobalProjectIndex([...this.projects.keys()].map((id) => this.snapshot(id)))` (361) and rewrites all 18 `contexts/*.md` files (365-370). (7 October 2026)
+- Cost: 880 ms of synchronous CPU per call. Live sampling shows 67 rebuilds in 180 s, so about 33 % of the service event loop is spent here, blocking the HTTP bridge, preview streaming and child-process output parsing; 1,206 context file writes per 3 minutes. (7 October 2026)
+- Fix: give each project a revision counter bumped in `save()`; cache `buildProjectMapping(snapshot)` per project keyed by revision so only the changed project is recomputed; coalesce `refreshContextIndex` with a trailing 5 s debounce (single-flight, rerun once if dirty); write a context `.md` only when its rendered text differs. (7 October 2026)
+
+### 2. `snapshot()` recombines all 43,622 files of all 18 projects whenever the project has a scene audit (high, measured) (7 October 2026)
+
+- Where: `snapshot` 456 calls `sceneReferenceContexts(id)` (378-392), which maps every project through `combineWorkspaceFiles` and a per-file `project.sources.find` (381-385) on every call; `scenePreparationEvidence` (398) builds another Map of all files. `publishProject` 574 then calls `sceneReferenceContexts` for all 17 other projects. (7 October 2026)
+- Cost: 129 ms to build the all-projects file array alone, 150 to 240 ms per snapshot of the five audited projects, 753 ms for consumer detection on every publish; this is also why finding 1 costs 880 ms. (7 October 2026)
+- Fix: memoize the combined files of each project by its revision (shared by `snapshot`, `sceneReferenceContexts`, `scene-context`, `scene-preparation-plan`); build an `id/fileId` Map once per revision set; compute consumers from a reverse dependency map updated when `sceneAudits` change instead of re-mapping every project. (7 October 2026)
+
+### 3. Watcher events trigger uncoalesced full inventories, including events for paths the project does not even include (critical, partly measured) (7 October 2026)
+
+- Where: `createWatcher` 964 maps every `fs.watch` event to `scheduleInventory` (973-982). `Cloud/electron/watcher.ts:51-55` only filters its own `IGNORES`, not `config.scan.excludedNames/excludedPaths` nor `source.include`. The debounce is fixed (1 s after the first event, never reset) and the map entry is deleted before `await this.inventory(id)` (976-977), so a second inventory can start while the first is running. Other callers add more full inventories without coalescing: `ConversationMirror.mjs:67` every 10 s drain, archive jobs (631, 687), page project open (`AssetsWorkspaceView.jsx:160`), `checkpoint` (1304), scene audits (1018). (7 October 2026)
+- Watched roots wider than their scope: `ceramic-tiles/game-assets`, `louisiana-bayou/game-assets` and `zenray-shards-core/unreal-host` all watch the whole Unreal project `/Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards` with a narrow include list; `louisiana-bayou/project-files` watches all of `ZenRayHoudini` to include two `.hip` files. With the Unreal editor open, `Saved/Logs`, `Intermediate` and `DerivedDataCache` writes fire continuously for three projects. (7 October 2026)
+- Cost: measured 32 state rewrites of `agent-conversations` in 180 s (≈1 s CPU each) and 67 global index rebuilds; Unreal-open storm is estimated at up to one inventory per second per affected project, each about 1 to 1.7 s, i.e. a saturated event loop. (7 October 2026)
+- Fix: pass the event's relative path from the watcher to the service and drop it when `isExcludedSourcePath` or `!pathIsSelected(rel, source.include)`; trailing debounce (for example 2 s) with a max wait (30 s); single-flight per project (`inventoryRunning` + `inventoryDirty`, rerun once). Let the mirror call `scheduleInventory` instead of `inventory`. (7 October 2026)
+
+### 4. Each archive job republishes a ≈36 MB global registry, even when nothing was archived (high, measured sizes, measured frequency) (7 October 2026)
+
+- Where: `archiveNow` 687-688 always runs `inventory` then `publishProject`, even if `selected` is empty. `AssetsCloudPublisher.mjs:46-51` rewrites `.workspace.json` (veg 26.3 MB) and read-modify-writes `pages/.zr-assets-workspaces.json`, which embeds every project's file list (35.8 MB for 43,622 files) plus a full `buildGlobalProjectIndex`. A failed publish fails the whole job, and `scheduleBackup` 1050-1052 re-runs the whole job every 60 s. (7 October 2026)
+- Cost: 126 archive jobs today for 86 engine batches; 41 job errors, of which at least 16 are registry read/save failures on that file (including the GitHub "Server Error" seen in the field). At ≈36 MB read via blob plus ≈36 MB written per job, that is several GB per day. (7 October 2026)
+- Fix: skip publication when no backup record changed and a hash of the cloud snapshot equals the last published hash; keep only summaries (no `files`) in the shared registry and leave files to each `.workspace.json`; retry only the publish step on failure, not the inventory and archive. (7 October 2026)
+
+### 5. Full directory rescan per event instead of incremental update (high, measured) (7 October 2026)
+
+- Where: `inventory` 296 always calls `scanSource` on every source (76-125): recursive `readdir`, `localeCompare` sort per directory (94), one `lstat` per file, `isExcludedSourcePath` rebuilding a Set and arrays per entry (65, 69). (7 October 2026)
+- Cost: 510 ms for the veg workshop, 81 ms for veg production, 590 ms per veg inventory, repeated on each trigger of finding 3. (7 October 2026)
+- Fix: keep the previous `localFiles` Map; on a watcher event, `lstat` only the reported path (and `readdir` only that directory if it is a folder); keep the full scan for the 6 h sweep and for watcher reconnection. Precompute the exclusion Set and lower-cased lists once per config. (7 October 2026)
+
+### 6. `status` poll ships a 31.8 MB snapshot every 6 s (1.5 s during jobs) (high, measured) (7 October 2026)
+
+- Where: `AssetsWorkspaceView.jsx:154` polls `bridge.status` every 6 s, and `runJob` polls every 1.5 s (`:186-195`); the server returns the full `snapshot(id)` with all files and mapping (`AssetsService.mjs:1335`). `list` (1321-1325) returns 73.1 MB in 891 ms. `conversations` is polled every 10 s (`:109`) and `conversation` recomputes the whole conversation list to read one item (1103-1108), with `library.files.find` per copy per conversation (1092). (7 October 2026)
+- Cost: veg status 240 ms + 36 ms stringify + 31.8 MB parse in the browser every 6 s; conversations 234 to 429 ms every 10 s, twice when a conversation is open. (7 October 2026)
+- Fix: `status` returns `{ sync, jobs, events, revision }` only, and the page refetches files when `revision` changes; `list` returns summaries; build `Map(relativePath -> file)` once in `conversations` and let `conversation` look up the single item. (7 October 2026)
+
+### 7. Archive verification does a linear search with `normalize` for every file of every batch (medium, measured) (7 October 2026)
+
+- Where: `archiveNow` 669 `index.fiches.find((entry) => entry.rel.normalize('NFC') === file.relativePath)` inside the per-file loop. Also 677 rebuilds the `pendingIndex` Set per file (measured negligible). (7 October 2026)
+- Cost: 464 ms per 200-file batch on the veg workshop index (15,117 fiches), 194 ms on control-resonant (8,998); a full veg archive (≈91 batches) spends ≈40 s of event-loop CPU on this alone. (7 October 2026)
+- Fix: `const cards = new Map(index.fiches.map((e) => [e.rel.normalize('NFC'), e]))` once per batch, then `cards.get(file.relativePath)`. (7 October 2026)
+
+### 8. Quadratic selection checks (medium, measured) (7 October 2026)
+
+- Where: `archiveNow` 634-635 (`fileIds.includes` inside a filter, then `requested.some` inside `fileIds.some`), the same pattern in `buildWorkspacePlan` (`src/lib/projectWorkspace.js:113-114`) used by `restore` and `load-plan`, `extendWorkspace` 757-758, and `scheduleSceneAudits` 1002 (`localFiles.find` per candidate). (7 October 2026)
+- Cost: 1,289 ms for 18k ids on veg; the 262,144-byte body limit caps a request near 3,000 to 4,000 ids, still about 0.25 s per call (estimated from the measured rate). (7 October 2026)
+- Fix: `const wanted = new Set(fileIds)`, `const byId = new Map(localFiles.map(...))`. (7 October 2026)
+
+### 9. LOAD, recovery and UNLOAD spawn two processes per file (medium, estimated) (7 October 2026)
+
+- Where: `restoreOriginal` 824-840 spawns `Cloud/scripts/restaurer.mjs` per file and calls `getToken()` per file, which spawns `gh auth token` (the LaunchAgent sets only `PATH`, so `GITHUB_TOKEN` is absent). `restoreNow` 707, `extendWorkspace` 783, `recoverNow` 915 and the UNLOAD probe `unloadNow` 865-871 loop file by file. (7 October 2026)
+- Cost: measured process overhead about 41 ms per `node` start and 99 ms per `gh auth token`; for an 18k-file project ≈140 ms × 18,000 ≈ 42 minutes of pure spawn overhead before any download (estimated). (7 October 2026)
+- Fix: read the token once per job; give `restaurer.mjs` a batch mode (list file in, one JSON event per restored file out) and restore by batches of `config.storage.batchFiles`. (7 October 2026)
+
+### 10. Every archived byte is hashed twice (low, estimated) (7 October 2026)
+
+- Where: `snapshotSourceFile` 127-142 hashes while copying into a fresh stage folder; `archive-folder.mjs` then re-hashes the stage (`hacherTout` 681-780) because its fingerprint cache (`scripts/lib/fingerprint-cache.mjs:1-6`) is keyed by size, mtime and ctime, which are new for each stage copy. (7 October 2026)
+- Cost: one extra full read and SHA-256 of all archived bytes (veg 10.4 GB), estimated from the code path. (7 October 2026)
+- Fix: pass the snapshot hashes to the engine (for example `--known-sha=<json>` validated against size) so it skips its fingerprint pass for staged files. (7 October 2026)
+
+### 11. Audit scratch folders inside a watched workshop get archived (low, measured) (7 October 2026)
+
+- Where: project `zenray-assets-v2` source `workshop` = `/Users/zenray/.claude/tmp/tmp-zenray-assets-v2`, `exclude: []`. (7 October 2026)
+- Cost: 305 `perf-audit-7-October-2026` files inventoried during this audit, which also adds inventories (23 state rewrites of that project in 180 s). (7 October 2026)
+- Fix: add `perf-audit-*/scratch-*` (or a `scratch` convention) to the source `exclude`, or keep audit scratch outside watched roots. (7 October 2026)

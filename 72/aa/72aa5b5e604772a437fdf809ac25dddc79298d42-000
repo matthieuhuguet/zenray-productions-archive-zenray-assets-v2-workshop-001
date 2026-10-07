@@ -1,0 +1,24 @@
+// 7 October 2026: rebuild the cloud registry locally from read-only cloud snapshots, measure size and CPU time.
+import { readFile, writeFile } from 'node:fs/promises'
+const root = '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress'
+const { compactRegistryProject } = await import(`${root}/scripts/AssetsCloudPublisher.mjs`)
+const { buildGlobalProjectIndex, renderProjectContext } = await import(`${root}/src/lib/projectContextIndex.js`)
+const secret = (await readFile(`${root}/.env.local`, 'utf8')).match(/^\s*ZENRAY_API_SECRET\s*=\s*(.*?)\s*$/m)?.[1]?.replace(/^["']|["']$/g, '')
+const snaps = []
+for (const id of process.argv.slice(2)) {
+  const r = await fetch('http://127.0.0.1:3100/api/assets-workspace', { method: 'POST', headers: { 'content-type': 'application/json', 'x-zr-assets-client': '2', 'x-zr-auth': secret }, body: JSON.stringify({ action: 'cloud-snapshot', projectId: id }) })
+  snaps.push((await r.json()).project)
+}
+let t = performance.now()
+const projects = snaps.map(compactRegistryProject)
+const index = buildGlobalProjectIndex(projects, { cloud: true })
+const registry = { schemaVersion: 3, updatedAt: new Date().toISOString(), projects, index }
+const text = JSON.stringify(registry)
+const buildMs = performance.now() - t
+t = performance.now(); JSON.parse(text); const parseMs = performance.now() - t
+t = performance.now(); const b64 = Buffer.from(text).toString('base64'); const body = JSON.stringify({ action: 'save', path: 'x', sha: 'y', markdown: text }); const encMs = performance.now() - t
+const per = projects.map(p => ({ id: p.id, files: p.files.length, bytes: JSON.stringify(p).length, filesBytes: JSON.stringify(p.files).length, mappingBytes: JSON.stringify(p.mapping || {}).length, eventsBytes: JSON.stringify(p.events || []).length })).sort((a, b) => b.bytes - a.bytes)
+const ctx = renderProjectContext(index, 'vegetation-assets-collection-01')
+console.log(JSON.stringify({ registryBytes: text.length, indexBytes: JSON.stringify(index).length, base64Bytes: b64.length, postBodyBytes: body.length, buildMs: Math.round(buildMs), parseMs: Math.round(parseMs), encodeMs: Math.round(encMs), contextMdBytes: ctx.length }, null, 1))
+for (const p of per) console.log(JSON.stringify(p))
+await writeFile('registry-rebuilt.json', text)

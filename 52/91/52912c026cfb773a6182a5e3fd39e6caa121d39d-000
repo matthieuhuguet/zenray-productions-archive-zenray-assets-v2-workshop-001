@@ -1,0 +1,71 @@
+{"id":"agent-conversations","type":"archive","state":"done","runS":105,"waitS":2909,"count":3,"remaining":1022,"error":""}
+{"id":"agent-conversations","type":"archive","state":"done","runS":99,"waitS":1116,"count":2,"remaining":1022,"error":""}
+{"id":"agent-conversations","type":"archive","state":"done","runS":119,"waitS":468,"count":2,"remaining":1022,"error":""}
+{"id":"agent-conversations","type":"archive","state":"done","runS":172,"waitS":1164,"count":2,"remaining":1022,"error":""}
+{"id":"agent-conversations","type":"archive","state":"done","runS":118,"waitS":1313,"count":2,"remaining":1022,"error":""}
+{"id":"agent-conversations","type":"archive","state":"error","runS":1030,"waitS":778,"error":"Asset engine failed (1): file:///Users/zenray/Create/Build/Productions/GithubProductions/Z"}
+{"id":"agent-conversations","type":"archive","state":"error","runS":407,"waitS":1878,"error":"fetch failed"}
+{"id":"agent-conversations","type":"archive","state":"done","runS":98,"waitS":54,"count":2,"remaining":1022,"error":""}
+{"id":"ceramic-tiles","type":"archive","state":"done","runS":56,"waitS":3135,"count":0,"remaining":0,"error":""}
+{"id":"control-brutalist-fountain","type":"archive","state":"done","runS":45,"waitS":574,"count":0,"remaining":0,"error":""}
+{"id":"control-resonant-crossover","type":"archive","state":"done","runS":95,"waitS":848,"count":2,"remaining":0,"error":""}
+{"id":"control-resonant-crossover","type":"archive","state":"done","runS":63,"waitS":2847,"count":0,"remaining":0,"error":""}
+{"id":"control-resonant-crossover","type":"archive","state":"error","runS":122,"waitS":669,"error":"Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github "}
+{"id":"control-resonant-crossover","type":"archive","state":"done","runS":132,"waitS":1687,"count":2,"remaining":0,"error":""}
+{"id":"control-resonant-crossover","type":"archive","state":"done","runS":86,"waitS":548,"count":0,"remaining":0,"error":""}
+{"id":"control-resonant-hub-assets","type":"archive","state":"done","runS":96,"waitS":619,"count":2,"remaining":0,"error":""}
+{"id":"control-resonant-hub-assets","type":"archive","state":"done","runS":47,"waitS":2984,"count":0,"remaining":0,"error":""}
+{"id":"conversation-claude-dd651e1477395f9ca214f8a6","type":"archive","state":"done","runS":90,"waitS":60,"count":2,"remaining":0,"error":""}
+{"id":"conversation-claude-dd651e1477395f9ca214f8a6","type":"archive","state":"done","runS":45,"waitS":3040,"count":0,"remaining":0,"error":""}
+{"id":"conversation-codex-30e1d83bcd3b1a59297d5d27","type":"archive","state":"done","runS":84,"waitS":716,"count":2,"remaining":0,"error":""}
+{"id":"conversation-codex-30e1d83bcd3b1a59297d5d27","type":"archive","state":"done","runS":43,"waitS":2947,"count":0,"remaining":0,"error":""}
+{"id":"conversation-codex-30e1d83bcd3b1a59297d5d27","type":"archive","state":"done","runS":101,"waitS":791,"count":3,"remaining":0,"error":""}
+{"id":"conversation-codex-e37a471e98d4d9ae226a3725","type":"archive","state":"done","runS":104,"waitS":995,"count":2,"remaining":0,"error":""}
+{"id":"conversation-codex-e37a471e98d4d9ae226a3725","type":"archive","state":"done","runS":68,"waitS":2753,"count":0,"remaining":0,"error":""}
+{"id":"conversation-codex-e37a471e98d4d9ae226a3725","type":"archive","state":"done","runS":130,"waitS":1567,"count":2,"remaining":0,"error":""}
+{"id":"japanese-environment","type":"archive","state":"done","runS":49,"waitS":800,"count":0,"remaining":0,"error":""}
+{"id":"louisiana-bayou","type":"archive","state":"done","runS":53,"waitS":943,"count":0,"remaining":0,"error":""}
+{"id":"vegetation-assets-collection-01","type":"archive","state":"done","runS":122,"waitS":3013,"count":3,"remaining":0,"error":""}
+{"id":"vegetation-assets-collection-01","type":"archive","state":"done","runS":77,"waitS":1093,"count":0,"remaining":0,"error":""}
+{"id":"vegetation-assets-collection-01","type":"archive","state":"done","runS":139,"waitS":530,"count":2,"remaining":0,"error":""}
+{"id":"vegetation-assets-collection-01","type":"archive","state":"done","runS":166,"waitS":1402,"count":2,"remaining":0,"error":""}
+{"id":"zenray-assets-v2","type":"archive","state":"error","runS":77,"waitS":408,"error":"Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\"message\":\"B"}
+{"id":"zenray-assets-v2","type":"archive","state":"done","runS":115,"waitS":2745,"count":3,"remaining":2,"error":""}
+{"id":"zenray-assets-v2","type":"archive","state":"done","runS":98,"waitS":903,"count":2,"remaining":0,"error":""}
+{"id":"zenray-assets-v2","type":"archive","state":"done","runS":102,"waitS":320,"count":2,"remaining":0,"error":""}
+{"id":"zenray-assets-v2","type":"archive","state":"done","runS":129,"waitS":1514,"count":2,"remaining":0,"error":""}
+{"id":"zenray-assets-v2","type":"archive","state":"done","runS":59,"waitS":961,"count":0,"remaining":0,"error":""}
+{"id":"zenray-dictate","type":"archive","state":"done","runS":90,"waitS":485,"count":1,"remaining":0,"error":""}
+{"id":"zenray-dictate","type":"archive","state":"done","runS":91,"waitS":2831,"count":1,"remaining":0,"error":""}
+{"id":"zenray-dictate","type":"archive","state":"done","runS":104,"waitS":910,"count":1,"remaining":0,"error":""}
+{"id":"zenray-dictate","type":"archive","state":"done","runS":123,"waitS":308,"count":2,"remaining":7,"error":""}
+{"id":"zenray-dictate","type":"archive","state":"done","runS":160,"waitS":1324,"count":1,"remaining":0,"error":""}
+{"id":"zenray-dictate","type":"archive","state":"error","runS":129,"waitS":133,"error":"Source changed since inventory"}
+{"id":"zenray-dictate","type":"archive","state":"error","runS":98,"waitS":38,"error":"Cloud registry read failed"}
+{"id":"zenray-dictate","type":"archive","state":"error","runS":110,"waitS":138,"error":"Cloud registry read failed"}
+{"id":"zenray-dictate","type":"archive","state":"done","runS":133,"waitS":88,"count":1,"remaining":0,"error":""}
+{"id":"zenray-dictate","type":"archive","state":"done","runS":62,"waitS":1161,"count":0,"remaining":0,"error":""}
+{"id":"zenray-dictate","type":"archive","state":"done","runS":63,"waitS":1746,"count":0,"remaining":0,"error":""}
+{"id":"zenray-freelance","type":"archive","state":"done","runS":84,"waitS":236,"count":2,"remaining":0,"error":""}
+{"id":"zenray-freelance","type":"archive","state":"done","runS":100,"waitS":2909,"count":3,"remaining":0,"error":""}
+{"id":"zenray-freelance","type":"archive","state":"done","runS":94,"waitS":905,"count":2,"remaining":0,"error":""}
+{"id":"zenray-freelance","type":"archive","state":"done","runS":137,"waitS":814,"count":2,"remaining":0,"error":""}
+{"id":"zenray-freelance","type":"archive","state":"done","runS":118,"waitS":1581,"count":2,"remaining":0,"error":""}
+{"id":"zenray-freelance","type":"archive","state":"error","runS":84,"waitS":516,"error":"Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\"message\":\"B"}
+{"id":"zenray-freelance","type":"archive","state":"error","runS":1757,"waitS":1094,"error":"Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: fetch "}
+{"id":"zenray-freelance","type":"archive","state":"done","runS":54,"waitS":405,"count":0,"remaining":0,"error":""}
+{"id":"zenray-houdini-library","type":"archive","state":"done","runS":86,"waitS":150,"count":0,"remaining":0,"error":""}
+{"id":"zenray-postkit","type":"archive","state":"done","runS":88,"waitS":319,"count":2,"remaining":0,"error":""}
+{"id":"zenray-postkit","type":"archive","state":"done","runS":51,"waitS":2831,"count":0,"remaining":0,"error":""}
+{"id":"zenray-postkit","type":"archive","state":"done","runS":105,"waitS":1038,"count":2,"remaining":0,"error":""}
+{"id":"zenray-postkit","type":"archive","state":"done","runS":120,"waitS":1464,"count":2,"remaining":0,"error":""}
+{"id":"zenray-postkit","type":"archive","state":"error","runS":416,"waitS":480,"error":"Cloud registry read failed"}
+{"id":"zenray-postkit","type":"archive","state":"done","runS":58,"waitS":2765,"count":0,"remaining":0,"error":""}
+{"id":"zenray-progress","type":"archive","state":"done","runS":60,"waitS":0,"count":0,"remaining":0,"error":""}
+{"id":"zenray-progress","type":"archive","state":"done","runS":104,"waitS":2806,"count":2,"remaining":0,"error":""}
+{"id":"zenray-progress","type":"archive","state":"done","runS":95,"waitS":910,"count":2,"remaining":0,"error":""}
+{"id":"zenray-progress","type":"archive","state":"done","runS":107,"waitS":423,"count":2,"remaining":0,"error":""}
+{"id":"zenray-progress","type":"archive","state":"done","runS":116,"waitS":1536,"count":2,"remaining":0,"error":""}
+{"id":"zenray-progress","type":"archive","state":"done","runS":72,"waitS":904,"count":0,"remaining":0,"error":""}
+{"id":"zenray-shards-core","type":"archive","state":"error","runS":1810,"waitS":1099,"error":"Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: fetch "}
+{"id":"zenray-shards-core","type":"archive","state":"done","runS":210,"waitS":951,"count":0,"remaining":0,"error":""}

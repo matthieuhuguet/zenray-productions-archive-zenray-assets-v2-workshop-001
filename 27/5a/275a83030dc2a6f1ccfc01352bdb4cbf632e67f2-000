@@ -1,0 +1,11 @@
+// 7 October 2026: read-only extraction of job timings from bridge status.
+import { readFile } from 'node:fs/promises'
+const root = '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress'
+const secret = (await readFile(`${root}/.env.local`, 'utf8')).match(/^\s*ZENRAY_API_SECRET\s*=\s*(.*?)\s*$/m)?.[1]?.replace(/^["']|["']$/g, '')
+const rows = []
+for (const id of process.argv.slice(2)) {
+  const r = await fetch('http://127.0.0.1:3100/api/assets-workspace', { method: 'POST', headers: { 'content-type': 'application/json', 'x-zr-assets-client': '2', 'x-zr-auth': secret }, body: JSON.stringify({ action: 'status', projectId: id }) })
+  const j = await r.json()
+  for (const job of j.project?.jobs || []) if (job.startedAt && job.finishedAt) rows.push({ id, type: job.type, state: job.state, runS: Math.round((Date.parse(job.finishedAt) - Date.parse(job.startedAt)) / 1000), waitS: Math.round((Date.parse(job.startedAt) - Date.parse(job.createdAt)) / 1000), count: job.count, remaining: job.remainingCount, error: (job.error || '').slice(0, 90) })
+}
+for (const r of rows) console.log(JSON.stringify(r))
