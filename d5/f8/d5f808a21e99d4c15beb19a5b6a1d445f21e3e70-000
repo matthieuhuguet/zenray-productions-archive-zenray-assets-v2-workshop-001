@@ -62,7 +62,7 @@
     "sessionId": "01a11653-69f5-7492-b80e-dbcc6a785d87",
     "taskState": "/Users/zenray/.codex/01a11653-69f5-7492-b80e-dbcc6a785d87/prompt-stacking.md",
     "legacyArchiveJob": "429c7c4b-691c-48a1-a646-4c7d1d3f92a1",
-    "next": "Verify legacy cloud archive, remove old discoverable skill, synchronize and validate current contracts. Then segment zenray-edit project, migrate templates and build macOS status dashboard.",
+    "next": "Wait for explicit resume/plan validation; then revalidate two pending archive jobs and follow the complete saved sequence.",
     "agents": [
       {
         "id": "/root/audit_legacy_assets",
@@ -80,10 +80,34 @@
         "id": "/root/dashboard_contract",
         "task": "Read-only native status dashboard contract",
         "deliverable": "NativeDashboardContract.md",
-        "status": "running",
+        "status": "complete",
         "transcriptPath": null
       }
     ],
-    "transcriptNote": "Host exposes canonical task names only; no transcript path or UUID provided."
+    "transcriptNote": "Host exposes canonical task names only; no transcript path or UUID provided.",
+    "phase": "paused-by-user",
+    "projects": {
+      "assets": "zenray-assets-v2",
+      "edit": "zenray-edit"
+    },
+    "archiveJobs": {
+      "assetsSkill": "ea516d01-0a08-42b1-844e-bae5f573a83a",
+      "mediaSkill": "12a7f7cd-c015-4f6f-8be3-9f2bc96e98c1"
+    },
+    "auditReports": [
+      "LegacyAssetsAudit.md",
+      "LegacyAssetsForwardTest.md",
+      "EditSkillAudit.md",
+      "EditMigrationPlan.md",
+      "NativeDashboardContract.md"
+    ],
+    "planPath": "/Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/SkillsHarmonizationPlan.md",
+    "feedbackIntegration": "Required in canonical Assets skill; not yet implemented.",
+    "conversationIndexScan": {
+      "pid": 6003,
+      "execSessionId": 42037,
+      "status": "terminated-on-user-pause",
+      "exitCode": 143
+    }
   }
 }
