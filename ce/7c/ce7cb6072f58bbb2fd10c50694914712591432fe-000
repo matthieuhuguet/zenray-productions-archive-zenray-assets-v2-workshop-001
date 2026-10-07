@@ -1,0 +1,21 @@
+{
+  "date": "7 October 2026",
+  "green": {
+    "ok": true,
+    "changedFiles": [],
+    "changedSkillFiles": [],
+    "skillChanged": false,
+    "recordedAt": "2026-10-07T14:28:06.544Z"
+  },
+  "red": {
+    "ok": false,
+    "changedFiles": [],
+    "changedSkillFiles": [
+      "references/LegacyMigration.md"
+    ],
+    "skillChanged": true,
+    "recordedAt": "2026-10-07T14:28:06.544Z"
+  },
+  "greenExit": 0,
+  "redExit": 1
+}

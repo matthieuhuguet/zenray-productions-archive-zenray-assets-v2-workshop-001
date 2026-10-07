@@ -1,0 +1,20 @@
+{
+  "date": "7 October 2026",
+  "archive": "ZenRayAssetsLegacy-7October2026.tar.gz",
+  "sha256": "3738bbb8dbbe7829cebee278c99374d1db38d04b41b2825075f8c9283616b8c1",
+  "files": {
+    "SKILL.md": "029386c83c777fafbd375a647bbbe4d9f6c5140253dd723903f3c20ba2644584",
+    "scripts/zr-assets-cartel.py": "18afddde0e60620da4e888ace5a444681ed3c8ad0335872c401a88be0f6c597b",
+    "scripts/zenray-assets-upload.mjs": "7ebd4136bc055b330471d33d3ff0aeb89c8c1d16f1e459bd9c914140f8c83d71",
+    "scripts/_exemple-recette.json": "6b008c0e3906ecf152d730611e0f7881f54279c63c803bab2210f4d94ef537cd"
+  },
+  "roundTripVerified": true,
+  "cloudRestoreVerified": true,
+  "cloudPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/SkillArchives/ZenRayAssetsLegacy-7October2026.tar.gz.file.json",
+  "restoredPath": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/SkillArchives/RestoreProof/SkillArchives/ZenRayAssetsLegacy-7October2026.tar.gz",
+  "removedInstalledCopies": [
+    "/Users/zenray/.claude/skills/zenray-assets",
+    "/Users/zenray/.codex/skills/zenray-assets",
+    "/Users/zenray/.claude/Memory1/Skills/zenray-assets"
+  ]
+}

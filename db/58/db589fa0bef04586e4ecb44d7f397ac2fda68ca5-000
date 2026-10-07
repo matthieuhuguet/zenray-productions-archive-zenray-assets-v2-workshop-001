@@ -1,0 +1,55 @@
+# Legacy Assets audit (7 October 2026)
+
+## Scope and evidence (7 October 2026)
+
+- Read-only comparison of canonical zenray-assets/SKILL.md (153 lines), its upload script, zenray-assets-upload/SKILL.md, and current zenray-assets-v2/SKILL.md (820 lines). No skill or production change performed. (7 October 2026)
+- Legacy asset archive and V2 workspace are related but have different contracts: one archives a finished directory into pages/.zr-assets.json; the other tracks stable projects, sessions and sources through pages/.zr-assets-workspaces.json and verified LOAD copies. Keep the historical catalogue and cloud paths readable; deleting a skill must not delete archived projects. (7 October 2026)
+
+## Capabilities to preserve (7 October 2026)
+
+| Capability | Migration direction | Evidence (7 October 2026) |
+| --- | --- | --- |
+| Archive selected files from a shared directory | V2 explicit sources with include/exclude; never register the whole shared root | Legacy files/paths source selection, script lines 47 and 179; AssetsConfig.json contains include selections. (7 October 2026) |
+| Protect versioned sources marked keep | V2 leaves original production sources untouched; UNLOAD only managed LOAD copies | Legacy keep at lines 180 and 212; AssetsWorkspace.md line 63. (7 October 2026) |
+| Preserve project cover, showcase and components | Retain legacy reader and catalogue compatibility independently of canonical skill removal | Legacy updateProject spreads old project, preserving showcase/components at lines 181-188. (7 October 2026) |
+| Archive images, audio, video and opaque files | Reuse existing archive engines and V2 exact-byte verification, never a second implementation | Legacy run archive-folder.mjs at line 161; V2 operating contract requires verified bytes before publication. (7 October 2026) |
+| Explicit cover manifest and Quick Look for text, HTML and fonts | Keep UI requirements in V2 reference documentation, verify current rendering separately | Legacy five UI rules and coverManifest at line 175. (7 October 2026) |
+| Safe repeated archive and reindex | Document V2 retry/status/index mechanisms; retain old recovery script only in a historical archive | Legacy reindex entry at line 233; V2 persistent index retry is documented. (7 October 2026) |
+| Zero-copy preparation | Preserve as historical optimization, not a universal guarantee | Legacy script lines 154-156 catches hard-link failure and falls back to copyFile; original claim of zero bytes copied is conditional. (7 October 2026) |
+| Parametric cartel generation | Preserve zr-assets-cartel.py and _exemple-recette.json in the archived legacy package or zenray-edit template library | Four files exist in the canonical legacy skill: skill, upload script, cartel script, recipe. (7 October 2026) |
+
+## Dangerous or stale guidance to retire (7 October 2026)
+
+- Legacy free is NOT exact-byte safe. driveManifests/namesOf only enumerate manifest names (lines 98-112), free compares names (line 216), then recursively removes a source directory (line 226). An edited local file retaining its name passes this check. Do not migrate this deletion command into the active V2 contract. (7 October 2026)
+- Legacy add also labels manifest-name presence as 100 percent verification (lines 163-170); this is not byte identity or restore proof. V2 verification must supersede that claim. (7 October 2026)
+- Legacy prerequisites and deployment instructions reference old preview config, port 3000, no parallel writers and a deploy-before-push sequence; use current V2 service and repository doctrine instead. (7 October 2026)
+- The old keep, list-selection and collision invariants remain valuable, but the old schema, staging path, destructive purge and catalogue cannot be promoted as the V2 implementation. (7 October 2026)
+
+## Direct active callers (7 October 2026)
+
+- zenray-assets-upload/SKILL.md: description, canonical link at line 10, add command at line 21, and purge recommendation. Retarget the entry point to zenray-assets-v2 and explicit registered-source archive/status; remove legacy free advice. (7 October 2026)
+- zenray-collect/SKILL.md: description line 3, capabilities row line 18, ENVOYER/PURGE steps 72-73, command variable line 97. Retarget operational paths, distinguishing local collection from project workspace UNLOAD. Its scan_classify.py references legacy plan storage and needs compatibility review, not blind deletion. (7 October 2026)
+- zenray-assets-v2/SKILL.md frontmatter line 3 currently delegates punctual uploads to zenray-assets. Update the description to make V2 the current entry for project archiving as well as workspace continuity. (7 October 2026)
+- scripts/AssetsCloudPublisher.mjs User-Agent zenray-assets is merely an HTTP identifier, not a call into the skill. Do not rename unrelated network metadata to satisfy a naive search. (7 October 2026)
+- Media templates contain paths named zenray-assets-mockups; these are design assets, not deprecated skill dependencies. Preserve them. (7 October 2026)
+- Historical documents and memory may mention old skills. Preserve append-only history and add a dated migration pointer rather than rewrite past evidence. Generated Codex/Gemini/Memory skill mirrors must be synchronized and stale active directories removed after verified archive. (7 October 2026)
+
+## Migration acceptance sequence (7 October 2026)
+
+1. Archive all four legacy files with a SHA-256 inventory and verified cloud destination tied to the existing Assets project; retain original catalogue entries and cloud directories. (7 October 2026)
+2. Add a dated V2 migration reference covering selected files, preserved originals, archive/status/index, covers and legacy catalogue compatibility. Preserve the cartel recipe in the relevant template archive. (7 October 2026)
+3. Update zenray-assets-upload and zenray-collect active instructions and verify that no active command resolves into the deleted source directory. A historical archived script is evidence, not a recommended deletion tool. (7 October 2026)
+4. Remove canonical zenray-assets only after archive verification; synchronize all mirrors using the canonical skill-sync workflow and inventory stale mirrors explicitly. (7 October 2026)
+5. Verify selected-file isolation, protection of original sources, rejection of changed/missing cloud bytes for any managed UNLOAD, preservation of legacy project browsing, and current V2 contract. Record actual test output rather than reusing historical green counts. (7 October 2026)
+
+## Limits (7 October 2026)
+
+- This audit does not execute a deletion, a real archive, a cloud restore, UI rendering or the service test suite. Code reads establish the legacy name-only verification gap and caller locations; runtime proof remains the migration owner's responsibility. (7 October 2026)
+
+## Exact operational equivalents (7 October 2026)
+
+- Legacy add maps to explicit V2 registration/binding followed by `node scripts/Assets/Client.mjs archive <project-id>`; subset archive uses payload `'{"fileIds":["<stable-file-id>"]}'`. AssetsService.mjs lines 1353-1357 validate the subset. BeginProject/BeginConversation must retain the existing identity; archive is asynchronous, so status and job evidence are required before claiming success. (7 October 2026)
+- Legacy status maps to `node scripts/Assets/Client.mjs status <project-id>` and `context <project-id>` for mapping, rather than rewriting old boolean presence badges. (7 October 2026)
+- Legacy reindex has no dedicated V2 public action. `archive <project-id>` processes persistent pending index entries through indexPending (AssetsService.mjs lines 578, 663 and 697), including when verified backups already exist. Do not invent `Client.mjs reindex`. The original reindex script remains useful only for historical Create catalogue recovery. (7 October 2026)
+- Legacy cartel has no same-schema V2 equivalent: zr-assets-cartel.py cooks recipe-declared showcases/components for pages/.zr-assets.json, using French historical identifiers. V2 context is the live map, not this editorial cartel. Archive the script and recipe as historical methods; zenray-edit may later expose an English parametric presentation template without confusing it with a project registry. (7 October 2026)
+- Shared directory selection uses explicit include paths during source registration and fileIds during archive. Legacy keep translates to the stronger V2 distinction between production originals and managed LOAD workspace copies; no original-source purge is implied by an archive or UNLOAD. (7 October 2026)

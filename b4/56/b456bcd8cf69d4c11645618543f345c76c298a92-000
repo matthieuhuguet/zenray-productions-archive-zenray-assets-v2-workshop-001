@@ -1,0 +1,28 @@
+# Legacy migration forward test (7 October 2026)
+
+- Read-only instruction simulation against current service and CLI source; no live upload, registration, deletion or restart performed. Cases: two selected files in a shared folder, edited content under the same name, keep source, interrupted archive, existing project. (7 October 2026)
+
+## Confirmed safe paths (7 October 2026)
+
+- Relative include selection preserves shared-folder boundaries: projectWorkspace.js normalizes include with safeRelativePath, pathIsSelected matches exact path or descendants, AssetsService scanSource honors it. Selecting a.jpg and b.md does not authorize the whole parent. (7 October 2026)
+- keep:true survives normalization and blocks managed unload with source-kept (projectWorkspace.js lines 36 and 119-120). Instructions correctly reject old free and retain production originals. (7 October 2026)
+- Changed content under the same filename is governed by current file SHA256, size and changeToken; archiveNow selects changed current evidence instead of relying on manifest names (AssetsService.mjs lines 649-656). (7 October 2026)
+- Archive and inventory actions exist; archive returns a queued job and status exposes jobs. Pending index publication survives interruptions and retries via indexPending at archiveNow start (lines 578-586, 663). No invented reindex command appears in the migration. (7 October 2026)
+- start merges supplied source IDs into previous sources and preserves unrelated IDs; real session binding refuses reassignment (AssetsService.mjs start and bind-session branches). (7 October 2026)
+
+## Defects requiring clarification (7 October 2026)
+
+1. LegacyMigration says preserve the old cloud folder, but normalizeWorkspaceProject enforces cloudRoot/id and rejects another folder (projectWorkspace.js lines 38-39). An old id lacking tmp with folder pages/ZenRayAssets/tmp-id cannot be injected into V2. Retain the legacy cloud and catalogue separately, link legacyProjectIds, and let V2 compute its canonical destination. (7 October 2026)
+2. LegacyMigration names the start action without an exact payload. Client.mjs target becomes projectId, whereas service start reads payload.id and payload.project. A valid call must include both explicit id and project definition: Client.mjs start <id> '{"id":"<id>","project":{"id":"<id>","name":"<existing name>","sources":[...]}}'. Missing id fails, and using register directly risks replacing source lists instead of start merging them. (7 October 2026)
+3. Client.mjs intentionally projects every result.project to id/sync/jobs, so status and inventory cannot themselves display fileIds, SHA256 or backups (Client.mjs final console.log). Direct readers must inspect Project-<id>.json inventory.localFiles/backups using the context state path, or a full BridgeClient read. V2 long history documents this path, but the migration should explicitly name it at the verification step. (7 October 2026)
+4. zenray-collect retains active wording that every sent project bears a date in its identifier and that loose items create a daily tmp-date-divers project. This conflicts with preserving an existing stable project identity. Add a dated override: reuse existing mapped ID; dates are metadata; only a genuinely new project is named once. (7 October 2026)
+
+## Verdict (7 October 2026)
+
+- The destructive legacy purge is no longer recommended. Source scoping, keep, existing-source merge and archive retry match real V2 methods. The four documentation gaps above remain until their updated instructions are re-read. Runtime recovery remains unverified by this read-only test. (7 October 2026)
+
+## Corrected verdict after source reread (7 October 2026)
+
+- Re-read the complete updated LegacyMigration reference and the final zenray-collect correction only. All four reported instruction gaps are now corrected: exact start command with outer id/project payload, direct state-file evidence and backups key, historical folder retained separately through legacyProjectIds, stable existing project ID overriding historical date naming. (7 October 2026)
+- The documented backups key matches workspaceFileId exactly: sourceId plus colon plus normalized relative path (projectWorkspace.js lines 53-54). The documented start payload matches the current service start parser and merges sources by ID; status exposes jobs while raw state exposes file proofs. (7 October 2026)
+- Final read-only verdict: no remaining defect found in the requested five-case instruction paths. This proves instruction/code consistency only; no live migration, archive interruption, cloud-byte retrieval, LOAD or UNLOAD is executed by this audit. Runtime archive and recovery proofs remain separate acceptance work. (7 October 2026)

@@ -56,5 +56,34 @@
     "originalHashesMatch": true,
     "cloudRegistrySchema": 3,
     "cloudProjects": 7
+  },
+  "skillHarmonization": {
+    "date": "7 October 2026",
+    "sessionId": "01a11653-69f5-7492-b80e-dbcc6a785d87",
+    "taskState": "/Users/zenray/.codex/01a11653-69f5-7492-b80e-dbcc6a785d87/prompt-stacking.md",
+    "legacyArchiveJob": "429c7c4b-691c-48a1-a646-4c7d1d3f92a1",
+    "next": "Verify legacy cloud archive, remove old discoverable skill, synchronize and validate current contracts. Then segment zenray-edit project, migrate templates and build macOS status dashboard.",
+    "agents": [
+      {
+        "id": "/root/audit_legacy_assets",
+        "deliverable": "LegacyAssetsAudit.md",
+        "status": "complete",
+        "transcriptPath": null
+      },
+      {
+        "id": "/root/audit_edit",
+        "deliverable": "EditSkillAudit.md",
+        "status": "complete",
+        "transcriptPath": null
+      },
+      {
+        "id": "/root/dashboard_contract",
+        "task": "Read-only native status dashboard contract",
+        "deliverable": "NativeDashboardContract.md",
+        "status": "running",
+        "transcriptPath": null
+      }
+    ],
+    "transcriptNote": "Host exposes canonical task names only; no transcript path or UUID provided."
   }
 }
