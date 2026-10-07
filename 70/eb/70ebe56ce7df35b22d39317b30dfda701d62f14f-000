@@ -1,0 +1,27 @@
+// 7 October 2026: time snapshot(), buildGlobalProjectIndex(), refreshContextIndex() and inventory() against a COPY of the state dir.
+import { readFileSync } from 'node:fs'
+import path from 'node:path'
+const repo = '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress'
+const { AssetsService } = await import(repo + '/scripts/AssetsService.mjs')
+const { buildGlobalProjectIndex } = await import(repo + '/src/lib/projectContextIndex.js')
+const config = JSON.parse(readFileSync(repo + '/scripts/AssetsConfig.json', 'utf8'))
+config.storage.stateDir = path.resolve('statecopy')
+if (config.sceneAudit) config.sceneAudit.enabled = false
+const svc = await new AssetsService(config, { getToken: async () => null }).initialize()
+const time = async (label, fn, n = 3) => { const r = []; let v; for (let i = 0; i < n; i++) { const a = performance.now(); v = await fn(); r.push(performance.now() - a) } r.sort((a, b) => a - b); console.log(label, r.map(x => x.toFixed(0)).join(' / '), 'ms'); return v }
+const ids = [...svc.projects.keys()]
+console.log('projects', ids.length)
+await time('snapshot(vegetation)', () => svc.snapshot('vegetation-assets-collection-01'))
+await time('snapshot(all 18)', () => ids.map(id => svc.snapshot(id)))
+await time('buildGlobalProjectIndex(all snapshots)', () => buildGlobalProjectIndex(ids.map(id => svc.snapshot(id))))
+await time('refreshContextIndex()', () => svc.refreshContextIndex())
+await time('save(vegetation)', () => svc.save('vegetation-assets-collection-01'))
+// state of watched flags, for the trigger analysis
+console.log('watched', ids.filter(id => svc.state(id).watched).length)
+if (process.argv[2] === 'inventory') {
+  svc.state('vegetation-assets-collection-01').watched = false // no scene audit timers
+  await time('inventory(vegetation) incl. scan+save+refreshContextIndex', () => svc.inventory('vegetation-assets-collection-01'), 3)
+  const { scanSource } = await import(repo + '/scripts/AssetsService.mjs')
+  await time('scanSource only (all sources vegetation)', () => Promise.all(svc.project('vegetation-assets-collection-01').sources.map(s => scanSource(s, config))), 3)
+}
+process.exit(0)

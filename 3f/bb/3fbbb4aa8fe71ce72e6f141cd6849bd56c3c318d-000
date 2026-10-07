@@ -1,0 +1,20 @@
+// 7 October 2026: size and build time of the cloud registry document that publishProject rewrites (pure, no network).
+import { readFileSync } from 'node:fs'
+import path from 'node:path'
+const repo = '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress'
+const { AssetsService } = await import(repo + '/scripts/AssetsService.mjs')
+const { compactRegistryProject } = await import(repo + '/scripts/AssetsCloudPublisher.mjs')
+const { buildGlobalProjectIndex } = await import(repo + '/src/lib/projectContextIndex.js')
+const config = JSON.parse(readFileSync(repo + '/scripts/AssetsConfig.json', 'utf8'))
+config.storage.stateDir = path.resolve('statecopy'); if (config.sceneAudit) config.sceneAudit.enabled = false
+const svc = await new AssetsService(config, { getToken: async () => null }).initialize()
+let a = performance.now()
+const snaps = [...svc.projects.keys()].map(id => svc.snapshot(id, { cloud: true }))
+const tSnap = performance.now() - a
+const one = snaps.find(s => s.id === 'vegetation-assets-collection-01')
+a = performance.now()
+const projects = snaps.map(compactRegistryProject)
+const registry = { schemaVersion: 3, projects, index: buildGlobalProjectIndex(projects, { cloud: true }) }
+const text = JSON.stringify(registry)
+console.log({ cloudSnapshotsAllMs: tSnap.toFixed(0), registryBuildMs: (performance.now() - a).toFixed(0), registryMB: (text.length / 1e6).toFixed(2), vegetationWorkspaceJsonMB: (JSON.stringify(one).length / 1e6).toFixed(2), files: projects.reduce((n, p) => n + p.files.length, 0) })
+process.exit(0)
