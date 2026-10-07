@@ -1,0 +1,9 @@
+// 7 October 2026: cost of an fsync'd atomic write of the 31 MB state vs a small hot-state file vs an appended JSONL line.
+import { open, rename, readFile, appendFile } from 'node:fs/promises'
+const text = await readFile('veg.json', 'utf8'), obj = JSON.parse(text)
+const hot = JSON.stringify({ watched: obj.watched, syncState: obj.syncState, error: obj.error, jobs: obj.jobs, publishedAt: obj.publishedAt, pendingIndex: obj.pendingIndex, restorations: obj.restorations })
+const w = async (data, file) => { const a = performance.now(); const fh = await open(file + '.tmp', 'w'); await fh.writeFile(data); await fh.sync(); await fh.close(); await rename(file + '.tmp', file); return performance.now() - a }
+const med = async (fn) => { const r = []; for (let i = 0; i < 5; i++) r.push(await fn()); r.sort((a, b) => a - b); return r[2].toFixed(1) }
+const line = JSON.stringify(Object.values(obj.backups)[0]) + '\n'
+console.log({ bigFsyncMs: await med(() => w(JSON.stringify(obj), 'big.out')), hotBytes: hot.length, hotFsyncMs: await med(() => w(hot, 'hot.out')),
+  appendLineMs: await med(async () => { const a = performance.now(); const fh = await open('log.out', 'a'); await fh.write(line); await fh.sync(); await fh.close(); return performance.now() - a }), lineBytes: line.length })

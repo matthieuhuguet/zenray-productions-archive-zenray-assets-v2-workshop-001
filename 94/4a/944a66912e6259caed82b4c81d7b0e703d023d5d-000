@@ -1,0 +1,13 @@
+// 7 October 2026: time JSON.parse / JSON.stringify(pretty and compact) / write of copies of Assets state files.
+import { readFileSync, writeFileSync, renameSync, statSync } from 'node:fs'
+const files = process.argv.slice(2)
+const t = (fn, n=5) => { const r=[]; let v; for (let i=0;i<n;i++){ const a=performance.now(); v=fn(); r.push(performance.now()-a) } r.sort((x,y)=>x-y); return [r[Math.floor(n/2)], v] }
+for (const f of files) {
+  const text = readFileSync(f,'utf8')
+  const [parseMs, obj] = t(() => JSON.parse(text))
+  const [prettyMs, pretty] = t(() => JSON.stringify(obj, null, 2))
+  const [compactMs, compact] = t(() => JSON.stringify(obj))
+  const [writeMs] = t(() => { writeFileSync(f+'.tmp', pretty); renameSync(f+'.tmp', f+'.out') })
+  const top = Object.fromEntries(Object.entries(obj).map(([k,v]) => [k, JSON.stringify(v).length]).sort((a,b)=>b[1]-a[1]).slice(0,8))
+  console.log(JSON.stringify({ file:f, bytes:text.length, parseMs:+parseMs.toFixed(1), stringifyPrettyMs:+prettyMs.toFixed(1), stringifyCompactMs:+compactMs.toFixed(1), prettyBytes:pretty.length, compactBytes:compact.length, writeRenameMs:+writeMs.toFixed(1), topKeysCompactBytes: top }))
+}

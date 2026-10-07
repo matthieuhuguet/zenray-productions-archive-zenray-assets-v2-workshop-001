@@ -1,0 +1,151 @@
+{
+ "seconds": 240,
+ "rows": [
+  [
+   "GlobalProjectIndex.json",
+   107,
+   "236.5 MB"
+  ],
+  [
+   "contexts/agent-conversations.md",
+   107,
+   "11.4 MB"
+  ],
+  [
+   "contexts/ceramic-tiles.md",
+   107,
+   "1.7 MB"
+  ],
+  [
+   "contexts/control-brutalist-fountain.md",
+   107,
+   "0.3 MB"
+  ],
+  [
+   "contexts/control-resonant-crossover.md",
+   107,
+   "0.6 MB"
+  ],
+  [
+   "contexts/control-resonant-hub-assets.md",
+   107,
+   "0.5 MB"
+  ],
+  [
+   "contexts/conversation-claude-dd651e1477395f9ca214f8a6.md",
+   107,
+   "0.4 MB"
+  ],
+  [
+   "contexts/conversation-codex-30e1d83bcd3b1a59297d5d27.md",
+   107,
+   "0.5 MB"
+  ],
+  [
+   "contexts/conversation-codex-e37a471e98d4d9ae226a3725.md",
+   107,
+   "1.1 MB"
+  ],
+  [
+   "contexts/japanese-environment.md",
+   107,
+   "0.9 MB"
+  ],
+  [
+   "contexts/louisiana-bayou.md",
+   107,
+   "0.8 MB"
+  ],
+  [
+   "contexts/vegetation-assets-collection-01.md",
+   107,
+   "1.3 MB"
+  ],
+  [
+   "contexts/zenray-assets-v2.md",
+   107,
+   "1.3 MB"
+  ],
+  [
+   "contexts/zenray-dictate.md",
+   107,
+   "0.7 MB"
+  ],
+  [
+   "contexts/zenray-freelance.md",
+   107,
+   "0.4 MB"
+  ],
+  [
+   "contexts/zenray-houdini-library.md",
+   107,
+   "0.4 MB"
+  ],
+  [
+   "contexts/zenray-postkit.md",
+   107,
+   "1.4 MB"
+  ],
+  [
+   "contexts/zenray-progress.md",
+   107,
+   "0.3 MB"
+  ],
+  [
+   "contexts/zenray-shards-core.md",
+   107,
+   "0.3 MB"
+  ],
+  [
+   "Project-agent-conversations.json",
+   57,
+   "43.6 MB"
+  ],
+  [
+   "TranscriptCursors.json",
+   50,
+   "0.8 MB"
+  ],
+  [
+   "Project-zenray-assets-v2.json",
+   38,
+   "18.5 MB"
+  ],
+  [
+   "ConversationMirror.json",
+   24,
+   "11.1 MB"
+  ],
+  [
+   "Events.jsonl",
+   10,
+   "31.7 MB"
+  ],
+  [
+   "Project-zenray-dictate.json",
+   6,
+   "1.6 MB"
+  ],
+  [
+   "Project-vegetation-assets-collection-01.json",
+   6,
+   "194.9 MB"
+  ],
+  [
+   "Project-zenray-freelance.json",
+   4,
+   "0.1 MB"
+  ],
+  [
+   "ConversationLinks.json",
+   3,
+   "0.6 MB"
+  ],
+  [
+   "Project-zenray-progress.json",
+   3,
+   "0.0 MB"
+  ]
+ ],
+ "totalMB": "563.9"
+}
