@@ -1,0 +1,15 @@
+{
+  "date": "7 October 2026",
+  "projectId": "zenray-assets-v2",
+  "source": "/Users/zenray/.claude/skills/zenray-assets-v2",
+  "archive": "AssetsV2Skill-7October2026.tar.gz",
+  "sha256": "4b473b00f9b52076dc0262ac398ad612a6bd85be0d2281413515bcbaefc6d681",
+  "files": {
+    "SKILL.md": "ca48df257d1494e0cc409775d4c3dc4d14b25554c1fdb5565c41a2c2bc6359b9",
+    "references/DailyUse.md": "fadad5a1fcefddd18aeb8dcc5a529d7feae23df83eacac1bfad959137cc063d7",
+    "references/LegacyMigration.md": "8bc98e1cb4f91c6d9e9623b542b977151ac6c136d0462e3b70a39c7a645aa78c"
+  },
+  "symbolicLinksPreservedAsReferencesOnly": {},
+  "roundTripVerified": true,
+  "cloudVerified": false
+}
