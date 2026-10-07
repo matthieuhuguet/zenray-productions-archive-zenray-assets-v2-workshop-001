@@ -1,0 +1,49 @@
+{
+  "recordedAt": "2026-10-07T23:02:55.867415+02:00",
+  "scope": "T5 feedback integration, local code and temporary fixtures only",
+  "canonicalWriter": "/Users/zenray/.claude/skills/zenray-feedback/scripts/feedback.py",
+  "changedFiles": [
+    "scripts/AssetsService.mjs",
+    "scripts/AssetsService.test.js",
+    "scripts/AssetsFeedbackCapture.test.js"
+  ],
+  "sha256": {
+    "scripts/AssetsService.mjs": "a6795fb616a407a7b69b1fb9fbe67f7ee2758bf71512a879f40abb7df4ffd65b",
+    "scripts/AssetsService.test.js": "ee1fc3c41cb2fe770306f346990181c6c7c1a4808abc0a2bdc16f4ea1367cb75",
+    "scripts/AssetsFeedbackCapture.test.js": "bd8442bf36a9a2f8a3dde8ee1ed5a020578b47993cc146171b48c353416ad545",
+    "scripts/AssetsFeedbackCapture.mjs": "cfe43acc3b12500b5c6483b73a3f3a83d89c6c140b3c4d9ff95a797b5f49a7a7",
+    "scripts/AssetsConfig.json": "1cb5dd2b92506dd6ab711401d9a85a58ce4305fa6545e45d6c6596ca5da6faed",
+    "scripts/local-server.mjs": "f111e9d9e0b7cf3f0a9706c9636a75344118444b9c5d0de79217af846ec22309"
+  },
+  "checks": [
+    {
+      "command": "npx vitest run scripts/AssetsService.test.js scripts/AssetsFeedbackCapture.test.js -t 'complete local setup|simultaneous session bindings|existing session bindings|canonical feedback|turn checkpoint|captur|transcript|feedback'",
+      "exitCode": 0,
+      "passed": 12,
+      "skipped": 64,
+      "detail": "9 service tests and 3 pre-existing capture tests"
+    },
+    {
+      "command": "npx vitest run scripts/AssetsFeedbackCapture.test.js",
+      "exitCode": 0,
+      "passed": 4,
+      "detail": "Final run includes canonical writer, replay, collector restart, and new post-restart prompt"
+    },
+    {
+      "command": "python3 /Users/zenray/.claude/skills/zenray-feedback/Tests/TestFeedback.py",
+      "exitCode": 0,
+      "passed": 2,
+      "detail": "Original prefix, duplicate stable event rejected, 16 concurrent processes each append one intact unique prompt"
+    },
+    {
+      "command": "git diff --check -- scripts/AssetsService.mjs scripts/AssetsService.test.js scripts/AssetsFeedbackCapture.test.js",
+      "exitCode": 0
+    }
+  ],
+  "limitations": [
+    "No production collector restart or deployment executed",
+    "Existing generated files remain intact because start uses wx; new instructions apply to newly created files",
+    "Cloud backup is not established by local capture or checkpoint tests",
+    "No SKILL.md, CheckSkillContract, commit or original human feedback changed"
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "simultaneous",
+    "passed": true,
+    "proof": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/NativeDashboardFixture-simultaneous.json"
+  },
+  {
+    "mode": "empty",
+    "passed": true,
+    "proof": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/NativeDashboardFixture-empty.json"
+  },
+  {
+    "mode": "down",
+    "passed": true,
+    "proof": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/NativeDashboardFixture-down.json"
+  },
+  {
+    "mode": "large-error",
+    "passed": true,
+    "proof": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/NativeDashboardFixture-large-error.json"
+  },
+  {
+    "mode": "timeout",
+    "passed": true,
+    "proof": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/NativeDashboardFixture-timeout.json"
+  },
+  {
+    "mode": "current-errors",
+    "passed": true,
+    "proof": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/NativeDashboardFixture-current-errors.json"
+  }
+]

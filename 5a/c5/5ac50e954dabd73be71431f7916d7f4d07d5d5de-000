@@ -1,0 +1,12 @@
+{
+  "checkedAt" : "",
+  "connected" : false,
+  "fontAvailable" : true,
+  "fontName" : "AnthropicSerif-Regular",
+  "pid" : 93497,
+  "popoverShown" : false,
+  "popoverWindowVisible" : false,
+  "projectCount" : 0,
+  "statusItem" : true,
+  "text" : "Service unavailable: Verification fixture: bridge unavailable\nLast data is stale.\n\nNo current status available."
+}

@@ -1,0 +1,53 @@
+{
+  "date": "7 October 2026",
+  "files": [
+    {
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/CLAUDE.md",
+      "oldBytes": 779,
+      "newBytes": 1704,
+      "oldSha256": "fdc531fecb2bc4edb5475f27437842bbe747c6d0235dd1d4f1d6d56c2dedfcaf",
+      "newSha256": "1225830e5dac141428ce8e851f2b5a08a890b56b1b27dac2493815376d3a2f41",
+      "prefixPreserved": true
+    },
+    {
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/AGENTS.md",
+      "oldBytes": 779,
+      "newBytes": 1704,
+      "oldSha256": "fdc531fecb2bc4edb5475f27437842bbe747c6d0235dd1d4f1d6d56c2dedfcaf",
+      "newSha256": "1225830e5dac141428ce8e851f2b5a08a890b56b1b27dac2493815376d3a2f41",
+      "prefixPreserved": true
+    },
+    {
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/CLAUDE.md",
+      "oldBytes": 701,
+      "newBytes": 1626,
+      "oldSha256": "70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b",
+      "newSha256": "d98d0fd914ac3fc850d8e83269432e87dce5c0ab07d11e85e4fb5931c060e600",
+      "prefixPreserved": true
+    },
+    {
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/AGENTS.md",
+      "oldBytes": 701,
+      "newBytes": 1626,
+      "oldSha256": "70ef5969e6ae68b729237cdf92438930c710114ef2cde8097a23532fc5184b8b",
+      "newSha256": "d98d0fd914ac3fc850d8e83269432e87dce5c0ab07d11e85e4fb5931c060e600",
+      "prefixPreserved": true
+    },
+    {
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-edit/CLAUDE.md",
+      "oldBytes": 681,
+      "newBytes": 1606,
+      "oldSha256": "c600ac212761e6cac2febe2cefe5e7d3df7943b36314ce079008b0f3175ae381",
+      "newSha256": "6c7483978eac1a9576d2bfc88f0fc13d5225d77873e9f995329dd298ad2d6db6",
+      "prefixPreserved": true
+    },
+    {
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-edit/AGENTS.md",
+      "oldBytes": 681,
+      "newBytes": 1606,
+      "oldSha256": "c600ac212761e6cac2febe2cefe5e7d3df7943b36314ce079008b0f3175ae381",
+      "newSha256": "6c7483978eac1a9576d2bfc88f0fc13d5225d77873e9f995329dd298ad2d6db6",
+      "prefixPreserved": true
+    }
+  ]
+}

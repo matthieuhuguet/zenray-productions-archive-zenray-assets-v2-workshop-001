@@ -1,0 +1,30 @@
+# Canonical Assets forward audit (7 October 2026)
+
+## Scope and current entrypoint (7 October 2026)
+
+- Independently read canonical zenray-assets/SKILL.md, V2 compatibility entry, DailyUse and LegacyMigration references, BeginConversation/BeginProject parsers, ConversationIdentity, service archive/restore/unload/checkpoint branches and canonical feedback capture. No real destructive LOAD/UNLOAD or session reassignment performed. (7 October 2026)
+- V2 alias points to the canonical skill and its historical definition; the old destructive archive engine is not reactivated. Project IDs remain stable. Main entrypoint uses the existing service, configured writer and current evidence rather than historical test counts. (7 October 2026)
+
+## Forward scenarios (7 October 2026)
+
+| Scenario | Verdict | Evidence (7 October 2026) |
+| --- | --- | --- |
+| New project | Pass after clarification | Main now names BeginProject with stable new ID and real host session, then BeginConversation with actual provider. Pure ConversationIdentity test yields start with exact ID/session. (7 October 2026) |
+| Resume | Pass | Mapping is read first, prior bound identity wins; pure test retains fixture-existing. A requested conflicting project throws rather than rewrites history. (7 October 2026) |
+| Shared subset archive | Pass after clarification | Main exact fileIds payload and LegacyMigration relative include preserve two selected files; pure pathIsSelected test rejects unselected.txt. No whole shared directory inference. (7 October 2026) |
+| LOAD/UNLOAD | Consistent, runtime limited | Documented load-plan/restore/unload-plan/unload/recover are implemented request actions. Existing lifecycle guards require managed copies and verified recovery, protect keep sources and production originals; this audit does not execute a real release. (7 October 2026) |
+| Original prompt | Pass after clarification | Main now states ConversationIndex and ConversationDigest reader-ID path; checkpoint remains summary. Prior real writer fixture proves exact French/Japanese text, correct source capture, commentary exclusion and duplicate-free replay/restart. (7 October 2026) |
+| Wrong checkpoint session | Pass | Service rejects existing different-project binding before writer invocation. Prior targeted checkpoint test proves unchanged bytes, invalid identity rejection and unsafe canonical feedback rejection. Main clarifies that an unbound checkpoint does not create a binding. (7 October 2026) |
+| Unknown host / missing identity | Pass after clarification | ConversationIdentity rejects unsupported provider and absent actual ID in executed pure negative tests. Main now explicitly limits accepted providers and prohibits fabricated identity/provider. (7 October 2026) |
+
+## Corrections performed (7 October 2026)
+
+- Appended a dated main skill section with the exact new-project, shared archive and checkpoint command shapes, unknown-host behavior and original-prompt lookup. No historical definition removed. Parent must synchronize and re-record the current contract. (7 October 2026)
+- Updated active AssetsService generator to name zenray-assets instead of the historical alias. Existing canonical writer correction remains. Strengthened complete setup test passes: 1 test, 72 unrelated tests skipped, exit 0. (7 October 2026)
+- Existing exclusive-create instructions are corrected by dated append only, not rewritten: six CLAUDE.md/AGENTS.md files across Assets active workshop, Assets registered original workshop and Edit registered workshop. Their old bytes remain exact prefixes; old/new hashes and paths are in AssetsGeneratedInstructionsCorrectionProof.json. All now direct agents to zenray-assets and the zenray-feedback writer; project IDs are unchanged. (7 October 2026)
+- Six pure forward checks pass: new payload, resume, wrong-project rejection, unknown-host rejection, missing-identity rejection and exact shared selection with keep. git diff --check passes for changed service/test files. (7 October 2026)
+
+## Limits and handoff (7 October 2026)
+
+- Current documentation and pure code behavior align for the requested cases. This report does not prove live cloud transfer, a production collector restart, portability of Houdini/Unreal, real destructive workspace unload or a universal host hook. Separate archive/restoration evidence remains required. (7 October 2026)
+- No commit, contract record or mirror synchronization performed by this subagent. Parent owns these steps and the final requirement audit. Instructions modified inside the active LOAD copy and registered originals need current archive evidence before any later workspace release. (7 October 2026)

@@ -1,0 +1,45 @@
+{
+  "date": "7 October 2026",
+  "sourceSha256": {
+    "Adapter.mjs": "12fa4d4bf399aaa216db8399b69f114b5069298deffbd4c14133a3c720c71b2d",
+    "Model.test.mjs": "c1153db1ead7b76e49d57313cbb5975f80542a414eaddd8bd13a430edcf91231",
+    "Verify.mjs": "940a33b1630c566d5084797815fe0a98b9627151970ea779a3b71218f4f1ac0c",
+    "README.md": "5659b05ac12c783ca1d45243f1085fdad91a0aa456c60fabe2068ff71ae7a2d8",
+    "Install.mjs": "fd32a29b5989a4707f97393f3296a9d7c058935ebae080d83f94818cb1b9f764",
+    "main.swift": "9d47b07ff63d55684af923e4ee919a1a811b1bef8464927f19e0a0845620c8a3",
+    "Model.mjs": "0a5f96d28ab8ddb7d000c48d52e3a84db80785a8a078ef5ac660c74c75b88b4f",
+    "FixtureAdapter.mjs": "1519438a155a2d1ab55b1342541b73fc1f84d940b23bd8f15701d3b754776eb1"
+  },
+  "binarySha256": "24d5bbb04c18644fba244fa9a0cb0cdeecdf6a6cc19d439f476b8d425390a5e9",
+  "runtime": {
+    "checkedAt": "2026-10-07T21:11:28.256Z",
+    "connected": true,
+    "diagnostics": [
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github ",
+      "Cloud registry save failed (200) at pages/ZenRayAssets/agent-conversations/.workspace.json: github {\"message\": \"We couldn't respond to your request in time. Sorry about that. Please try resubmitting your request and contact us if the problem persists.\"}\r\n",
+      "fetch failed",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"401\"}",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"401\"}",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: fetch ",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"401\"}",
+      "fetch failed",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"401\"}",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: fetch ",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"401\"}",
+      "surveillance interrompue (ENOENT: no such file or directory, watch '/Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards/Content/ModelingJapan_01') ; nouvelle tentative automatique",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\n  \"message\": \"Server Error\"\n}\n",
+      "Cloud registry save failed (200) at pages/ZenRayAssets/vegetation-assets-collection-01/.workspace.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"401\"}",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"401\"}",
+      "Cloud registry save failed (200) at pages/.zr-assets-workspaces.json: github {\n  \"message\": \"Server Error\"\n}\n"
+    ],
+    "fontAvailable": true,
+    "fontName": "AnthropicSerif-Regular",
+    "pid": 4472,
+    "popoverShown": true,
+    "popoverWindowVisible": true,
+    "projectCount": 19,
+    "statusButtonFrame": "{{1008, 1084}, {95, 33}}",
+    "statusItem": true,
+    "text": "ZenRay Assets\n\nActualis\u00e9 le 7 October 2026, 23:11:28\n\nConversations des agents\nUpload \u00b7 en attente\n\nZenRay Assets V2\nUpload \u00b7 en attente\n\nZenRay Freelance\nUpload \u00b7 en attente\n\nZenRay-Edit\nUpload \u00b7 en cours\nFinalisation et v\u00e9rification\n\nEnvironnement japonais\nUne source locale est indisponible\n\n19 projets \u00b7 4 charg\u00e9s"
+  }
+}

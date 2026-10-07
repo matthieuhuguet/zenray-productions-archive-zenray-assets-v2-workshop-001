@@ -1,0 +1,16 @@
+{
+  "checkedAt" : "",
+  "connected" : false,
+  "diagnostics" : [
+    "Fixture: bridge unavailable\n"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "AnthropicSerif-Regular",
+  "pid" : 4281,
+  "popoverShown" : false,
+  "popoverWindowVisible" : false,
+  "projectCount" : 0,
+  "statusButtonFrame" : "{{952, 1084}, {74, 33}}",
+  "statusItem" : true,
+  "text" : "ZenRay Assets\n\nService indisponible\nLes dernières données sont anciennes.\n\nAucune donnée disponible."
+}

@@ -63,29 +63,13 @@
     "taskState": "/Users/zenray/.codex/01a11653-69f5-7492-b80e-dbcc6a785d87/prompt-stacking.md",
     "legacyArchiveJob": "429c7c4b-691c-48a1-a646-4c7d1d3f92a1",
     "next": "Wait for explicit resume/plan validation; then revalidate two pending archive jobs and follow the complete saved sequence.",
-    "agents": [
-      {
-        "id": "/root/audit_legacy_assets",
-        "deliverable": "LegacyAssetsAudit.md",
-        "status": "complete",
-        "transcriptPath": null
-      },
-      {
-        "id": "/root/audit_edit",
-        "deliverable": "EditSkillAudit.md",
-        "status": "complete",
-        "transcriptPath": null
-      },
-      {
-        "id": "/root/dashboard_contract",
-        "task": "Read-only native status dashboard contract",
-        "deliverable": "NativeDashboardContract.md",
-        "status": "complete",
-        "transcriptPath": null
-      }
-    ],
+    "agents": {
+      "audit_edit": "completed",
+      "audit_legacy_assets": "completed",
+      "dashboard_contract": "completed"
+    },
     "transcriptNote": "Host exposes canonical task names only; no transcript path or UUID provided.",
-    "phase": "paused-by-user",
+    "phase": "final-integration-sequential",
     "projects": {
       "assets": "zenray-assets-v2",
       "edit": "zenray-edit"
@@ -108,6 +92,8 @@
       "execSessionId": 42037,
       "status": "terminated-on-user-pause",
       "exitCode": 143
-    }
+    },
+    "subagentsAllowed": false,
+    "nextAction": "Contract negative tests, commits, final packages, cloud restores, final audit"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "date": "7 October 2026",
+  "results": [
+    {
+      "projectId": "zenray-assets-v2",
+      "archive": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/SkillArchives/RestoreSnapshots/SkillArchives/AssetsV2Skill-7October2026.tar.gz",
+      "sha256": "4b473b00f9b52076dc0262ac398ad612a6bd85be0d2281413515bcbaefc6d681",
+      "verifiedFiles": 3,
+      "cloudRestored": true
+    },
+    {
+      "projectId": "zenray-edit",
+      "archive": "/Users/zenray/.claude/tmp/tmp-zenray-edit/SkillArchives/RestoreSnapshots/SkillArchives/MediaWorkshopLegacy-7October2026.tar.gz",
+      "sha256": "e5943a09d67c4547a74c53c8d6c6a82718d7e6cd278c62127bc6c263757d518f",
+      "verifiedFiles": 115,
+      "cloudRestored": true
+    }
+  ]
+}

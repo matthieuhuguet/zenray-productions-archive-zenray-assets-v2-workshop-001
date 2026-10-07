@@ -1,0 +1,31 @@
+{
+  "checkedAt" : "2026-10-07T21:11:28.256Z",
+  "connected" : true,
+  "diagnostics" : [
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: github ",
+    "Cloud registry save failed (200) at pages\/ZenRayAssets\/agent-conversations\/.workspace.json: github {\"message\": \"We couldn't respond to your request in time. Sorry about that. Please try resubmitting your request and contact us if the problem persists.\"}\r\n",
+    "fetch failed",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: fetch ",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "fetch failed",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: fetch ",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "surveillance interrompue (ENOENT: no such file or directory, watch '\/Users\/zenray\/Create\/Build\/Productions\/ZenRayShards\/ZenRayShards\/Content\/ModelingJapan_01') ; nouvelle tentative automatique",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: github {\n  \"message\": \"Server Error\"\n}\n",
+    "Cloud registry save failed (200) at pages\/ZenRayAssets\/vegetation-assets-collection-01\/.workspace.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "Cloud registry save failed (200) at pages\/.zr-assets-workspaces.json: github {\n  \"message\": \"Server Error\"\n}\n"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "AnthropicSerif-Regular",
+  "pid" : 4472,
+  "popoverShown" : true,
+  "popoverWindowVisible" : true,
+  "projectCount" : 19,
+  "statusButtonFrame" : "{{1008, 1084}, {95, 33}}",
+  "statusItem" : true,
+  "text" : "ZenRay Assets\n\nActualisé le 7 October 2026, 23:11:28\n\nConversations des agents\nUpload · en attente\n\nZenRay Assets V2\nUpload · en attente\n\nZenRay Freelance\nUpload · en attente\n\nZenRay-Edit\nUpload · en cours\nFinalisation et vérification\n\nEnvironnement japonais\nUne source locale est indisponible\n\n19 projets · 4 chargés"
+}

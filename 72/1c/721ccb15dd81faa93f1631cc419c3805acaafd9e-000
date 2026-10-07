@@ -1,0 +1,14 @@
+# Feedback integration proof (7 October 2026)
+
+- T5 code change replaces the stale feedback-stack reference in AssetsService project instruction generation with zenray-feedback. The writer implementation is unchanged; AssetsConfig points to the single canonical ~/.claude/skills/zenray-feedback/scripts/feedback.py. (7 October 2026)
+- Capture uses that same configured writer, stable transcript event IDs and native session binding. local-server.mjs initializes the collector and exposes collection errors; bind-session rejects project reassignment before replay. Checkpoints use the same writer, explicit source labels and stable checkpoint event IDs, and never claim cloud confirmation. (7 October 2026)
+- Targeted service/capture run: 12 passed, 64 unrelated service tests skipped, exit 0. Cases include complete setup, concurrent session bindings, reassignment rejected with unchanged registry, idempotent project setup, duplicate checkpoint rejected without byte changes, invalid identity rejected and symbolic feedback refused. (7 October 2026)
+- Final capture suite: 4 passed, exit 0. Added test uses the REAL canonical writer with temporary transcript and feedback fixtures: an unbound session writes nothing; later binding captures exact French/Japanese prompt and final response; commentary is excluded; replay leaves bytes identical; collector restart preserves the cursor; a new prompt appends once after restart. Corrupt/shrunk transcripts and delegated sidechains retain existing positive/negative coverage. (7 October 2026)
+- Canonical Python writer: 2 passed, exit 0. Existing original prefix stays unchanged, duplicate stable event leaves the whole file unchanged, and 16 real concurrent processes produce 16 complete unique entries. (7 October 2026)
+- git diff --check passes; no feedback-stack occurrence remains in the active generator/capture/config/server files searched. FeedbackIntegrationProof.json records current source SHA256 and exact commands. No actual user prompt is manually duplicated. (7 October 2026)
+
+## Limits and handoff (7 October 2026)
+
+- Generated files already on disk remain untouched because initialization uses exclusive creation; historical instructions are not rewritten. Newly generated files point to the installed canonical skill, as the strengthened setup test proves. (7 October 2026)
+- No production collector restart, deployment, cloud upload or native universal hook is claimed. Local checkpoint/capture success does not prove cloud backup; backupConfirmed remains false for checkpoints. (7 October 2026)
+- Only AssetsService.mjs, AssetsService.test.js and AssetsFeedbackCapture.test.js are changed. The parent owns skill documentation, contract recording, commits and pushes. No SKILL.md or CheckSkillContract change is made here. (7 October 2026)

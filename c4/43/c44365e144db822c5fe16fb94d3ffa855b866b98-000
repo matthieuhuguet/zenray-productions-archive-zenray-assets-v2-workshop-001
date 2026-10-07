@@ -1,0 +1,15 @@
+{
+  "checkedAt" : "2026-10-07T10:11:12.345Z",
+  "connected" : true,
+  "diagnostics" : [
+    "Historical failure"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "AnthropicSerif-Regular",
+  "pid" : 96759,
+  "popoverShown" : false,
+  "popoverWindowVisible" : false,
+  "projectCount" : 3,
+  "statusItem" : true,
+  "text" : "ZenRay Assets\n\nActualisé le 7 October 2026, 12:11:12\n\nProjet chargé\nLOAD · en cours\nPréparation : 20 \/ 100 octets\n\nProjet libéré\nUNLOAD · en attente\n\n3 projets · 2 chargés"
+}

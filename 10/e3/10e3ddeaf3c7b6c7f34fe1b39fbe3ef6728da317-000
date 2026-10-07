@@ -1,0 +1,18 @@
+{
+  "checkedAt" : "2026-10-07T10:11:12.345Z",
+  "connected" : true,
+  "diagnostics" : [
+    "Current feedback failure",
+    "ENOENT: current watcher failure",
+    "Current conversation indexing failure"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "AnthropicSerif-Regular",
+  "pid" : 4299,
+  "popoverShown" : false,
+  "popoverWindowVisible" : false,
+  "projectCount" : 1,
+  "statusButtonFrame" : "{{952, 1084}, {67, 33}}",
+  "statusItem" : true,
+  "text" : "ZenRay Assets\n\nActualisé le 7 October 2026, 12:11:12\n\nProjet surveillé\nL’opération échoue. Détails au survol.\nUne source locale est indisponible\n\n1 projets · 1 chargés"
+}

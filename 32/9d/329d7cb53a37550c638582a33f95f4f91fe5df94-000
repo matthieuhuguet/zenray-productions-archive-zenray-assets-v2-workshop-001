@@ -1,0 +1,19 @@
+{
+  "date": "7 October 2026",
+  "first": {
+    "added": true,
+    "path": "/Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/FEEDBACK.md",
+    "eventId": "checkpoint:zenray-assets-v2:codex:01a11653-69f5-7492-b80e-dbcc6a785d87:skills-harmonization-resume-feedback",
+    "kind": "iteration",
+    "backupConfirmed": false
+  },
+  "duplicate": {
+    "added": false,
+    "path": "/Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/FEEDBACK.md",
+    "eventId": "checkpoint:zenray-assets-v2:codex:01a11653-69f5-7492-b80e-dbcc6a785d87:skills-harmonization-resume-feedback",
+    "kind": "iteration",
+    "backupConfirmed": false
+  },
+  "wrongProjectRejected": "Session belongs to a different project; begin the correct project before committing",
+  "wrongProjectBytesUnchanged": true
+}
