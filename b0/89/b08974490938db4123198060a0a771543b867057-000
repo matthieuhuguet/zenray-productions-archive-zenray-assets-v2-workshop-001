@@ -1,0 +1,37 @@
+[
+  {
+    "mode": "simultaneous",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardFixture-simultaneous.json"
+  },
+  {
+    "mode": "busy-queue",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardFixture-busy-queue.json"
+  },
+  {
+    "mode": "empty",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardFixture-empty.json"
+  },
+  {
+    "mode": "down",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardFixture-down.json"
+  },
+  {
+    "mode": "large-error",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardFixture-large-error.json"
+  },
+  {
+    "mode": "timeout",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardFixture-timeout.json"
+  },
+  {
+    "mode": "current-errors",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardFixture-current-errors.json"
+  }
+]
