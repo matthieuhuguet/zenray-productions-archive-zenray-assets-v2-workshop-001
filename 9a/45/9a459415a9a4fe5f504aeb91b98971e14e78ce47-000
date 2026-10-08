@@ -5,12 +5,13 @@
 
   ],
   "fontAvailable" : true,
-  "fontName" : "AnthropicSerif-Regular",
-  "pid" : 4278,
+  "fontName" : "InterVariable",
+  "pid" : 47568,
   "popoverShown" : false,
   "popoverWindowVisible" : false,
   "projectCount" : 0,
-  "statusButtonFrame" : "{{952, 1084}, {67, 33}}",
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{970, 1084}, {62, 33}}",
   "statusItem" : true,
-  "text" : "ZenRay Assets\n\nActualisé le 7 October 2026, 12:11:12\n\nAucun transfert en cours\n\n0 projets · 0 chargés"
+  "text" : "ZenRay Assets\nAssets répond\nAucune opération en cours\nMis à jour le 7 oct., 12:11"
 }

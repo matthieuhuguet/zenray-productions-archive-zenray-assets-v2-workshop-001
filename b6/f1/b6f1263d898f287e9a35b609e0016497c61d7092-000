@@ -1,0 +1,21 @@
+{
+  "checkedAt" : "2026-10-08T09:43:28.922Z",
+  "connected" : true,
+  "diagnostics" : [
+    "Previous service stopped before completion; backup can resume",
+    "Previous service stopped before completion; backup can resume",
+    "surveillance interrompue (ENOENT: no such file or directory, watch '\/Users\/zenray\/Create\/Build\/Productions\/ZenRayShards\/ZenRayShards\/Content\/ModelingJapan_01') ; nouvelle tentative automatique",
+    "Previous service stopped before completion; backup can resume",
+    "Previous service stopped before completion; backup can resume"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 42590,
+  "popoverShown" : true,
+  "popoverWindowVisible" : true,
+  "projectCount" : 19,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{978, 1084}, {62, 33}}",
+  "statusItem" : true,
+  "text" : "ZenRay Assets\nAssets répond\n13 opérations à suivre\nCeramic Tiles\nSauvegarde dans le cloud · En attente\n\nCeramic Tiles\nÀ vérifier · Problème\nL’opération a échoué. Survole pour le détail.\nControl Resonant CrossOver\nSauvegarde dans le cloud · En attente\n\nConversations des agents\nSauvegarde dans le cloud · En attente\n\nConversations des agents\nÀ vérifier · Problème\nL’opération a échoué. Survole pour le détail.\nEnvironnement japonais\nSauvegarde dans le cloud · En attente\n\nEnvironnement japonais\nÀ vérifier · Problème\nUn dossier local est introuvable\nLouisiana Bayou\nSauvegarde dans le cloud · En cours\nTraitement des fichiers en cours\nToDo3D\nSauvegarde dans le cloud · En attente\n\nVegatations Assets ZenRay Collection 01\nSauvegarde dans le cloud · En attente\n\nVegatations Assets ZenRay Collection 01\nÀ vérifier · Problème\nL’opération a échoué. Survole pour le détail.\nZenRay Assets V2\nSauvegarde dans le cloud · En attente\n\nZenRay Freelance\nSauvegarde dans le cloud · En attente\n\nZenRay-Edit\nSauvegarde dans le cloud · En attente\n\nZenRayDictate\nSauvegarde dans le cloud · En attente\n\nZenRayProgress\nSauvegarde dans le cloud · En attente\n\nZenRayShards\nSauvegarde dans le cloud · En attente\n\nZenRayShards\nÀ vérifier · Problème\nL’opération a échoué. Survole pour le détail.\nMis à jour le 8 oct., 11:43"
+}

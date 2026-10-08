@@ -5,12 +5,13 @@
     "Adapter timed out; waiting for child exit before retry"
   ],
   "fontAvailable" : true,
-  "fontName" : "AnthropicSerif-Regular",
-  "pid" : 4296,
+  "fontName" : "InterVariable",
+  "pid" : 47582,
   "popoverShown" : false,
   "popoverWindowVisible" : false,
   "projectCount" : 0,
-  "statusButtonFrame" : "{{952, 1084}, {74, 33}}",
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{970, 1084}, {69, 33}}",
   "statusItem" : true,
-  "text" : "ZenRay Assets\n\nService indisponible\nLes dernières données sont anciennes.\n\nAucune donnée disponible."
+  "text" : "ZenRay Assets\nAssets ne répond pas\nAucune opération en cours\n"
 }

@@ -4,15 +4,17 @@
   "diagnostics" : [
     "Current feedback failure",
     "ENOENT: current watcher failure",
-    "Current conversation indexing failure"
+    "Current conversation indexing failure",
+    "Previous service stopped before completion; backup can resume"
   ],
   "fontAvailable" : true,
-  "fontName" : "AnthropicSerif-Regular",
-  "pid" : 4299,
+  "fontName" : "InterVariable",
+  "pid" : 47589,
   "popoverShown" : false,
   "popoverWindowVisible" : false,
   "projectCount" : 1,
-  "statusButtonFrame" : "{{952, 1084}, {67, 33}}",
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{970, 1084}, {62, 33}}",
   "statusItem" : true,
-  "text" : "ZenRay Assets\n\nActualisé le 7 October 2026, 12:11:12\n\nProjet surveillé\nL’opération échoue. Détails au survol.\nUne source locale est indisponible\n\n1 projets · 1 chargés"
+  "text" : "ZenRay Assets\nAssets répond\nRien en cours, quelques points à vérifier\nProjet surveillé\nSauvegarde dans le cloud · Échec\nSauvegarde interrompue, reprise possible\nProjet surveillé\nÀ vérifier · Problème\nSurvole le bouton Assets pour le détail · Un dossier local est introuvable\nMis à jour le 7 oct., 12:11"
 }

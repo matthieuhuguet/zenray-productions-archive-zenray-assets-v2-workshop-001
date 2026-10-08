@@ -26,3 +26,18 @@
 - Native build and model test: compile via SwiftPM; unit-test decoder/state mapping and deterministic sorting; runtime check NSFont and screenshot the actual popover in light/dark mode. Ensure close does not terminate Assets service. (7 October 2026)
 - Live proof: read current list via adapter, compare projectId/jobId/workspace to direct requestAssets output without printing credentials. Exercise an isolated test project for queued/running/done/error and LOAD/UNLOAD with original production sources retained. Stop or deny the bridge in a fixture to verify visible unavailable state; no destructive live outage is required. (7 October 2026)
 - This audit changes no production file and installs nothing. Native UI, telemetry and runtime appearance are requirements, not completed work. (7 October 2026)
+
+## Correction après retour utilisateur (8 October 2026)
+
+- Le retour du 8 October 2026 signale que la vue en haut à droite a disparu et demande une interface Assets très simple, compréhensible et proche du code ZenRayProgress. (8 October 2026)
+- L’ancienne preuve T3 ne garantit pas que l’application reste active : `launchctl` montre `com.zenray.assets.dashboard` arrêté, avec le dernier signal TERM 15. (8 October 2026)
+- Correction typographique de la règle précédente : InterVariable porte l’interface, AnthropicSerif-Regular le titre et les nombres visibles. (8 October 2026)
+- Résultat installé : résumé bref, cartes par projet et opération, états en français, détails de progression mesurés, erreurs actuelles visibles, hauteur ajustée au contenu et défilement plafonné à 320 points. (8 October 2026)
+- Preuve réelle : `NativeDashboardLive-20261008.json` confirme statusItem, pont connecté et popover visible ; `NativeDashboardLive-20261008.json.png` montre le panneau en direct. (8 October 2026)
+- Six fixtures natives vertes couvrent opérations simultanées, vide, panne, grosse erreur stderr, expiration et erreurs courantes ; les tests masquent aussi un échec historique après une réussite. (8 October 2026)
+
+## Message de reprise visible (8 October 2026)
+
+- L’ancienne vue disait seulement « L’opération a échoué », ce qui cachait qu’une sauvegarde pouvait reprendre ; la nouvelle carte indique « Sauvegarde interrompue, reprise possible ». (8 October 2026)
+- Une erreur non classée renvoie précisément vers l’infobulle du bouton Assets ; les détails ne sont pas faussement promis sur une carte qui n’en a pas. (8 October 2026)
+- La fixture `current-errors` couvre l’interruption ; la capture live finale la montre avec le pont actif et le popover ouvert. (8 October 2026)
