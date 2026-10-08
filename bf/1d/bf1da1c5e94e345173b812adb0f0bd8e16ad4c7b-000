@@ -1,0 +1,26 @@
+{
+  "checkedAt" : "",
+  "connected" : false,
+  "contentOpaque" : true,
+  "diagnostics" : [
+    "Fixture: bridge unavailable\n"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 66707,
+  "popoverShown" : false,
+  "popoverWindowVisible" : false,
+  "projectCount" : 0,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{1021, 1084}, {34, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "",
+  "statusButtonWidth" : 18,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status",
+  "statusItemHasImage" : true,
+  "statusItemLength" : 18,
+  "statusItemVisible" : true,
+  "text" : "Assets\nHors ligne\nConnexion impossible\n",
+  "tooltip" : "Fixture: bridge unavailable\n"
+}

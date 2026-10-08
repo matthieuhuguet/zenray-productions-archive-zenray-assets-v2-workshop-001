@@ -1,0 +1,30 @@
+{
+  "checkedAt" : "2026-10-07T10:11:12.345Z",
+  "connected" : true,
+  "contentOpaque" : true,
+  "diagnostics" : [
+    "Unterminated string in JSON at position 54495920",
+    "Current feedback failure",
+    "ENOENT: current watcher failure",
+    "Current conversation indexing failure",
+    "Previous service stopped before completion; backup can resume"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 66718,
+  "popoverShown" : false,
+  "popoverWindowVisible" : false,
+  "projectCount" : 1,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{1021, 1084}, {34, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "",
+  "statusButtonWidth" : 18,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status",
+  "statusItemHasImage" : true,
+  "statusItemLength" : 18,
+  "statusItemVisible" : true,
+  "text" : "Assets\nConnecté\n1 projet à vérifier\nÀ vérifier\n1 projet\nRegistre cloud illisible · Sauvegarde interrompue, reprise possible · et 1 autres problèmes\nSurvolez Assets pour voir les détails\nMis à jour le 7 oct., 12:11",
+  "tooltip" : "Unterminated string in JSON at position 54495920\nCurrent feedback failure\nENOENT: current watcher failure\nCurrent conversation indexing failure\nPrevious service stopped before completion; backup can resume\nProjet surveillé · Sauvegarde interrompue, reprise possible, Registre cloud illisible, Un dossier local est introuvable"
+}

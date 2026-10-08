@@ -1,0 +1,26 @@
+{
+  "checkedAt" : "2026-10-07T10:11:12.345Z",
+  "connected" : true,
+  "contentOpaque" : true,
+  "diagnostics" : [
+    "Historical failure"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 66690,
+  "popoverShown" : false,
+  "popoverWindowVisible" : false,
+  "projectCount" : 3,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{1021, 1084}, {34, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "",
+  "statusButtonWidth" : 18,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status",
+  "statusItemHasImage" : true,
+  "statusItemLength" : 18,
+  "statusItemVisible" : true,
+  "text" : "Assets\nConnecté\n1 en cours · 1 en attente\nChargement sur ce Mac\nEn cours\nProjet chargé · Préparation du fichier : 20 \/ 100 octets\nLibérer de l’espace sur ce Mac\nEn attente\n1 en attente\nMis à jour le 7 oct., 12:11",
+  "tooltip" : "Historical failure"
+}
