@@ -1,7 +1,7 @@
 {
   "checkedAt" : "2026-10-07T10:11:12.345Z",
   "connected" : true,
-  "contentHeight" : 128,
+  "contentHeight" : 85,
   "contentOpaque" : true,
   "contentWidth" : 360,
   "diagnostics" : [
@@ -13,8 +13,8 @@
   ],
   "fontAvailable" : true,
   "fontName" : "InterVariable",
-  "pid" : 42003,
-  "popoverHeight" : 128,
+  "pid" : 42851,
+  "popoverHeight" : 85,
   "popoverShown" : false,
   "popoverWidth" : 360,
   "popoverWindowVisible" : false,
