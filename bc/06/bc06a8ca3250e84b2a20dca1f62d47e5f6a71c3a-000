@@ -1,0 +1,30 @@
+{
+  "checkedAt" : "2026-10-07T10:11:12.345Z",
+  "connected" : true,
+  "contentHeight" : 170,
+  "contentOpaque" : true,
+  "contentWidth" : 360,
+  "diagnostics" : [
+
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 22316,
+  "popoverHeight" : 170,
+  "popoverShown" : false,
+  "popoverWidth" : 360,
+  "popoverWindowVisible" : false,
+  "projectCount" : 5,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{941, 1084}, {82, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "Assets",
+  "statusButtonWidth" : 82,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status",
+  "statusItemHasImage" : true,
+  "statusItemLength" : -1,
+  "statusItemVisible" : true,
+  "text" : "Assets\nConnecté\nSauvegarde cloud · En cours\nZenRayProgress\nVérification · 4 opérations en attente\nMis à jour le 7 oct., 12:11",
+  "tooltip" : ""
+}
