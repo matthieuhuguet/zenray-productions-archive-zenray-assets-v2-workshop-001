@@ -6,12 +6,16 @@
   ],
   "fontAvailable" : true,
   "fontName" : "InterVariable",
-  "pid" : 47568,
+  "pid" : 25703,
   "popoverShown" : false,
   "popoverWindowVisible" : false,
   "projectCount" : 0,
   "serifFontName" : "AnthropicSerif-Regular",
-  "statusButtonFrame" : "{{970, 1084}, {62, 33}}",
+  "statusButtonFrame" : "{{951, 1084}, {82, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
   "statusItem" : true,
-  "text" : "ZenRay Assets\nAssets répond\nAucune opération en cours\nMis à jour le 7 oct., 12:11"
+  "statusItemHasImage" : true,
+  "statusItemVisible" : true,
+  "text" : "Assets\nConnecté\nTout est à jour\nMis à jour le 7 oct., 12:11",
+  "tooltip" : ""
 }

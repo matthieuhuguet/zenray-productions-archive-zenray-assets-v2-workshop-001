@@ -1,0 +1,26 @@
+{
+  "checkedAt" : "2026-10-08T10:51:11.680Z",
+  "connected" : true,
+  "diagnostics" : [
+    "Unterminated string in JSON at position 52998922 (line 1 column 52998923)",
+    "Unterminated string in JSON at position 46601448 (line 1 column 46601449)",
+    "Unterminated string in JSON at position 46601448 (line 1 column 46601449)",
+    "surveillance interrompue (ENOENT: no such file or directory, watch '\/Users\/zenray\/Create\/Build\/Productions\/ZenRayShards\/ZenRayShards\/Content\/ModelingJapan_01') ; nouvelle tentative automatique",
+    "Unterminated string in JSON at position 50273402 (line 1 column 50273403)",
+    "Unterminated string in JSON at position 54495920 (line 1 column 54495921)",
+    "Cloud registry save failed (200) at pages\/ZenRayAssets\/vegetation-assets-collection-01\/.workspace.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "Cloud registry save failed (200) at pages\/ZenRayAssets\/vegetation-assets-collection-01\/.workspace.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "Cloud registry read failed"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 13900,
+  "popoverShown" : false,
+  "popoverWindowVisible" : false,
+  "projectCount" : 19,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{979, 1084}, {62, 33}}",
+  "statusItem" : true,
+  "text" : "Assets\nConnecté\n1 en cours · 12 en attente\nSauvegarde cloud\nEn cours\nLouisiana Bayou · 12 en attente\nÀ vérifier\n3 projets\nConnexion cloud refusée · Registre cloud illisible · et 1 autres problèmes\nSurvolez Assets pour voir les détails\nMis à jour le 8 oct., 12:51",
+  "tooltip" : "Unterminated string in JSON at position 52998922 (line 1 column 52998923)\nUnterminated string in JSON at position 46601448 (line 1 column 46601449)\nUnterminated string in JSON at position 46601448 (line 1 column 46601449)\nsurveillance interrompue (ENOENT: no such file or directory, watch '\/Users\/zenray\/Create\/Build\/Productions\/ZenRayShards\/ZenRayShards\/Content\/ModelingJapan_01') ; nouvelle tentative automatique\nUnterminated string in JSON at position 50273402 (line 1 column 50273403)\nUnterminated string in JSON at position 54495920 (line 1 column 54495921)\nCloud registry save failed (200) at pages\/ZenRayAssets\/vegetation-assets-collection-01\/.workspace.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}\nCloud registry save failed (200) at pages\/ZenRayAssets\/vegetation-assets-collection-01\/.workspace.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}\nCloud registry read failed\nConversations des agents · Registre cloud illisible\nEnvironnement japonais · Un dossier local est introuvable\nVegatations Assets ZenRay Collection 01 · Connexion cloud refusée"
+}

@@ -6,12 +6,16 @@
   ],
   "fontAvailable" : true,
   "fontName" : "InterVariable",
-  "pid" : 47582,
+  "pid" : 25712,
   "popoverShown" : false,
   "popoverWindowVisible" : false,
   "projectCount" : 0,
   "serifFontName" : "AnthropicSerif-Regular",
-  "statusButtonFrame" : "{{970, 1084}, {69, 33}}",
+  "statusButtonFrame" : "{{951, 1084}, {89, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
   "statusItem" : true,
-  "text" : "ZenRay Assets\nAssets ne répond pas\nAucune opération en cours\n"
+  "statusItemHasImage" : true,
+  "statusItemVisible" : true,
+  "text" : "Assets\nHors ligne\nConnexion impossible\n",
+  "tooltip" : "Adapter timed out; waiting for child exit before retry"
 }

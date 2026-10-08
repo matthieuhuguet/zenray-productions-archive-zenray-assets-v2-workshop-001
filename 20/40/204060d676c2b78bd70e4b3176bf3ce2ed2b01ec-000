@@ -1,0 +1,27 @@
+{
+  "checkedAt" : "2026-10-08T10:47:23.126Z",
+  "connected" : true,
+  "diagnostics" : [
+    "Unterminated string in JSON at position 52998922 (line 1 column 52998923)",
+    "Unterminated string in JSON at position 52998922 (line 1 column 52998923)",
+    "Unterminated string in JSON at position 46601448 (line 1 column 46601449)",
+    "Unterminated string in JSON at position 46601448 (line 1 column 46601449)",
+    "surveillance interrompue (ENOENT: no such file or directory, watch '\/Users\/zenray\/Create\/Build\/Productions\/ZenRayShards\/ZenRayShards\/Content\/ModelingJapan_01') ; nouvelle tentative automatique",
+    "Unterminated string in JSON at position 50273402 (line 1 column 50273403)",
+    "Unterminated string in JSON at position 50273402 (line 1 column 50273403)",
+    "Unterminated string in JSON at position 54495920 (line 1 column 54495921)",
+    "Cloud registry save failed (200) at pages\/ZenRayAssets\/vegetation-assets-collection-01\/.workspace.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "Cloud registry save failed (200) at pages\/ZenRayAssets\/vegetation-assets-collection-01\/.workspace.json: github {\"message\":\"Bad credentials\",\"documentation_url\":\"https:\/\/docs.github.com\/rest\",\"status\":\"401\"}",
+    "Cloud registry read failed"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 10367,
+  "popoverShown" : true,
+  "popoverWindowVisible" : true,
+  "projectCount" : 19,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{979, 1084}, {62, 33}}",
+  "statusItem" : true,
+  "text" : "Assets\nConnecté\n1 en cours · 12 en attente\nSauvegarde cloud\nEn cours\nZenRay-Edit · Vérification du cloud · 12 en attente\nÀ vérifier\n5 projets\nControl Resonant CrossOver · Registre cloud illisible · Conversations des agents · Registre cloud illisible · et 3 autres\nSurvolez Assets pour voir les détails\nMis à jour le 8 oct., 12:47"
+}
