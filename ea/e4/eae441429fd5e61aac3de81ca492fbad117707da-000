@@ -1,0 +1,30 @@
+{
+  "checkedAt" : "2026-10-07T10:11:12.345Z",
+  "connected" : true,
+  "contentHeight" : 143,
+  "contentOpaque" : true,
+  "contentWidth" : 360,
+  "diagnostics" : [
+    "Unterminated string in JSON at position 99"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 41984,
+  "popoverHeight" : 143,
+  "popoverShown" : false,
+  "popoverWidth" : 360,
+  "popoverWindowVisible" : false,
+  "projectCount" : 5,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{961, 1084}, {62, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "Assets",
+  "statusButtonWidth" : 62,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status.named",
+  "statusItemHasImage" : false,
+  "statusItemLength" : -1,
+  "statusItemVisible" : true,
+  "text" : "Sauvegarde en cours\nZenRayProgress\nVérification des fichiers\n4 opérations en attente\n1 projet à vérifier\n",
+  "tooltip" : "ZenRayProgress · Données du cloud illisibles"
+}
