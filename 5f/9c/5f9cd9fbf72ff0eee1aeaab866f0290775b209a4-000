@@ -1,21 +1,30 @@
 {
   "checkedAt" : "",
   "connected" : false,
+  "contentHeight" : 128,
+  "contentOpaque" : true,
+  "contentWidth" : 360,
   "diagnostics" : [
     "Fixture: bridge unavailable\n"
   ],
   "fontAvailable" : true,
   "fontName" : "InterVariable",
-  "pid" : 25706,
+  "pid" : 6276,
+  "popoverHeight" : 128,
   "popoverShown" : false,
+  "popoverWidth" : 360,
   "popoverWindowVisible" : false,
   "projectCount" : 0,
   "serifFontName" : "AnthropicSerif-Regular",
-  "statusButtonFrame" : "{{951, 1084}, {89, 33}}",
+  "statusButtonFrame" : "{{941, 1084}, {82, 33}}",
   "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "Assets",
+  "statusButtonWidth" : 82,
   "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status.named",
   "statusItemHasImage" : true,
+  "statusItemLength" : -1,
   "statusItemVisible" : true,
-  "text" : "Assets\nHors ligne\nConnexion impossible\n",
-  "tooltip" : "Fixture: bridge unavailable\n"
+  "text" : "Service indisponible\nConnexion au service impossible\n",
+  "tooltip" : "Service Assets indisponible"
 }
