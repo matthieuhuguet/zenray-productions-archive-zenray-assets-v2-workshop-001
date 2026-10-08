@@ -1,0 +1,30 @@
+{
+  "checkedAt" : "2026-10-07T10:11:12.345Z",
+  "connected" : true,
+  "contentHeight" : 160,
+  "contentOpaque" : true,
+  "contentWidth" : 360,
+  "diagnostics" : [
+
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 70518,
+  "popoverHeight" : 160,
+  "popoverShown" : false,
+  "popoverWidth" : 360,
+  "popoverWindowVisible" : false,
+  "projectCount" : 0,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{961, 1084}, {62, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "Assets",
+  "statusButtonWidth" : 62,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status",
+  "statusItemHasImage" : false,
+  "statusItemLength" : -1,
+  "statusItemVisible" : true,
+  "text" : "Assets\nConnecté\nTout est à jour\nMis à jour le 7 oct., 12:11",
+  "tooltip" : ""
+}
