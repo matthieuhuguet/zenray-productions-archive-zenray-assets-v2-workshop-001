@@ -1,7 +1,7 @@
 {
   "checkedAt" : "2026-10-09T00:40:00.000Z",
   "connected" : true,
-  "contentHeight" : 313,
+  "contentHeight" : 252,
   "contentOpaque" : true,
   "contentWidth" : 420,
   "countedProjectCount" : 1,
@@ -15,8 +15,8 @@
   "fileCount" : 13,
   "fontAvailable" : true,
   "fontName" : "InterVariable",
-  "pid" : 88556,
-  "popoverHeight" : 313,
+  "pid" : 5644,
+  "popoverHeight" : 252,
   "popoverShown" : false,
   "popoverWidth" : 420,
   "popoverWindowVisible" : false,
@@ -31,7 +31,7 @@
   "statusItemHasImage" : false,
   "statusItemLength" : -1,
   "statusItemVisible" : true,
-  "text" : "1 projet à vérifier\nDonnées du cloud illisibles · Dossier introuvable sur le Mac · 1 autre problème\n1 projets · 13 fichiers\nUpload ↑ 0 KB\/s    Download ↓ 0 KB\/s\nVue : Tout\nProjet choisi : Projet surveillé\nMac 8 · Cloud 10 · 3 fichiers chargés\nActions : Ajouter au Mac · Décharger du Mac\nBrique : Projet surveillé, Mac 8, Cloud 10\n",
+  "text" : "1 projet à vérifier\nDonnées du cloud illisibles · Dossier introuvable sur le Mac · 1 autre problème\n1 projets · 13 fichiers\nUpload ↑ 0 KB\/s    Download ↓ 0 KB\/s\nVue : Tout\nActions : Ajouter au Mac · Décharger du Mac\nBrique : Projet surveillé, Mac 8, Cloud 10\n",
   "tooltip" : "Projet surveillé · Sauvegarde interrompue, reprise possible, Données du cloud illisibles, Dossier introuvable sur le Mac",
   "transferRates" : {
     "downloadBytesPerSecond" : 0,
