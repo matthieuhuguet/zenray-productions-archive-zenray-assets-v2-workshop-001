@@ -1,0 +1,155 @@
+{
+  "projectId": "zenray-assets-v2",
+  "runId": "f4ed36b8-f625-4f20-8172-1d1a80d2ff0c",
+  "verifiedAt": "2026-10-08T17:19:17.473Z",
+  "restoredCount": 18,
+  "totalBytes": 2664527,
+  "independentRestore": true,
+  "allChecksPassed": true,
+  "records": [
+    {
+      "fileId": "workshop:AGENTS.md",
+      "versionId": "workshop:versions/workshop/d98d0fd914ac3fc850d8e83269432e87dce5c0ab07d11e85e4fb5931c060e600/AGENTS.md",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/d98d0fd914ac3fc850d8e83269432e87dce5c0ab07d11e85e4fb5931c060e600/AGENTS.md.file.json",
+      "size": 1626,
+      "sha256": "d98d0fd914ac3fc850d8e83269432e87dce5c0ab07d11e85e4fb5931c060e600",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:CLAUDE.md",
+      "versionId": "workshop:versions/workshop/d98d0fd914ac3fc850d8e83269432e87dce5c0ab07d11e85e4fb5931c060e600/CLAUDE.md",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/d98d0fd914ac3fc850d8e83269432e87dce5c0ab07d11e85e4fb5931c060e600/CLAUDE.md.file.json",
+      "size": 1626,
+      "sha256": "d98d0fd914ac3fc850d8e83269432e87dce5c0ab07d11e85e4fb5931c060e600",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-busy-queue.json",
+      "versionId": "workshop:versions/workshop/8824acd92df46fa6038b6480be47bf9c78e80c9e04742d06bce68e0fb4f9cb8e/NativeDashboardFixture-busy-queue.json",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/8824acd92df46fa6038b6480be47bf9c78e80c9e04742d06bce68e0fb4f9cb8e/NativeDashboardFixture-busy-queue.json.file.json",
+      "size": 923,
+      "sha256": "8824acd92df46fa6038b6480be47bf9c78e80c9e04742d06bce68e0fb4f9cb8e",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-busy-queue.json.png",
+      "versionId": "workshop:versions/workshop/5edb2bb3dd4f3c189c8b098c08e829ee44ad40cf5bf7f81733b691a40e082e2c/NativeDashboardFixture-busy-queue.json.png",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/5edb2bb3dd4f3c189c8b098c08e829ee44ad40cf5bf7f81733b691a40e082e2c/NativeDashboardFixture-busy-queue.json.png.file.json",
+      "size": 29414,
+      "sha256": "5edb2bb3dd4f3c189c8b098c08e829ee44ad40cf5bf7f81733b691a40e082e2c",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-current-errors.json",
+      "versionId": "workshop:versions/workshop/b53dce6bdf8b938a77920eb209549e2a67c63a653a45572e12572ef36645af30/NativeDashboardFixture-current-errors.json",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/b53dce6bdf8b938a77920eb209549e2a67c63a653a45572e12572ef36645af30/NativeDashboardFixture-current-errors.json.file.json",
+      "size": 1515,
+      "sha256": "b53dce6bdf8b938a77920eb209549e2a67c63a653a45572e12572ef36645af30",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-current-errors.json.png",
+      "versionId": "workshop:versions/workshop/1330bf583d7aa842c17ac6ec126ac60091bb15e16b95935c16effd7c44d3386b/NativeDashboardFixture-current-errors.json.png",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/1330bf583d7aa842c17ac6ec126ac60091bb15e16b95935c16effd7c44d3386b/NativeDashboardFixture-current-errors.json.png.file.json",
+      "size": 28625,
+      "sha256": "1330bf583d7aa842c17ac6ec126ac60091bb15e16b95935c16effd7c44d3386b",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-down.json",
+      "versionId": "workshop:versions/workshop/ccc82b8b90eb53633a798f4e11aa14ec3eb4adeba9b2e810dc97657576267991/NativeDashboardFixture-down.json",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/ccc82b8b90eb53633a798f4e11aa14ec3eb4adeba9b2e810dc97657576267991/NativeDashboardFixture-down.json.file.json",
+      "size": 870,
+      "sha256": "ccc82b8b90eb53633a798f4e11aa14ec3eb4adeba9b2e810dc97657576267991",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-down.json.png",
+      "versionId": "workshop:versions/workshop/48c701e488be0da0081136af4a1f8a1e1620f118eff89faa990160cf94008fe8/NativeDashboardFixture-down.json.png",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/48c701e488be0da0081136af4a1f8a1e1620f118eff89faa990160cf94008fe8/NativeDashboardFixture-down.json.png.file.json",
+      "size": 15595,
+      "sha256": "48c701e488be0da0081136af4a1f8a1e1620f118eff89faa990160cf94008fe8",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-empty.json",
+      "versionId": "workshop:versions/workshop/80e7349af50cf3c23ea9d0fd91517d30459f74e783dba4cff13c5bb8d0051d90/NativeDashboardFixture-empty.json",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/80e7349af50cf3c23ea9d0fd91517d30459f74e783dba4cff13c5bb8d0051d90/NativeDashboardFixture-empty.json.file.json",
+      "size": 852,
+      "sha256": "80e7349af50cf3c23ea9d0fd91517d30459f74e783dba4cff13c5bb8d0051d90",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-empty.json.png",
+      "versionId": "workshop:versions/workshop/461ca2bbb4c0d148ba8148db647d63ac7179be0487646e0441e2cfa55d3fbd2b/NativeDashboardFixture-empty.json.png",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/461ca2bbb4c0d148ba8148db647d63ac7179be0487646e0441e2cfa55d3fbd2b/NativeDashboardFixture-empty.json.png.file.json",
+      "size": 18013,
+      "sha256": "461ca2bbb4c0d148ba8148db647d63ac7179be0487646e0441e2cfa55d3fbd2b",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-large-error.json",
+      "versionId": "workshop:versions/workshop/068b03b4b7df13c5a4b622cb83b0e7151748d3a3e0ceb96a60b3cfddb1bf4a60/NativeDashboardFixture-large-error.json",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/068b03b4b7df13c5a4b622cb83b0e7151748d3a3e0ceb96a60b3cfddb1bf4a60/NativeDashboardFixture-large-error.json.file.json",
+      "size": 2491180,
+      "sha256": "068b03b4b7df13c5a4b622cb83b0e7151748d3a3e0ceb96a60b3cfddb1bf4a60",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-large-error.json.png",
+      "versionId": "workshop:versions/workshop/48c701e488be0da0081136af4a1f8a1e1620f118eff89faa990160cf94008fe8/NativeDashboardFixture-large-error.json.png",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/48c701e488be0da0081136af4a1f8a1e1620f118eff89faa990160cf94008fe8/NativeDashboardFixture-large-error.json.png.file.json",
+      "size": 15595,
+      "sha256": "48c701e488be0da0081136af4a1f8a1e1620f118eff89faa990160cf94008fe8",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-simultaneous.json",
+      "versionId": "workshop:versions/workshop/44afff8d97dfbfa12f71b09e1ced9f0c65236b8739ba01215891185d4d092515/NativeDashboardFixture-simultaneous.json",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/44afff8d97dfbfa12f71b09e1ced9f0c65236b8739ba01215891185d4d092515/NativeDashboardFixture-simultaneous.json.file.json",
+      "size": 1012,
+      "sha256": "44afff8d97dfbfa12f71b09e1ced9f0c65236b8739ba01215891185d4d092515",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-simultaneous.json.png",
+      "versionId": "workshop:versions/workshop/55f43c946f2fa5e6985fc49e3f612ee1dcef45d1c487095b43d480b922d5fb58/NativeDashboardFixture-simultaneous.json.png",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/55f43c946f2fa5e6985fc49e3f612ee1dcef45d1c487095b43d480b922d5fb58/NativeDashboardFixture-simultaneous.json.png.file.json",
+      "size": 38198,
+      "sha256": "55f43c946f2fa5e6985fc49e3f612ee1dcef45d1c487095b43d480b922d5fb58",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-timeout.json",
+      "versionId": "workshop:versions/workshop/273c7364a1518dd24e45cfc130a24f4f07ffb86df7ce0989efc50e48ef8cc662/NativeDashboardFixture-timeout.json",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/273c7364a1518dd24e45cfc130a24f4f07ffb86df7ce0989efc50e48ef8cc662/NativeDashboardFixture-timeout.json.file.json",
+      "size": 920,
+      "sha256": "273c7364a1518dd24e45cfc130a24f4f07ffb86df7ce0989efc50e48ef8cc662",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixture-timeout.json.png",
+      "versionId": "workshop:versions/workshop/48c701e488be0da0081136af4a1f8a1e1620f118eff89faa990160cf94008fe8/NativeDashboardFixture-timeout.json.png",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/48c701e488be0da0081136af4a1f8a1e1620f118eff89faa990160cf94008fe8/NativeDashboardFixture-timeout.json.png.file.json",
+      "size": 15595,
+      "sha256": "48c701e488be0da0081136af4a1f8a1e1620f118eff89faa990160cf94008fe8",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:NativeDashboardFixtureResults.json",
+      "versionId": "workshop:versions/workshop/eff4026067692306f547ef497e42d8e92f62c9a04c3a117959df02f30206db02/NativeDashboardFixtureResults.json",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/eff4026067692306f547ef497e42d8e92f62c9a04c3a117959df02f30206db02/NativeDashboardFixtureResults.json.file.json",
+      "size": 1080,
+      "sha256": "eff4026067692306f547ef497e42d8e92f62c9a04c3a117959df02f30206db02",
+      "restoredAndVerified": true
+    },
+    {
+      "fileId": "workshop:state.json",
+      "versionId": "workshop:versions/workshop/8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6/state.json",
+      "cloudManifest": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/versions/workshop/8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6/state.json.file.json",
+      "size": 1888,
+      "sha256": "8d17d12140faaf47cd5cc9ad10c001f583733fc80f7c3d9786c118c2e6e451e6",
+      "restoredAndVerified": true
+    }
+  ]
+}
