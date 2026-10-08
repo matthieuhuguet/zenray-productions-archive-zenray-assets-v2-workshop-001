@@ -1,0 +1,30 @@
+{
+  "checkedAt" : "2026-10-07T10:11:12.345Z",
+  "connected" : true,
+  "contentHeight" : 94,
+  "contentOpaque" : true,
+  "contentWidth" : 360,
+  "diagnostics" : [
+    "Historical failure"
+  ],
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 64214,
+  "popoverHeight" : 94,
+  "popoverShown" : false,
+  "popoverWidth" : 360,
+  "popoverWindowVisible" : false,
+  "projectCount" : 3,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{961, 1084}, {62, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "Assets",
+  "statusButtonWidth" : 62,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status.named",
+  "statusItemHasImage" : false,
+  "statusItemLength" : -1,
+  "statusItemVisible" : true,
+  "text" : "Chargement de Projet chargé\nPréparation du fichier\n1 opération en attente\n",
+  "tooltip" : ""
+}

@@ -1,0 +1,197 @@
+{
+  "scannedAt": "8 October 2026, 20:55 CEST",
+  "pendingTextFiles": 878,
+  "bytesRead": 8744185107,
+  "candidateFiles": 18,
+  "findings": [
+    {
+      "fileId": "workshop:conversations/claude/46e5a441adcfde2c/f290b2c851f599d8.jsonl",
+      "relativePath": "conversations/claude/46e5a441adcfde2c/f290b2c851f599d8.jsonl",
+      "size": 296589,
+      "matches": 4,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "gho"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/claude/771c6c3f7cb9d590/e335c9d87c720d8f.jsonl",
+      "relativePath": "conversations/claude/771c6c3f7cb9d590/e335c9d87c720d8f.jsonl",
+      "size": 395364485,
+      "matches": 9,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "gho"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/claude/af780446f80fbbee/1cf965f7996bf6fe.jsonl",
+      "relativePath": "conversations/claude/af780446f80fbbee/1cf965f7996bf6fe.jsonl",
+      "size": 344012893,
+      "matches": 67,
+      "uniqueCandidates": 5,
+      "prefixTypes": [
+        "gho",
+        "ghp",
+        "github"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/claude/af780446f80fbbee/769570a899732ba7.jsonl",
+      "relativePath": "conversations/claude/af780446f80fbbee/769570a899732ba7.jsonl",
+      "size": 440592969,
+      "matches": 65,
+      "uniqueCandidates": 5,
+      "prefixTypes": [
+        "gho",
+        "ghp",
+        "github"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/claude/b0bc77a848356669/e710fc93ae936070.jsonl",
+      "relativePath": "conversations/claude/b0bc77a848356669/e710fc93ae936070.jsonl",
+      "size": 1193491,
+      "matches": 4,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "gho"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/198ef92d9e2d9d54/650763b3526da64c.jsonl",
+      "relativePath": "conversations/codex/198ef92d9e2d9d54/650763b3526da64c.jsonl",
+      "size": 229902946,
+      "matches": 4,
+      "uniqueCandidates": 3,
+      "prefixTypes": [
+        "gho",
+        "ghs"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/2515de09893a03ff/bd4289ad7669e63e.jsonl",
+      "relativePath": "conversations/codex/2515de09893a03ff/bd4289ad7669e63e.jsonl",
+      "size": 224429887,
+      "matches": 4,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "gho"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/27cd244eac5d0808/0777c9784074f4cd.jsonl",
+      "relativePath": "conversations/codex/27cd244eac5d0808/0777c9784074f4cd.jsonl",
+      "size": 62795133,
+      "matches": 2,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "gho"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/2d3bac8e77dbcf6a/92948a22a9bef53e.jsonl",
+      "relativePath": "conversations/codex/2d3bac8e77dbcf6a/92948a22a9bef53e.jsonl",
+      "size": 812761,
+      "matches": 1,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "gho"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/36344741c747ebc2/b1708e79ff4b7873.jsonl",
+      "relativePath": "conversations/codex/36344741c747ebc2/b1708e79ff4b7873.jsonl",
+      "size": 3598674,
+      "matches": 2,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "gho"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/53224bcc9289b90b/ef3eb95ec3ca3618.jsonl",
+      "relativePath": "conversations/codex/53224bcc9289b90b/ef3eb95ec3ca3618.jsonl",
+      "size": 34235215,
+      "matches": 1,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "ghr"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/5618dcf3131dd990/d4b04209366b8e3e.jsonl",
+      "relativePath": "conversations/codex/5618dcf3131dd990/d4b04209366b8e3e.jsonl",
+      "size": 28325918,
+      "matches": 1,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "ghp"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/8784c51ada352ae9/546a0dd9b6737b9e.jsonl",
+      "relativePath": "conversations/codex/8784c51ada352ae9/546a0dd9b6737b9e.jsonl",
+      "size": 11245996,
+      "matches": 8,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "gho"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/87b4491dfd123fb2/9750a39b2009f525.jsonl",
+      "relativePath": "conversations/codex/87b4491dfd123fb2/9750a39b2009f525.jsonl",
+      "size": 3421351,
+      "matches": 12,
+      "uniqueCandidates": 3,
+      "prefixTypes": [
+        "ghp",
+        "github"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/921717cef306707a/68c63a7bc81e7788.jsonl",
+      "relativePath": "conversations/codex/921717cef306707a/68c63a7bc81e7788.jsonl",
+      "size": 102555970,
+      "matches": 1,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "ghp"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/9c8c3592cc96278e/2009583881e986e2.jsonl",
+      "relativePath": "conversations/codex/9c8c3592cc96278e/2009583881e986e2.jsonl",
+      "size": 167193222,
+      "matches": 20,
+      "uniqueCandidates": 6,
+      "prefixTypes": [
+        "gho",
+        "ghs",
+        "ghu"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/b461a4fcc0e3509c/c900ec6b800ef176.jsonl",
+      "relativePath": "conversations/codex/b461a4fcc0e3509c/c900ec6b800ef176.jsonl",
+      "size": 70322148,
+      "matches": 1,
+      "uniqueCandidates": 1,
+      "prefixTypes": [
+        "ghs"
+      ]
+    },
+    {
+      "fileId": "workshop:conversations/codex/e879ff12ae207636/dd69e046c755c2ec.jsonl",
+      "relativePath": "conversations/codex/e879ff12ae207636/dd69e046c755c2ec.jsonl",
+      "size": 118310043,
+      "matches": 10,
+      "uniqueCandidates": 3,
+      "prefixTypes": [
+        "gho",
+        "ghr"
+      ]
+    }
+  ]
+}
