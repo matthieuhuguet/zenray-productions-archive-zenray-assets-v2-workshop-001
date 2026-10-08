@@ -1,22 +1,22 @@
 {
   "checkedAt" : "2026-10-09T00:40:00.000Z",
   "connected" : true,
-  "contentHeight" : 444,
+  "contentHeight" : 131,
   "contentOpaque" : true,
   "contentWidth" : 420,
-  "countedProjectCount" : 3,
+  "countedProjectCount" : 0,
   "diagnostics" : [
-    "Historical failure"
+
   ],
-  "fileCount" : 90,
+  "fileCount" : 0,
   "fontAvailable" : true,
   "fontName" : "InterVariable",
-  "pid" : 88506,
-  "popoverHeight" : 444,
+  "pid" : 88516,
+  "popoverHeight" : 131,
   "popoverShown" : false,
   "popoverWidth" : 420,
   "popoverWindowVisible" : false,
-  "projectCount" : 3,
+  "projectCount" : 0,
   "serifFontName" : "AnthropicSerif-Regular",
   "statusButtonFrame" : "{{945, 1084}, {62, 33}}",
   "statusButtonLabel" : "ZenRay Assets",
@@ -27,10 +27,10 @@
   "statusItemHasImage" : false,
   "statusItemLength" : -1,
   "statusItemVisible" : true,
-  "text" : "Chargement de Projet chargé\nPréparation du fichier\n1 opération en attente\n3 projets · 90 fichiers\nUpload ↑ 1 MB\/s    Download ↓ 420 KB\/s\nVue : Tout\nProjet choisi : Projet chargé\nMac 10 · Cloud 15 · 6 fichiers chargés\nActions : Sauvegarder · Ajouter au Mac · Décharger du Mac\nBrique : Projet chargé, Mac 10, Cloud 15\nBrique : Projet libéré, Mac 14, Cloud 18\nBrique : Projet sauvegardé, Mac 0, Cloud 40\n",
+  "text" : "Tout est à jour\n0 projets · 0 fichiers\nUpload ↑ 0 KB\/s    Download ↓ 0 KB\/s\nVue : Tout\n",
   "tooltip" : "",
   "transferRates" : {
-    "downloadBytesPerSecond" : 420000,
-    "uploadBytesPerSecond" : 1499000
+    "downloadBytesPerSecond" : 0,
+    "uploadBytesPerSecond" : 0
   }
 }

@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "simultaneous",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-simultaneous.json"
+  },
+  {
+    "mode": "busy-queue",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-busy-queue.json"
+  },
+  {
+    "mode": "empty",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-empty.json"
+  },
+  {
+    "mode": "down",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-down.json"
+  },
+  {
+    "mode": "large-error",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-large-error.json"
+  },
+  {
+    "mode": "timeout",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-timeout.json"
+  },
+  {
+    "mode": "current-errors",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-current-errors.json"
+  },
+  {
+    "mode": "scope-mac",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-mac.json"
+  },
+  {
+    "mode": "scope-cloud",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-cloud.json"
+  }
+]
