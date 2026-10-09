@@ -1,0 +1,13 @@
+{
+  "node": "/opt/homebrew/Cellar/node/26.0.0/bin/node",
+  "adapter": "/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/NativeDashboard/Adapter.mjs",
+  "activeInterval": 2,
+  "idleInterval": 20,
+  "fontName": "InterVariable",
+  "serifFontName": "AnthropicSerif-Regular",
+  "width": 420,
+  "height": 560,
+  "minimumHeight": 64,
+  "fontSize": 13,
+  "childTimeout": 35
+}
