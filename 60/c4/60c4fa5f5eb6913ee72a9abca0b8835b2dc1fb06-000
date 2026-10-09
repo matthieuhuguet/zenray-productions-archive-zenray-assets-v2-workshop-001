@@ -22,3 +22,9 @@
 - Broader historical metadata is not guaranteed path-free: cloud snapshot preserves sync.error and inventory.issues; publishProject removes event.sourcePath only, preserving detail. errorText redacts credential patterns, not local paths. Historical watcher/inventory/process events or authored feedback may therefore contain local paths. This existing scope must not be conflated with the new sanitized scene projection or a promise that the entire private project archive contains no local paths. No production catalogue was accessed in this read-only audit. (3 October 2026)
 
 - Deliverable written without changing code, skills, configuration, registries or commits. (3 October 2026)
+
+## 9 October 2026: Recheck of dependent cloud publication
+
+- 9 October 2026: The earlier failing case is corrected in the current AssetsService. After publishing a shared project, `publishProject` finds projects whose audited scene dependency list names that project, then republishes each consumer through the existing publisher. It does not recursively publish dependencies. (9 October 2026)
+- 9 October 2026: The integration test `republishes audited consumers with current shared resource proof after a library archive` verifies the dependent workspace, global registry index and context update to the backed-up SHA, and confirms an unrelated project is not published. The targeted Vitest run passes 1 test, with 90 unrelated tests skipped. (9 October 2026)
+- 9 October 2026: The older audit finding is resolved for this tested path. Atomicity across the publisher's multiple file writes, entire-archive path privacy and cross-machine Houdini or Unreal portability remain separate limits, not claims covered by this test. (9 October 2026)
