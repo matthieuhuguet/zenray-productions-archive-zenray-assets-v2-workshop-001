@@ -43,5 +43,12 @@
     "mode": "scope-cloud",
     "passed": true,
     "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-cloud.json"
+  },
+  {
+    "mode": "live-dashboard",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/NativeDashboardProof-20261009-Lego/NativeDashboardLive.json",
+    "fileCount": 45037,
+    "projectCount": 20
   }
 ]

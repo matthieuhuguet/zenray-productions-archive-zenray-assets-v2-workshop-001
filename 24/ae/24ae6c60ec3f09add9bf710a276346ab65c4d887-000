@@ -1,0 +1,36 @@
+{
+  "checkedAt" : "2026-10-08T23:14:32.229Z",
+  "connected" : true,
+  "contentHeight" : 560,
+  "contentOpaque" : true,
+  "contentWidth" : 420,
+  "countedProjectCount" : 20,
+  "diagnostics" : [
+    "Asset engine failed (1): ⛔ zenray-productions-archive-agent-conversations-workshop-001-r05 refuse définitivement (secret-protection)\nfile:\/\/\/Users\/zenray\/Create\/Build\/Productions\/GithubProductions\/ZenRayProgress\/scripts\/archive-folder.mjs:1150\n      throw new Error(`push-refus-definitif ${shard} ${rejectionType}`)\n            ^\n\nError: push-refus-definitif zenray-productions-archive-agent-conversations-workshop-001-r05 secret-protection\n    at pushChunk (file:\/\/\/Users\/zenray\/Create\/Build\/Productions\/GithubProductions\/ZenRayProgress\/scripts\/archive-folder.mjs:1150:13)\n    at file:\/\/\/Users\/zenray\/Create\/Build\/Productions\/GithubProductions\/ZenRayProgress\/scripts\/archive-folder.mjs:1524:20\n    at process.processTicksAndRejections (node:internal\/process\/task_queues:104:5)\n\nNode.js v26.0.0"
+  ],
+  "fileCount" : 45037,
+  "fontAvailable" : true,
+  "fontName" : "InterVariable",
+  "pid" : 32009,
+  "popoverHeight" : 560,
+  "popoverShown" : true,
+  "popoverWidth" : 420,
+  "popoverWindowVisible" : true,
+  "projectCount" : 20,
+  "serifFontName" : "AnthropicSerif-Regular",
+  "statusButtonFrame" : "{{973, 1084}, {34, 33}}",
+  "statusButtonLabel" : "ZenRay Assets",
+  "statusButtonTitle" : "",
+  "statusButtonWidth" : 18,
+  "statusItem" : true,
+  "statusItemAutosaveName" : "com.zenray.assets.dashboard.status.named",
+  "statusItemHasImage" : true,
+  "statusItemLength" : 18,
+  "statusItemVisible" : true,
+  "text" : "1 projet à vérifier\nProtection des secrets\n20 projets · 45037 fichiers\nUpload ↑ 0 KB\/s    Download ↓ 0 KB\/s\nVue : Tout\nActions : Sauvegarder · Charger sur Mac\nBrique : Vegatations Assets ZenRay Collection 01, Mac 18244, Cloud 18424\nBrique : Control Resonant CrossOver, Mac 9004, Cloud 9004\nBrique : ToDo3D, Mac 8099, Cloud 8099\nBrique : Ceramic Tiles, Mac 4418, Cloud 4418\nBrique : Conversations des agents, Mac 1058, Cloud 827\nBrique : ZenRayShards, Mac 949, Cloud 949\nBrique : Louisiana Bayou, Mac 760, Cloud 829\nBrique : ZenRay Assets V2, Mac 587, Cloud 587\nBrique : ZenRay-Edit, Mac 544, Cloud 544\nBrique : Poisson gloss poterie Aix 8 octobre 2026, Mac 325, Cloud 344\nBrique : Environnement japonais, Mac 224, Cloud 224\nBrique : ZenRayDictate, Mac 153, Cloud 222\nBrique : ZenRayPostKit, Mac 180, Cloud 180\nBrique : Control Resonant Hub Assets, Mac 62, Cloud 62\nBrique : Mac security incident, Mac 27, Cloud 27\nBrique : ZenRay Freelance, Mac 23, Cloud 23\nBrique : Bibliothèque Houdini, Mac 13, Cloud 13\nBrique : Control Brutalist Fountain, Mac 12, Cloud 12\nBrique : ZenRayProgress, Mac 9, Cloud 9\nBrique : Lectures relationnel, Mac 8, Cloud 8\n",
+  "tooltip" : "Conversations des agents · Protection des secrets",
+  "transferRates" : {
+    "downloadBytesPerSecond" : 0,
+    "uploadBytesPerSecond" : 0
+  }
+}
