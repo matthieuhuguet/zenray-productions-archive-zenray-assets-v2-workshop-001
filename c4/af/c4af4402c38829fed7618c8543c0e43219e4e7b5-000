@@ -1,0 +1,338 @@
+{
+  "checkedAt": "2026-10-09T01:31:54.713Z",
+  "repository": "matthieuhuguet/zenray-data",
+  "branch": "main",
+  "snapshotCommit": "ce6bc35f60a53b9323152422a75a5e75f7b76c81",
+  "remoteHeadBefore": "ce6bc35f60a53b9323152422a75a5e75f7b76c81",
+  "remoteHeadAfter": "ce6bc35f60a53b9323152422a75a5e75f7b76c81",
+  "remoteMovedDuringAudit": false,
+  "manifestCount": 40,
+  "remoteMatchCount": 0,
+  "remoteMismatchCount": 40,
+  "manifestUnavailableCount": 40,
+  "localCurrentMatchCount": 29,
+  "localChangedCount": 11,
+  "localMissingCount": 0,
+  "items": [
+    {
+      "projectId": "louisiana-bayou",
+      "fileId": "posts:ConversationIndex.json",
+      "manifestPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/posts/ConversationIndex.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "louisiana-bayou",
+      "fileId": "posts:ConversationIndex.md",
+      "manifestPath": "pages/ZenRayAssets/louisiana-bayou/sources/memory/posts/ConversationIndex.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "poisson-gloss-matthieu-poterie-aix-8-octobre-2026",
+      "fileId": "project-notes:ConversationIndex.json",
+      "manifestPath": "pages/ZenRayAssets/poisson-gloss-matthieu-poterie-aix-8-octobre-2026/sources/memory/project-notes/ConversationIndex.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "poisson-gloss-matthieu-poterie-aix-8-octobre-2026",
+      "fileId": "project-notes:ConversationIndex.md",
+      "manifestPath": "pages/ZenRayAssets/poisson-gloss-matthieu-poterie-aix-8-octobre-2026/sources/memory/project-notes/ConversationIndex.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "vegetation-assets-collection-01",
+      "fileId": "project-notes:ConversationIndex.json",
+      "manifestPath": "pages/ZenRayAssets/vegetation-assets-collection-01/sources/memory/project-notes/ConversationIndex.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "vegetation-assets-collection-01",
+      "fileId": "project-notes:ConversationIndex.md",
+      "manifestPath": "pages/ZenRayAssets/vegetation-assets-collection-01/sources/memory/project-notes/ConversationIndex.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "canonical-skill:ConversationIndex.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/memory/canonical-skill/ConversationIndex.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "canonical-skill:ConversationIndex.md",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/memory/canonical-skill/ConversationIndex.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "canonical-skill:references/AssetsV2History.md",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/memory/canonical-skill/references/AssetsV2History.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "canonical-skill:references/NativeDashboard.md",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/memory/canonical-skill/references/NativeDashboard.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "canonical-skill:SKILL.md",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/memory/canonical-skill/SKILL.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "project-notes:FEEDBACK.md",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/memory/project-notes/FEEDBACK.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "project-notes:FileMap.md",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/memory/project-notes/FileMap.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-busy-queue.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-busy-queue.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-busy-queue.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-busy-queue.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-current-errors.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-current-errors.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-current-errors.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-current-errors.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-down.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-down.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-down.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-down.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-empty.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-empty.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-empty.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-empty.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-large-error.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-large-error.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-large-error.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-large-error.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-cloud.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-cloud.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-cloud.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-cloud.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-mac.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-mac.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-mac.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-scope-mac.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-simultaneous.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-simultaneous.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-simultaneous.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-simultaneous.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-timeout.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-timeout.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixture-timeout.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixture-timeout.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardFixtureResults.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardFixtureResults.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardLive.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardLive.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-assets-v2",
+      "fileId": "workshop:NativeDashboardProof-20261009-Lego/NativeDashboardLive.json.png",
+      "manifestPath": "pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/NativeDashboardProof-20261009-Lego/NativeDashboardLive.json.png.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-freelance",
+      "fileId": "motivation-letters:ConversationIndex.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-freelance/sources/memory/motivation-letters/ConversationIndex.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-freelance",
+      "fileId": "motivation-letters:ConversationIndex.md",
+      "manifestPath": "pages/ZenRayAssets/zenray-freelance/sources/memory/motivation-letters/ConversationIndex.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-freelance",
+      "fileId": "project-notes:ConversationIndex.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-freelance/sources/memory/project-notes/ConversationIndex.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-freelance",
+      "fileId": "project-notes:ConversationIndex.md",
+      "manifestPath": "pages/ZenRayAssets/zenray-freelance/sources/memory/project-notes/ConversationIndex.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "match",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-progress",
+      "fileId": "project-notes:ConversationIndex.json",
+      "manifestPath": "pages/ZenRayAssets/zenray-progress/sources/memory/project-notes/ConversationIndex.json.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    },
+    {
+      "projectId": "zenray-progress",
+      "fileId": "project-notes:ConversationIndex.md",
+      "manifestPath": "pages/ZenRayAssets/zenray-progress/sources/memory/project-notes/ConversationIndex.md.file.json",
+      "remoteMatchesReceipt": false,
+      "localCurrent": "changed",
+      "reason": "manifest-unavailable"
+    }
+  ]
+}

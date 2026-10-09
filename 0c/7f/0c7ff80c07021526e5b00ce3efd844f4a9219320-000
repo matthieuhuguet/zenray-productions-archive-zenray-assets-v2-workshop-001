@@ -1,0 +1,165 @@
+// 9 October 2026, 03:29 CEST: compare local archive receipts with one sparse zenray-data snapshot.
+// 9 October 2026, 03:31 CEST: pass sparse paths through a live stdin pipe before checking manifests.
+// 9 October 2026, 03:32 CEST: materialize the no-checkout sparse tree before reading manifests.
+// 9 October 2026, 03:33 CEST: retain moving-head results only as an intermediate audit.
+import { createHash } from 'node:crypto'
+import { createReadStream } from 'node:fs'
+import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
+import os from 'node:os'
+import path from 'node:path'
+import { execFileSync } from 'node:child_process'
+import { fileURLToPath } from 'node:url'
+
+const stateDir = path.join(os.homedir(), 'Library/Application Support/ZenRayAssets')
+const projectIds = [
+  'zenray-assets-v2',
+  'louisiana-bayou',
+  'zenray-progress',
+  'vegetation-assets-collection-01',
+  'zenray-freelance',
+  'poisson-gloss-matthieu-poterie-aix-8-octobre-2026',
+]
+const pendingIndexProjects = new Set(projectIds.slice(1))
+const manifestCutoff = '2026-10-09T00:35:40.456Z'
+const outputDirectory = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../Audit')
+const referenceRepository = path.join(stateDir, 'repositories/matthieuhuguet_zenray-data')
+const repositoryUrl = 'https://github.com/matthieuhuguet/zenray-data.git'
+
+async function hashFile(file) {
+  const hash = createHash('sha256')
+  for await (const chunk of createReadStream(file)) hash.update(chunk)
+  return hash.digest('hex')
+}
+
+function runGit(args, options = {}) {
+  const output = execFileSync('git', args, { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024, ...options })
+  return typeof output === 'string' ? output.trim() : output?.toString('utf8').trim() || ''
+}
+
+function escapeSparsePattern(filePath) {
+  if (filePath.includes('\n') || filePath.includes('\r')) throw new Error('A manifest path cannot be represented safely')
+  return '/' + filePath.replaceAll('\\', '\\\\').replaceAll('*', '\\*').replaceAll('?', '\\?').replaceAll('[', '\\[').replaceAll(']', '\\]')
+}
+
+function evaluateManifest(manifest, backup) {
+  const latest = Array.isArray(manifest?.versions) ? manifest.versions.at(-1) : null
+  const rootMatches = manifest?.sha256 === backup.sha256 && manifest?.size === backup.size
+  const historyMatches = !latest || (latest.sha256 === manifest.sha256 && latest.size === manifest.size)
+  return { ok: rootMatches && historyMatches, rootMatches, historyMatches }
+}
+
+async function readSelectedBackups() {
+  const selected = new Map()
+  for (const projectId of projectIds) {
+    const statePath = path.join(stateDir, 'Project-' + projectId + '.json')
+    const state = JSON.parse(await readFile(statePath, 'utf8'))
+    const localFiles = new Map((state.inventory?.localFiles || []).map((file) => [file.id, file]))
+    for (const backup of Object.values(state.backups || {})) {
+      const include = projectId === 'zenray-assets-v2'
+        || (pendingIndexProjects.has(projectId) && /ConversationIndex\.(md|json)$/.test(backup.relativePath || ''))
+      if (!include) continue
+      if (projectId === 'zenray-assets-v2' && backup.backedUpAt < manifestCutoff) continue
+      if (!backup.manifestPath || !backup.sha256 || !Number.isFinite(backup.size)) throw new Error('Archive receipt is incomplete')
+      const file = localFiles.get(backup.id) || null
+      const key = projectId + ':' + backup.id
+      selected.set(key, { projectId, backup, file })
+    }
+  }
+  return [...selected.values()].sort((left, right) => left.backup.manifestPath.localeCompare(right.backup.manifestPath))
+}
+
+async function evaluateLocalReceipt(item) {
+  const { backup, file } = item
+  if (!file) return { state: 'missing', sha256: null }
+  if (file.size !== backup.size) return { state: 'changed', sha256: null }
+  if (file.changeToken === backup.changeToken && file.sha256 === backup.sha256) return { state: 'match', sha256: file.sha256 }
+  if (!file.localPath || file.size > 25 * 1024 * 1024) return { state: 'changed', sha256: null }
+  const sha256 = await hashFile(file.localPath)
+  return { state: sha256 === backup.sha256 ? 'match' : 'changed', sha256 }
+}
+
+function verifyComparison() {
+  const backup = { sha256: 'a'.repeat(64), size: 17 }
+  const matching = evaluateManifest({ sha256: backup.sha256, size: backup.size, versions: [{ sha256: backup.sha256, size: backup.size }] }, backup)
+  const broken = evaluateManifest({ sha256: 'b'.repeat(64), size: backup.size, versions: [{ sha256: backup.sha256, size: backup.size }] }, backup)
+  const sparsePattern = escapeSparsePattern('pages/folder with space/[draft].file.json')
+  if (!matching.ok || broken.ok || broken.rootMatches || sparsePattern !== '/pages/folder with space/\\[draft\\].file.json') throw new Error('Manifest comparison self-test failed')
+  return { matchingAccepted: matching.ok, mismatchedRejected: !broken.ok, specialPathEscaped: true }
+}
+
+async function verifySnapshot(selected) {
+  const safeRemote = new URL(repositoryUrl)
+  const remoteBefore = runGit(['ls-remote', '--refs', repositoryUrl, 'refs/heads/main']).split(/\s+/)[0]
+  if (!/^[a-f0-9]{40}$/.test(remoteBefore)) throw new Error('Could not resolve the cloud main commit')
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-')
+  const clonePath = path.join(stateDir, 'audits', 'manifest-clone-' + timestamp)
+  await mkdir(path.dirname(clonePath), { recursive: true })
+  runGit(['clone', '--filter=blob:none', '--depth=1', '--single-branch', '--branch', 'main', '--no-checkout', '--reference-if-able', referenceRepository, safeRemote.toString(), clonePath])
+  const patterns = selected.map((item) => escapeSparsePattern(item.backup.manifestPath)).join('\n') + '\n'
+  runGit(['-C', clonePath, 'sparse-checkout', 'init', '--no-cone'])
+  runGit(['-C', clonePath, 'sparse-checkout', 'set', '--no-cone', '--stdin'], { input: patterns })
+  runGit(['-C', clonePath, 'read-tree', '-mu', 'HEAD'])
+  const snapshotCommit = runGit(['-C', clonePath, 'rev-parse', 'HEAD'])
+  const rows = []
+  for (const item of selected) {
+    const remotePath = path.join(clonePath, item.backup.manifestPath)
+    let manifest
+    try {
+      await access(remotePath)
+      manifest = JSON.parse(await readFile(remotePath, 'utf8'))
+    } catch {
+      rows.push({ projectId: item.projectId, fileId: item.backup.id, manifestPath: item.backup.manifestPath, remoteMatchesReceipt: false, localCurrent: (await evaluateLocalReceipt(item)).state, reason: 'manifest-unavailable' })
+      continue
+    }
+    const remote = evaluateManifest(manifest, item.backup)
+    const local = await evaluateLocalReceipt(item)
+    rows.push({ projectId: item.projectId, fileId: item.backup.id, manifestPath: item.backup.manifestPath,
+      archivedSha256: item.backup.sha256, archivedSize: item.backup.size,
+      remoteSha256: manifest.sha256 || null, remoteSize: manifest.size ?? null,
+      remoteMatchesReceipt: remote.ok, localCurrent: local.state, localSha256: local.sha256,
+      archivedAt: item.backup.backedUpAt || null })
+  }
+  const remoteAfter = runGit(['ls-remote', '--refs', repositoryUrl, 'refs/heads/main']).split(/\s+/)[0]
+  const report = {
+    checkedAt: new Date().toISOString(),
+    repository: 'matthieuhuguet/zenray-data',
+    branch: 'main',
+    snapshotCommit,
+    remoteHeadBefore: remoteBefore,
+    remoteHeadAfter: remoteAfter,
+    remoteMovedDuringAudit: remoteBefore !== remoteAfter,
+    auditSnapshotIsCurrent: remoteBefore === remoteAfter,
+    manifestCount: rows.length,
+    remoteMatchCount: rows.filter((row) => row.remoteMatchesReceipt).length,
+    remoteMismatchCount: rows.filter((row) => !row.remoteMatchesReceipt).length,
+    manifestUnavailableCount: rows.filter((row) => row.reason === 'manifest-unavailable').length,
+    localCurrentMatchCount: rows.filter((row) => row.localCurrent === 'match').length,
+    localChangedCount: rows.filter((row) => row.localCurrent === 'changed').length,
+    localMissingCount: rows.filter((row) => row.localCurrent === 'missing').length,
+    items: rows,
+  }
+  await mkdir(outputDirectory, { recursive: true })
+  const outputPath = path.join(outputDirectory, 'CloudManifestSnapshot-' + timestamp + '.json')
+  await writeFile(outputPath, JSON.stringify(report, null, 2) + '\n', { flag: 'wx', mode: 0o600 })
+  return { outputPath, clonePath, report }
+}
+
+async function main() {
+  const args = new Set(process.argv.slice(2))
+  const selfTest = args.has('--self-test') ? verifyComparison() : null
+  const selected = await readSelectedBackups()
+  if (args.has('--plan')) {
+    console.log(JSON.stringify({ selectedCount: selected.length, byProject: Object.fromEntries(projectIds.map((id) => [id, selected.filter((item) => item.projectId === id).length])), selfTest }))
+    return
+  }
+  const { outputPath, clonePath, report } = await verifySnapshot(selected)
+  console.log(JSON.stringify({ outputPath, clonePath, snapshotCommit: report.snapshotCommit,
+    manifestCount: report.manifestCount, remoteMatchCount: report.remoteMatchCount,
+    remoteMismatchCount: report.remoteMismatchCount, manifestUnavailableCount: report.manifestUnavailableCount,
+    localCurrentMatchCount: report.localCurrentMatchCount,
+    localChangedCount: report.localChangedCount, localMissingCount: report.localMissingCount,
+    remoteMovedDuringAudit: report.remoteMovedDuringAudit, selfTest }))
+  if (report.remoteMismatchCount || report.manifestUnavailableCount || report.localMissingCount) process.exitCode = 1
+}
+
+main().catch((error) => { console.error(error.message); process.exitCode = 1 })
