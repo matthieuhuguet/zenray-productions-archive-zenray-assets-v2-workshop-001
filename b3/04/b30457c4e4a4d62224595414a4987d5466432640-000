@@ -16,6 +16,15 @@
 
 ## 9 October 2026: Recheck of the older architecture findings
 
+- 9 October 2026: Finding 2 is resolved in the current service. The `bind-session` action checks an existing project binding while holding the shared lock, before writing or replaying history. The targeted service test for conflicting projects passes 1/1. (9 October 2026)
+- 9 October 2026: Finding 4 is stale. `projectDocuments` indexes Markdown files across every mapped source namespace, while Memory files remain a separate entry point. The current project context lists 86 documents; the 10-test `projectContextIndex` suite includes cross-source Markdown discovery, cloud path privacy and a bounded 24-document preview. (9 October 2026)
+- 9 October 2026: Finding 5 has recovery evidence. `AssetsCloudPublisher.test.js` passes 8/8, including a simulated failure at each of the three metadata writes followed by repeated publication that restores one correct project mapping. GitHub still does not make those files one atomic write; catalogue size at ten times its current volume is not measured. (9 October 2026)
+- 9 October 2026: Finding 1 remains a declared coverage limit: verified native transcript readers cover Claude and Codex, while Gemini and Antigravity still lack a verified original-conversation decoder. The current capture instructions do not prove a universal host hook. (9 October 2026)
+- 9 October 2026: Finding 3 remains unverified beyond one Mac. Exact file restoration is tested, but that does not prove that Houdini scenes or Unreal projects open, render and run on another machine. (9 October 2026)
+- 9 October 2026: Recheck commands: `npx vitest run scripts/AssetsService.test.js --maxWorkers=1 -t "preserves existing session bindings and skips replay when a conflicting project is requested"`; `npx vitest run src/lib/projectContextIndex.test.js --maxWorkers=1`; `npx vitest run scripts/AssetsCloudPublisher.test.js --maxWorkers=1`. All three pass. (9 October 2026)
+
+## 9 October 2026: Recheck of the older architecture findings
+
 - 9 October 2026: Finding 2 is resolved in the current service. The `bind-session` action checks an existing project binding while holding the shared lock, before writing or replaying any history. The targeted service test for conflicting projects passes 1/1. (9 October 2026)
 - 9 October 2026: Finding 4 is stale. `projectDocuments` now indexes Markdown files across every mapped source namespace, while Memory files remain a separate entry point. The current project context lists 86 documents; the 10-test `projectContextIndex` suite includes cross-source Markdown discovery, cloud path privacy and a bounded 24-document preview. (9 October 2026)
 - 9 October 2026: Finding 5 has recovery evidence. `AssetsCloudPublisher.test.js` passes 8/8, including a simulated failure at each of the three metadata writes followed by repeated publication that restores a single correct project mapping. GitHub still does not make those three files one atomic write; the audit does not yet measure a catalogue at ten times its current size. (9 October 2026)
