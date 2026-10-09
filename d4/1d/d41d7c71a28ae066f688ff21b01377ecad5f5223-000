@@ -1,0 +1,74 @@
+[
+  {
+    "mode": "simultaneous",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardFixture-simultaneous.json"
+  },
+  {
+    "mode": "busy-queue",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardFixture-busy-queue.json"
+  },
+  {
+    "mode": "empty",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardFixture-empty.json"
+  },
+  {
+    "mode": "down",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardFixture-down.json"
+  },
+  {
+    "mode": "large-error",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardFixture-large-error.json"
+  },
+  {
+    "mode": "timeout",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardFixture-timeout.json"
+  },
+  {
+    "mode": "current-errors",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardFixture-current-errors.json"
+  },
+  {
+    "mode": "scope-mac",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardFixture-scope-mac.json"
+  },
+  {
+    "mode": "scope-cloud",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardFixture-scope-cloud.json"
+  },
+  {
+    "mode": "appearance-light",
+    "passed": true,
+    "appearance": "NSAppearanceNameAqua",
+    "tileBackgroundLuminance": [
+      0.4143741176470588,
+      1,
+      1
+    ]
+  },
+  {
+    "mode": "appearance-dark",
+    "passed": true,
+    "appearance": "NSAppearanceNameDarkAqua",
+    "tileBackgroundLuminance": [
+      0.4143741176470588,
+      0.11764705882352941,
+      0.11764705882352941
+    ]
+  },
+  {
+    "mode": "live-dashboard",
+    "passed": true,
+    "proof": "/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/final-verify/NativeDashboardLive.json",
+    "fileCount": 45363,
+    "projectCount": 20
+  }
+]
