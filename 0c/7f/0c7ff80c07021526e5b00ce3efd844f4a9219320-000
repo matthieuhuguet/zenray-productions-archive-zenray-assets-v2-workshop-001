@@ -2,6 +2,7 @@
 // 9 October 2026, 03:31 CEST: pass sparse paths through a live stdin pipe before checking manifests.
 // 9 October 2026, 03:32 CEST: materialize the no-checkout sparse tree before reading manifests.
 // 9 October 2026, 03:33 CEST: retain moving-head results only as an intermediate audit.
+// 9 October 2026, 03:38 CEST: return an incomplete verdict when main moves during comparison.
 import { createHash } from 'node:crypto'
 import { createReadStream } from 'node:fs'
 import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
@@ -159,7 +160,7 @@ async function main() {
     localCurrentMatchCount: report.localCurrentMatchCount,
     localChangedCount: report.localChangedCount, localMissingCount: report.localMissingCount,
     remoteMovedDuringAudit: report.remoteMovedDuringAudit, selfTest }))
-  if (report.remoteMismatchCount || report.manifestUnavailableCount || report.localMissingCount) process.exitCode = 1
+  if (report.remoteMovedDuringAudit || report.remoteMismatchCount || report.manifestUnavailableCount || report.localMissingCount) process.exitCode = 1
 }
 
 main().catch((error) => { console.error(error.message); process.exitCode = 1 })
