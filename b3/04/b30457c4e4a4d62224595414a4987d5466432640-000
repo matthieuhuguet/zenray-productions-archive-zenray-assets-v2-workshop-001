@@ -42,3 +42,12 @@
 - 9 October 2026: GitHub enforces a 100 MiB maximum for one regular Git file. Therefore the current monolithic registry cannot be published at tenfold size, even though its local transformation completes. It needs a sharded or separately stored catalogue before tenfold publication can be claimed. (9 October 2026)
 - 9 October 2026: The exact GitHub limit is documented at [About large files on GitHub](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). No storage-format migration is started because it changes the publisher and every catalogue reader. (9 October 2026)
 - 9 October 2026: Second-Mac scene opening, dependency validation and render remain unverified; byte-perfect restore on this Mac is not executable-scene proof. (9 October 2026)
+
+
+## 9 October 2026: Antigravity FEEDBACK capture verified end to end
+
+- 9 October 2026: Correction to the earlier 04:xx assessment: `AssetsFeedbackCapture.mjs` now scans only Antigravity database files whose real session ID is bound to a project, then uses the existing canonical FEEDBACK writer. (9 October 2026)
+- 9 October 2026: Capture paginates native steps, resumes after the last saved step, detects database and WAL changes, and uses stable event IDs so replay does not append duplicates. (9 October 2026)
+- 9 October 2026: `AssetsFeedbackCapture.test.js` passes 6/6, including incremental capture and replay; the native decoder integration ran against one real 3,915,776-byte database in an isolated scratch project and captured 59 entries through step 185. (9 October 2026)
+- 9 October 2026: A second scan left the feedback SHA unchanged, the original database SHA stayed unchanged, and the isolated scratch folder was deleted. (9 October 2026)
+- 9 October 2026: Gemini web conversations remain outside the local Antigravity SQLite reader; capture from that host is not claimed. (9 October 2026)
