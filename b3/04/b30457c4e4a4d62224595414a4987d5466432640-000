@@ -51,3 +51,4 @@
 - 9 October 2026: `AssetsFeedbackCapture.test.js` passes 6/6, including incremental capture and replay; the native decoder integration ran against one real 3,915,776-byte database in an isolated scratch project and captured 59 entries through step 185. (9 October 2026)
 - 9 October 2026: A second scan left the feedback SHA unchanged, the original database SHA stayed unchanged, and the isolated scratch folder was deleted. (9 October 2026)
 - 9 October 2026: Gemini web conversations remain outside the local Antigravity SQLite reader; capture from that host is not claimed. (9 October 2026)
+- 9 October 2026: The real-reader scratch proof was repeated after adding the page spool: 59 entries through step 185, second scan unchanged, source SHA unchanged and spool removed. The automated test also proves chronological append order and no duplicate replay. (9 October 2026)
