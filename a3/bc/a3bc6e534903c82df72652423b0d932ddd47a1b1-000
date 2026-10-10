@@ -1,0 +1,12 @@
+{
+  "id": "v2-alias",
+  "namespace": "memory",
+  "localPath": "/Users/zenray/.claude/Memory1/Skills/zenray-assets-v2",
+  "include": [
+    "SKILL.md"
+  ],
+  "keep": true,
+  "exclude": [],
+  "optional": true,
+  "description": "Historical skill source removed on 10 October 2026; archived bytes retained, canonical workflow zenray-assets."
+}

@@ -1,0 +1,14 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:41741) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/AssetsService.test.js (105 tests | 102 skipped) 865ms
+   ✓ managed workspace release and recovery > retains Finder metadata locally and recovers its exact bytes  519ms
+   ✓ managed workspace release and recovery > retains extra unarchived files and refuses incomplete selections  329ms
+
+ Test Files  1 passed (1)
+      Tests  3 passed | 102 skipped (105)
+   Start at  12:34:52
+   Duration  1.23s (transform 77ms, setup 36ms, collect 117ms, tests 865ms, environment 0ms, prepare 36ms)
+

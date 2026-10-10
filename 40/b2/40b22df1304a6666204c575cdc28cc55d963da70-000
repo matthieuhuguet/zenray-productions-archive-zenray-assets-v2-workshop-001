@@ -1,0 +1,61 @@
+{
+  "id": "93295e06-ae32-45de-841d-ffb794864d42",
+  "phase": "unloaded",
+  "activePath": "/Users/zenray/Create/Build/AssetsWorkspaces/ceramic-tiles/loads/c25f4830-0688-4eb3-91e3-e2f0b4e53ddb",
+  "path": "/Users/zenray/Create/Build/AssetsWorkspaces/ceramic-tiles/releases/93295e06-ae32-45de-841d-ffb794864d42",
+  "files": [
+    {
+      "id": "project-notes:FEEDBACK.md",
+      "sourceId": "project-notes",
+      "relativePath": "sources/memory/project-notes/FEEDBACK.md",
+      "size": 896,
+      "sha256": "6d86b794f92803ac350457b76a9730cb49c2cffe1a3591ed5c4a40f36274d464",
+      "changeToken": "16777229:169852949:896:1790939691288.1848:1790939691288.1848",
+      "manifestPath": "pages/ZenRayAssets/ceramic-tiles/sources/memory/project-notes/FEEDBACK.md.file.json",
+      "backedUpAt": "2026-10-08T12:07:16.697Z",
+      "sourceFolder": "pages/ZenRayAssets/ceramic-tiles/sources/memory/project-notes",
+      "relativeManifest": "FEEDBACK.md.file.json",
+      "backup": {
+        "id": "project-notes:FEEDBACK.md",
+        "sourceId": "project-notes",
+        "relativePath": "FEEDBACK.md",
+        "size": 896,
+        "sha256": "6d86b794f92803ac350457b76a9730cb49c2cffe1a3591ed5c4a40f36274d464",
+        "changeToken": "16777229:169852949:896:1790939691288.1848:1790939691288.1848",
+        "manifestPath": "pages/ZenRayAssets/ceramic-tiles/sources/memory/project-notes/FEEDBACK.md.file.json",
+        "backedUpAt": "2026-10-08T12:07:16.697Z",
+        "sourceFolder": "pages/ZenRayAssets/ceramic-tiles/sources/memory/project-notes",
+        "relativeManifest": "FEEDBACK.md.file.json"
+      }
+    },
+    {
+      "id": "workshop:10-renders/lookdev_unreal_V6.png",
+      "sourceId": "workshop",
+      "relativePath": "sources/tmp/workshop/10-renders/lookdev_unreal_V6.png",
+      "size": 625246,
+      "sha256": "6095045752ac3698a31e2958d5595710a163d65a9190fd16c58bd63a61e39ca8",
+      "changeToken": "16777229:169871498:625246:1790942825034.0776:1790942825035.8633",
+      "manifestPath": "pages/ZenRayAssets/ceramic-tiles/sources/tmp/workshop/10-renders/lookdev_unreal_V6.png.file.json",
+      "backedUpAt": "2026-10-08T09:58:26.041Z",
+      "sourceFolder": "pages/ZenRayAssets/ceramic-tiles/sources/tmp/workshop",
+      "relativeManifest": "10-renders/lookdev_unreal_V6.png.file.json",
+      "backup": {
+        "id": "workshop:10-renders/lookdev_unreal_V6.png",
+        "sourceId": "workshop",
+        "relativePath": "10-renders/lookdev_unreal_V6.png",
+        "size": 625246,
+        "sha256": "6095045752ac3698a31e2958d5595710a163d65a9190fd16c58bd63a61e39ca8",
+        "changeToken": "16777229:169871498:625246:1790942825034.0776:1790942825035.8633",
+        "manifestPath": "pages/ZenRayAssets/ceramic-tiles/sources/tmp/workshop/10-renders/lookdev_unreal_V6.png.file.json",
+        "backedUpAt": "2026-10-08T09:58:26.041Z",
+        "sourceFolder": "pages/ZenRayAssets/ceramic-tiles/sources/tmp/workshop",
+        "relativeManifest": "10-renders/lookdev_unreal_V6.png.file.json"
+      }
+    }
+  ],
+  "count": 2,
+  "bytes": 626142,
+  "allocatedBytes": 630784,
+  "createdAt": "2026-10-10T10:31:58.583Z",
+  "finishedAt": "2026-10-10T10:31:58.772Z"
+}

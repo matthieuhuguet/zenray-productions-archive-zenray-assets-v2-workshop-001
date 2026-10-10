@@ -1,0 +1,80 @@
+[
+  {
+    "id": "zenray-assets-v2",
+    "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7",
+    "loadedFiles": 1,
+    "planCount": 1,
+    "bytes": 70,
+    "executable": false,
+    "reasons": {},
+    "blockers": []
+  },
+  {
+    "id": "zenray-houdini-library",
+    "path": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-houdini-library/loads/9eccfa6f-b960-4b62-8b7d-e8fa57c71d59",
+    "loadedFiles": 7,
+    "planCount": 7,
+    "bytes": 177085,
+    "executable": false,
+    "reasons": {
+      "source-kept": 7
+    },
+    "blockers": [
+      {
+        "id": "memory-library:Component_Armature.hda",
+        "reason": "source-kept"
+      },
+      {
+        "id": "memory-library:Component_Roof.hda",
+        "reason": "source-kept"
+      },
+      {
+        "id": "memory-library:Component_WindowA.hda",
+        "reason": "source-kept"
+      },
+      {
+        "id": "memory-library:Component_WindowB.hda",
+        "reason": "source-kept"
+      },
+      {
+        "id": "memory-library:Component_WoodFacade.hda",
+        "reason": "source-kept"
+      },
+      {
+        "id": "skill-library:zenray_picket_fence.hda",
+        "reason": "source-kept"
+      },
+      {
+        "id": "skill-library:ZenRayChurchHero.hda",
+        "reason": "source-kept"
+      }
+    ]
+  },
+  {
+    "id": "ceramic-tiles",
+    "path": "/Users/zenray/Create/Build/AssetsWorkspaces/ceramic-tiles/loads/c25f4830-0688-4eb3-91e3-e2f0b4e53ddb",
+    "loadedFiles": 2,
+    "planCount": 2,
+    "bytes": 626142,
+    "executable": false,
+    "reasons": {
+      "source-kept": 1
+    },
+    "blockers": [
+      {
+        "id": "project-notes:FEEDBACK.md",
+        "reason": "source-kept"
+      }
+    ]
+  },
+  {
+    "id": "louisiana-bayou",
+    "path": "/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b",
+    "loadedFiles": 22,
+    "planCount": 22,
+    "bytes": 55867206,
+    "executable": false,
+    "reasons": {},
+    "blockers": []
+  }
+]

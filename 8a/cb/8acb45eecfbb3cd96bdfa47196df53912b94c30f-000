@@ -1,0 +1,51 @@
+# Audit disque et sécurité UNLOAD (10 October 2026)
+
+- Scan de 3,004,359 fichiers ordinaires, sans suivre les liens et sans traverser les autres volumes. (10 October 2026)
+- 211 accès refusés ou erreurs de lecture sont détaillés dans DiskInventory.json ; le scan ne prétend pas couvrir ces chemins. (10 October 2026)
+- CrossOver, Steam, Bottles et dossiers Games exclus ; aucune suppression hors copies LOAD. (10 October 2026)
+- Début : 61 Gio disponibles, disque occupé à 97 %. Les blocs APFS peuvent être partagés ou retenus par des snapshots ; seul df après opération mesure le gain disponible. (10 October 2026)
+
+## Volumes prioritaires (10 October 2026)
+
+| Dossier | Blocs alloués | Décision |
+| :--- | ---: | :--- |
+| /Users/zenray/.claude/tmp/tmp-films-series | 252.8 Gio | Conserver, restauration intégrale non prouvée (10 October 2026) |
+| /Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub | 72.2 Gio | Conserver, restauration intégrale non prouvée (10 October 2026) |
+| /Users/zenray/.zr-archive-work | 106.8 Gio | Conserver, restauration intégrale non prouvée (10 October 2026) |
+| /Users/zenray/.zr-migrate-work | 44.5 Gio | Conserver, restauration intégrale non prouvée (10 October 2026) |
+| /Users/zenray/.zr-archive-work-img | 38.3 Gio | Conserver, restauration intégrale non prouvée (10 October 2026) |
+| /Users/zenray/.zr-runs | 18.3 Gio | Conserver, restauration intégrale non prouvée (10 October 2026) |
+
+## Copies LOAD (10 October 2026)
+
+- Assets : environ 16 Mio, chantier actif conservé. (10 October 2026)
+- Louisiana : environ 2 Gio, 99 fichiers inventoriés dans LOAD ; restauration cloud obligatoire avant déchargement. (10 October 2026)
+- Bibliothèque Houdini : environ 200 Kio, 9 fichiers inventoriés dans LOAD. (10 October 2026)
+- Ceramic Tiles : environ 620 Kio ; copie initiale de 2 fichiers. (10 October 2026)
+
+## Audit avant suppression (10 October 2026)
+
+- Lecture directe : retirer seulement les copies, jamais les sources. Lecture inverse : LOAD ne représente que 2 Gio, la majorité du disque exige un audit des archives média. Lecture adjacente : préserver les versions modifiées, les fichiers non indexés et les dépendances ouvertes. Reformulation : décharger uniquement une copie isolée dont chaque fichier vient de réussir sa restauration distante. (10 October 2026)
+- Scénario de perte : un nouveau fichier apparaît après le contrôle et rm récursif le supprime ; correction : suppression des seuls fichiers explicitement vérifiés et des dossiers vides. (10 October 2026)
+- Scénario de perte : une application garde un fichier ouvert après déplacement ; correction : lsof avant et après déplacement, échec bloquant. (10 October 2026)
+- Pas de suppression pour gagner des centaines de Gio sur la seule foi du nom tmp ou archive. Les originaux, sauvegardes de sessions, films, photos et la corbeille restent présents. (10 October 2026)
+
+## Scan final et verdict (10 October 2026)
+
+- 3,004,359 fichiers ordinaires lus par métadonnées, 51 dossiers explicitement exclus et 211 erreurs consignées ; aucun contenu personnel n’est lu par le scanner. (10 October 2026)
+- Risque 1, copie modifiée ou ouverte : SHA-256 de chaque fichier, état lsof et déplacement hors chemin actif. Risque 2, fichier imprévu : refus, exception limitée aux .DS_Store déplacés et conservés. Risque 3, cloud incomplet : restauration entière vers probe et comparaison indépendante. Risque 4, panne au milieu : preuve de release persistée avant renommage, états interrupted et RECOVER. Risque 5, gain APFS surestimé : df avant et après, sans toucher aux snapshots. (10 October 2026)
+- GO pour les seules copies dont le contrôle complet réussit ; NO-GO pour les gros dossiers média sans preuve de récupération. Authenticité, paiement, échéance et publication ne changent pas dans cette opération locale. (10 October 2026)
+- Tests : 114 tests Vitest, 3 tests du panneau macOS, test réel cloud LOAD/UNLOAD/RECOVER du témoin SHA-256 dc07760a08c17d092947677d603a501322b9318c8405bbb8e328629158148a96 ; original conservé. (10 October 2026)
+
+- Déchargement Louisiana suspendu : production:LouisianaBayou.hiplc possède une empreinte nouvelle 059e5dcf4a05ea22472bf5968d77e83ec1e4804ec8cf50a6f383a0f43a0873da différente de la copie ; la préservation des deux versions est demandée au service avant toute reprise. Aucun fichier de ce LOAD n’est supprimé. (10 October 2026)
+
+## Résultat vérifié (10 October 2026)
+
+- zenray-houdini-library : 9 fichiers déchargés, 0.2 Mio de blocs supprimés après restauration cloud, preuve 3b81d723-2d34-43b3-859d-294cfff5322a. (10 October 2026)
+- ceramic-tiles : 2 fichiers déchargés, 0.6 Mio de blocs supprimés après restauration cloud, preuve 93295e06-ae32-45de-841d-ffb794864d42. (10 October 2026)
+- louisiana-bayou : 101 fichiers déchargés, 2098.5 Mio de blocs supprimés après restauration cloud, preuve b39e0972-3f8a-48f5-8d3c-aee1dfe8954b. (10 October 2026)
+- Total : 112 fichiers, 2.05 Gio de copies retirées. Un .DS_Store conservé sur le Mac et vérifié, avec récupération intégrée. (10 October 2026)
+- Disponibilité disque : 60.47 Gio avant, 61.99 Gio après, gain net observé 1.51 Gio ; les autres applications restent actives, ce gain ne se confond pas avec le total des copies supprimées. (10 October 2026)
+- Contrôle des sources : 14904 fichiers encore présents, 0 manquant. Les 17 surveillances temporairement suspendues sont réactivées. Le LOAD du chantier Assets reste chargé. (10 October 2026)
+- Sécurité validée : 115 tests Vitest, 3 tests macOS et cycle réel cloud ; code main 8fd50d23 sauvegardé sur origin/main. (10 October 2026)
+- 10 October 2026 : Redémarrage confirmé : les trois projets restent UNLOADED, leurs preuves de récupération persistent ; la source historique du skill V2 supprimé devient facultative, surveillance sans erreur et ancien skill toujours absent. (10 October 2026)

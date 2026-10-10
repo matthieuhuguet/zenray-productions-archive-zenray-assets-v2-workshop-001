@@ -1,0 +1,22 @@
+{
+  "id": "b39e0972-3f8a-48f5-8d3c-aee1dfe8954b",
+  "projectId": "louisiana-bayou",
+  "type": "unload",
+  "state": "done",
+  "createdAt": "2026-10-10T10:44:15.529Z",
+  "error": null,
+  "startedAt": "2026-10-10T10:44:15.529Z",
+  "progress": {
+    "zr": 1,
+    "ev": "restaure",
+    "rel": "versions/production/f8a1e753bf6f486a50b39946a3b97a43e47eafbf6fddc3031a3103e850c37802/LouisianaBayou.hiplc",
+    "cible": "/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/checks/b39e0972-3f8a-48f5-8d3c-aee1dfe8954b/workshop/versions/production/f8a1e753bf6f486a50b39946a3b97a43e47eafbf6fddc3031a3103e850c37802/LouisianaBayou.hiplc",
+    "octets": 52437888,
+    "sha": "f8a1e753bf6f486a50b39946a3b97a43e47eafbf6fddc3031a3103e850c37802",
+    "scopeId": "workshop:versions/production/f8a1e753bf6f486a50b39946a3b97a43e47eafbf6fddc3031a3103e850c37802/LouisianaBayou.hiplc"
+  },
+  "count": 101,
+  "retainedMetadataCount": 1,
+  "freedBytes": 2200403968,
+  "finishedAt": "2026-10-10T10:58:11.029Z"
+}

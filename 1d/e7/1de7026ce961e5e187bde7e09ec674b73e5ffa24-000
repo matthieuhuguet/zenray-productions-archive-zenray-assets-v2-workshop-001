@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-10-10T12:59:20.548463+02:00",
+  "releasedProjects": [
+    {
+      "projectId": "zenray-houdini-library",
+      "id": "3b81d723-2d34-43b3-859d-294cfff5322a",
+      "phase": "unloaded",
+      "count": 9,
+      "freedAllocatedBytes": 200704,
+      "retainedMetadata": 0
+    },
+    {
+      "projectId": "ceramic-tiles",
+      "id": "93295e06-ae32-45de-841d-ffb794864d42",
+      "phase": "unloaded",
+      "count": 2,
+      "freedAllocatedBytes": 630784,
+      "retainedMetadata": 0
+    },
+    {
+      "projectId": "louisiana-bayou",
+      "id": "b39e0972-3f8a-48f5-8d3c-aee1dfe8954b",
+      "phase": "unloaded",
+      "count": 101,
+      "freedAllocatedBytes": 2200403968,
+      "retainedMetadata": 1
+    }
+  ],
+  "releasedFiles": 112,
+  "removedAllocatedBytes": 2201235456,
+  "diskAvailableBefore": 64934027264,
+  "diskAvailableAfter": 66557927424,
+  "netAvailableGainBytes": 1623900160,
+  "originalSourcesChecked": 14904,
+  "originalSourcesMissing": [],
+  "retainedMetadataVerified": [
+    {
+      "relativePath": "sources/tmp/workshop/03_work/.DS_Store",
+      "size": 6148,
+      "sha256": "210bcced5ecd21cff71da9186aa3bca14dbbb4389a06280947e2de2e7d73e303",
+      "path": "/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/retained-metadata/b39e0972-3f8a-48f5-8d3c-aee1dfe8954b/sources/tmp/workshop/03_work/.DS_Store"
+    }
+  ],
+  "watchersRestored": 17,
+  "watchersNotRestored": [],
+  "activeAssetsWorkspace": "/Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7"
+}

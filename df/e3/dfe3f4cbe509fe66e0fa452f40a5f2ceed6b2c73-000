@@ -1,0 +1,11 @@
+✔ loads only files with an exact cloud proof (1.009166ms)
+✔ does not enqueue an unload when any managed copy is blocked (0.177042ms)
+✔ queues a cloud backup without exposing the internal job object (0.063958ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 69.991875

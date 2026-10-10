@@ -1,0 +1,3410 @@
+{
+  "generatedAt": "2026-10-10T12:30:30.087188+02:00",
+  "root": "/System/Volumes/Data",
+  "regularFiles": 3004359,
+  "allocatedBytes": 1432874319872,
+  "directories": [
+    [
+      "Users",
+      1349165883392
+    ],
+    [
+      "Users/zenray",
+      1341812396032
+    ],
+    [
+      "Users/zenray/.claude",
+      530711941120
+    ],
+    [
+      "Users/zenray/.claude/tmp",
+      470845227008
+    ],
+    [
+      "Users/zenray/Create",
+      335111331840
+    ],
+    [
+      "Users/zenray/Create/Build",
+      335111319552
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-films-series",
+      271425527808
+    ],
+    [
+      "Users/zenray/Create/Build/Productions",
+      267934224384
+    ],
+    [
+      "Users/zenray/.zr-archive-work",
+      114855452672
+    ],
+    [
+      "Users/zenray/.zr-archive-work/_media",
+      111770361856
+    ],
+    [
+      "Users/zenray/Library",
+      105972211712
+    ],
+    [
+      "Users/zenray/.zr-archive-work/_media/vidraw",
+      104204554240
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub",
+      77503234048
+    ],
+    [
+      "Users/zenray/Library/Application Support",
+      72718450688
+    ],
+    [
+      "Users/zenray/Create/Build/UE_5.8",
+      52462137344
+    ],
+    [
+      "Users/zenray/.zr-migrate-work",
+      47833329664
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img",
+      41079660544
+    ],
+    [
+      "System",
+      34610024448
+    ],
+    [
+      "System/Library",
+      34610024448
+    ],
+    [
+      "System/Library/AssetsV2",
+      34598088704
+    ],
+    [
+      "Users/zenray/Pictures",
+      29872349184
+    ],
+    [
+      "Users/zenray/Pictures/Photos Library.photoslibrary",
+      29872336896
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-logiciels",
+      27406319616
+    ],
+    [
+      "Users/zenray/Downloads",
+      25291259904
+    ],
+    [
+      "Users/zenray/.claude/.git",
+      24895909888
+    ],
+    [
+      "Users/zenray/.claude/.git/objects",
+      24885964800
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_FM_GenerativeModels",
+      24669917184
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto",
+      24669917184
+    ],
+    [
+      "Users/zenray/.Trash",
+      23882096640
+    ],
+    [
+      "Users/zenray/Library/Caches",
+      22590349312
+    ],
+    [
+      "Users/zenray/.Trash/out",
+      22382735360
+    ],
+    [
+      "Users/zenray/.zr-runs",
+      19689676800
+    ],
+    [
+      "Users/zenray/.zr-runs/dji-purge-name-work",
+      19688898560
+    ],
+    [
+      "Users/zenray/.zr-runs/dji-purge-name-work/16-juin",
+      19688898560
+    ],
+    [
+      "Applications",
+      19590713344
+    ],
+    [
+      "private",
+      18977140736
+    ],
+    [
+      "private/var",
+      18622066688
+    ],
+    [
+      "Users/zenray/.cache",
+      18056626176
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp img",
+      17382617088
+    ],
+    [
+      "Users/zenray/Pictures/Photos Library.photoslibrary/resources",
+      15970848768
+    ],
+    [
+      "Users/zenray/.claude/session-backups",
+      14528647168
+    ],
+    [
+      "Users/zenray/.claude/session-backups/blobs",
+      14063980544
+    ],
+    [
+      "Users/zenray/Library/Application Support/Spotify",
+      13801570304
+    ],
+    [
+      "Users/zenray/Library/Application Support/Claude",
+      13182701568
+    ],
+    [
+      "Users/zenray/Library/Application Support/ZenRayAssets",
+      13042380800
+    ],
+    [
+      "private/var/folders",
+      12199653376
+    ],
+    [
+      "private/var/folders/r2",
+      12199235584
+    ],
+    [
+      "private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn",
+      12199235584
+    ],
+    [
+      "Users/zenray/Pictures/Photos Library.photoslibrary/originals",
+      12140093440
+    ],
+    [
+      "Users/zenray/.claude/Memory1",
+      11743629312
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-agent-conversations",
+      11260993536
+    ],
+    [
+      "Users/zenray/.codex",
+      11181854720
+    ],
+    [
+      "Users/zenray/Library/Application Support/Google",
+      10574954496
+    ],
+    [
+      "Users/zenray/.cache/huggingface",
+      9987059712
+    ],
+    [
+      "Users/zenray/.cache/huggingface/hub",
+      9985122304
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-ba7bca34986f",
+      9218269184
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-b99dcf26a747",
+      9217183744
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-62d97c0739b5",
+      9215016960
+    ],
+    [
+      "Users/zenray/Library/Caches/com.spotify.client",
+      9042571264
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-archives-zip",
+      8805306368
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-63",
+      8768106496
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-61",
+      8767307776
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-60",
+      8766009344
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-62",
+      8611344384
+    ],
+    [
+      "Users/zenray/Desktop",
+      8397185024
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-64",
+      8131989504
+    ],
+    [
+      "Users/zenray/.venvs",
+      7808532480
+    ],
+    [
+      "Users/zenray/.zr-archive-work/_media/vidraw-tmp",
+      7565807616
+    ],
+    [
+      "Users/Shared",
+      7353487360
+    ],
+    [
+      "Users/zenray/Library/Application Support/Epic",
+      7226351616
+    ],
+    [
+      "Users/Shared/UnrealEngine",
+      6504181760
+    ],
+    [
+      "Users/Shared/UnrealEngine/Launcher",
+      6504181760
+    ],
+    [
+      "Users/Shared/UnrealEngine/Launcher/VaultCache",
+      6504181760
+    ],
+    [
+      "Users/zenray/.codex/sessions",
+      6356705280
+    ],
+    [
+      "Users/zenray/.codex/sessions/2026",
+      6356705280
+    ],
+    [
+      "Users/zenray/Library/Application Support/Notion",
+      6188036096
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-izu",
+      6153674752
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-short-roof-tiles-copernicus",
+      5966512128
+    ],
+    [
+      "Users/zenray/Create/Build/Houdini22",
+      5873676288
+    ],
+    [
+      "Users/zenray/Downloads/[ Torrent9.pe ] Le.Sens.de.la.Fete.2017.FRENCH.720p.BluRay.x264-Ulysse",
+      5860257792
+    ],
+    [
+      "Users/zenray/.claude/Memory1/tmp-maya2027",
+      5589336064
+    ],
+    [
+      "Users/zenray/.npm",
+      5397254144
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-agent-session-restore-verification",
+      5137989632
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-houdini-september-2026",
+      5079633920
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-317b28a2d0b3",
+      5012815872
+    ],
+    [
+      "Users/zenray/Library/Caches/com.openai.codex",
+      4901556224
+    ],
+    [
+      "Users/zenray/Create/Build/AssetsReleaseChecks",
+      4862111744
+    ],
+    [
+      "opt",
+      4810719232
+    ],
+    [
+      "opt/homebrew",
+      4810719232
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-50",
+      4788572160
+    ],
+    [
+      "Users/zenray/.claude-science",
+      4716527616
+    ],
+    [
+      "Users/zenray/.npm/_cacache",
+      4706951168
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-3dc6aa2a4c0f",
+      4664950784
+    ],
+    [
+      "Users/zenray/.npm/_cacache/content-v2",
+      4634808320
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725",
+      4620283904
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-ba7bca34986f/.git",
+      4611723264
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-b99dcf26a747/.git",
+      4610764800
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-62d97c0739b5/.git",
+      4609921024
+    ],
+    [
+      "Users/zenray/.claude-science/conda",
+      4464599040
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-63/.git",
+      4385054720
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-61/.git",
+      4384256000
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-60/.git",
+      4382957568
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-62/.git",
+      4306014208
+    ],
+    [
+      "Users/zenray/.claude/transcripts-chunks",
+      4194865152
+    ],
+    [
+      "Applications/Xcode.app",
+      4168335360
+    ],
+    [
+      "Applications/Xcode.app/Contents",
+      4168335360
+    ],
+    [
+      "opt/homebrew/Cellar",
+      4146995200
+    ],
+    [
+      "Users/zenray/.claude/projects",
+      4108521472
+    ],
+    [
+      "Users/zenray/.claude-science/conda/pkgs",
+      4096401408
+    ],
+    [
+      "private/var/db",
+      4094525440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-64/.git",
+      4066877440
+    ],
+    [
+      "Users/zenray/Library/Containers",
+      4029964288
+    ],
+    [
+      "Users/zenray/Downloads/Mariage C&C \u2665\ufe0f",
+      3755388928
+    ],
+    [
+      "Users/zenray/.cache/codex-runtimes",
+      3678928896
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-medias-perso",
+      3487432704
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01",
+      3440369664
+    ],
+    [
+      "Users/zenray/Library/Application Support/MacWhisper",
+      3347062784
+    ],
+    [
+      "Library",
+      3343974400
+    ],
+    [
+      "Users/zenray/Downloads/[Anime Time] Peter Grill to Kenja no Jikan (Peter Grill and the Philosopher's Time) (Season 01+Season 02) [BD] [Uncensored] [Dual Audio][1080p][HEVC 10bit x265][AAC][Eng Sub] [Batch]",
+      3275956224
+    ],
+    [
+      "Users/zenray/.hermes",
+      3245998080
+    ],
+    [
+      "Users/zenray/.cache/uv",
+      3101294592
+    ],
+    [
+      "Users/zenray/.claude/Memory1/.git",
+      2863308800
+    ],
+    [
+      "Users/zenray/.venvs/resemble-enhance",
+      2832621568
+    ],
+    [
+      "Users/zenray/.venvs/resemble-enhance/lib",
+      2831716352
+    ],
+    [
+      "Users/zenray/.hermes/hermes-agent",
+      2808561664
+    ],
+    [
+      "Applications/Xcode.app/Contents/Developer",
+      2792812544
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_Understanding",
+      2785226752
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_Understanding/purpose_auto",
+      2785226752
+    ],
+    [
+      "Users/zenray/Downloads/[Anime Time] Peter Grill to Kenja no Jikan (Peter Grill and the Philosopher's Time) (Season 01+Season 02) [BD] [Uncensored] [Dual Audio][1080p][HEVC 10bit x265][AAC][Eng Sub] [Batch]/[Anime Time] Peter Grill to Kenja no Jikan Season 02",
+      2706321408
+    ],
+    [
+      "Users/zenray/Library/Containers/org.p0deje.Maccy",
+      2624708608
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-assets-catalogue-release-ca008999",
+      2527916032
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-317b28a2d0b3/.git",
+      2513625088
+    ],
+    [
+      "Users/zenray/.codex/01a11653-69f5-7492-b80e-dbcc6a785d87",
+      2486562816
+    ],
+    [
+      "Users/zenray/.zr-archive-work/_img",
+      2461564928
+    ],
+    [
+      "Users/zenray/.cache/uv/archive-v0",
+      2449694720
+    ],
+    [
+      "Users/zenray/.codex/01a11653-69f5-7492-b80e-dbcc6a785d87/data-cleanup-zenray-data-095435ff",
+      2448863232
+    ],
+    [
+      "Users/zenray/Library/Group Containers",
+      2405449728
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-50/.git",
+      2392616960
+    ],
+    [
+      "Users/zenray/.claude/Memory1/Tools",
+      2388041728
+    ],
+    [
+      "Users/zenray/.claude/transcripts-chunks/-Users-zenray-Create-Build-Memory",
+      2362155008
+    ],
+    [
+      "macOS Install Data",
+      2359373824
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-adrianpan-macos-build",
+      2350723072
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-3dc6aa2a4c0f/.git",
+      2333786112
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-poisson-gloss-matthieu-poterie-aix-8-octobre-2026",
+      2317103104
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain",
+      2304860160
+    ],
+    [
+      "Users/zenray/.gemini",
+      2277703680
+    ],
+    [
+      "Users/zenray/.gemini/antigravity",
+      2277363712
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app",
+      2271522816
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app/Contents",
+      2271522816
+    ],
+    [
+      "Users/zenray/.claude/projects/-Users-zenray-Create-Build-Memory",
+      2254131200
+    ],
+    [
+      "private/var/db/diagnostics",
+      2201620480
+    ],
+    [
+      "Users/zenray/Create/Build/AssetsWorkspaces",
+      2165739520
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-adrianpan-macos-contribution",
+      2158473216
+    ],
+    [
+      "private/var/vm",
+      2147483648
+    ],
+    [
+      "Users/zenray/.cache/codex-runtimes/codex-runtime-install-AWJdaN",
+      2031312896
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-short-ceramic-tiles-ad",
+      2012037120
+    ],
+    [
+      "Users/zenray/Library/Caches/Google",
+      2002345984
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-gta6",
+      1791746048
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-44993e4a902b",
+      1765150720
+    ],
+    [
+      "Users/zenray/.claude/projects/-Users-zenray--claude-Memory1",
+      1731641344
+    ],
+    [
+      "Users/zenray/Downloads/The Specials (2019) [1080p] [BluRay] [5.1] [YTS.MX]",
+      1730822144
+    ],
+    [
+      "Users/zenray/.claude/transcripts-chunks/-Users-zenray--claude-Memory1",
+      1709735936
+    ],
+    [
+      "Users/zenray/Library/Caches/Codex",
+      1707769856
+    ],
+    [
+      "Applications/ChatGPT.app",
+      1693052928
+    ],
+    [
+      "Applications/ChatGPT.app/Contents",
+      1693052928
+    ],
+    [
+      "Users/zenray/.cache/codex-runtimes/codex-primary-runtime",
+      1647616000
+    ],
+    [
+      "Library/Developer",
+      1642266624
+    ],
+    [
+      "Applications/Xcode.app/Contents/Developer/Platforms",
+      1596399616
+    ],
+    [
+      "Users/zenray/Library/Application Support/Eagle",
+      1579794432
+    ],
+    [
+      "Users/zenray/Downloads/nier-sound-extractor-out",
+      1541263360
+    ],
+    [
+      "Applications/Google Chrome.app",
+      1501630464
+    ],
+    [
+      "Applications/Google Chrome.app/Contents",
+      1501630464
+    ],
+    [
+      "Applications/Google Chrome.app/Contents/Frameworks",
+      1495150592
+    ],
+    [
+      "Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework",
+      1495150592
+    ],
+    [
+      "private/var/db/diagnostics/Special",
+      1484333056
+    ],
+    [
+      "Users/zenray/.zr-thumb-bulk",
+      1482002432
+    ],
+    [
+      "Users/zenray/.venvs/voicefixer",
+      1478610944
+    ],
+    [
+      "Users/zenray/Create/Build/HoudiniRenderers",
+      1464205312
+    ],
+    [
+      "Users/zenray/.venvs/voicefixer/lib",
+      1454780416
+    ],
+    [
+      "Users/zenray/Downloads/nier-sound-extractor-out/stream",
+      1448706048
+    ],
+    [
+      "Users/zenray/Library/Group Containers/group.net.whatsapp.WhatsApp.shared",
+      1442516992
+    ],
+    [
+      "Users/zenray/.gemini/antigravity/brain",
+      1435594752
+    ],
+    [
+      "Library/Developer/CommandLineTools",
+      1411502080
+    ],
+    [
+      "Users/zenray/.local",
+      1381691392
+    ],
+    [
+      "Users/zenray/.venvs/asr-ja",
+      1355001856
+    ],
+    [
+      "Users/zenray/.venvs/asr-ja/lib",
+      1354842112
+    ],
+    [
+      "Users/zenray/Pictures/Photos Library.photoslibrary/database",
+      1344458752
+    ],
+    [
+      "Users/zenray/.venvs/deecho-audio",
+      1339531264
+    ],
+    [
+      "Users/zenray/.venvs/deecho-audio/lib",
+      1339400192
+    ],
+    [
+      "Applications/ChatGPT.app/Contents/Resources",
+      1308766208
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_LinguisticData",
+      1241890816
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_LinguisticData/purpose_auto",
+      1241890816
+    ],
+    [
+      "Applications/Microsoft Teams.app",
+      1163239424
+    ],
+    [
+      "Applications/Microsoft Teams.app/Contents",
+      1163239424
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app/Contents/Frameworks",
+      1128652800
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app/Contents/Resources",
+      1122721792
+    ],
+    [
+      "Users/zenray/.hermes/hermes-agent/node_modules",
+      1094647808
+    ],
+    [
+      "Applications/Xcode.app/Contents/Developer/Toolchains",
+      1080049664
+    ],
+    [
+      "Applications/Epic Games Launcher.app",
+      1060491264
+    ],
+    [
+      "Applications/Epic Games Launcher.app/Contents",
+      1060491264
+    ],
+    [
+      "Users/zenray/.zr-archive-work/_img/zenrayshards-img-599046b58d7a",
+      1056632832
+    ],
+    [
+      "private/var/db/uuidtext",
+      975945728
+    ],
+    [
+      "Users/zenray/Library/Application Support/com.apple.wallpaper",
+      942825472
+    ],
+    [
+      "Applications/GeForceNOW.app",
+      917204992
+    ],
+    [
+      "Applications/GeForceNOW.app/Contents",
+      917204992
+    ],
+    [
+      "Applications/Microsoft Teams.app/Contents/Helpers",
+      909475840
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/389a215aea89fda945178f9fb8bcdc6aa0e20570.asset",
+      907333632
+    ],
+    [
+      "Applications/Microsoft Teams.app/Contents/Helpers/Microsoft Teams WebView.app",
+      894738432
+    ],
+    [
+      "Users/zenray/.zr-archive-work/_img/zenrayshards-img-e5ec8bad9b6c",
+      891842560
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-44993e4a902b/.git",
+      883073024
+    ],
+    [
+      "Users/zenray/.local/share",
+      870866944
+    ],
+    [
+      "Users/zenray/Library/Caches/pip",
+      866623488
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-edbaabf2e74b",
+      862429184
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenray-img-public-21",
+      861581312
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_Photos_SpatialPhotosRelive",
+      849219584
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_Photos_SpatialPhotosRelive/purpose_auto",
+      849219584
+    ],
+    [
+      "Users/Shared/SideFX",
+      848928768
+    ],
+    [
+      "Users/Shared/SideFX/shfs",
+      848928768
+    ],
+    [
+      "Users/Shared/SideFX/shfs/houdini",
+      848928768
+    ],
+    [
+      "Applications/GeForceNOW.app/Contents/Frameworks",
+      840495104
+    ],
+    [
+      "Users/zenray/.zr-archive-work-vidraw",
+      830128128
+    ],
+    [
+      "Users/zenray/.zr-archive-work-vidraw/run-91997-mte77dma",
+      830128128
+    ],
+    [
+      "Users/zenray/.gemini/antigravity/conversations",
+      813973504
+    ],
+    [
+      "Users/zenray/Library/Python",
+      795746304
+    ],
+    [
+      "Users/zenray/Library/Python/3.9",
+      789635072
+    ],
+    [
+      "Applications/Epic Games Launcher.app/Contents/UE",
+      783036416
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-zenray-website-lily",
+      768581632
+    ],
+    [
+      "Users/zenray/Library/Metadata",
+      751792128
+    ],
+    [
+      "Users/zenray/Library/Metadata/CoreSpotlight",
+      751710208
+    ],
+    [
+      "Users/zenray/Library/Caches/puccinialin",
+      744116224
+    ],
+    [
+      "Users/zenray/.hermes/hermes-agent/apps",
+      719450112
+    ],
+    [
+      "Users/zenray/Library/Caches/Homebrew",
+      701112320
+    ],
+    [
+      "Users/zenray/.hermes/hermes-agent/venv",
+      700547072
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/656653e63a393644d316d4c630af4cccd68d1d2f.asset",
+      698798080
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/5f4a441a6d0a11f2e9b28c67384263afe92320f7.asset",
+      698724352
+    ],
+    [
+      "Applications/WhatsApp.app",
+      696528896
+    ],
+    [
+      "Applications/WhatsApp.app/Contents",
+      696528896
+    ],
+    [
+      "Users/zenray/.npm/_npx",
+      690249728
+    ],
+    [
+      "opt/homebrew/Cellar/tesseract-lang",
+      686067712
+    ],
+    [
+      "opt/homebrew/Cellar/tesseract-lang/4.1.0",
+      686067712
+    ],
+    [
+      "Applications/Claude.app",
+      679534592
+    ],
+    [
+      "Applications/Claude.app/Contents",
+      679534592
+    ],
+    [
+      "Library/Developer/CommandLineTools/SDKs",
+      666165248
+    ],
+    [
+      "Users/zenray/Library/Application Support/MacParakeet",
+      658227200
+    ],
+    [
+      "Applications/Epic Games Launcher.app/Contents/UE/Engine",
+      651079680
+    ],
+    [
+      "private/var/db/uuidtext/dsc",
+      648470528
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-zenray-edit",
+      647917568
+    ],
+    [
+      "Library/Developer/CommandLineTools/usr",
+      639172608
+    ],
+    [
+      "Users/zenray/.zr-thumb-bulk/clea-clone",
+      639098880
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_IF_Planner",
+      625393664
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_IF_Planner/purpose_auto",
+      625393664
+    ],
+    [
+      "Users/zenray/.cache/voicefixer",
+      624922624
+    ],
+    [
+      "Users/zenray/.claude/tmp/TempJaponais1",
+      624525312
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-church-turn-short",
+      606097408
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-audio-sfx-relocation-2026-09-19",
+      592953344
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-zenray-assets-v2",
+      589643776
+    ],
+    [
+      "Library/Application Support",
+      584855552
+    ],
+    [
+      "Users/zenray/.zr-archive-work-vidraw/run-91997-mte77dma/zenrayshards-vid-023a451a5513",
+      584601600
+    ],
+    [
+      "Users/zenray/Library/Caches/ms-playwright",
+      581292032
+    ],
+    [
+      "Library/Frameworks",
+      570462208
+    ],
+    [
+      "Users/zenray/Downloads/[Anime Time] Peter Grill to Kenja no Jikan (Peter Grill and the Philosopher's Time) (Season 01+Season 02) [BD] [Uncensored] [Dual Audio][1080p][HEVC 10bit x265][AAC][Eng Sub] [Batch]/[Anime Time] Peter Grill to Kenja no Jikan",
+      569634816
+    ],
+    [
+      "Users/zenray/.cache/uv/sdists-v9",
+      569335808
+    ],
+    [
+      "Users/zenray/Library/Containers/com.apple.mediaanalysisd",
+      566718464
+    ],
+    [
+      "Applications/Wave.app",
+      556089344
+    ],
+    [
+      "Applications/Wave.app/Contents",
+      556089344
+    ],
+    [
+      "Library/Frameworks/GStreamer.framework",
+      543346688
+    ],
+    [
+      "Library/Frameworks/GStreamer.framework/Versions",
+      543342592
+    ],
+    [
+      "Library/Frameworks/GStreamer.framework/Versions/1.0",
+      543342592
+    ],
+    [
+      "Users/zenray/.venvs/dfn3",
+      542744576
+    ],
+    [
+      "Users/zenray/.venvs/dfn3/lib",
+      542654464
+    ],
+    [
+      "private/var/db/diagnostics/Persist",
+      525099008
+    ],
+    [
+      "Users/zenray/.zr-img-upload-2sept",
+      518930432
+    ],
+    [
+      "Users/zenray/.zr-img-upload-2sept/zdata-clone",
+      518930432
+    ],
+    [
+      "Users/zenray/.local/share/muse",
+      514441216
+    ],
+    [
+      "Users/zenray/.claude/tmp/temp-nantai-mount",
+      510418944
+    ],
+    [
+      "Users/zenray/Library/Application Support/FluidAudio",
+      506216448
+    ],
+    [
+      "Users/zenray/.zr-thumb-bulk/zdata-clone",
+      497885184
+    ],
+    [
+      "Applications/GeForceNOW.app/Contents/Frameworks/Chromium Embedded Framework.framework",
+      489644032
+    ],
+    [
+      "Users/zenray/.cache/voicefixer/analysis_module",
+      489308160
+    ],
+    [
+      "Applications/Xcode.app/Contents/Resources",
+      486711296
+    ],
+    [
+      "Applications/Antigravity.app",
+      482775040
+    ],
+    [
+      "Applications/Antigravity.app/Contents",
+      482775040
+    ],
+    [
+      "Users/zenray/Library/Fonts",
+      481656832
+    ],
+    [
+      "Users/zenray/.cache/torch",
+      475717632
+    ],
+    [
+      "Users/zenray/.cache/torch/hub",
+      475717632
+    ],
+    [
+      "Users/zenray/Library/Containers/com.microsoft.teams2",
+      465829888
+    ],
+    [
+      "Users/zenray/.claude/session-backups/versions",
+      462966784
+    ],
+    [
+      "Applications/Xcode.app/Contents/Resources/Packages",
+      461254656
+    ],
+    [
+      "Users/zenray/.zr-thumb-bulk/clea-clone/pages",
+      459026432
+    ],
+    [
+      "Applications/OBS.app",
+      457437184
+    ],
+    [
+      "Applications/OBS.app/Contents",
+      457437184
+    ],
+    [
+      "Users/zenray/Library/Daemon Containers",
+      439693312
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenrayshards-img-edbaabf2e74b/.git",
+      432373760
+    ],
+    [
+      "Users/zenray/.claude/tmp/temp_upload",
+      431718400
+    ],
+    [
+      "Users/zenray/.zr-archive-work-img/zenray-img-public-21/.git",
+      431525888
+    ],
+    [
+      "Applications/Spotify.app",
+      430768128
+    ],
+    [
+      "Applications/Spotify.app/Contents",
+      430768128
+    ],
+    [
+      "Users/zenray/Applications",
+      413663232
+    ],
+    [
+      "Applications/WhatsApp.app/Contents/MacOS",
+      410726400
+    ],
+    [
+      "Applications/OBS.app/Contents/Frameworks",
+      409440256
+    ],
+    [
+      "Applications/WD Discovery",
+      405946368
+    ],
+    [
+      "Applications/WD Discovery/WD Discovery.app",
+      405757952
+    ],
+    [
+      "Applications/WD Discovery/WD Discovery.app/Contents",
+      405757952
+    ],
+    [
+      "Users/zenray/.codex/plugins",
+      403447808
+    ],
+    [
+      "opt/homebrew/Cellar/openjdk",
+      399286272
+    ],
+    [
+      "opt/homebrew/Cellar/openjdk/26.0.1",
+      399286272
+    ],
+    [
+      "opt/homebrew/Cellar/boost",
+      393699328
+    ],
+    [
+      "opt/homebrew/Cellar/boost/1.90.0_1",
+      393699328
+    ],
+    [
+      "Users/zenray/Movies",
+      393662464
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_Speech_AutomaticSpeechRecognition",
+      385069056
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_Speech_AutomaticSpeechRecognition/purpose_auto",
+      385069056
+    ],
+    [
+      "Applications/Xcode.app/Contents/SharedFrameworks",
+      383270912
+    ],
+    [
+      "Library/Developer/CommandLineTools/usr/lib",
+      383078400
+    ],
+    [
+      "Applications/ChatGPT.app/Contents/Frameworks",
+      382513152
+    ],
+    [
+      "Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework",
+      379432960
+    ],
+    [
+      "Users/zenray/Library/Application Support/Codex",
+      375603200
+    ],
+    [
+      "Users/zenray/.zr-img-upload-2sept/zdata-clone/pages",
+      372744192
+    ],
+    [
+      "Users/zenray/Library/Caches/com.google.antigravity",
+      363343872
+    ],
+    [
+      "Applications/Claude.app/Contents/Resources",
+      361631744
+    ],
+    [
+      "Users/zenray/.claude/skills",
+      360308736
+    ],
+    [
+      "Users/zenray/.claude/Memory1/Skills",
+      360189952
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app/Contents/Resources/MAMachineLearningResources.bundle",
+      360026112
+    ],
+    [
+      "private/tmp",
+      353472512
+    ],
+    [
+      "Users/zenray/.codex/skills",
+      351514624
+    ],
+    [
+      "Applications/Spotify.app/Contents/Frameworks",
+      351166464
+    ],
+    [
+      "Applications/Spotify.app/Contents/Frameworks/Chromium Embedded Framework.framework",
+      348545024
+    ],
+    [
+      "Library/Developer/CommandLineTools/SDKs/MacOSX27.0.sdk",
+      348131328
+    ],
+    [
+      "Users/zenray/.local/share/uv",
+      344203264
+    ],
+    [
+      "Users/zenray/.zr-thumb-bulk/zdata-clone/pages",
+      343687168
+    ],
+    [
+      "Users/zenray/.local/bin",
+      333348864
+    ],
+    [
+      "Users/zenray/.codex/plugins/.plugin-appserver",
+      333074432
+    ],
+    [
+      "Applications/ChatGPT.app/Contents/Resources/codex-cli",
+      333070336
+    ],
+    [
+      "Applications/Houdini",
+      331554816
+    ],
+    [
+      "Applications/Houdini/sidefx_packages",
+      331554816
+    ],
+    [
+      "Applications/Houdini/sidefx_packages/SideFXLabs22.0",
+      331550720
+    ],
+    [
+      "Applications/Wacom Tablet.localized",
+      330264576
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-shorts-vestibule-louisiana-bayou",
+      325124096
+    ],
+    [
+      "Users/zenray/Library/Biome",
+      324603904
+    ],
+    [
+      "Users/zenray/.claude-science/conda/envs",
+      318611456
+    ],
+    [
+      "Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk",
+      318033920
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_TextToSpeech",
+      315625472
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_TextToSpeech/purpose_auto",
+      315625472
+    ],
+    [
+      "Users/zenray/Library/Daemon Containers/02B4D4FF-5EF1-47DA-93E6-2524D706DF3F",
+      315338752
+    ],
+    [
+      "Users/zenray/Library/Caches/electron",
+      313823232
+    ],
+    [
+      "opt/homebrew/Cellar/deno",
+      305917952
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-fuji",
+      305860608
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-wavy-layer-loop",
+      305451008
+    ],
+    [
+      "opt/homebrew/lib",
+      302686208
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-short-editor-v4-extras-20260919",
+      301228032
+    ],
+    [
+      "System/Library/AssetsV2/com_apple_MobileAsset_VideoAppsMusicAssets3",
+      300670976
+    ],
+    [
+      "Applications/Claude.app/Contents/Frameworks",
+      300249088
+    ],
+    [
+      "Applications/Antigravity.app/Contents/Frameworks",
+      299610112
+    ],
+    [
+      "Applications/Claude.app/Contents/Frameworks/Electron Framework.framework",
+      298459136
+    ],
+    [
+      "Users/zenray/Music",
+      298418176
+    ],
+    [
+      "Library/Application Support/Blackmagic Design",
+      298033152
+    ],
+    [
+      "Library/Application Support/Blackmagic Design/DaVinci Control Panels",
+      298033152
+    ],
+    [
+      "Library/Application Support/Blackmagic Design/DaVinci Control Panels/AdminUtility",
+      298033152
+    ],
+    [
+      "Applications/Antigravity.app/Contents/Frameworks/Electron Framework.framework",
+      297820160
+    ],
+    [
+      "Users/zenray/.zr-prores-work",
+      288698368
+    ],
+    [
+      "Users/zenray/.zr-prores-work/zenray-vidraw-70",
+      288698368
+    ],
+    [
+      "Applications/Notion.app",
+      286486528
+    ],
+    [
+      "Applications/Notion.app/Contents",
+      286486528
+    ],
+    [
+      "Applications/ChatGPT.app/Contents/Resources/cua_node",
+      285220864
+    ],
+    [
+      "Applications/Wave.app/Contents/Resources",
+      279842816
+    ],
+    [
+      "Users/zenray/Library/DuetExpertCenter",
+      278073344
+    ],
+    [
+      "Users/zenray/Library/Caches/com.epicgames.EpicGamesLauncher",
+      277684224
+    ],
+    [
+      "Applications/Epic Games Launcher.app/Contents/MacOS",
+      276303872
+    ],
+    [
+      "Applications/Wave.app/Contents/Frameworks",
+      276008960
+    ],
+    [
+      "Applications/Notion.app/Contents/Frameworks",
+      275955712
+    ],
+    [
+      "opt/homebrew/lib/node_modules",
+      274558976
+    ],
+    [
+      "Applications/Wave.app/Contents/Frameworks/Electron Framework.framework",
+      274223104
+    ],
+    [
+      "Applications/Notion.app/Contents/Frameworks/Electron Framework.framework",
+      274169856
+    ],
+    [
+      "Users/zenray/Library/Group Containers/group.com.apple.SiriTTS",
+      274010112
+    ],
+    [
+      "Applications/OBS.app/Contents/Frameworks/Chromium Embedded Framework.framework",
+      271736832
+    ],
+    [
+      "Users/zenray/.claude/tmp/meiji-jingu1",
+      267718656
+    ],
+    [
+      "Users/zenray/.zr-archive-work/_img/zenrayshards-img-37335f98e34d",
+      264478720
+    ],
+    [
+      "Users/zenray/.claude/tmp/shimoda-post3",
+      258027520
+    ],
+    [
+      "Users/zenray/Music/Audio Music Apps",
+      256876544
+    ],
+    [
+      "Users/zenray/Music/Audio Music Apps/Databases",
+      256729088
+    ],
+    [
+      "private/var/db/oah",
+      250966016
+    ],
+    [
+      "private/var/db/oah/1cd48a3897d58364cf0e3c363effaf35cb73c791f1f9b5d073069c4c3dbc3823",
+      250957824
+    ],
+    [
+      "private/tmp/claude-501",
+      250388480
+    ],
+    [
+      "private/tmp/claude-501/-Users-zenray--claude-Memory1",
+      250351616
+    ],
+    [
+      "Users/zenray/Library/DuetExpertCenter/streams",
+      249569280
+    ],
+    [
+      "Applications/ZenRayCloud.app",
+      249507840
+    ],
+    [
+      "Applications/ZenRayCloud.app/Contents",
+      249507840
+    ],
+    [
+      "Users/zenray/Applications/ZenRayCloud.app",
+      248754176
+    ],
+    [
+      "Users/zenray/Applications/ZenRayCloud.app/Contents",
+      248754176
+    ],
+    [
+      "Users/zenray/.zr-archive-work/_img/zenrayshards-img-28b9ad8d1735",
+      248524800
+    ],
+    [
+      "private/tmp/claude-501/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c",
+      248508416
+    ],
+    [
+      "Applications/ZenRayCloud.app/Contents/Frameworks",
+      244105216
+    ],
+    [
+      "Applications/ZenRayCloud.app/Contents/Frameworks/Electron Framework.framework",
+      242892800
+    ],
+    [
+      "Library/Developer/CommandLineTools/usr/bin",
+      240799744
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app/Contents/Resources/UniversalPatches",
+      240365568
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app/Contents/Resources/Patches",
+      240123904
+    ],
+    [
+      "Applications/Gyroflow.app",
+      239480832
+    ],
+    [
+      "Applications/Gyroflow.app/Contents",
+      239480832
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app/Contents/Frameworks/MAResourcesLg.framework",
+      238727168
+    ],
+    [
+      "Users/zenray/.claude/tmp/jogasaki-post2",
+      233836544
+    ],
+    [
+      "Users/zenray/Pictures/Photos Library.photoslibrary/private",
+      232357888
+    ],
+    [
+      "Users/zenray/.hermes/node",
+      232062976
+    ],
+    [
+      "Library/Application Support/Malwarebytes",
+      228405248
+    ],
+    [
+      "Library/Application Support/Malwarebytes/MBAM",
+      228405248
+    ],
+    [
+      "Users/zenray/Library/WebKit",
+      227094528
+    ],
+    [
+      "Users/zenray/.claude/tmp/streets-jogasaki5",
+      226664448
+    ],
+    [
+      "Users/zenray/Library/Biome/streams",
+      226623488
+    ],
+    [
+      "opt/homebrew/Cellar/gstreamer",
+      224804864
+    ],
+    [
+      "opt/homebrew/Cellar/gstreamer/1.28.5",
+      224804864
+    ],
+    [
+      "Users/zenray/.codex/generated_images",
+      222269440
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app/Contents/Frameworks/MAResourcesPlugInsShared.framework",
+      220573696
+    ],
+    [
+      "Applications/Xcode.app/Contents/SystemFrameworks",
+      220196864
+    ],
+    [
+      "Users/zenray/Library/Application Support/ZenRayDictate",
+      216653824
+    ],
+    [
+      "Users/zenray/.npm/_npx/d77349f55c2be1c0",
+      212164608
+    ],
+    [
+      "Applications/WhatsApp.app/Contents/Frameworks",
+      210100224
+    ],
+    [
+      "Users/zenray/.claude/tmp/acquarium-post1",
+      206553088
+    ],
+    [
+      "Applications/WD Discovery/WD Discovery.app/Contents/Frameworks",
+      206495744
+    ],
+    [
+      "System/Library/AssetsV2/PreinstalledAssetsV2",
+      205983744
+    ],
+    [
+      "System/Library/AssetsV2/PreinstalledAssetsV2/RequiredByOs",
+      204824576
+    ],
+    [
+      "Applications/Claude.app/Contents/Resources/ion-dist",
+      204140544
+    ],
+    [
+      "Applications/WhatsApp.app/Contents/Frameworks/SharedModules.framework",
+      203788288
+    ],
+    [
+      "Applications/Blackmagic RAW",
+      203481088
+    ],
+    [
+      "Users/zenray/.npm/_npx/32026684e21afda6",
+      202747904
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-50/b9",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-61/00",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-61/f8",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-60/29",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-60/72",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-62/aa",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-63/bb",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-63/48",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-64/46",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-migrate-work/zenray-vidraw-64/4f",
+      199229440
+    ],
+    [
+      "Users/zenray/.zr-archive-work-subs",
+      197570560
+    ],
+    [
+      "Users/zenray/.zr-archive-work-subs/zenray-data",
+      197570560
+    ],
+    [
+      "Users/zenray/Library/Group Containers/group.com.apple.notes",
+      196861952
+    ],
+    [
+      "Users/zenray/Create/Build/DualSenseBattery",
+      196276224
+    ],
+    [
+      "Applications/Audible.app",
+      190717952
+    ],
+    [
+      "Applications/Audible.app/Wrapper",
+      190717952
+    ],
+    [
+      "Applications/Audible.app/Wrapper/Audible.app",
+      190709760
+    ],
+    [
+      "Users/zenray/.cache/cycles",
+      186855424
+    ],
+    [
+      "Users/zenray/.cache/cycles/kernels",
+      186855424
+    ],
+    [
+      "Users/zenray/Pictures/Photos Library.photoslibrary/internal",
+      184496128
+    ],
+    [
+      "Users/zenray/.claude/skills/zenray-houdini",
+      184467456
+    ],
+    [
+      "Users/zenray/.codex/skills/zenray-houdini",
+      184418304
+    ],
+    [
+      "Users/zenray/.zr-thumb-bulk/wedding-clone",
+      183631872
+    ],
+    [
+      "Applications/Antigravity.app/Contents/Resources",
+      182931456
+    ],
+    [
+      "opt/homebrew/Library",
+      182259712
+    ],
+    [
+      "private/var/db/diagnostics/Signpost",
+      181792768
+    ],
+    [
+      "opt/homebrew/Library/Homebrew",
+      180436992
+    ],
+    [
+      "Users/zenray/.zr-thumb-bulk/clea-clone/.git",
+      180068352
+    ],
+    [
+      "Users/zenray/.npm/_npx/69f9afb961c37556",
+      179142656
+    ],
+    [
+      "opt/homebrew/lib/node_modules/vercel",
+      178839552
+    ],
+    [
+      "Library/Application Support/Malwarebytes/MBAM/Engine.bundle",
+      178712576
+    ],
+    [
+      "opt/homebrew/Cellar/python@3.14",
+      178262016
+    ],
+    [
+      "Applications/Logic Pro Creator Studio.app/Contents/Frameworks/MADSP.framework",
+      178061312
+    ],
+    [
+      "Users/zenray/Library/Group Containers/group.com.apple.replicatord",
+      177860608
+    ],
+    [
+      "Users/zenray/.local/pipx",
+      177369088
+    ],
+    [
+      "Users/zenray/.local/pipx/venvs",
+      177344512
+    ],
+    [
+      "Users/zenray/Library/Logs",
+      174608384
+    ],
+    [
+      "private/var/db/systemstats",
+      174456832
+    ],
+    [
+      "Users/zenray/.venvs/wpe-audio",
+      173891584
+    ],
+    [
+      "Users/zenray/.venvs/wpe-audio/lib",
+      173834240
+    ],
+    [
+      "Applications/REAPER.app",
+      172371968
+    ],
+    [
+      "Applications/REAPER.app/Contents",
+      172371968
+    ],
+    [
+      "Users/zenray/Library/Caches/com.apple.python",
+      170115072
+    ],
+    [
+      "Applications/Houdini Launcher.app",
+      169660416
+    ],
+    [
+      "Applications/Houdini Launcher.app/Contents",
+      169660416
+    ],
+    [
+      "opt/homebrew/.git",
+      168411136
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-thewitcher3-artdirection",
+      168284160
+    ],
+    [
+      "Users/zenray/Library/Application Support/ClaudeSyncApp",
+      168128512
+    ],
+    [
+      "opt/homebrew/.git/objects",
+      167657472
+    ],
+    [
+      "Applications/Wacom Tablet.localized/Wacom Center.app",
+      166211584
+    ],
+    [
+      "Applications/Wacom Tablet.localized/Wacom Center.app/Contents",
+      166211584
+    ],
+    [
+      "opt/homebrew/.git/objects/pack",
+      164462592
+    ],
+    [
+      "Applications/Antigravity.app/Contents/Resources/bin",
+      163729408
+    ],
+    [
+      "Users/zenray/.zr-archive-work/run-31857-mv294r76",
+      163610624
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-selection1",
+      162971648
+    ],
+    [
+      "Users/zenray/.kimi-code",
+      160886784
+    ],
+    [
+      "Users/zenray/.kimi-code/bin",
+      160817152
+    ],
+    [
+      "Users/zenray/Documents",
+      159109120
+    ],
+    [
+      "opt/homebrew/Library/Homebrew/vendor",
+      158113792
+    ],
+    [
+      "opt/homebrew/Cellar/deno/2.9.5",
+      157425664
+    ],
+    [
+      "Users/zenray/Library/Application Support/Antigravity",
+      156803072
+    ],
+    [
+      "Users/zenray/.claude/tmp/tmp-atelier-socialmedia",
+      156602368
+    ],
+    [
+      "Applications/Microsoft Teams.app/Contents/Frameworks",
+      154791936
+    ],
+    [
+      "Applications/VLC.app",
+      154292224
+    ],
+    [
+      "Applications/VLC.app/Contents",
+      154292224
+    ],
+    [
+      "Users/zenray/.zr-thumb-bulk/zdata-clone/.git",
+      154193920
+    ],
+    [
+      "Users/zenray/Create/Build/DaVinci",
+      152932352
+    ],
+    [
+      "Applications/Wacom Tablet.localized/.Tablet",
+      151228416
+    ],
+    [
+      "Users/zenray/.claude/skills/zenray-edit",
+      150855680
+    ],
+    [
+      "Users/zenray/.codex/skills/zenray-edit",
+      150769664
+    ],
+    [
+      "Users/zenray/.zr-thumb-bulk/wedding-clone-vid",
+      149573632
+    ],
+    [
+      "opt/homebrew/Cellar/deno/2.8.1",
+      148492288
+    ],
+    [
+      "Users/zenray/.hermes/node/bin",
+      146640896
+    ],
+    [
+      "Applications/Xcode.app/Contents/PlugIns",
+      146571264
+    ],
+    [
+      "Users/zenray/.zr-img-upload-2sept/zdata-clone/.git",
+      146182144
+    ],
+    [
+      "Users/zenray/.claude/Memory1/Posts",
+      144744448
+    ],
+    [
+      "Applications/MacWhisper.app",
+      142000128
+    ],
+    [
+      "Applications/MacWhisper.app/Contents",
+      142000128
+    ]
+  ],
+  "largestFiles": [
+    [
+      20758396928,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/The.Revenant.PROPER.2015.Bluray.2160p.AV1.HDR10.DV.TrueHD.7.1-UH.mkv",
+      20758250226
+    ],
+    [
+      10737418240,
+      "/System/Volumes/Data/Users/zenray/Library/Application Support/Claude/vm_bundles/claudevm.bundle/rootfs.img",
+      10737418240
+    ],
+    [
+      10242957312,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/The Dark Knight (2008) 2160p HDR10.mkv",
+      10242812125
+    ],
+    [
+      9352130560,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp img/Notion/media.zip",
+      9352081269
+    ],
+    [
+      9165156352,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/The Dark Knight Rises.mkv",
+      9165009368
+    ],
+    [
+      8183021568,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/House.of.the.Dragon.S03E08.2160p.HMAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv",
+      8182875552
+    ],
+    [
+      7986888704,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-logiciels/DaVinci_Resolve_Studio_v21.0b3_macOS_Script_Patch.dmg",
+      7986827848
+    ],
+    [
+      7565791232,
+      "/System/Volumes/Data/Users/zenray/.zr-archive-work/_media/vidraw-tmp/The_Dark_Knight_Rises-msw1bwjb/faststart.mp4",
+      7565788351
+    ],
+    [
+      7538028544,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/The Dark Knight Rises (2012) 1080p.mkv",
+      7537883014
+    ],
+    [
+      7228256256,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/Black.Panther.Wakanda.Forever.mkv",
+      7228109029
+    ],
+    [
+      6600302592,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/Black.Panther.2018.4K.mkv",
+      6600156635
+    ],
+    [
+      6444548096,
+      "/System/Volumes/Data/System/Library/AssetsV2/com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/97d41bf0e6c1fd9ae09b8f910087d1f5c014b440.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_BASE_GENERIC_SPARSE_GENERIC_H17C_IFP_Cryptex.dmg",
+      6444548096
+    ],
+    [
+      6354190336,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-archives-zip/Photos.zip",
+      6354137354
+    ],
+    [
+      5860245504,
+      "/System/Volumes/Data/Users/zenray/Downloads/[ Torrent9.pe ] Le.Sens.de.la.Fete.2017.FRENCH.720p.BluRay.x264-Ulysse/Le.Sens.de.la.Fete.2017.FRENCH.720p.BluRay.x264-Ulysse.mkv",
+      5860242454
+    ],
+    [
+      5503758336,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-logiciels/Autodesk_Maya_2027_MacOS.rar",
+      5503756308
+    ],
+    [
+      5411274752,
+      "/System/Volumes/Data/Users/zenray/.claude/Memory1/tmp-maya2027/Autodesk_Maya_2027_MacOS/Autodesk_Maya_2027_MacOS.dmg",
+      5411273697
+    ],
+    [
+      4948197376,
+      "/System/Volumes/Data/System/Library/AssetsV2/com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/97d41bf0e6c1fd9ae09b8f910087d1f5c014b440.asset/.AssetData/model.odixpackage/ifp/ifp_rasterized_weights.bin",
+      4948197376
+    ],
+    [
+      4380393472,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/house.of.the.dragon.s03e07.1080p.web.h264-cakes[EZTVx.to].mkv",
+      4380248666
+    ],
+    [
+      4373786624,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/Confessions (2010) (1080p BluRay x265 HEVC 10bit AAC 5.1 Japanese Silence)/Confessions (2010) (1080p BluRay x265 Silence).mkv",
+      4373786435
+    ],
+    [
+      4049600512,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-logiciels/Photoshop 27.5 [Monter Group].dmg",
+      4049541692
+    ],
+    [
+      3754418176,
+      "/System/Volumes/Data/Users/zenray/Downloads/Mariage C&C \u2665\ufe0f-1-001.zip",
+      3754416948
+    ],
+    [
+      3711864832,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/A Knight of the Seven Kingdoms S01E02.mkv",
+      3711720373
+    ],
+    [
+      3684134912,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/[Delivroozzi] Le Rakugo ou la vie [VOSTFR BD x265 10bits 1080p FLAC]/Saison 01/[Delivroozzi] Le Rakugo ou la vie S01E01 [VOSTFR BD x265 10bits 1080p FLAC].mkv",
+      3683988157
+    ],
+    [
+      3204481024,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-logiciels/Maxon ZBrush 2026.1.2.dmg",
+      3204478168
+    ],
+    [
+      3095035904,
+      "/System/Volumes/Data/Users/zenray/Library/Application Support/MacWhisper/models/ggml-large-v3.bin",
+      3095033483
+    ],
+    [
+      3083522048,
+      "/System/Volumes/Data/Users/zenray/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-mlx/blobs/05ff791ce3630fae47e7c51004e9666204d786246ec07cac6110af768099b40d",
+      3083520416
+    ],
+    [
+      3071037440,
+      "/System/Volumes/Data/Users/zenray/Create/Build/UE_5.8/Engine/DerivedDataCache/Compressed.ddp",
+      3071033769
+    ],
+    [
+      2900078592,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/A Knight of the Seven Kingdoms S01E01.mkv",
+      2899934149
+    ],
+    [
+      2808258560,
+      "/System/Volumes/Data/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/.thumbs-tmp/zenray-img-private-02/.git/objects/pack/tmp_pack_vWvuis",
+      2808258559
+    ],
+    [
+      2797240320,
+      "/System/Volumes/Data/Users/zenray/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-mlx/blobs/05ff791ce3630fae47e7c51004e9666204d786246ec07cac6110af768099b40d.a03afa8a.incomplete",
+      2797240320
+    ],
+    [
+      2726277120,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp img/Notion/build.zip",
+      2726227260
+    ],
+    [
+      2624413696,
+      "/System/Volumes/Data/Users/zenray/Library/Containers/org.p0deje.Maccy/Data/Library/Application Support/Maccy/Storage.sqlite",
+      2624172032
+    ],
+    [
+      2600796160,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-logiciels/Wanderstop [FitGirl Repack]/fg-01.bin",
+      2600746524
+    ],
+    [
+      2549207040,
+      "/System/Volumes/Data/Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards/Plugins/MetaHumanBodyTracker/Content/Models/Offline/ViTPose.uasset",
+      2549205520
+    ],
+    [
+      2543472640,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/A Knight of the Seven Kingdoms S01E06.mkv",
+      2543328489
+    ],
+    [
+      2500517888,
+      "/System/Volumes/Data/Users/zenray/.claude/Memory1/.git/objects/pack/pack-1cf660a1292b1f5770cc3420245b851fdac56791.pack",
+      2500516488
+    ],
+    [
+      2490163200,
+      "/System/Volumes/Data/Users/zenray/.cache/huggingface/hub/models--mlx-community--parakeet-tdt_ctc-0.6b-ja/blobs/a881c181c50566a3f3d7dc2d9df5512087a433d4bff329eacbed36cffded9480",
+      2490161604
+    ],
+    [
+      2393481216,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/A Knight of the Seven Kingdoms S01E03.mkv",
+      2393335966
+    ],
+    [
+      2384801792,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/A Knight of the Seven Kingdoms S01E05.mkv",
+      2384655780
+    ],
+    [
+      2359296000,
+      "/System/Volumes/Data/macOS Install Data/InstallAssistant.pkg.partial",
+      2359296000
+    ],
+    [
+      2346979328,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/The.Twilight.Samurai.mkv",
+      2346833583
+    ],
+    [
+      2276306944,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/1000.Men.And.Me.The.Bonnie.Blue.Story.2025.1080p.WEB.H264-CBFM [CheerfulTomato]/1000.men.and.me.the.bonnie.blue.story.2025.1080p.web.h264-cbfm.mkv",
+      2276163261
+    ],
+    [
+      2213187584,
+      "/System/Volumes/Data/Users/zenray/.codex/01a11653-69f5-7492-b80e-dbcc6a785d87/data-cleanup-zenray-data-095435ff/.git/objects/pack/pack-52e0428492d409ae44b18e88afc342538f2e06b4.pack",
+      2213186703
+    ],
+    [
+      2162323456,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-conversation-codex-e37a471e98d4d9ae226a3725/Release/.git/objects/pack/pack-2e5764176e561eab58a3aeffa90997854d651c5e.pack",
+      2162319624
+    ],
+    [
+      2161250304,
+      "/System/Volumes/Data/Users/zenray/Create/Build/AssetsReleaseChecks/FreelanceDailyThree-20261006/.git/objects/pack/pack-1f223e174baa677c27e004af98661ecb8a6f56dd.pack",
+      2161249380
+    ],
+    [
+      2147483648,
+      "/System/Volumes/Data/private/var/vm/sleepimage",
+      2147483648
+    ],
+    [
+      2127220736,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/A Knight of the Seven Kingdoms S01E04.mkv",
+      2127075018
+    ],
+    [
+      2094559232,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E30.mkv",
+      2094555915
+    ],
+    [
+      2052280320,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E25.mkv",
+      2052279404
+    ],
+    [
+      2052091904,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E25.mkv",
+      2052090430
+    ],
+    [
+      2026532864,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/Mushishi (2005) BDrip 1080p FLAC x265-GundamGuy/Sp\u00e9ciaux & Film/Mushishi (2015) - Film - FANSUB VOSTFR BDrip 1080p FLAC x265-GundamGuy.mkv",
+      2026389046
+    ],
+    [
+      2026283008,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E28.mkv",
+      2026280657
+    ],
+    [
+      2008281088,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E34.mkv",
+      2008280205
+    ],
+    [
+      2000916480,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E26.mkv",
+      2000913897
+    ],
+    [
+      2000699392,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E26.mkv",
+      2000695339
+    ],
+    [
+      1963253760,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E33.mkv",
+      1963252559
+    ],
+    [
+      1930792960,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E30.mkv",
+      1930791078
+    ],
+    [
+      1918980096,
+      "/System/Volumes/Data/Users/zenray/Downloads/Hors Normes (2019).mkv",
+      1918976241
+    ],
+    [
+      1873293312,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E28.mkv",
+      1873292982
+    ],
+    [
+      1849962496,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E34.mkv",
+      1849960796
+    ],
+    [
+      1805451264,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E33.mkv",
+      1805448376
+    ],
+    [
+      1802928128,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/You and I Are Polar Opposites S01E02.mkv",
+      1802781278
+    ],
+    [
+      1732038656,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E39.mkv",
+      1732034730
+    ],
+    [
+      1730822144,
+      "/System/Volumes/Data/Users/zenray/Downloads/The Specials (2019) [1080p] [BluRay] [5.1] [YTS.MX]/The.Specials.2019.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4",
+      2200961024
+    ],
+    [
+      1727422464,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E24.mkv",
+      1727422115
+    ],
+    [
+      1727254528,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E24.mkv",
+      1727251373
+    ],
+    [
+      1708523520,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E46.mkv",
+      1708522915
+    ],
+    [
+      1706995712,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E46.mkv",
+      1706995618
+    ],
+    [
+      1676029952,
+      "/System/Volumes/Data/Users/zenray/.claude/.git/objects/pack/pack-eac7edfa7bb5d7a5463804bfc6e77cc90155d825.pack",
+      1676028239
+    ],
+    [
+      1667575808,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E27.mkv",
+      1667573087
+    ],
+    [
+      1648824320,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E38.mkv",
+      1648820332
+    ],
+    [
+      1638281216,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-archives-zip/BestOf.zip",
+      1638228002
+    ],
+    [
+      1629257728,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E40.mkv",
+      1629254108
+    ],
+    [
+      1628016640,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E31.mkv",
+      1628013971
+    ],
+    [
+      1617051648,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/[Delivroozzi] Le Rakugo ou la vie [VOSTFR BD x265 10bits 1080p FLAC]/Saison 01/[Delivroozzi] Le Rakugo ou la vie S01E12 [VOSTFR BD x265 10bits 1080p FLAC].mkv",
+      1616906326
+    ],
+    [
+      1613979648,
+      "/System/Volumes/Data/Users/zenray/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/blobs/951ed3fc1203e6a62467abb2144a96ce7eafca8fa77e3704fdb8635ff3e7f8a6",
+      1613977612
+    ],
+    [
+      1605730304,
+      "/System/Volumes/Data/Users/zenray/Create/Build/Productions/UE_AnimationSample/DerivedDataCache/Compressed.ddp",
+      1605727146
+    ],
+    [
+      1605730304,
+      "/System/Volumes/Data/Users/Shared/UnrealEngine/Launcher/VaultCache/GameAnimationSample_5.8/data/DerivedDataCache/Compressed.ddp",
+      1605727146
+    ],
+    [
+      1584721920,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E39.mkv",
+      1584721745
+    ],
+    [
+      1570373632,
+      "/System/Volumes/Data/Users/zenray/Downloads/Prosto_druzja_DVDRip_(torrents.ru).avi",
+      1570373632
+    ],
+    [
+      1564758016,
+      "/System/Volumes/Data/Users/zenray/Downloads/\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u044b\u0435_2019_BDRip.avi",
+      1564758016
+    ],
+    [
+      1560862720,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E37.mkv",
+      1560861366
+    ],
+    [
+      1551843328,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/[Delivroozzi] Le Rakugo ou la vie [VOSTFR BD x265 10bits 1080p FLAC]/Saison 02/[Delivroozzi] Le Rakugo ou la vie S02E07 [VOSTFR BD x265 10bits 1080p FLAC].mkv",
+      1551696665
+    ],
+    [
+      1551454208,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/You and I Are Polar Opposites S01E03 MULTi 1080p WEB x264 AAC -Tsundere-Raws (CR).mkv",
+      1551308289
+    ],
+    [
+      1543770112,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/[Delivroozzi] Le Rakugo ou la vie [VOSTFR BD x265 10bits 1080p FLAC]/Saison 01/[Delivroozzi] Le Rakugo ou la vie S01E08 [VOSTFR BD x265 10bits 1080p FLAC].mkv",
+      1543625775
+    ],
+    [
+      1529450496,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E36.mkv",
+      1529450087
+    ],
+    [
+      1517522944,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/You and I Are Polar Opposites S01E04 MULTi 1080p WEB x264 AAC -Tsundere-Raws (CR).mkv",
+      1517378329
+    ],
+    [
+      1517268992,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/Witch Hat Atelier S01E10 MULTi AD 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+      1517123346
+    ],
+    [
+      1516662784,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/Witch Hat Atelier S01E09 MULTi AD 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+      1516517227
+    ],
+    [
+      1509216256,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E27.mkv",
+      1509214703
+    ],
+    [
+      1498550272,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E38.mkv",
+      1498547970
+    ],
+    [
+      1493549056,
+      "/System/Volumes/Data/Users/zenray/.Trash/nier-sound-extractor-out.zip",
+      1493547428
+    ],
+    [
+      1486827520,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E35.mkv",
+      1486823677
+    ],
+    [
+      1486155776,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-films-series/Witch Hat Atelier S01E11 MULTi 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv",
+      1486011231
+    ],
+    [
+      1481981952,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E48.mkv",
+      1481981246
+    ],
+    [
+      1481879552,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/src/Bleach S17E47.mkv",
+      1481877381
+    ],
+    [
+      1480331264,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E48.mkv",
+      1480329433
+    ],
+    [
+      1480204288,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E47.mkv",
+      1480202035
+    ],
+    [
+      1474064384,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E31.mkv",
+      1474064196
+    ],
+    [
+      1471758336,
+      "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-bleach-s17-hardsub/soft/Bleach S17E40.mkv",
+      1471756176
+    ]
+  ],
+  "excluded": [
+    "/System/Volumes/Data/System/Library/AssetsV2/com_apple_MobileAsset_GamePolicy_DB1/8ce99ac4164f52611d2677d9b4e579776f33381f.asset/AssetData/GamePolicy-Launchers.bundle/Personalities/Steam",
+    "/System/Volumes/Data/System/Library/AssetsV2/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_GamePolicy_DB1/37e91b165d29aad57908710fc8757c0212929803.asset/AssetData/GamePolicy-Launchers.bundle/Personalities/Steam",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOverHelper.49F7D49C49159D3D10C2C51E07BB6053.AA3CD176F26E8DF10D72E28F019EA658",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOverHelper.4DB4563826BAD0EB2F60EE6E42D0EA4B.0D243E263AD6724EF4435A2531263254",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOverHelper.7A65D152E7097D4020D8ADF4EBD669C7.B0EE4A010A7733767D856EB0BA3B17D1",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOver",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOver.wineloader",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOverHelper.4DB4563826BAD0EB2F60EE6E42D0EA4B.CD1D38FE25350E30552A2828409D09D8",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOverHelper.7A65D152E7097D4020D8ADF4EBD669C7.E3D06ECF7990E02FE8418C2D621FD6A1",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOverHelper.7A65D152E7097D4020D8ADF4EBD669C7.473C6757FB44C35184BE564E0A591737",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOverHelper.BADD7CC647057C295EDD8299FD17299F.94EFE5B4A5589FCAA5BFCBC2257E8FF0",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.apple.WebKit.Networking+com.codeweavers.CrossOver",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.codeweavers.CrossOverHelper.4DB4563826BAD0EB2F60EE6E42D0EA4B.D7B460B2ACE2473B3D92C221DB864590",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.apple.WebKit.GPU+com.codeweavers.CrossOver",
+    "/System/Volumes/Data/private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/C/com.apple.WebKit.WebContent+com.codeweavers.CrossOver",
+    "/System/Volumes/Data/Users/zenray/.claude/Memory1/Tools/CrossOverWinevideoPatcher",
+    "/System/Volumes/Data/Users/zenray/.claude/Memory1/Projects/control-resonant-crossover",
+    "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-control-resonant-crossover",
+    "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-audio-sfx-relocation-2026-09-19/zdata-clone/pages/References/Games",
+    "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-audio-sfx-relocation-2026-09-19/zdata-clone/pages/Media/Art/Concepts From Studios or Artist/FromSoftware/Games",
+    "/System/Volumes/Data/Users/zenray/.claude/tmp/tmp-audio-sfx-relocation-2026-09-19/zdata-clone/pages/Media/Culture/Games",
+    "/System/Volumes/Data/Users/zenray/Library/Application Support/Steam",
+    "/System/Volumes/Data/Users/zenray/Library/Application Support/CrossOver",
+    "/System/Volumes/Data/Users/zenray/Library/Application Support/Epic/Epic Games",
+    "/System/Volumes/Data/Users/zenray/Library/Application Support/ZenRayAssets/indexes/control-resonant-crossover",
+    "/System/Volumes/Data/Users/zenray/Library/Logs/CrossOver",
+    "/System/Volumes/Data/Users/zenray/Library/Caches/Steam",
+    "/System/Volumes/Data/Users/zenray/Library/Caches/com.codeweavers.CrossOver",
+    "/System/Volumes/Data/Users/zenray/Library/Caches/com.apple.AppleMediaServices/Metrics/Games",
+    "/System/Volumes/Data/Users/zenray/Library/Caches/com.apple.python/Users/zenray/.claude/tmp/tmp-control-resonant-crossover",
+    "/System/Volumes/Data/Users/zenray/.zr-thumb-bulk/clea-clone/pages/References/Games",
+    "/System/Volumes/Data/Users/zenray/.zr-thumb-bulk/clea-clone/pages/Media/Art/Concepts From Studios or Artist/FromSoftware/Games",
+    "/System/Volumes/Data/Users/zenray/.zr-thumb-bulk/clea-clone/pages/Media/Culture/Games",
+    "/System/Volumes/Data/Users/zenray/.zr-thumb-bulk/zdata-clone/pages/References/Games",
+    "/System/Volumes/Data/Users/zenray/.zr-thumb-bulk/zdata-clone/pages/Media/Art/Concepts From Studios or Artist/FromSoftware/Games",
+    "/System/Volumes/Data/Users/zenray/.zr-thumb-bulk/zdata-clone/pages/Media/Culture/Games",
+    "/System/Volumes/Data/Users/zenray/Applications/CrossOver",
+    "/System/Volumes/Data/Users/zenray/Applications/CrossOver-winevideo.app.winevideo-backup",
+    "/System/Volumes/Data/Users/zenray/Applications/CrossOver-winevideo.app",
+    "/System/Volumes/Data/Users/zenray/Create/Build/UE_5.8/Engine/Plugins/Runtime/Steam",
+    "/System/Volumes/Data/Users/zenray/Create/Build/UE_5.8/Engine/Source/Runtime/Networking/Public/Interfaces/Steam",
+    "/System/Volumes/Data/Users/zenray/Create/Build/UE_5.8/Engine/Source/Runtime/Networking/Private/Steam",
+    "/System/Volumes/Data/Users/zenray/Create/Build/UE_5.8/Engine/Source/ThirdParty/Steamworks/Steamv164/sdk/public/steam",
+    "/System/Volumes/Data/Users/zenray/.zr-img-upload-2sept/zdata-clone/pages/References/Games",
+    "/System/Volumes/Data/Users/zenray/.zr-img-upload-2sept/zdata-clone/pages/Media/Art/Concepts From Studios or Artist/FromSoftware/Games",
+    "/System/Volumes/Data/Users/zenray/.zr-img-upload-2sept/zdata-clone/pages/Media/Culture/Games",
+    "/System/Volumes/Data/Users/zenray/.hermes/hermes-agent/node_modules/@tabler/icons/categories/outline/Games",
+    "/System/Volumes/Data/Applications/CrossOver.app",
+    "/System/Volumes/Data/Applications/CrossOver.app.winevideo-backup",
+    "/System/Volumes/Data/opt/homebrew/Library/Homebrew/test/utils/bottles",
+    "/System/Volumes/Data/opt/homebrew/Library/Homebrew/test/support/fixtures/bottles"
+  ],
+  "errors": [
+    {
+      "path": "/System/Volumes/Data/.Spotlight-V100",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/.Spotlight-V100'"
+    },
+    {
+      "path": "/System/Volumes/Data/Library/Application Support/Apple/ParentalControls/Users",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/Library/Application Support/Apple/ParentalControls/Users'"
+    },
+    {
+      "path": "/System/Volumes/Data/Library/Application Support/Apple/AssetCache/Data",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/Library/Application Support/Apple/AssetCache/Data'"
+    },
+    {
+      "path": "/System/Volumes/Data/Library/Application Support/Malwarebytes/MBAM/Settings/1",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/Library/Application Support/Malwarebytes/MBAM/Settings/1'"
+    },
+    {
+      "path": "/System/Volumes/Data/Library/Application Support/Malwarebytes/MBAM/Settings/501",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/Library/Application Support/Malwarebytes/MBAM/Settings/501'"
+    },
+    {
+      "path": "/System/Volumes/Data/Library/Caches/com.apple.aneuserd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/Library/Caches/com.apple.aneuserd'"
+    },
+    {
+      "path": "/System/Volumes/Data/Library/Caches/com.apple.iconservices.store",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/Library/Caches/com.apple.iconservices.store'"
+    },
+    {
+      "path": "/System/Volumes/Data/Library/Caches/com.apple.aned",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/Library/Caches/com.apple.aned'"
+    },
+    {
+      "path": "/System/Volumes/Data/Library/Caches/com.microsoft.autoupdate.helper/Clones.noindex",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/Library/Caches/com.microsoft.autoupdate.helper/Clones.noindex'"
+    },
+    {
+      "path": "/System/Volumes/Data/System/Library/Caches/com.apple.coresymbolicationd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/System/Library/Caches/com.apple.coresymbolicationd'"
+    },
+    {
+      "path": "/System/Volumes/Data/.fseventsd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/.fseventsd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/etc/cups/certs",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/etc/cups/certs'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/networkd/Library",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/networkd/Library'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/install",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/install'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/ma",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/ma'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/mqueue",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/mqueue'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/saved",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/saved'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/trace",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/trace'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/defer",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/defer'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/flush",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/flush'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/deferred",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/deferred'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/corrupt",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/corrupt'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/public",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/public'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/private",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/private'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/incoming",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/incoming'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/active",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/active'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/maildrop",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/maildrop'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/hold",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/hold'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/postfix/bounce",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/postfix/bounce'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/spool/cups",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/spool/cups'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/jabberd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/jabberd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/audit",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/audit'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/root",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/root'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/lib/postfix",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/lib/postfix'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/appinstalld",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/appinstalld'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/diskimagesiod",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/diskimagesiod'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/Spotlight",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/Spotlight'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/locationd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/locationd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/appstore/Library/Preferences",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/appstore/Library/Preferences'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/modelmanagerd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/modelmanagerd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/terminus",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/terminus'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/sysdiagnose/com.apple.sysdiagnose",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/sysdiagnose/com.apple.sysdiagnose'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/DumpPanic/Keys/1791433893.key",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/DumpPanic/Keys/1791433893.key'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/DumpPanic/Keys/1790926252.key",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/DumpPanic/Keys/1790926252.key'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/analyticsd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/analyticsd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/AppleIntelligencePlatform/248",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/AppleIntelligencePlatform/248'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/rmd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/rmd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/knowledgegraphd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/knowledgegraphd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/coreml",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/coreml'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/spinandd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/spinandd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/nsurlsessiond",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/nsurlsessiond'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/softwareupdate/Library",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/softwareupdate/Library'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/fpsd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/fpsd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/hidd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/hidd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/installcoordinationd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/installcoordinationd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/Spotlight-V100",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/Spotlight-V100'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/geod",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/geod'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/reportmemoryexception",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/reportmemoryexception'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/Sandbox",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/Sandbox'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/ctkd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/ctkd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/lockdown",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/lockdown'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/biome",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/biome'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/datadetectors",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/datadetectors'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/cmiodalassistants",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/cmiodalassistants'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/DifferentialPrivacy",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/DifferentialPrivacy'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/assetsubscriptiond/StagingLogs",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/assetsubscriptiond/StagingLogs'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/assetsubscriptiond/history",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/assetsubscriptiond/history'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/com.apple.xpc.roleaccountd.staging",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/com.apple.xpc.roleaccountd.staging'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/dslocal/nodes/Default",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/dslocal/nodes/Default'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/com.apple.findmy.findmybeaconingd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/com.apple.findmy.findmybeaconingd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/sudo",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/sudo'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/nearbyd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/nearbyd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/mmaintenanced",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/mmaintenanced'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/dhcpclient",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/dhcpclient'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/timed",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/timed'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/applepay",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/applepay'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/SystemKeys",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/SystemKeys'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/darwindaemon",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/darwindaemon'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/audiomxd/Library",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/audiomxd/Library'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/securityagent",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/securityagent'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/accessoryupdater",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/accessoryupdater'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/CoreDuet/Knowledge",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/CoreDuet/Knowledge'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/CoreDuet/People/Feedback/CNA",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/CoreDuet/People/Feedback/CNA'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/CoreDuet/Caches",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/CoreDuet/Caches'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/ConfigurationProfiles/Store",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/ConfigurationProfiles/Store'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/fseventsd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/fseventsd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/db/caches/opendirectory",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/db/caches/opendirectory'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/at/tabs",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/at/tabs'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/at/tmp",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/at/tmp'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/6n/f4n7nk097xq2jwvvlxd23_800000z8/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/6n/f4n7nk097xq2jwvvlxd23_800000z8/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/6n/f4n7nk097xq2jwvvlxd23_800000z8/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/6n/f4n7nk097xq2jwvvlxd23_800000z8/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012m00008n/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012m00008n/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012m00008n/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012m00008n/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010r000086/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010r000086/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010r000086/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010r000086/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000sm00006d/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000sm00006d/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000sm00006d/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000sm00006d/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011m00008d/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011m00008d/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011m00008d/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011m00008d/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b400002s/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b400002s/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b400002s/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b400002s/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000150000098/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000150000098/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000150000098/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000150000098/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012800008k/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012800008k/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012800008k/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012800008k/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000044000011/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000044000011/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000044000011/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000044000011/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011h00008c/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011h00008c/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011h00008c/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011h00008c/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000003000000r/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000003000000r/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000003000000r/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000003000000r/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000s800006_/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000s800006_/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000s800006_/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000s800006_/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000084000021/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000084000021/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000084000021/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000084000021/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000013800008t/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000013800008t/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000013800008t/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000013800008t/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000tm00006n/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000tm00006n/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000tm00006n/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000tm00006n/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010w000087/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010w000087/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010w000087/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010w000087/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/0/com.apple.nsurlsessiond",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/0/com.apple.nsurlsessiond'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000108000082/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000108000082/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000108000082/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000108000082/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016h00009m/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016h00009m/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016h00009m/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016h00009m/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000114000089/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000114000089/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000114000089/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000114000089/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000003800000t/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000003800000t/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000003800000t/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000003800000t/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000014r000096/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000014r000096/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000014r000096/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000014r000096/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.ScreenTimeAgent",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.ScreenTimeAgent'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.lockoutagent",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.lockoutagent'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.exchangesync",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.exchangesync'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.Spotlight",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.Spotlight'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.nsurlsessiond",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.nsurlsessiond'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.routined/dv",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.routined/dv'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000006w00001q/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000006w00001q/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000006w00001q/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000006w00001q/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000144000091/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000144000091/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000144000091/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000144000091/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000s0000068/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000s0000068/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000s0000068/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000s0000068/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012r00008p/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012r00008p/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012r00008p/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012r00008p/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012400008j/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012400008j/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012400008j/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000012400008j/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000015m00009d/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000015m00009d/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000015m00009d/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000015m00009d/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000th00006m/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000th00006m/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000th00006m/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000th00006m/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000xc00007b/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000xc00007b/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000xc00007b/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000xc00007b/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010h000084/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010h000084/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010h000084/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000010h000084/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016800009k/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016800009k/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016800009k/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016800009k/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016c00009l/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016c00009l/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016c00009l/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000016c00009l/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000yw00007q/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000yw00007q/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000yw00007q/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000yw00007q/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000bh00002w/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000bh00002w/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000bh00002w/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n00000bh00002w/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.revisiond/com.apple.revisiond.temp",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.revisiond/com.apple.revisiond.temp'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.Spotlight",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.Spotlight'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/SystemDataOnly-com.apple.LaunchServices-20971544-v2.csstore",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/SystemDataOnly-com.apple.LaunchServices-20971544-v2.csstore'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/com.apple.LaunchServices-33554481-v2.csstore",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/com.apple.LaunchServices-33554481-v2.csstore'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/SystemDataOnly-com.apple.LaunchServices-33554480-v2.csstore",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/SystemDataOnly-com.apple.LaunchServices-33554480-v2.csstore'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/com.apple.LaunchServices-20971544-v2.csstore",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/com.apple.LaunchServices-20971544-v2.csstore'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/SystemDataOnly-com.apple.LaunchServices-33554481-v2.csstore",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/SystemDataOnly-com.apple.LaunchServices-33554481-v2.csstore'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/com.apple.LaunchServices-33554480-v2.csstore",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv/com.apple.LaunchServices-33554480-v2.csstore'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011w00008g/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011w00008g/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011w00008g/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/zz/zyxvpxvq6csfxvn_n000011w00008g/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/dk/95ngbmb925zckz3rfjwl8q1c0000cf/T",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/dk/95ngbmb925zckz3rfjwl8q1c0000cf/T'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/folders/dk/95ngbmb925zckz3rfjwl8q1c0000cf/C",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/folders/dk/95ngbmb925zckz3rfjwl8q1c0000cf/C'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/containers/Data/ProtectedSystem/22FE3B91-AC4C-4E23-A3D8-48F4198B09DF",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/containers/Data/ProtectedSystem/22FE3B91-AC4C-4E23-A3D8-48F4198B09DF'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/run/mds",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/run/mds'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/run/com.apple.security.cryptexd/codex.system/boot-session/com.apple.MobileAsset.MetalToolchain-v27.1.266.1",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/run/com.apple.security.cryptexd/codex.system/boot-session/com.apple.MobileAsset.MetalToolchain-v27.1.266.1'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/run/com.apple.security.cryptexd/codex.system/live/com.apple.MobileAsset.MetalToolchain-v27.1.266.1",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/run/com.apple.security.cryptexd/codex.system/live/com.apple.MobileAsset.MetalToolchain-v27.1.266.1'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/run/com.apple.security.cryptexd/codex.system/stage/protex.O2Y6Sd",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/run/com.apple.security.cryptexd/codex.system/stage/protex.O2Y6Sd'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/ValidCacheFiles",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/ValidCacheFiles'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000059",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000059'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EB",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EB'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000106",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000106'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000018",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000018'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001A",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001A'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000116",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000116'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011A",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011A'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CD",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CD'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/trustd/private/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000059",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000059'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EB",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EB'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000106",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000106'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000018",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000018'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001A",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001A'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000116",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000116'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CD",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CD'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/protected/sfanalytics/FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/dirs_cleaner",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/dirs_cleaner'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/backups",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/backups'"
+    },
+    {
+      "path": "/System/Volumes/Data/private/var/agentx",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/private/var/agentx'"
+    },
+    {
+      "path": "/System/Volumes/Data/.DocumentRevisions-V100",
+      "error": "[Errno 13] Permission denied: '/System/Volumes/Data/.DocumentRevisions-V100'"
+    }
+  ],
+  "limits": "APFS clones and snapshots can share blocks; allocated bytes do not guarantee reclaimable bytes."
+}

@@ -1,0 +1,38 @@
+# 10 October 2026, 12:30 CEST: read metadata only, stay on one filesystem, never follow links or enter games.
+import os, json, pathlib, heapq, datetime
+ROOT = pathlib.Path('/System/Volumes/Data')
+OUTPUT = pathlib.Path('/Users/zenray/.claude/tmp/tmp-zenray-disk-audit')
+EXCLUDED_NAMES = {'crossover', 'steam', 'steamapps', 'games', 'bottles', 'epic games', 'gog galaxy', 'battle.net'}
+errors, excluded, totals, largest, inodes = [], [], {}, [], set()
+root_device = ROOT.stat().st_dev
+count = 0
+for folder, dirs, files in os.walk(ROOT, topdown=True, followlinks=False, onerror=lambda e: errors.append({"path":e.filename,"error":str(e)})):
+    kept = []
+    for name in dirs:
+        p = pathlib.Path(folder)/name
+        try:
+            st=p.lstat()
+            if name.lower() in EXCLUDED_NAMES or 'crossover' in name.lower(): excluded.append(str(p)); continue
+            if st.st_dev != root_device or p.is_symlink(): continue
+            kept.append(name)
+        except OSError as e: errors.append({'path':str(p),'error':str(e)})
+    dirs[:] = kept
+    for name in files:
+        p=pathlib.Path(folder)/name
+        try:
+            st=p.lstat()
+            if not p.is_file() or p.is_symlink(): continue
+            key=(st.st_dev,st.st_ino)
+            if key in inodes: continue
+            inodes.add(key); count+=1
+            allocated=st.st_blocks*512
+            rel=p.relative_to(ROOT)
+            for depth in range(1,min(len(rel.parts),6)):
+                prefix='/'.join(rel.parts[:depth]); totals[prefix]=totals.get(prefix,0)+allocated
+            row=(allocated,str(p),st.st_size)
+            if len(largest)<100: heapq.heappush(largest,row)
+            elif row>largest[0]: heapq.heapreplace(largest,row)
+        except OSError as e: errors.append({'path':str(p),'error':str(e)})
+result={'generatedAt':datetime.datetime.now().astimezone().isoformat(),'root':str(ROOT),'regularFiles':count,'allocatedBytes':sum(v for k,v in totals.items() if '/' not in k),'directories':sorted(totals.items(),key=lambda x:x[1],reverse=True)[:500],'largestFiles':sorted(largest,reverse=True),'excluded':excluded,'errors':errors,'limits':'APFS clones and snapshots can share blocks; allocated bytes do not guarantee reclaimable bytes.'}
+(OUTPUT/'DiskInventory.json').write_text(json.dumps(result,indent=2))
+print(json.dumps({k:result[k] for k in ['regularFiles','allocatedBytes','excluded','errors']})[:4000])

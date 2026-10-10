@@ -1,0 +1,37 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:70458) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:70457) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/AssetsWorkspaceLifecycle.test.js (9 tests) 15ms
+ ✓ scripts/AssetsService.test.js (106 tests) 57967ms
+   ✓ kills child workers with the timed-out asset process group  706ms
+   ✓ kills child workers when an asset process is cancelled  707ms
+   ✓ retains simultaneous session bindings  5952ms
+   ✓ preserves existing session bindings and skips replay when a conflicting project is requested  6814ms
+   ✓ prepares a project idempotently with canonical feedback and actual session binding  7180ms
+   ✓ starts a new project without waiting for transcript replay  5707ms
+   ✓ keeps a new project ready after active replay  5410ms
+   ✓ keeps a new project ready after unexpected replay failure  5467ms
+   ✓ finishes project startup when transcript replay never settles  5360ms
+   ✓ prepares and recovers the active workshop when only a Houdini file is loaded  597ms
+   ✓ managed workspace release and recovery > automatically archives both versions without overwriting production or the loaded copy  596ms
+   ✓ managed workspace release and recovery > frees managed copies and recovers exact bytes while retaining production sources  572ms
+   ✓ managed workspace release and recovery > retains Finder metadata locally and recovers its exact bytes  577ms
+   ✓ managed workspace release and recovery > recovers metadata still in an interrupted release tree  580ms
+   ✓ managed workspace release and recovery > retains extra unarchived files and refuses incomplete selections  382ms
+   ✓ managed workspace release and recovery > recovers nested paths without duplicating their parent directories  569ms
+   ✓ managed workspace release and recovery > archives edits and new files from a loaded copy without replacing production sources  587ms
+   ✓ managed workspace release and recovery > unloads and recovers every added file through the same exact cloud versions  593ms
+   ✓ managed workspace release and recovery > retains an edit between initial restore verification and workspace activation without calling it verified  570ms
+   ✓ managed workspace release and recovery > refreshes file paths on unload and recovery and does not certify an edit made during recovery activation  575ms
+   ✓ managed workspace release and recovery > restores release metadata across service restarts  573ms
+   ✓ indexes the actual conversation agent in its project context immediately on binding  5105ms
+
+ Test Files  2 passed (2)
+      Tests  115 passed (115)
+   Start at  12:54:32
+   Duration  58.47s (transform 101ms, setup 93ms, collect 178ms, tests 57.98s, environment 0ms, prepare 91ms)
+
