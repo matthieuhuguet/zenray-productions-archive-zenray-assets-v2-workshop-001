@@ -1,0 +1,28 @@
+// 1 November 2026, 20:01 CET: read immutable cloud chunks and compare their complete bytes with current Bright sources.
+import {readFile,writeFile} from 'node:fs/promises'
+import {execFile} from 'node:child_process'
+import {promisify} from 'node:util'
+import {createHash} from 'node:crypto'
+import {chunkRefs,manifestByFingerprint} from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/archiveChunks.js'
+const exec=promisify(execFile)
+const hash=b=>createHash('sha256').update(b).digest('hex')
+const endpoint=(repo,path,ref)=>`repos/matthieuhuguet/${repo}/contents/${path.split('/').map(encodeURIComponent).join('/')}?ref=${ref}`
+const token=(await exec('gh',['auth','token'])).stdout.trim()
+async function raw(repo,path,ref){const response=await fetch('https://api.github.com/'+endpoint(repo,path,ref),{headers:{Authorization:'Bearer '+token,Accept:'application/vnd.github.raw+json'},signal:AbortSignal.timeout(45000)});if(!response.ok)throw Error('GitHub read '+response.status);return Buffer.from(await response.arrayBuffer())}
+const head=JSON.parse((await exec('gh',['api','repos/matthieuhuguet/zenray-data/commits/main'],{maxBuffer:4*1024*1024})).stdout).sha
+const state=JSON.parse(await readFile('/Users/zenray/Library/Application Support/ZenRayAssets/Project-zenray-bright.json'))
+const files=state.inventory.localFiles
+let results=[],cursor=0
+async function worker(){while(cursor<files.length){let file=files[cursor++];try{
+ const backup=state.backups[file.id];if(!backup)throw Error('Missing receipt')
+ const local=await readFile(file.localPath);if(hash(local)!==backup.sha256||local.length!==backup.size)throw Error('Local receipt differs')
+ const m=manifestByFingerprint(JSON.parse(await raw('zenray-data',backup.manifestPath,head)),backup.sha256)
+ const refs=m.mode==='raw'?[{repo:m.repo,commit:m.commit,path:m.path}]:chunkRefs(m)
+ const restored=Buffer.concat(await Promise.all(refs.map(r=>raw(r.repo,r.path,r.commit))))
+ if(!restored.equals(local)||hash(restored)!==backup.sha256)throw Error('Cloud bytes differ')
+ results.push({fileId:file.id,size:local.length,sha256:backup.sha256,verified:true})
+}catch(e){results.push({fileId:file.id,verified:false,error:e.message})}}}
+await Promise.all(Array.from({length:6},worker))
+const proof={checkedAt:new Date().toISOString(),projectId:'zenray-bright',manifestCommit:head,total:files.length,verified:results.filter(r=>r.verified).length,failed:results.filter(r=>!r.verified),files:results.sort((a,b)=>a.fileId.localeCompare(b.fileId))}
+await writeFile('/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/BrightCloudProof-1-November-2026.json',JSON.stringify(proof,null,2)+'\n')
+console.log(JSON.stringify({total:proof.total,verified:proof.verified,failed:proof.failed,manifestCommit:head}));process.exitCode=proof.failed.length?1:0

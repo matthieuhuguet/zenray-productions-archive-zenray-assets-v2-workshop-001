@@ -1,0 +1,42 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:82658) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ❯ server/page-thumbnails.test.js (3 tests | 1 failed) 6ms
+   × falls back to the authenticated API when the raw host fails 5ms
+     → expected {} to deeply equal { Object (pages/image.file.json) }
+   ✓ successful raw reads do not add API requests 1ms
+   ✓ a failed fallback leaves the optional thumbnail absent 0ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  server/page-thumbnails.test.js > falls back to the authenticated API when the raw host fails
+AssertionError: expected {} to deeply equal { Object (pages/image.file.json) }
+
+- Expected
++ Received
+
+- {
+-   "pages/image.file.json": {
+-     "u": "https://example.com/preview.webp",
+-   },
+- }
++ {}
+
+ ❯ server/page-thumbnails.test.js:10:76
+      8|  const fetch=vi.fn().mockRejectedValueOnce(new DOMException('Timed out…
+      9|  vi.stubGlobal('fetch',fetch)
+     10|  expect(await thumbsForPaths('synthetic-token',['pages/image.file.json…
+       |                                                                            ^
+     11|  expect(fetch).toHaveBeenCalledTimes(2)
+     12|  expect(fetch.mock.calls[0][1].signal).toBeInstanceOf(AbortSignal)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 2 passed (3)
+   Start at  20:04:05
+   Duration  311ms (transform 41ms, setup 45ms, collect 49ms, tests 6ms, environment 0ms, prepare 45ms)
+

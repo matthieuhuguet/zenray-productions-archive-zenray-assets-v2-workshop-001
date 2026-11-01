@@ -1,0 +1,247 @@
+{
+  "checkedAt": "2026-11-01T19:05:20.080Z",
+  "projectId": "zenray-bright",
+  "manifestCommit": "d827478436bb7c1df64478877ddfe40ac97615c6",
+  "total": 34,
+  "verified": 26,
+  "failed": [
+    {
+      "fileId": "engine:ProjectInfo.json",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:IndexMapping.json",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:README.md",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:Articles/index.html",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:Scripts/BuildSummary.py",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:Scripts/PublishArticle.mjs",
+      "verified": false,
+      "error": "Missing receipt"
+    },
+    {
+      "fileId": "project-notes:FileMap.md",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "project-notes:FEEDBACK.md",
+      "verified": false,
+      "error": "Local receipt differs"
+    }
+  ],
+  "files": [
+    {
+      "fileId": "engine:Articles/index.html",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:IndexMapping.json",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:ProjectInfo.json",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:Proofs/Article-1440.png",
+      "size": 115684,
+      "sha256": "c1b64ab79218be234d0b31c92063fb5658bf7ff2b1ddf85c36020aa9b4f2ecd1",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Proofs/Article-390.png",
+      "size": 86826,
+      "sha256": "65d8e3bd3568e236b5b55248bf5266b57ab20e91bb6cd316a39d87b99cfac51f",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Proofs/Panel.png",
+      "size": 25294,
+      "sha256": "261aca6aef490df54ad8114e491c80e1a1122cacbdca5060445eafb19ddb8272",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Proofs/Readback.txt",
+      "size": 3,
+      "sha256": "673650f936cb3b0a2f93ce09d81be10748b1b203c19e8176b4eefc1964a0cf3a",
+      "verified": true
+    },
+    {
+      "fileId": "engine:README.md",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:Scripts/Build.sh",
+      "size": 1189,
+      "sha256": "f227b7da3741aa9e500513c408a0f407eaf660439ec3b76675d1ced4a2ce02ff",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Scripts/BuildSummary.py",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "engine:Scripts/Install.py",
+      "size": 1246,
+      "sha256": "43a17d7c10bb0d8ca00cbd5e0c48bfc92628bf8368e9241268f7e6113aeafc93",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Scripts/PublishArticle.mjs",
+      "verified": false,
+      "error": "Missing receipt"
+    },
+    {
+      "fileId": "engine:Sources/m1ddc-README.md",
+      "size": 7914,
+      "sha256": "d24debe644f97bfc92d309a2105e0248d2119359bb31380d7c5b1e7096f1a730",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/headers/i2c.h",
+      "size": 1906,
+      "sha256": "7e0ae57dccbe53d84ddbc4c10f3efc036a06269583b788a854a89f8de81d326d",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/headers/ioregistry.h",
+      "size": 1476,
+      "sha256": "10a4833144b6168afa978f8ac63da30fe6dc67df24d881f22cb58f8a6e2b5ad2",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/headers/utils.h",
+      "size": 91,
+      "sha256": "fcd87a2495f5bb7ca1d86253e3bab7ee1758f939c079106bf81c8bcaf6599b64",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/LICENSE",
+      "size": 1066,
+      "sha256": "b01d3d1de4baa142bb3746588e70814d04eae071d104f8aff580f88e30bb4547",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/m1ddc",
+      "size": 71096,
+      "sha256": "0afffab13a5fd248a8a4d8f15dfadddef7d1c461bcea4334013cfac907b1b639",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/Makefile",
+      "size": 3260,
+      "sha256": "336e0bd09cd6328fd9dfae08a018a9b349cfe25000c6a95f135da92df7a5c01d",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/README.md",
+      "size": 7914,
+      "sha256": "d24debe644f97bfc92d309a2105e0248d2119359bb31380d7c5b1e7096f1a730",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/sources/i2c.m",
+      "size": 2972,
+      "sha256": "0f21bfb03a9f851f4dec72d6df1eae1809fe8ec49b0b74d3f4b9be601c2902d6",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/sources/ioregistry.m",
+      "size": 10421,
+      "sha256": "39bbc789169aa1d7132bfc3da6005f8e5aeb41052195992181e7c61addcfe0a8",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/m1ddc/sources/m1ddc.m",
+      "size": 14754,
+      "sha256": "37794b3c9d0831796496a11500f33b12c3c1a05f781d94c90c9762727b50f678",
+      "verified": true
+    },
+    {
+      "fileId": "engine:Sources/ZenRayBright.swift",
+      "size": 10251,
+      "sha256": "cd2ddffd59850489198ce56d7a6541fc0b6ec8491da389765b13750c2fb92cd0",
+      "verified": true
+    },
+    {
+      "fileId": "engine:ZenRay Bright.app/Contents/_CodeSignature/CodeResources",
+      "size": 2664,
+      "sha256": "c29ae3ca9d2ff95ee82becc417b6bceb6329b336cd81999f17ef68d98d8df584",
+      "verified": true
+    },
+    {
+      "fileId": "engine:ZenRay Bright.app/Contents/Info.plist",
+      "size": 542,
+      "sha256": "dd58e83f7b71517276bcd9960b0b5acc74841353f73a7d67dda654f6994790eb",
+      "verified": true
+    },
+    {
+      "fileId": "engine:ZenRay Bright.app/Contents/MacOS/ZenRayBright",
+      "size": 162368,
+      "sha256": "fc740fa60d63649a719a22602fcc46a5357b8a6b3e0ab43d5923e1f246507bd5",
+      "verified": true
+    },
+    {
+      "fileId": "engine:ZenRay Bright.app/Contents/Resources/m1ddc",
+      "size": 71096,
+      "sha256": "0afffab13a5fd248a8a4d8f15dfadddef7d1c461bcea4334013cfac907b1b639",
+      "verified": true
+    },
+    {
+      "fileId": "engine:ZenRay Bright.app/Contents/Resources/m1ddc-LICENSE",
+      "size": 1066,
+      "sha256": "b01d3d1de4baa142bb3746588e70814d04eae071d104f8aff580f88e30bb4547",
+      "verified": true
+    },
+    {
+      "fileId": "project-notes:FEEDBACK.md",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "project-notes:FileMap.md",
+      "verified": false,
+      "error": "Local receipt differs"
+    },
+    {
+      "fileId": "project-notes:Project.json",
+      "size": 522,
+      "sha256": "7be060750ecfe21b9182cb7d0fc503ecb268a95b0d06a5e69833d7889b9674d7",
+      "verified": true
+    },
+    {
+      "fileId": "project-notes:Project1.md",
+      "size": 305,
+      "sha256": "5d329ce7f12f40407e621190dc704bfce18e33a12b480b73f689dc25d7b6dad1",
+      "verified": true
+    },
+    {
+      "fileId": "project-notes:Rules.md",
+      "size": 271,
+      "sha256": "ed37dbbdc356a6f51ec0f4f43c6a8644d746ebde2e8ae15d5af5439b4ee47912",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:82793) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:82794) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/page-thumbnails.test.js (3 tests) 4ms
+ ✓ scripts/AssetsIndexMode.test.js (3 tests) 8ms
+(node:82795) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:82796) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/index-add-paths.test.js (2 tests) 7ms
+ ✓ server/page-large-save.test.js (3 tests) 7ms
+
+ Test Files  4 passed (4)
+      Tests  11 passed (11)
+   Start at  20:04:14
+   Duration  617ms (transform 194ms, setup 93ms, collect 351ms, tests 26ms, environment 592ms, prepare 168ms)
+

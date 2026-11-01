@@ -1,0 +1,66 @@
+
+ RUN  v3.2.6 /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress
+
+(node:68634) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68636) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68637) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68638) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68639) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68641) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68640) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/QueueHealth.test.js (5 tests) 2ms
+ ✓ src/lib/scenePreparation.test.js (5 tests) 3ms
+ ✓ src/lib/sceneReferenceMapping.test.js (12 tests) 4ms
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+ ✓ scripts/lib/directory-lock.test.js (7 tests) 278ms
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+ ✓ scripts/lib/warm-data-clone.test.js (6 tests) 1699ms
+   ✓ builds a slot once, then refreshes it in place with the new commits  380ms
+   ✓ uses an independent shallow clone even when a reference cache is offered, and can push its new manifest  409ms
+ ✓ scripts/AssetsCloudGitWriter.test.js (3 tests) 2164ms
+   ✓ pushes a large UTF-8 registry and refuses a stale writer  715ms
+   ✓ reads and writes workspace metadata paths and rejects stale snapshots  928ms
+   ✓ sparsely reads and writes the small workspace index without checking out the legacy registry  520ms
+ ✓ scripts/AssetsService.test.js (118 tests) 49780ms
+   ✓ kills child workers with the timed-out asset process group  705ms
+   ✓ kills child workers when an asset process is cancelled  704ms
+   ✓ retains simultaneous session bindings  5313ms
+   ✓ preserves existing session bindings and skips replay when a conflicting project is requested  5085ms
+   ✓ prepares a project idempotently with canonical feedback and actual session binding  5272ms
+   ✓ starts a new project without waiting for transcript replay  4515ms
+   ✓ keeps a new project ready after active replay  4556ms
+   ✓ keeps a new project ready after unexpected replay failure  4363ms
+   ✓ finishes project startup when transcript replay never settles  4472ms
+   ✓ prepares and recovers the active workshop when only a Houdini file is loaded  576ms
+   ✓ managed workspace release and recovery > automatically archives both versions without overwriting production or the loaded copy  553ms
+   ✓ managed workspace release and recovery > frees managed copies and recovers exact bytes while retaining production sources  607ms
+   ✓ managed workspace release and recovery > retains Finder metadata locally and recovers its exact bytes  572ms
+   ✓ managed workspace release and recovery > recovers metadata still in an interrupted release tree  583ms
+   ✓ managed workspace release and recovery > retains extra unarchived files and refuses incomplete selections  375ms
+   ✓ managed workspace release and recovery > recovers nested paths without duplicating their parent directories  546ms
+   ✓ managed workspace release and recovery > archives edits and new files from a loaded copy without replacing production sources  532ms
+   ✓ managed workspace release and recovery > unloads and recovers every added file through the same exact cloud versions  531ms
+   ✓ managed workspace release and recovery > retains an edit between initial restore verification and workspace activation without calling it verified  538ms
+   ✓ managed workspace release and recovery > refreshes file paths on unload and recovery and does not certify an edit made during recovery activation  545ms
+   ✓ managed workspace release and recovery > restores release metadata across service restarts  740ms
+   ✓ indexes the actual conversation agent in its project context immediately on binding  4889ms
+
+ Test Files  7 passed (7)
+      Tests  156 passed (156)
+   Start at  19:57:53
+   Duration  50.34s (transform 228ms, setup 277ms, collect 364ms, tests 53.93s, environment 1.76s, prepare 317ms)
+
