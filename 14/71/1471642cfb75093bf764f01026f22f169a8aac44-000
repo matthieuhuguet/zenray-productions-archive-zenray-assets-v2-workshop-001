@@ -1,0 +1,17 @@
+{
+  "servicePortClosed": true,
+  "serviceProcessesAbsent": true,
+  "nativeApplicationInstalled": true,
+  "com.zenray.assets": {
+    "RunAtLoad": false,
+    "KeepAlive": false
+  },
+  "com.zenray.assets.dashboard": {
+    "RunAtLoad": false,
+    "KeepAlive": false
+  },
+  "nativeLifecycle": [
+    "start",
+    "stop"
+  ]
+}

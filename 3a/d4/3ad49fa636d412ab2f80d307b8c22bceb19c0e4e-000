@@ -1,0 +1,74 @@
+{
+  "selected": [
+    {
+      "pid": 739,
+      "parent": 1,
+      "path": "/Applications/Claude.app/Contents/MacOS/Claude"
+    },
+    {
+      "pid": 743,
+      "parent": 1,
+      "path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    },
+    {
+      "pid": 745,
+      "parent": 1,
+      "path": "/Applications/Spotify.app/Contents/MacOS/Spotify"
+    },
+    {
+      "pid": 771,
+      "parent": 1,
+      "path": "/Applications/Epic Games Launcher.app/Contents/MacOS/EpicGamesLauncher-Mac-Shipping"
+    },
+    {
+      "pid": 783,
+      "parent": 1,
+      "path": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder"
+    },
+    {
+      "pid": 1239,
+      "parent": 1,
+      "path": "/Users/zenray/Applications/SleepShutdown.app/Contents/MacOS/SleepShutdown"
+    },
+    {
+      "pid": 1251,
+      "parent": 1,
+      "path": "/Applications/ClaudeSync.app/Contents/MacOS/ClaudeSync"
+    },
+    {
+      "pid": 1253,
+      "parent": 1,
+      "path": "/Applications/Maccy.app/Contents/MacOS/Maccy"
+    },
+    {
+      "pid": 1262,
+      "parent": 1,
+      "path": "/Applications/TRex.app/Contents/MacOS/TRex"
+    },
+    {
+      "pid": 1313,
+      "parent": 1,
+      "path": "/Applications/ZenRayColorPicker.app/Contents/MacOS/ZenRayColorPicker"
+    },
+    {
+      "pid": 24195,
+      "parent": 1,
+      "path": "/Applications/ZenRay Bright.app/Contents/MacOS/ZenRayBright"
+    }
+  ],
+  "closed": [
+    "/Applications/Claude.app/Contents/MacOS/Claude",
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "/Applications/Spotify.app/Contents/MacOS/Spotify",
+    "/Applications/Epic Games Launcher.app/Contents/MacOS/EpicGamesLauncher-Mac-Shipping",
+    "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+    "/Users/zenray/Applications/SleepShutdown.app/Contents/MacOS/SleepShutdown",
+    "/Applications/ClaudeSync.app/Contents/MacOS/ClaudeSync",
+    "/Applications/Maccy.app/Contents/MacOS/Maccy",
+    "/Applications/TRex.app/Contents/MacOS/TRex",
+    "/Applications/ZenRayColorPicker.app/Contents/MacOS/ZenRayColorPicker",
+    "/Applications/ZenRay Bright.app/Contents/MacOS/ZenRayBright"
+  ],
+  "remainingSelected": [],
+  "leaguePreserved": true
+}
